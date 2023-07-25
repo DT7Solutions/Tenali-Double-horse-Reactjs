@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "link":"/",
+        "child": true,
+        "submenu": [
+            {
+                "id": 11,
+                "link": "/",
+                "linkText": "Home page1 "
+            },
+            {
+                "id": 12,
+                "link": "/home-v2",
+                "linkText": "Home page2"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "linkText": "About",
+        "link":"/about",
+        "child": true,
+        "submenu": [{
+                "id": 21,
+                "linkText": "Our Company",
+                "link": "/about"
+               
+            },
+            {
+                "id": 22,
+                "link": "/Who-we-are",
+                "linkText": "Who We Are"
+            }
+            ,
+            {
+                "id": 23,
+                "link": "/Where-we-are",
+                "linkText": "Where We Are"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "linkText": "Blog",
+        "child": false,
+        "submenu": [
+            {
+                "id": 31,
+                "link": "/about",
+                "linkText": "About Us"
+            },
+            {
+                "id": 32,
+                "link": "/login",
+                "linkText": "Login"
+            },
+            {
+                "id": 33,
+                "link": "/register",
+                "linkText": "Sign Up"
+            },
+            {
+                "id": 34,
+                "link": "/checkout",
+                "linkText": "Checkout"
+            },
+            {
+                "id": 35,
+                "link": "/cart",
+                "linkText": "Cart"
+            },
+            {
+                "id": 36,
+                "link": "/legal",
+                "linkText": "Legal"
+            },
+            {
+                "id": 37,
+                "link": "/error",
+                "linkText": "Error 404"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "linkText": "Products",
+        "link":"/menu-v1",
+        "child": false,
+        "submenu": [
+            {
+                "id": 41,
+                "link": "/menu-v1",
+                "linkText": "our Products"
+            }
+        ]
+        
+    },
+    {
+        "id": 5,
+        "linkText": "Contact",
+        "link": "/locations"
+    }
+    
+    
+]
