@@ -2,7 +2,7 @@
   "name": "Tenali-Double-horse-Reactjs",
   "homepage": "https://DT7Solutions.github.io/Tenali-Double-horse-Reactjs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "lib/index",
   "types": "lib/index",
   "dependencies": {
