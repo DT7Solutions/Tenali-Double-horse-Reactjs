@@ -42,7 +42,7 @@ function App() {
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
           <Preloader />
-          <Route exact path="/" component={Hometwo} />
+          <Route exact path="/" component={Hometwo} basename="/" />
           <Route path="/home-v2" component={Home} />
           <Route path="/home-v3" component={Homethree} />
           <Route path="/home-v4" component={Homefour} />
