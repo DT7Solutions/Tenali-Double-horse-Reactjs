@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import Products from '../home/Products';
 import Testimonials from '../home/Testimonials';
-import Banner from '../home/Banner';
+// import Banner from '../home/Banner';
+import Banner  from '../home/Banner-demo';
 import Categories from './Categories';
 import Newsletter from './Newsletter';
 import Offer from './Offer';

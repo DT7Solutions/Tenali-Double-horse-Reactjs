@@ -22,7 +22,7 @@ class Banner extends Component {
     componentDidMount() {
         this.setState({
             nav1: this.slider1,
-            nav2: this.slider2
+            // nav2: this.slider2
         });
     }
     render() {
@@ -74,7 +74,7 @@ class Banner extends Component {
                                             <h1 className="title animate-left">{item.title}</h1>
                                             <h4 className='animate-left-delay'>{item.subtitle}</h4>
                                             <p className="subtitle">{item.shortdesc}</p>
-                                            <div className="banner-icons-wrapper">
+                                            {/* <div className="banner-icons-wrapper">
                                                 <div className="banner-icon">
                                                     <i className="fas fa-tint-slash" />
                                                     <div className="banner-icon-body">
@@ -89,12 +89,12 @@ class Banner extends Component {
                                                         <span>Preservatives</span>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="banner-controls">
+                                            </div> */}
+                                            {/* <div className="banner-controls">
                                                 <Link  to={"/menu-item-v1/" + item.id} className="btn-custom primary">Read More  </Link>
                                                 <h4>₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</h4>
-                                            </div>
-                                        </div> 
+                                            </div> */}
+                                        </div>
                                         <div className="col-xl-6 col-lg-6">
                                             <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
                                         </div>

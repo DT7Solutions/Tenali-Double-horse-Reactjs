@@ -1904,7 +1904,7 @@ table img{
 .ct-footer {
   background-color: #f9f9f9;
   padding: 80px 0 0;
-  border-top: 4px solid #ED4E53;;
+  border-top: 4px solid #ff1629;;
 }
 .ct-footer p{
   margin-bottom: 20px;
@@ -1989,12 +1989,14 @@ table img{
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #4e4e4e;
-  color: #fff;
+  background-color: #d7d0d0;
+  color: #c40e0e;
   margin-left: 20px;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
+  margin-top: 5px;
+
 }
 .footer-bottom .footer-copyright > a:hover i{
   background-color: #ED4E53;
@@ -2236,7 +2238,10 @@ table img{
   display: block;
   padding: 0;
   min-height: auto;
-  background-image: url(/assets/img/banner/tenali-double-horse-top-banner.png)!important;
+  width: 100% !important;
+  background-image: url(/assets/img/banner/deer-banner.png)!important;
+  background-size: 100% 100%;
+  background-position: center center;
 
 }
 .banner .slick-list,
@@ -5781,7 +5786,7 @@ td.quantity{
 }
 
 /* cards */
-.card{
+/* .card{
   background-color: #ffffff;
   background-image: -webkit-linear-gradient(rgba(247, 142, 175, 0.1), #fff);
 
@@ -5794,7 +5799,7 @@ td.quantity{
 }
 .yellow{
   background-image: -webkit-linear-gradient(rgba(253, 197, 11, 0.1), #fff);
-}
+} */
 
 .statstics{
   background-image: url(/assets/img/categories/stats-banner.png)!important;
@@ -5811,7 +5816,7 @@ td.quantity{
   margin-bottom: 60px!important;
 }
 .card {
-  border:1px solid #efe8e1!important;
+  border:none!important;
 }
 
 /* about banner */
@@ -5950,3 +5955,72 @@ td.quantity{
 .fade-in-section.visible {
   animation: fade-in 5s ease forwards;
 }
+.main-header.header-sticky{
+  background-color: white!important;
+  position:fixed!important;
+}
+.main-header.header-absolute {
+  position: absolute;
+}
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  transition: background-color 1.0s cubic-bezier(0.42, 0, 0.58, 1); /* Smooth transition effect */
+}
+
+
+
+ /* .main-banner{ 
+  background: url(/assets/img/categories/stats-banner.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  
+} */
+
+/* .banner_right-img img{
+   height: 500px !important;
+   width: 100%;
+  margin-top: 650px !important;
+} */
+
+#footer-bg{
+  background-image: url(/assets/img/footer/footer-bg-image.png)!important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer-widget .widget-title {
+ color:rgb(255, 255, 255) !important;
+ font-weight: 600;
+}
+.footer-widget ul li a {
+  color: white !important;
+}
+
+.footer-copyright{
+  border-top: 1px solid rgb(69, 69, 69) !important;
+  padding-bottom: 10px;
+}
+.footer-copyright p{
+  color: white !important;
+}
+
+/* .main-footer-links{
+ display: none;
+}
+
+@media (max-width: 768px){
+  .main-footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+} */
