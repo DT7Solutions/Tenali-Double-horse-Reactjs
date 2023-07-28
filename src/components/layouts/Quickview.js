@@ -32,10 +32,10 @@ class Quickview extends Component {
         const item = getProduct(productId);
         return (
             <Fragment> 
-                <Modal.Header className="modal-bg" closeButton style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.img + ")" }} />
+                <Modal.Header className="modal-bg mt-5" closeButton style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.img + ")" }} />
                 <Modal.Body>
                     <div className="customize-meta">
-                        <h4 className="customize-title">{item.name} <span className="custom-primary">{new Intl.NumberFormat().format((item.price).toFixed(2))}$</span> </h4>
+                        <h4 className="customize-title">{item.name} <span className="custom-primary">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</span> </h4>
                         <p>{item.shortdesc}</p>
                     </div>
                     <div className="customize-variations">
@@ -43,7 +43,7 @@ class Quickview extends Component {
                             <h5>Size: </h5>
                             {item.sizes.map((item, i) => (
                                 <div key={i} className={item.state ? 'customize-size active' : 'customize-size'}>
-                                    {item.size}"
+                                    {item.size}
                                 </div>
                             ))}
                         </div>
@@ -76,7 +76,7 @@ class Quickview extends Component {
                             <span className="qty-add" onClick={this.IncrementItem}><i className="fa fa-plus" /></span>
                         </div>
                         <div className="customize-total" data-price={new Intl.NumberFormat().format((item.price).toFixed(2))}>
-                            <h5>Total Price: <span className="final-price custom-primary">{new Intl.NumberFormat().format((item.price).toFixed(2))} <span>$</span> </span> </h5>
+                            <h5>Total Price: <span className="final-price custom-primary">{new Intl.NumberFormat().format((item.price).toFixed(2))} <span>₹</span> </span> </h5>
                         </div>
                     </div>
                     <button type="button" className="btn-custom btn-block">Order Now</button>

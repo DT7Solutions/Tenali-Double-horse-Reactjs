@@ -9,7 +9,7 @@ class Banner extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
-            dots: true,
+            dots: false,
             responsive: [{
                 breakpoint: 768,
                 settings: {
@@ -25,9 +25,9 @@ class Banner extends Component {
                             <div className="banner-bg bg-cover" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.bg + ")" }}  />
                             <div className="banner-inner">
                                 <div className="banner-text">
-                                    <h1 className="title">{item.title}</h1>
-                                    <h4>{item.subtitle}</h4>
-                                    <p className="subtitle">{item.desc}</p>
+                                    <h1 className="title text-dark">{item.title}</h1>
+                                    <h4 className='text-dark'>{item.subtitle}</h4>
+                                    <p className="">{item.desc}</p>
                                 </div>
                                 <a href={"https://tenalidoublehorse.com/products/ "} className="btn-custom primary">View Menu</a>
                             </div>

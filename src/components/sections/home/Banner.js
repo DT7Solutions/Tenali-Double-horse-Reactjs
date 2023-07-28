@@ -61,9 +61,9 @@ class Banner extends Component {
         }
         return (
             <div className="banner banner-1 bg-cover "  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/Tenali-Double-Horse-Background-image.jpg)" }}>
-                <div className="imgs-wrapper">
+                {/* <div className="imgs-wrapper">
                     <img src={process.env.PUBLIC_URL + "/assets/img/veg/leaf.png"} alt="veg" className="d-none d-lg-block" />
-                </div>
+                </div> */}
                 <Slider className="banner-slider" {...settings} asNavFor={this.state.nav2} ref={slider => (this.slider1 = slider)}>
                     {bannerpost.map((item, i) => (
                         <div key={i} className="banner-item">
@@ -94,7 +94,7 @@ class Banner extends Component {
                                                 <Link  to={"/menu-item-v1/" + item.id} className="btn-custom primary">Read More  </Link>
                                                 <h4>₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</h4>
                                             </div>
-                                        </div>
+                                        </div> 
                                         <div className="col-xl-6 col-lg-6">
                                             <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
                                         </div>
