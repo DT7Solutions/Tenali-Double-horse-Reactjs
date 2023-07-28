@@ -38,11 +38,11 @@ const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
 
 function App() {
   return (
-    <Router>
+    <Router  basename='/'>
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
           <Preloader />
-          <Route exact path="/" component={Hometwo} basename="/" />
+          <Route exact path="/" component={Hometwo}  />
           <Route path="/home-v2" component={Home} />
           <Route path="/home-v3" component={Homethree} />
           <Route path="/home-v4" component={Homefour} />
