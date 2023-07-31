@@ -3,17 +3,12 @@
         "id": 1,
         "linkText": "Home",
         "link":"/",
-        "child": true,
+        "child": false,
         "submenu": [
-            {
-                "id": 11,
-                "link": "/",
-                "linkText": "Home page1 "
-            },
             {
                 "id": 12,
                 "link": "/home-v2",
-                "linkText": "Home page2"
+                "linkText": "Home"
             }
         ]
     },
@@ -28,12 +23,7 @@
                 "link": "/about"
                
             },
-            {
-                "id": 22,
-                "link": "/Who-we-are",
-                "linkText": "Who We Are"
-            }
-            ,
+           
             {
                 "id": 23,
                 "link": "/Where-we-are",
