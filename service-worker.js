@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Tenali-Double-horse-Reactjs/precache-manifest.737acb8ce0c4b07e4d7909f421bda0e7.js"
+  "/Tenali-Double-horse-Reactjs/precache-manifest.df96949fd2f573f959d7f4be158d195e.js"
 );
 
 workbox.clientsClaim();
