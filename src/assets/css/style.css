@@ -1906,7 +1906,7 @@ table img{
   padding: 80px 0 0;
   border-top: 4px solid #ff1629;
 
-  background-image: url(/assets/img/footer/footer-bg-image.png)!important;
+  /* background-image: url(/assets/img/footer/footer-bg-image.png)!important; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
