@@ -6024,3 +6024,36 @@ td.quantity{
     width: 100%;
   }
 } */
+
+.my-font-style{
+  font-family: 'Berkshire Swash', cursive;
+  color: #6d6e71;
+  font-size: 35px;
+}
+.icon-wrapper i{
+  color: rgb(20, 20, 20);
+  /* filter: drop-shadow(0 20px 10px black); */
+  text-shadow:2px 4px 6px rgb(49, 48, 48);
+}
+@media (max-width: 480px){
+  .my-font-style{
+    font-size: 25px;
+    margin-top: -5px;
+  }
+}
+
+.icon-row{
+  margin-top: -35px;
+}
+
+.subfooter-icons{
+  background-image: url('/assets/img/bg/min.png')!important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+
+.icon-wrapper i:hover{
+  color: red;
+  
+}
