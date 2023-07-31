@@ -10,7 +10,7 @@ class Footer extends Component {
     }
     render() {
         return (
-            <footer id="footer-bg"className={this.props.footer.style} style={{ position: 'relative',backgroundImage: "url('/assets/img/bg/Tenali-Double-Horse-Background-image.jpg')" }}>
+            <footer id="footer-bg"className={this.props.footer.style} style={{ position: 'relative'}}>
                 {/* Top Footer */}
                 <div className="container">
                     <div className="footer-top">

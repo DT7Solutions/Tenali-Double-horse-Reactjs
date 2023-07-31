@@ -2239,7 +2239,7 @@ table img{
   padding: 0;
   min-height: auto;
   width: 100% !important;
-  background-image: url(/assets/img/bg/Tenali-Double-Horse-Background-image.jpg)!important;
+  background-image: url('/assets/img/bg/Tenali-Double-Horse-Background-image.jpg');
   background-size: 100% 100%;
   background-position: center center;
 
