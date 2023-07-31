@@ -5991,7 +5991,7 @@ td.quantity{
 } */
 
 #footer-bg{
-  background-image: url(/assets/img/footer/footer-bg-image.png)!important;
+  background-image: url('/assets/img/footer/footer-bg-image.png')!important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
