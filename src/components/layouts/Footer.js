@@ -10,7 +10,7 @@ class Footer extends Component {
     }
     render() {
         return (
-            <footer id="footer-bg" style={{ position: 'relative'}}>
+            <footer id="footer-bg" className={this.props.footer.style} style={{ position: 'relative'}}>
                 {/* Top Footer */}
                 <div className="container">
                     <div className="footer-top">
