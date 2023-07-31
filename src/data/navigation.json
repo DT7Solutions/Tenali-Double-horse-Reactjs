@@ -2,7 +2,7 @@
     {
         "id": 1,
         "linkText": "Home",
-        "link":"/home-v2",
+        "link":"/",
         "child": false,
         "submenu": [
             {
