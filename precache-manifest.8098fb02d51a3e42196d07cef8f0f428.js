@@ -164,24 +164,16 @@ self.__precacheManifest = [
     "url": "/Tenali-Double-horse-Reactjs/static/media/slick.ced611da.eot"
   },
   {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/slick.d41f55a7.ttf"
+  },
+  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/Tenali-Double-horse-Reactjs/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/Tenali-Double-horse-Reactjs/static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/slick.d41f55a7.ttf"
-  },
-  {
-    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.4bd579de.woff"
-  },
-  {
-    "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.49c4db89.eot"
   },
   {
     "revision": "b6c8e60e23068cf82686d1fecf0be576",
@@ -192,6 +184,14 @@ self.__precacheManifest = [
     "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.bb35c0d2.ttf"
   },
   {
+    "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.49c4db89.eot"
+  },
+  {
+    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.4bd579de.woff"
+  },
+  {
     "revision": "56ec675eb6082a4e2dc1c57bfa76a4f5",
     "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.56ec675e.svg"
   },
@@ -200,36 +200,32 @@ self.__precacheManifest = [
     "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.e8019d50.eot"
   },
   {
-    "revision": "6814d0e8136d34e313623eb7129d538e",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.6814d0e8.woff2"
-  },
-  {
     "revision": "da408238128b876cbda6424391f1566f",
     "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.da408238.woff"
-  },
-  {
-    "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.8d9ab84b.woff2"
-  },
-  {
-    "revision": "fdf44bc43e8fa2358bbb7d9165d78455",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.fdf44bc4.ttf"
-  },
-  {
-    "revision": "dad90637f797356bbc70d2664832e0b6",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.dad90637.woff"
   },
   {
     "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
     "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.e6c93cb4.eot"
   },
   {
-    "revision": "8d220c793e2612bd131ed8522c54669f",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.8d220c79.ttf"
+    "revision": "6814d0e8136d34e313623eb7129d538e",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.6814d0e8.woff2"
   },
   {
-    "revision": "ea363ed422723673917901680be9b37c",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-solid-900.ea363ed4.eot"
+    "revision": "fdf44bc43e8fa2358bbb7d9165d78455",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.fdf44bc4.ttf"
+  },
+  {
+    "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.8d9ab84b.woff2"
+  },
+  {
+    "revision": "dad90637f797356bbc70d2664832e0b6",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.dad90637.woff"
+  },
+  {
+    "revision": "8d220c793e2612bd131ed8522c54669f",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.8d220c79.ttf"
   },
   {
     "revision": "ba2a91dc95e6cfdc4b2a186a7ba83e29",
@@ -238,6 +234,10 @@ self.__precacheManifest = [
   {
     "revision": "b75b4bfe0d58faeced5006c785eaae23",
     "url": "/Tenali-Double-horse-Reactjs/static/media/fa-solid-900.b75b4bfe.woff2"
+  },
+  {
+    "revision": "ea363ed422723673917901680be9b37c",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-solid-900.ea363ed4.eot"
   },
   {
     "revision": "2d0415fa29ea596b7a02c78eddeede20",
