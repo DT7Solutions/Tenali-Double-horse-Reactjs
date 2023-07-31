@@ -164,12 +164,12 @@ self.__precacheManifest = [
     "url": "/Tenali-Double-horse-Reactjs/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/Tenali-Double-horse-Reactjs/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -180,16 +180,16 @@ self.__precacheManifest = [
     "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.b6c8e60e.woff2"
   },
   {
-    "revision": "bb35c0d2910c8e51556e0def01e59de9",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.bb35c0d2.ttf"
-  },
-  {
     "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
     "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.49c4db89.eot"
   },
   {
     "revision": "4bd579dec5ffb099ff5da13898e33e8e",
     "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.4bd579de.woff"
+  },
+  {
+    "revision": "bb35c0d2910c8e51556e0def01e59de9",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/Flaticon.bb35c0d2.ttf"
   },
   {
     "revision": "56ec675eb6082a4e2dc1c57bfa76a4f5",
@@ -200,20 +200,20 @@ self.__precacheManifest = [
     "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.e8019d50.eot"
   },
   {
-    "revision": "da408238128b876cbda6424391f1566f",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.da408238.woff"
-  },
-  {
-    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
-    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.e6c93cb4.eot"
-  },
-  {
     "revision": "6814d0e8136d34e313623eb7129d538e",
     "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.6814d0e8.woff2"
   },
   {
+    "revision": "da408238128b876cbda6424391f1566f",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.da408238.woff"
+  },
+  {
     "revision": "fdf44bc43e8fa2358bbb7d9165d78455",
     "url": "/Tenali-Double-horse-Reactjs/static/media/fa-brands-400.fdf44bc4.ttf"
+  },
+  {
+    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
+    "url": "/Tenali-Double-horse-Reactjs/static/media/fa-regular-400.e6c93cb4.eot"
   },
   {
     "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
