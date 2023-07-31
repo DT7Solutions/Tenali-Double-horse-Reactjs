@@ -17,7 +17,7 @@ import React, { Component } from 'react';
             <div class="row">
             <div class="col-lg-6 mb-4">
             <div class="card alignments" style={{minHeight:'400px'}}>
-            <img src={process.env.PUBLIC_URL + "assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png"} style={{width:'300px'}} alt="" className='pt-5 ' />
+            <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png"} style={{width:'300px'}} alt="urad gota" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Urad gota</h5>
                
