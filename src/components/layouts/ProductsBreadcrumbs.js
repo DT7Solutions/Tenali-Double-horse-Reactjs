@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class ProductsBreadcrumb extends Component {
     render() {
         return (
-            <div className="sub-header-breadcrumbs dark-overlay dark-overlay-2" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/products-banner.jpeg)" }}>
+            <div className="sub-header-breadcrumbs dark-overlay dark-overlay-2" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/products-top-banner.jpeg)" }}>
                 <div className="container">
                     <div className="subheader-inner">
                         <h1 className='text-light'>{this.props.breadcrumb.pagename}</h1>
