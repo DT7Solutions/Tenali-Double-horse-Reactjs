@@ -53,7 +53,11 @@ Version: 1.0.0
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap");
-
+@font-face {
+  font-family: helvetica;
+  src: url("/assets/fonts/Helvetica.ttf");
+  font-weight: 400;
+} 
 /*-------------------------------------------------------------------*/
 /* === Keyframes === */
 @-webkit-keyframes markerUpDown {
@@ -364,7 +368,7 @@ h6 {
   font-family: 'Helvetica';
   font-weight: 700;
   line-height: 28px;
-  color: #1D2228;
+  color: #474647;
 }
 h1 {
   font-size: 50px;
@@ -1078,7 +1082,7 @@ table img{
 }
 
 .navbar-brand {
-  width: 210px;
+  width: 310px;
   margin: 0;
   padding: 0;
 }
@@ -4774,9 +4778,15 @@ td.quantity{
     /* background-color: rgba(0,0,0,.6); */
   }
   .banner.banner-2 .banner-inner{
-    background-color: transparent;
-    min-height: auto;
-    padding: 90px 20px 160px;
+    height: 100vh;
+    background:  no-repeat  fixed ; 
+    /* -webkit-background-size: cover !important;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    /* background-size: cover !important; */
+
+    /* min-height: auto; */
+    /* padding: 90px 20px 160px; */
   }
   .banner.banner-2 .banner-item > img{
     display: none;
@@ -5980,12 +5990,13 @@ td.quantity{
 
 
  /* .main-banner{ 
-  background: url(/assets/img/categories/stats-banner.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+  background:  no-repeat  fixed ; 
+  -webkit-background-size: cover !important;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+  background-size: cover !important;
+  height: 100vh !important;
+  width: 100%;
   
 } */
 
@@ -6032,6 +6043,7 @@ td.quantity{
 
 .my-font-style{
   font-family: 'Berkshire Swash', cursive;
+  /* font-family: helvetica; */
   color: #6d6e71;
   font-size: 35px;
 }
@@ -6051,12 +6063,12 @@ td.quantity{
   margin-top: -35px;
 }
 
-.subfooter-icons{
+/* .subfooter-icons{
   background-image: url('/assets/img/bg/min.png')!important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
-}
+} */
 
 .icon-wrapper i:hover{
   color: red;

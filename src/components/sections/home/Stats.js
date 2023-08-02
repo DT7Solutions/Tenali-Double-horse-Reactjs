@@ -11,12 +11,17 @@ const successpost = [
         count: 20,
         title: "Products"
     },
-    
     {
         icon:  "fas fa-truck",
         count: 67335,
         title: "orders delivered"
+    },
+    {
+        icon:  "fas fa-globe",
+        count: 8,
+        title: "Total country"
     }
+    
 ]
 
 class stats extends Component {
@@ -32,7 +37,7 @@ class stats extends Component {
                     </div>
                     <div className="row ">
                         {successpost.map((item, i) => (
-                            <div key={i} className="col-lg-4 col-md-6 col-sm-6">
+                            <div key={i} className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="ct-infographic-item">
                                     <i className={item.icon} />
                                     <h4>{new Intl.NumberFormat().format(item.count)}</h4>

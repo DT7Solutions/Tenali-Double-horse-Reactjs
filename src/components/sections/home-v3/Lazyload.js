@@ -102,7 +102,8 @@ class YourComponent extends Component {
         <div className="container">
         <div className="section-title-wrap section-header text-center pb-3">
                             <h5 className="custom-primary">Discover the World of Culinary Delights</h5>
-                            <h2 className="title text-dark"> Impress your guests  with mouthwatering recipes and culinary tips!</h2>
+                            <h3 className="text-dark"> Impress your guests with mouthwatering recipes</h3>
+                            {/* <h2 className="title text-dark"> Impress your guests  with mouthwatering recipes and culinary tips!</h2> */}
                             
                         </div>
           <div className="container">

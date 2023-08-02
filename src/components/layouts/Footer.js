@@ -85,7 +85,7 @@ class Footer extends Component {
                                 </ul>
 
                                 <div className="footer-offer">
-                                    <p>Download Our Brochure for More Information!</p>
+                                    <p className='text-light'>Download Our Brochure for More Information!</p>
                                     <Link to=" " className="btn-custom btn-sm shadow-none">Download Brochure</Link>
                                 </div>
                             </div>

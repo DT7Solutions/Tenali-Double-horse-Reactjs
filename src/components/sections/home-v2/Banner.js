@@ -21,18 +21,8 @@ class Banner extends Component {
             <div className="banner banner-2">
                 <Slider className="banner-slider-2" {...settings}>
                     {bannerpost.map((item, i) => (
-                        <div key={i} className="banner-item d-flex">
-                            <div className="banner-bg bg-cover" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.bg + ")" }}  />
-                            <div className="banner-inner">
-                                <div className="banner-text">
-                                    <h1 className="title text-dark">{item.title}</h1>
-                                    <h4 className='text-dark'>{item.subtitle}</h4>
-                                    <p className="">{item.desc}</p>
-                                </div>
-                                <a href={"https://tenalidoublehorse.com/products/ "} className="btn-custom primary">View Menu</a>
-                            </div>
-                            <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
-                        </div>
+                        
+                        <img src={process.env.PUBLIC_URL + "/" + item.bg} alt={item.title} />
                     ))}
                 </Slider>
             </div>

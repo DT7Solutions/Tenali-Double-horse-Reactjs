@@ -106,6 +106,7 @@ class Header extends HeaderComponent {
                                         <span className="cart-item-count">{cartitem.length}</span>
                                         <i className="flaticon-shopping-bag" />
                                     </li>
+                                  
                                     {/* <li className="search-dropdown-wrapper search-trigger" onClick={this.searchToggle}>
                                         <i className="flaticon-search" />
                                     </li> */}

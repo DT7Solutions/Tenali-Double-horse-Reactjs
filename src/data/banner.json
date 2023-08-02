@@ -30,11 +30,9 @@
     "hometwo":[
         {
             "id":1,
-            "bg":"assets/img/banner/bannertwo.png",
-            "img":"assets/img/veg/Top-banner-eco-pack-100x100.png",
-            "title":"Urad Gota 1/2 Kg Eco Pack",
-            "subtitle":"Buy Tenali Double Horse  Urad Gota Eco Pack",
-            "desc":"Round Urad Gota is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions,"
+            "bg":"assets/img/banner/home-banner-1920x1080px.png",
+            "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
+            
         },
         {
             "id":2,

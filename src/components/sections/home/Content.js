@@ -6,6 +6,7 @@ import Banner from '../home-v2/Banner';
 // import Banner  from '../home/Banner-demo';
 import Productcards from '../blog-grid/Productcards';
 import Stats from './Stats';
+// import CubeSlider from "../home-v2/Cubeslider"
 import Menuitems from '../home-v2/Categories';
 import Aboutcompany from './Aboutcompany';
 import Process from '../home-v2/Process';
@@ -22,11 +23,13 @@ class Content extends Component {
                 <Process />
 
                 <Nobalactivity />
+                {/* <CubeSlider/> */}
 
                 <Menuitems />
 
                 <Productcards />
                 <Stats />
+
                 <Paragraph />
                 <Lazyload />
 
