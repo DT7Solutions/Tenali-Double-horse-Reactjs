@@ -25,10 +25,22 @@ class Content extends Component {
                                 Connect with us for questions, business inquiries & support. Let's chat!
                             </p>
                         </div>
-                        <div className="row ">
+                        <div className="row  p-2">
                             <div className="col-lg-7 mb-lg-30 ">
-                                {/* <img src={process.env.PUBLIC_URL + "/assets/img/misc/tenali-double-horse-factory-image.jpeg"}  alt="img" className='shadow-sm p-2  bg-white rounded' /> */}
-                                <div className="row row-cols-1 row-cols-md-2 g-4">
+                    
+                                <div className="row row-cols-1 row-cols-md-2">
+                                    <div className="col-lg-12 col-md-7 col-sm-12  mb-lg-30  ">
+                                        <div className="row  top-row">
+                                            <div className="col-lg-6 col-sm-12 mb-3 d-flex email-toll-card1">
+                                                <div><i className='fas fa-envelope mt-3 phone-email' style={{ fontSize: '30px', color: ' #ED4E53' }} /></div> &nbsp;
+                                                <div>email<h5 className="card-title"> <a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
+                                            </div>
+                                            <div className="col-lg-6 col-sm-12   mb-3 d-flex email-toll-card2">
+                                                <div><i className='fas fa-phone-volume mt-3 phone-icon' style={{ fontSize: '33px', color: ' #ED4E53' }} /></div> &nbsp;
+                                                <div>Toll Free Number<h5 className="card-title"> <a href = "tel: 1800 270 567567">1800 270 567567</a></h5></div>
+                                            </div>
+                                        </div> 
+                                    </div>
                                     <div className="col">
                                         <div className="card-locations mb-4">
 
@@ -75,7 +87,7 @@ class Content extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5">
+                            <div className="col-lg-5  p-2">
 
                                 <form className='mb-5'>
                                     <div className="row">
@@ -106,7 +118,7 @@ class Content extends Component {
                                             <input type="text" placeholder="Subject" className="form-control" name="subject" />
                                         </div>
                                         <div className="form-group col-lg-12">
-                                            <textarea name="message" className="form-control" placeholder="Type your message" rows={7} />
+                                            <textarea name="message" className="form-control" placeholder="Type your message" rows={9} />
                                         </div>
                                     </div>
                                     <button type="submit" className="btn-custom primary" name="button">Send Message</button>

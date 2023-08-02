@@ -6057,6 +6057,14 @@ td.quantity{
     font-size: 25px;
     margin-top: -5px;
   }
+  .email-toll-card1{
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .email-toll-card2{
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
 }
 
 .icon-row{
@@ -6085,7 +6093,7 @@ td.quantity{
 /*  cards  */
 .card-locations{
   border-radius: 4px;
-  border-top-right-radius: 35%;
+  /* border-top-right-radius: 35%; */
   
   min-height:243px!important;
   background: #fff;
@@ -6103,4 +6111,46 @@ td.quantity{
 }
 .content-justify{
   text-align: justify!important;
+}
+.email-toll-card1{
+  /* border: 1px solid black; */
+  border-bottom-left-radius: 30px;
+  color: #ffff;
+  background: #ee1d25;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow;
+  cursor: pointer;
+
+  
+}
+.email-toll-card2{
+  /* border: 1px solid black; */
+  
+  border-top-right-radius: 30px;
+  color: #ffff;
+  background: #ee1d25;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow;
+  
+}
+.email-toll-card1 .card-title a{
+  color: white;
+}
+.email-toll-card2 .card-title a{
+  color: white;
+}
+.email-toll-card1 .phone-email,.phone-icon{
+  color: rgb(29, 29, 29) !important;
+  padding-right: 5px;
+}
+
+.email-toll-card1 .card-title{
+  font-size: 15px;
+}
+.email-toll-card2 .card-title{
+  font-size: 15px;
+}
+.top-row{
+  margin-left: 3px;
+  margin-right: 2px;
 }
