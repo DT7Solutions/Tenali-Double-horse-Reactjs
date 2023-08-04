@@ -50,7 +50,7 @@ class Reviews extends React.Component {
                       </p>
                     </div>
                     <h3 className="title">williamson</h3>
-                    <span className="post">Web Developer</span>
+                    {/* <span className="post">Web Developer</span> */}
                   </div>
   
                   <div className="testimonial">
@@ -63,7 +63,7 @@ class Reviews extends React.Component {
                       </p>
                     </div>
                     <h3 className="title">williamson</h3>
-                    <span className="post">Web Developer</span>
+                    {/* <span className="post">Web Developer</span> */}
                   </div>
                   <div className="testimonial">
                     <div className="testimonial-content">
@@ -75,7 +75,7 @@ class Reviews extends React.Component {
                       </p>
                     </div>
                     <h3 className="title">williamson</h3>
-                    <span className="post">Web Developer</span>
+                    {/* <span className="post">Web Developer</span> */}
                   </div>
                   <div className="testimonial">
                     <div className="testimonial-content">
@@ -87,7 +87,7 @@ class Reviews extends React.Component {
                       </p>
                     </div>
                     <h3 className="title">williamson</h3>
-                    <span className="post">Web Developer</span>
+                    {/* <span className="post">Web Developer</span> */}
                   </div>
   
                 </Slider>
