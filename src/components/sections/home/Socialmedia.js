@@ -25,7 +25,7 @@ class Socialmedia extends Component {
                         <span><i class="fab fa-instagram"></i></span>
                       </li>
                       <li class="icon instagram">
-                        <span class="tooltip">Instagram</span>
+                        <span class="tooltip">Linkedin</span>
                         <span><i class="fab fa-linkedin-in"></i></span>
                       </li>
                       <li class="icon youtubey">
