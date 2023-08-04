@@ -13,6 +13,8 @@ import Process from '../home-v2/Process';
 import Lazyload from '../home-v3/Lazyload';
 import Nobalactivity from './Nobalactivity';
 import Paragraph from '../home-v2/Paragraph';
+import Reviews from './Reviews';
+import Feedback from './Feedback';
 
 class Content extends Component {
     render() {
@@ -32,8 +34,10 @@ class Content extends Component {
 
                 <Paragraph />
                 <Lazyload />
+                <Reviews/>
 
                 <Socialmedia />
+                <Feedback/>
             </Fragment>
         );
     }
