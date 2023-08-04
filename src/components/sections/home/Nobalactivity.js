@@ -48,7 +48,7 @@ class Nobalactivity extends Component {
               //   </div>
             <div  ref={this.sectionRef}  className={`activites mb-4 fade-in-section ${isVisible ? 'visible' : ''}`} >
             <div className="container">
-            <h2 className='title text-center pb-5'>Notable Activities</h2>
+            <h2 className='title text-center pb-5 mb-3 mt-5'>Notable Activities</h2>
               <div className="row align-items-center ">
              
                 <div className="col-lg-5 mb-lg-30">

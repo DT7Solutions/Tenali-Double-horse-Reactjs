@@ -10,21 +10,21 @@ class Meetourteam extends Component {
     
     <div class="row">
         <div class="col-md-4 pt-3">
-            <div class="box">
+            <div class="mbox">
             <img src={process.env.PUBLIC_URL + "/assets/img/locations/india.png"}  alt="img" className='shadow-sm   bg-white rounded' />
             <h5 className='text-center mt-4'>India</h5>
             </div>
            
         </div>
         <div class="col-md-4 pt-3">
-            <div class="box">
+            <div class="mbox">
             <img src={process.env.PUBLIC_URL + "/assets/img/locations/usa.png"}  alt="img" className='shadow-sm p-2  bg-white rounded' />
             <h5 className='text-center mt-4'>USA</h5>
            
             </div>
         </div>
         <div class="col-md-4 pt-3">
-            <div class="box">
+            <div class="mbox">
             <img src={process.env.PUBLIC_URL + "/assets/img/locations/uae.png"}  alt="img" className='shadow-sm  p-2 bg-white rounded' /> 
             <h5 className='text-center mt-4'>UAE</h5>
             </div>

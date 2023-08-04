@@ -11,23 +11,28 @@ class Socialmedia extends Component {
             <div className="container">
 
               <div className="icon-row ">
-                <div className="icon-wrapper" >
-                  <h2 className='my-font-style'>Follow Us : </h2>
-                </div>
-                <div className="icon-wrapper" >
-                  <i className="fab fa-facebook-f " style={{ fontSize: '30px' }}></i>
-                 
-                </div>
-               
-                <div className="icon-wrapper">
-                  <i className="fab fa-twitter" style={{ fontSize: '30px' }}></i>
-                </div>
-                <div className="icon-wrapper">
-                  <i className="fab fa-instagram" style={{ fontSize: '30px' }}></i>
-                </div>
-                <div className="icon-wrapper">
-                  <i className="fab fa-linkedin-in" style={{ fontSize: '30px' }}></i>
-                </div>
+              <ul class="wrapper">
+                      <li class="icon facebookf">
+                        <span class="tooltip">Facebook</span>
+                        <span><i class="fab fa-facebook-f"></i></span>
+                      </li>
+                      <li class="icon twittert">
+                        <span class="tooltip">Twitter</span>
+                        <span><i class="fab fa-twitter"></i></span>
+                      </li>
+                      <li class="icon instagram">
+                        <span class="tooltip">Instagram</span>
+                        <span><i class="fab fa-instagram"></i></span>
+                      </li>
+                      <li class="icon instagram">
+                        <span class="tooltip">Instagram</span>
+                        <span><i class="fab fa-linkedin-in"></i></span>
+                      </li>
+                      <li class="icon youtubey">
+                        <span class="tooltip">Youtube</span>
+                        <span><i class="fab fa-youtube"></i></span>
+                      </li>
+                    </ul>
               </div>
 
             </div>

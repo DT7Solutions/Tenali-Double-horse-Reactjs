@@ -102,7 +102,17 @@ class Header extends HeaderComponent {
                             <Menu />
                             <div className="header-controls">
                                 <ul className="header-controls-inner">
-                                    {/* <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>
+                                <div className="floating-container">
+                                <div className="floating-button share-icon"> <img src={process.env.PUBLIC_URL + "/assets/img/header/network-connection.png"} alt="topicon" /></div>
+                                <div className="element-container">
+                                                <span className="float-element tooltip-left" ><i class="fab fa-facebook-f"></i></span>
+                                                <span className="float-element"><i class="fab fa-twitter"></i></span>
+                                                <span className="float-element"><i class="fab fa-instagram"></i></span>
+                                                <span className="float-element"><i class="fab fa-linkedin-in"></i></span>
+                                                <span className="float-element"><i class="fab fa-youtube"></i></span>
+                                </div>
+                                </div>
+                                   {/* <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>
                                         <span className="cart-item-count">{cartitem.length}</span>
                                         <i className="flaticon-shopping-bag" />
                                     </li> */}
@@ -110,6 +120,7 @@ class Header extends HeaderComponent {
                                     {/* <li className="search-dropdown-wrapper search-trigger" onClick={this.searchToggle}>
                                         <i className="flaticon-search" />
                                     </li> */}
+
                                 </ul>
                                 {/* Toggler */}
                                 <div className="aside-toggler aside-trigger" onClick={this.toggleNav}>
