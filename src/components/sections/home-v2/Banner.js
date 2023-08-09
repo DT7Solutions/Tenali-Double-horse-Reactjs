@@ -25,6 +25,12 @@ class Banner extends Component {
                         <img src={process.env.PUBLIC_URL + "/" + item.bg} alt={item.title} />
                     ))}
                 </Slider>
+                <div className='header-marque'>
+                <marquee width="97%" direction="left">
+                    This is a sample scrolling text that has scrolls texts to left.
+                </marquee>
+                </div>
+
             </div>
         );
     }

@@ -6887,4 +6887,25 @@ td.quantity{
 .isie #feedbackTrigger span {
   display: none;
 }
+.header-marque{
+  margin-top: -30px;
+}
 
+.product-popup-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-pop-up-img{
+  height: 250px   ;
+}
+
+@media (max-width: 450px) {
+  .product-pop-up-img{
+    height: auto;
+  }
+  .product-popup-section{
+    display: block;
+    text-align: center;
+  }
+}
