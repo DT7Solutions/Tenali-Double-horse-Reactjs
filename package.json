@@ -34,6 +34,7 @@
     "react-scroll-to-top": "^1.0.5",
     "react-simple-maps": "^3.0.0",
     "react-slick": "^0.27.14",
+    "react-table": "^7.8.0",
     "redux": "^4.0.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^6.5.1",

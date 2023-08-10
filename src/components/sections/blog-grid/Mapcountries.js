@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { ComposableMap, Geographies, Geography,Marker} from "react-simple-maps";
 import Mapdata from "../../../data/Mapdata.json";
+import { Link } from 'react-router-dom';
 
 
 const markers = [
@@ -45,7 +46,7 @@ const markers = [
 
 
 
-class Mapcountries extends Component {
+class Mapointing extends Component {
     render() {
         return (
           <div class="container mb-5 pt-5 pb-3">
@@ -61,28 +62,56 @@ class Mapcountries extends Component {
                             ))
                         }
                     </Geographies>
-                    {markers.map(({ name, coordinates, markerOffset }) => (
-        <Marker key={name} coordinates={coordinates}>
-          <g
-            fill="none"
-            stroke="#FF5533"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            transform="translate(-12, -24)"
-          >
-            <circle cx="12" cy="10" r="3" />
-            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" />
-          </g>
-          <text
-            textAnchor="middle"
-            y={markerOffset}
-            style={{ fontFamily: "system-ui", fill: "#5D5A6D" }}
-          >
-            {name}
-          </text>
-        </Marker>
-      ))}
+                   
+     {markers.map(({ name, coordinates, markerOffset }) => (
+              <Marker key={name} coordinates={coordinates}>
+                <g>
+                  {name === "USA" ? (
+                    <Link to="/contact">
+                      <g
+                        fill="none"
+                        stroke="#FF5533"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        transform="translate(-12, -24)"
+                      >
+                        <circle cx="12" cy="10" r="3" />
+                        <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" />
+                      </g>
+                      <text
+                        textAnchor="middle"
+                        y={markerOffset}
+                        style={{ fontFamily: "system-ui", fill: "#5D5A6D" }}
+                      >
+                        {name}
+                      </text>
+                    </Link>
+                  ) : (
+                    <>
+                      <g
+                        fill="none"
+                        stroke="#FF5533"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        transform="translate(-12, -24)"
+                      >
+                        <circle cx="12" cy="10" r="3" />
+                        <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" />
+                      </g>
+                      <text
+                        textAnchor="middle"
+                        y={markerOffset}
+                        style={{ fontFamily: "system-ui", fill: "#5D5A6D" }}
+                      >
+                        {name}
+                      </text>
+                    </>
+                  )}
+                </g>
+              </Marker>
+            ))}
      
            
                 </ComposableMap>
@@ -92,4 +121,4 @@ class Mapcountries extends Component {
     }
 }
 
-export default Mapcountries;
+export default Mapointing;

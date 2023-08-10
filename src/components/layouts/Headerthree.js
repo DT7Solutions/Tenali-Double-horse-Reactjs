@@ -43,7 +43,7 @@ class Headerthree extends HeaderComponent {
                 <div className="aside-overlay aside-trigger" onClick={this.toggleNav} />
                 {/* Header Start */}
                 <header className="main-header header-1">
-                    <div className="top-header">
+                    {/* <div className="top-header">
                         <div className="container">
                             <div className="top-header-inner">
                                 <div className="top-header-contacts">
@@ -56,7 +56,7 @@ class Headerthree extends HeaderComponent {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="container">
                         <nav className="navbar">
                             {/* Logo */}
