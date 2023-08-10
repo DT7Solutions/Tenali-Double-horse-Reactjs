@@ -6,8 +6,7 @@ import Form from 'react-bootstrap/Form';
 const FeedbackDrawer = () => {
   
   const [showDrawer, setShowDrawer] = useState(false);
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
+  const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -19,8 +18,7 @@ const FeedbackDrawer = () => {
   const handleSubmitFeedback = (event) => {
     event.preventDefault();
     const formData = {
-        firstName,
-        lastName,
+        fullName,
         email,
         message,
       };
@@ -30,8 +28,7 @@ const FeedbackDrawer = () => {
       console.log(formData);
     
       // Reset the form fields after submission
-      setFirstName('');
-      setLastName('');
+      setFullName('');
       setEmail('');
       setMessage('');
     
@@ -52,24 +49,16 @@ const FeedbackDrawer = () => {
         <div id="feedbackForm">
         <Form onSubmit={handleSubmitFeedback}>
             <h2>Submit Feedback</h2>
-            <Form.Group controlId="firstName" style={{marginBottom:'5px'}}>
+            <Form.Group controlId="fullName" style={{marginBottom:'5px'}}>
               <Form.Control
                 type="text"
-                value={firstName}
-                onChange={(e) => setFirstName(e.target.value)}
-                placeholder="First Name"
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
+                placeholder="Full Name"
                 required
               />
             </Form.Group>
-            <Form.Group controlId="lastName" style={{marginBottom:'5px'}}>
-              <Form.Control
-                type="text"
-                value={lastName}
-                onChange={(e) => setLastName(e.target.value)}
-                placeholder="Last Name"
-                required
-              />
-            </Form.Group>
+           
             <Form.Group controlId="email" style={{marginBottom:'5px'}}>
               <Form.Control
                 type="email"

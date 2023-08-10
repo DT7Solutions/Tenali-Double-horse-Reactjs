@@ -1,11 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import { getProduct } from '../../../helper/Producthelper';
+import { getProduct } from '../../../helper/Tdhfproducthelper';
 import { Rating } from "../../../helper/helper";
-import productcategory from "../../../data/productcategory.json";
+import productcategory from "../../../data/tdhproductcategory.json";
 import blogtags from '../../../data/blogtags.json';
 import { Tab, Nav, Accordion, Card, NavLink } from "react-bootstrap";
-import Relatedproduct from '../../layouts/Relatedproduct';
+import Relatedproduct from '../../layouts/Tdhrelatedproduct';
+import Slider from "react-slick";
+
 
 class Content extends Component {
     constructor(props) {
@@ -35,6 +37,21 @@ class Content extends Component {
     render() {
         const productId = this.props.productId;
         const item = getProduct(productId);
+        const sliderSettings = {
+            customPaging: function(i) {
+                return (
+                    <a>
+                        <img src={`${process.env.PUBLIC_URL}/abstract0${i + 1}.png`} />
+                    </a>
+                );
+            },
+            dots: true,
+            dotsClass: "slick-dots slick-thumb",
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        };
         return (
             <Fragment>
                 <div className="section product-single">
@@ -45,6 +62,13 @@ class Content extends Component {
                                 <div className="product-thumb">
                                     <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
                                 </div>
+                                  {/* <Slider {...sliderSettings}>
+                                    {item.img.map((imageUrl, index) => (
+                                        <div key={index}>
+                                            <img src={`${process.env.PUBLIC_URL}/${imageUrl}`} alt={`Image ${index}`} />
+                                        </div>
+                                    ))}
+                                </Slider> */}
                                 {/* /Main Thumb */}
                             </div>
                             <div className="col-md-7">
