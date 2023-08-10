@@ -6,6 +6,7 @@ import Newsletter from "../home-v2/Newsletter";
 import Stats from '../home/Stats';
 import Rules from './Rules';
 import MyComponent from '../home-v2/MyComponent';
+import Overview from './Overview'
 
 class Content extends Component {
     render() {
@@ -23,7 +24,8 @@ class Content extends Component {
                     <button className="button-gmail">exports@tenalidoublehorse.com</button>
                 </div> */}
               
-                <MyComponent/>
+                {/* <MyComponent/> */}
+                <Overview/>
                 {/* <Teammembers/> */}
                 <Newsletter/>
             </Fragment>

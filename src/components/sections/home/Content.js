@@ -15,6 +15,7 @@ import Nobalactivity from './Nobalactivity';
 import Paragraph from '../home-v2/Paragraph';
 import Reviews from './Reviews';
 import Feedback from './Feedback';
+import Instagram from './Instagram';
 
 class Content extends Component {
     render() {
@@ -24,7 +25,8 @@ class Content extends Component {
                 <Aboutcompany />
                 <Process />
 
-                <Nobalactivity />
+                {/* <Nobalactivity /> */}
+                <Instagram/>
                 {/* <CubeSlider/> */}
 
                 <Menuitems />
