@@ -86,12 +86,12 @@ class Tenalifoodproducts extends Component {
                     <div className="favorite">
                         <i className="far fa-heart" />
                     </div>
-                    <Link className="product-thumb" to={"/menu-item-v1/" + item.id}>
+                    <Link className="product-thumb" to={"/menu-item-v2/" + item.id}>
                         <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
                     </Link>
                     <div className="product-body">
                         <div className="product-desc">
-                            <h4> <Link to={"/menu-v1/" + item.id}>{item.name}</Link></h4>
+                            <h4> <Link to={"/menu-v2/" + item.id}>{item.name}</Link></h4>
                             <div className="ct-rating-wrapper">
                                 <div className="ct-rating">
                                     {Rating(item.rating)}
@@ -117,7 +117,7 @@ class Tenalifoodproducts extends Component {
                         <Slider className="menu-category-slider" {...settings}>
                             <Link to="#" data-filter="*" className={this.state.activeItem === -1 ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, -1)}>
                                 <div className="menu-category-thumb">
-                                    <img src={process.env.PUBLIC_URL + "/assets/img/categories/countries.png"} alt="All" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/categories/tdh-foods-logo-menu.png"} alt="All" />
                                 </div>
                                 <div className="menu-category-desc">
                                     <h6>All Products</h6>

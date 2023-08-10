@@ -3,6 +3,9 @@
     {
         "id": 1,
         "img": "assets/img/prods-sm/rishika-instant-vada-mix.png",
+        
+        
+   
         "name": "Rishika Instant Vada Mix 200g(Pack 2)",
         "shortdesc": "Round Urad Gota is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price": 165.00,
@@ -117,7 +120,7 @@
                 "rating":4,
                 "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia"
             }
-        ]
+        ] 
     },
     {
         "id": 2,
