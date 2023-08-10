@@ -77,12 +77,17 @@
         "id": 4,
         "linkText": "Products",
         "link":"/menu-v1",
-        "child": false,
+        "child": true,
         "submenu": [
             {
                 "id": 41,
                 "link": "/menu-v1",
-                "linkText": "our Products"
+                "linkText": "TDH Products"
+            },
+            {
+                "id": 42,
+                "link": "/menu-v2",
+                "linkText": "TDHF Products"
             }
         ]
         

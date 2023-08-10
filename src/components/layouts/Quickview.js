@@ -1,6 +1,14 @@
 import React, { Component, Fragment } from 'react';
 import { Modal } from 'react-bootstrap';
 import { getProduct } from '../../helper/Producthelper'
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+// import 'swiper/swiper.min.css';
+import 'swiper/swiper-bundle.css';
+import SwiperCore from 'swiper'
+import { Autoplay } from 'swiper';
+
+SwiperCore.use([Autoplay]);
 
 class Quickview extends Component {
     constructor(props) {
@@ -35,8 +43,22 @@ class Quickview extends Component {
                 {/* <Modal.Header className="modal-bg mt-5 bg-warning" closeButton style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.img + ")" }} /> */}
                 <Modal.Body>
                     <div className="customize-meta product-popup-section ">
-                        <div>
-                        <img className="product-pop-up-img" src={process.env.PUBLIC_URL + "/" + item.img}  />
+                        <div className='popup-product-image-sec'>
+                        <Swiper
+                            spaceBetween={10}
+                            slidesPerView={1}
+                            onSlideChange={() => console.log('slide change')}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            autoplay={{ delay: 1000 }}
+                            loop={true}
+                            >
+                            <SwiperSlide><img className="pr-pop-up-image" src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /></SwiperSlide>
+                            <SwiperSlide><img className="pr-pop-up-image" src={process.env.PUBLIC_URL + "/" + item.img2} alt={item.name} /></SwiperSlide>
+                            <SwiperSlide><img className="pr-pop-up-image" src={process.env.PUBLIC_URL + "/" + item.img3} alt={item.name} /></SwiperSlide>
+                            <SwiperSlide><img className="pr-pop-up-image" src={process.env.PUBLIC_URL + "/" + item.img4} alt={item.name} /></SwiperSlide>
+                          
+                        </Swiper>
+                        {/* <img className="product-pop-up-img" src={process.env.PUBLIC_URL + "/" + item.img}  /> */}
                         </div>
                         <div>
                           <div className=''>
@@ -75,13 +97,16 @@ class Quickview extends Component {
                                                 </div>
                                             ))}
                                         </div>
+                                    </div>   
+                                ))}
+                                {item.attributes.slice(0,3).map((item1, i) => (
+                                    <div key={i} className="col-lg-8 col-12">
+                                         <div>
+                                            <h4>Description</h4>
+                                            <p>{item.longdescription}</p>
+                                         </div>
                                     </div>
                                 ))}
-                           
-                            <div>
-                                <p><span>Description</span><br/>
-                                        Urad Gota is used for preparing idly ,dosa,vada,and other indian recepies. it is a protein rich food and its qaulity is determined by the softness of the batter and taste of the recipe .Tenali Double Horse urad gota is the best choice as it is procured from the best framers& fields across India .it is processes in hygenical conditions and packed in substainable packing pounches to ensure that the freshness tasts for long time</p>
-                            </div>
                         </div>
                     </div>
                     {/* <div className="customize-controls">

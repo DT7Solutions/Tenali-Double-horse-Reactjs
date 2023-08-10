@@ -92,11 +92,11 @@ class Content extends Component {
                     <div className="product-body">
                         <div className="product-desc">
                             <h4> <Link to={"/menu-v1/" + item.id}>{item.name}</Link></h4>
-                            <div className="ct-rating-wrapper">
+                            {/* <div className="ct-rating-wrapper">
                                 <div className="ct-rating">
                                     {Rating(item.rating)}
                                 </div>
-                            </div>
+                            </div> */}
                             <p>{item.shortdesc}</p>
                             <Link to="#" className="btn-custom light btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}>More info<i className="fas fa-plus" /> </Link>
                         </div>

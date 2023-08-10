@@ -61,7 +61,7 @@ class Header extends HeaderComponent {
         return (
             <Fragment>
                 {/* Cart Sidebar Start */}
-                <div className="cart-sidebar-wrapper">
+                {/* <div className="cart-sidebar-wrapper">
                     <aside className={classNames("cart-sidebar", { "cart-open": this.state.cartmethod })}>
                         <div className="cart-sidebar-header">
                             <h3>Your Cart</h3>
@@ -73,7 +73,7 @@ class Header extends HeaderComponent {
                         <Cartlist />
                     </aside>
                     <div className="cart-sidebar-overlay cart-trigger" onClick={this.cartToggle} />
-                </div>
+                </div> */}
                 {/* Cart Sidebar End */}
                 {/* Search Form Start*/}
                 <div className={classNames("search-form-wrapper", { "open": this.state.searchmethod })}>

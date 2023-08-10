@@ -7,6 +7,16 @@ import blogtags from '../../../data/blogtags.json';
 import { Tab, Nav } from "react-bootstrap";
 import Relatedproduct from '../../layouts/Relatedproductone';
 
+// swiperjs
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+// import 'swiper/swiper.min.css';
+import 'swiper/swiper-bundle.css';
+import SwiperCore from 'swiper'
+import { Autoplay } from 'swiper';
+// Install Swiper modules
+SwiperCore.use([Autoplay]);
+
 class Content extends Component {
     constructor(props) {
         super(props);
@@ -42,8 +52,29 @@ class Content extends Component {
                         <div className="row">
                             <div className="col-md-5">
                                 {/* Main Thumb */}
-                                <div className="product-thumb">
-                                    <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
+                                <div className="product-thumb ">
+                                    {/* <div class="pic-ctn ">
+                                        <img src={process.env.PUBLIC_URL + "/" + item.img} alt="" class="pic"/>
+                                        <img src="https://picsum.photos/200/300?t=2" alt="" class="pic"/>
+                                        <img src="https://picsum.photos/200/300?t=3" alt="" class="pic"/>
+                                        <img src="https://picsum.photos/200/300?t=4" alt="" class="pic"/>
+                                        <img src="https://picsum.photos/200/300?t=5" alt="" class="pic"/>
+                                    </div> */}
+                                    <Swiper
+                                            spaceBetween={50}
+                                            slidesPerView={1}
+                                            onSlideChange={() => console.log('slide change')}
+                                            onSwiper={(swiper) => console.log(swiper)}
+                                            autoplay={{ delay: 4000 }}
+                                            loop={true}
+                                            >
+                                            <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /></SwiperSlide>
+                                            <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img2} alt={item.name} /></SwiperSlide>
+                                            <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img3} alt={item.name} /></SwiperSlide>
+                                            <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img4} alt={item.name} /></SwiperSlide>
+                                            ...
+                                            </Swiper>
+                                    {/* <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /> */}
                                 </div>
                                 {/* /Main Thumb */}
                             </div>
@@ -63,16 +94,17 @@ class Content extends Component {
                                         <span>(24 ratings)</span>
                                     </div>
                                     {/* /Rating */}
-                                    {/* Price */}
-                                    <div className="price-wrapper">
-                                        <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
-                                    </div>
-                                    {/* /Price */}
+                                
                                     {/* Product Short Description */}
                                     <p>{item.shortdesc}</p>
                                     {/* /Product Short Description */}
+                                        {/* Price */}
+                                        <div className="price-wrapper">
+                                        <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
+                                    </div>
+                                    {/* /Price */}
                                     {/* Variations */}
-                                    <div className="customize-variations">
+                                    {/* <div className="customize-variations">
                                         <div className="customize-size-wrapper">
                                             <h5>Weight: </h5>
                                             {item.sizes.map((item, i) => (
@@ -82,7 +114,7 @@ class Content extends Component {
                                             ))}
                                         </div>
                                         <div className="row">
-                                            {/* Variation Start */}
+                                            
                                             {item.attributes.map((item, i) => (
                                                 <div key={i} className="col-lg-6 col-12">
                                                     <div className="customize-variation-wrapper">
@@ -91,7 +123,7 @@ class Content extends Component {
                                                         {item.items.map((add, i) => (
                                                             <div key={i} className="customize-variation-item">
                                                                 <div className={"custom-control custom-" }>
-                                                                    {/* <input type={item.type} id={add.title + i} name={item.name} className="custom-control-input" /> */}
+                                                                    <input type={item.type} id={add.title + i} name={item.name} className="custom-control-input" />
                                                                     <label className="custom-control-label" htmlFor={add.title + i}>{add.title}</label>
                                                                 </div>
                                                                 <span>{new Intl.NumberFormat().format((add.addprice).toFixed(2))}</span>
@@ -100,12 +132,11 @@ class Content extends Component {
                                                     </div>
                                                 </div>
                                             ))}
-                                            {/* Variation End */}
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* /Variations */}
                                     {/* Add To Cart Form */}
-                                    <form className="atc-form" method="post">
+                                    {/* <form className="atc-form" method="post">
                                         <div className="form-group">
                                             <label>Quantity</label>
                                             <div className="qty">
@@ -115,23 +146,33 @@ class Content extends Component {
                                             </div>
                                         </div>
                                         <button type="submit" name="button" className="btn-custom secondary"> Order <i className="fas fa-shopping-cart" /> </button>
-                                    </form>
+                                    </form> */}
                                     {/* /Add To Cart Form */}
                                     {/* Product Meta */}
                                     <ul className="product-meta">
                                         <li>
-                                            <span>Categories: </span>
-                                            <div className="product-meta-item">
-                                                {item.category.slice(0, 2).map((category) => (
-                                                    productcategory.filter(item => {
-                                                        return item.id === category
-                                                    }).map((categories, i) => (
-                                                        <Link key={i} to="#">{categories.title}, </Link>
-                                                    ))
+                                            {/* <span>About this item: </span> */}
+                                            {/* <div className="product-meta-item"> */}
+                                            {/* {item.category.map((item, i) => (
+                                                <div key={i} className={item.state ? 'customize-size active' : 'customize-size'}>
+                                                    {item.size}"
+                                                </div>
+                                            ))} */}
+                                        
+                                        {item.category.map((categoryItem, index) => (
+                                            <div key={index}>
+                                                <span className='about-product-span'>About this item</span>
+                                                {Object.keys(categoryItem).map((propertyKey) => (
+                                                <p key={propertyKey} className='about-product-p'>
+                                                    <span className='product-span'>{propertyKey}</span>: {categoryItem[propertyKey]}
+                                                </p>
                                                 ))}
                                             </div>
+                                            ))}
+                                                                     
                                         </li>
-                                        <li>
+                                        <button type="button" className="btn-custom btn-sm ">Order Now</button>
+                                        {/* <li>
                                             <span>Tags: </span>
                                             <div className="product-meta-item">
                                                 {item.tags.slice(0, 4).map((tag) => (
@@ -142,13 +183,13 @@ class Content extends Component {
                                                     ))
                                                 ))}
                                             </div>
-                                        </li>
+                                        </li> 
                                         <li>
                                             <span>SKU: </span>
                                             <div className="product-meta-item">
                                                 <span>{item.sku}</span>
                                             </div>
-                                        </li>
+                                        </li>*/}
                                     </ul>
                                     {/* /Product Meta */}
                                 </div>
@@ -165,9 +206,9 @@ class Content extends Component {
                                     <Nav.Item>
                                         <Nav.Link eventKey="tab1">Description</Nav.Link>
                                     </Nav.Item>
-                                    <Nav.Item>
+                                    {/* <Nav.Item>
                                         <Nav.Link eventKey="tab2">Reviews ({item.reviews.length})</Nav.Link>
-                                    </Nav.Item>
+                                    </Nav.Item> */}
                                 </Nav>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="tab1">

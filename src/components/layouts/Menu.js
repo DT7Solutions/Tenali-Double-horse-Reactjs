@@ -31,7 +31,7 @@ class Menu extends Component {
                 )) : null}
                 <li className="menu-item menu-item-has-children mega-menu-wrapper">
                     <Link to="/menu-v1">Products</Link>
-                    <ul className="submenu">
+                    {/* <ul className="submenu">
                         <li>
                             <div className="container">
                                 <div className="row">
@@ -96,7 +96,7 @@ class Menu extends Component {
                                 </div>
                             </div>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 {navigationmenu.length > 0 ? navigationmenu.slice(4, 10).map((item, i) => (
                     <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild}>
