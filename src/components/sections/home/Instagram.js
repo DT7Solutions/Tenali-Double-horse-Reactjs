@@ -20,7 +20,7 @@ class Container extends Component {
 
     render() {
         return (
-            <div className="container-activities">
+            <div className="container-ac">
                 <div className="slider-activities">
                     <div className="box1-activities firstSlide"></div>
                     <div className="box2-activities"></div>

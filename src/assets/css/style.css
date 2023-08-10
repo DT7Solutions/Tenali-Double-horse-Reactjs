@@ -4263,10 +4263,10 @@ td.quantity{
   margin-bottom: 30px;
 }
 .product-body{
-  min-height:450px;
+  min-height:400px;
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .product .product-body{
   background-color: #f9f9f9;
@@ -6142,7 +6142,7 @@ td.quantity{
   color: white;
 }
 .email-toll-card1 .phone-email,.phone-icon{
-  color: rgb(29, 29, 29) !important;
+  color:white !important;
   padding-right: 5px;
 }
 
@@ -7598,10 +7598,10 @@ input[type=radio]:checked ~ label {
   border-color: #888A8D;
 }
 #timeline .demo-card--step5 {
-  background-color: #F2ECE4;
+  background-color: #CCD100;
 }
 #timeline .demo-card--step5 .head::after {
-  border-color: #F2ECE4;
+  border-color: #CCD100;
 }
 
 
