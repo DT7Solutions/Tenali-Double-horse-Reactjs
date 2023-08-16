@@ -15,30 +15,60 @@ const markers = [
       name: "Australia",
       coordinates: [133.7751, -25.2744], // Australia coordinates [longitude, latitude]
     },
-    {
-      markerOffset: 15,
-      name: "Europe",
-      coordinates: [15.2551, 54.5260], // Europe coordinates [longitude, latitude] (Note: This is just an approximate central location of Europe)
-    },
+    // {
+    //   markerOffset: 15,
+    //   name: "Europe",
+    //   coordinates: [15.2551, 54.5260], // Europe coordinates [longitude, latitude] (Note: This is just an approximate central location of Europe)
+    // },
     {
       markerOffset: 15,
       name: "USA",
       coordinates: [-95.7129, 37.0902], // USA coordinates [longitude, latitude]
     },
     {
-      markerOffset: 15,
+      markerOffset:-30,
       name: "UK",
       coordinates: [-3.4359, 55.3781], // UK coordinates [longitude, latitude]
     },
+    // {
+    //   markerOffset: 15,
+    //   name: "South Africa",
+    //   coordinates: [24.0232, -30.5595], // South Africa coordinates [longitude, latitude]
+    // },
     {
-      markerOffset: 15,
-      name: "South Africa",
-      coordinates: [24.0232, -30.5595], // South Africa coordinates [longitude, latitude]
+      markerOffset: -30,
+      name: "UAE",
+      coordinates: [54.366669, 24.466667], // UAE coordinates [longitude, latitude]
     },
     {
       markerOffset: 15,
-      name: "UAE",
-      coordinates: [53.8478, 23.4241], // UAE coordinates [longitude, latitude]
+      name: "SINGAPORE",
+      coordinates: [103.8198, 1.3521], // UAE coordinates [longitude, latitude]
+    },
+    {
+      markerOffset: 15,
+      name: "QATAR",
+      coordinates: [53.595284 ,16.564328], // UAE coordinates [longitude, latitude]
+    },
+    {
+      markerOffset: 15,
+      name: "PARIS",
+      coordinates: [2.3522, 48.8566], // UAE coordinates [longitude, latitude]
+    },
+    {
+      markerOffset: 15,
+      name: "CANADA",
+      coordinates: [-106.3468, 56.1304], // UAE coordinates [longitude, latitude]
+    },
+    {
+      markerOffset: 15,
+      name: "GHANA-WEST AFRICA",
+      coordinates: [-1.0232, 7.9465], // UAE coordinates [longitude, latitude]
+    },
+    {
+      markerOffset: 15,
+      name: "SEYCHELLES",
+      coordinates: [55.4919, -4.6796], // UAE coordinates [longitude, latitude]
     },
     // Add more markers if needed...
   ];

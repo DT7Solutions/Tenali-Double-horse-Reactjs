@@ -21,6 +21,7 @@ class Container extends Component {
     render() {
         return (
             <div className="container-ac">
+        <h2 className='title text-center pt-5'>Notable Activities</h2>
                 <div className="slider-activities">
                     <div className="box1-activities firstSlide"></div>
                     <div className="box2-activities"></div>

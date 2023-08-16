@@ -10,13 +10,13 @@ class Footer extends Component {
     }
     render() {
         return (
-            <footer id="footer-bg"className={this.props.footer.style} style={{ position: 'relative',backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/footer/footer-bg-image.png)"}}>
+            <footer id="footer-bg"className={this.props.footer.style} style={{ position: 'relative'}}>
                 {/* Top Footer */}
                 <div className="container">
                     <div className="footer-top">
-                        <div className="footer-logo">
+                        {/* <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
-                        </div>
+                        </div> */}
                         <div className="footer-buttons" style={{ position: 'absolute', top: '-25px', right: '-1%', zIndex: '9999' }}>
                             <img src={process.env.PUBLIC_URL + "/assets/img/great-place-to-work-image.png"} style={{ height: '180px', width: '100%' }} alt="logo" />
                         </div>
@@ -85,7 +85,7 @@ class Footer extends Component {
                                 </ul>
 
                                 <div className="footer-offer">
-                                    <p className='text-light'>Download Our Brochure for More Information!</p>
+                                    <p className='text-dark'>Download Our Brochure for More Information!</p>
                                     <Link to=" " className="btn-custom btn-sm shadow-none">Download Brochure</Link>
                                 </div>
                             </div>
