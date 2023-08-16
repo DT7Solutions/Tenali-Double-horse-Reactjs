@@ -38,7 +38,7 @@ const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
 
 function App() {
   return (
-    <Router  basename='Tenali-Double-horse-Reactjs'>
+    <Router  basename='/'>
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
           <Preloader />
