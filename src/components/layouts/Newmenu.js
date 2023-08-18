@@ -40,12 +40,12 @@ class Newmenu extends Component {
                                         <div className="mega-menu-item d-flex justify-content-center align-items-center">
                                             <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
                                            
-                                            <a href={"/menu-v1"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tenali-double-horse-icon.png"} alt="pizza" /></a>
-                                            <Link to="/menu-v1"><a  className="btn-custom  shadow-none btn-sm">View More</a></Link>
+                                            <a href={"/tenali-double-horse-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tenali-double-horse-icon.png"} alt="pizza" /></a>
+                                            <Link to="/tenali-double-horse-products"><a  className="btn-custom  shadow-none btn-sm">View More</a></Link>
                                             </div>
                                             <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
-                                            <a href={"/Tenalifoodproducts"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdh-icon.png"} alt="pizza" /></a>
-                                            <Link to="/menu-v2"><button className="btn-custom  shadow-none btn-sm">View More</button></Link>
+                                            <a href={"/tenali-double-hosre-food-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdh-icon.png"} alt="pizza" /></a>
+                                            <Link to="/tenali-double-hosre-food-products"><button className="btn-custom  shadow-none btn-sm">View More</button></Link>
                                             </div>
                                         </div>
                                     </div>

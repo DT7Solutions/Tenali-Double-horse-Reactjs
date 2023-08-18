@@ -98,7 +98,7 @@ class Mapointing extends Component {
               <Marker key={name} coordinates={coordinates}>
                 <g>
                   {name === "USA" ? (
-                    <Link to="/contact">
+                    <Link to="/usa-shops">
                       <g
                         fill="none"
                         stroke="#FF5533"

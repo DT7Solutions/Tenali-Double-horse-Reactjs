@@ -35,12 +35,11 @@ class Footer extends Component {
                                 <h5 className="widget-title">Quick Links</h5>
                                 <ul>
                                     {/* <li> <Link to="/">Gallery</Link> </li> */}
-                                    <li> <Link to="/menu-v1">Products</Link> </li>
+                                    <li> <Link to="/tenali-double-horse-products">Products</Link> </li>
                                     <li> <Link to=" ">Recipes</Link> </li>
                                     <li> <Link to=" ">Blog</Link> </li>
                                     <li> <Link to="/locations">Contact</Link> </li>
-                                    {/* <li> <Link to=" ">Shop</Link> </li> */}
-                                    <li> <Link to=" ">Usa</Link> </li>
+                                    <li> <Link to="/usa-shops">Usa</Link> </li>
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">

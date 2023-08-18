@@ -65,12 +65,12 @@ function App() {
           <Route path="/cart" component={Cart} />
           <Route path="/legal" component={Legal} /> */}
           <Route path="/error" component={Error} />
-          <Route path="/menu-v1" component={Menuone} />
-          <Route path="/menu-v2" component={Menutwo} />
+          <Route path="/tenali-double-horse-products" component={Menuone} />
+          <Route path="/tenali-double-hosre-food-products" component={Menutwo} />
           <Route path="/menu-item-v1/:id" exact component={props => (<Menuitemone {...props} key={window.location.pathname} />)} />
           <Route path="/menu-item-v2/:id" exact component={props => (<Menuitemtwo {...props} key={window.location.pathname} />)} />
           <Route path="/locations" component={Locations} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/usa-shops" component={Contact} />
           <Route path="/terms-and-condation" component={Terms} />
           <Route path="/privacy-policy" component={PrivacyPolicy} />
           <Route path="/shipping-policy" component={shippingpolicy} />
