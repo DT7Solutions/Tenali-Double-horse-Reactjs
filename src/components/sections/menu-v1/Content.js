@@ -45,13 +45,14 @@ class Content extends Component {
             slidesToScroll: 3,
             arrows: false,
             dots: false,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 2000,
             responsive: [
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 6
+                        slidesToShow: 6,
+                        
                     }
                 },
                 {
@@ -64,14 +65,14 @@ class Content extends Component {
                     breakpoint: 575,
                     settings: {
                         slidesToShow: 3,
-                        autoplay: true,
+                       
                     }
                 },
                 {
                     breakpoint: 400,
                     settings: {
                         slidesToShow: 2,
-                        autoplay: true,
+                       
                     }
                 },
             ]

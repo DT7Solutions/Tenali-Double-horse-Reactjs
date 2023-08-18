@@ -4,7 +4,7 @@ import HeaderComponent from '../../helper/Navigationhelper';
 import Cartlist from '../layouts/Cartlist';
 import Search from '../layouts/Search';
 import Mobilemenu from '../layouts/Mobilemenu';
-import Menu from './Menu';
+import Newmenu from './Newmenu';
 import classNames from 'classnames';
 import cartitem from '../../data/cartlist.json';
 
@@ -99,7 +99,7 @@ class Header extends HeaderComponent {
                                 <img src={process.env.PUBLIC_URL + "/assets/img/tenali-double-horse-logo-250x73.png"} alt="logo" />
                             </Link>
                             {/* Menu */}
-                            <Menu />
+                            <Newmenu/>
                             <div className="header-controls">
                                 <ul className="header-controls-inner">
                                 <div className="floating-container">
