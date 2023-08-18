@@ -8,14 +8,12 @@ import { Tab, Nav } from "react-bootstrap";
 import Relatedproduct from '../../layouts/Relatedproductone';
 
 // swiperjs
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-// import 'swiper/swiper.min.css';
-import 'swiper/swiper-bundle.css';
-import SwiperCore from 'swiper'
-import { Autoplay } from 'swiper';
-// Install Swiper modules
-SwiperCore.use([Autoplay]);
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/swiper-bundle.css';
+// import SwiperCore from 'swiper'
+// import { Autoplay } from 'swiper';
+
+// SwiperCore.use([Autoplay]);
 
 class Content extends Component {
     constructor(props) {
@@ -60,7 +58,7 @@ class Content extends Component {
                                         <img src="https://picsum.photos/200/300?t=4" alt="" class="pic"/>
                                         <img src="https://picsum.photos/200/300?t=5" alt="" class="pic"/>
                                     </div> */}
-                                    <Swiper
+                                    {/* <Swiper
                                             spaceBetween={50}
                                             slidesPerView={1}
                                             onSlideChange={() => console.log('slide change')}
@@ -73,8 +71,8 @@ class Content extends Component {
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img3} alt={item.name} /></SwiperSlide>
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img4} alt={item.name} /></SwiperSlide>
                                             
-                                    </Swiper>
-                                    {/* <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /> */}
+                                    </Swiper> */}
+                                    <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
                                 </div>
                                 {/* /Main Thumb */}
                             </div>
