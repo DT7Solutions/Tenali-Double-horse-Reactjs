@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import pdffile from './brouchure.pdf'
+import pdffile from './tdh-brouchure.pdf'
 
 
 
@@ -91,7 +91,7 @@ class Footer extends Component {
                                     {/* <Link to="/tdh-brouchure.pdf" className="btn-custom btn-sm shadow-none">Download Brochure</Link> */}
                                     <a
   href={pdffile}
-  download="brouchure.pdf" // Set the desired filename
+  download="tdh-brouchure.pdf" // Set the desired filename
   className="btn-custom btn-sm shadow-none"
   target="_blank"
   type="application/pdf"

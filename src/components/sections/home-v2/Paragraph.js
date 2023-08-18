@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
 // import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import pdffile from '../../layouts/tdh-brouchure.pdf'
 
 class Paragraph extends Component {
   constructor(props) {
@@ -71,8 +71,17 @@ class Paragraph extends Component {
                 <p className="subtitle" style={{ textAlign: 'justify' }}>
                   Pulses are Good Source of Iron. Pulses are also a strachy Food and add fibre to your meal. Eating a high diet fibre is asssociated with a reduced risk of Heart Disease and Type 2 Diabetes
                 </p>
-                <button onClick={this.handleShow} className="btn-custom">Download brochure</button>
-                <Modal show={show} onHide={this.handleClose}>
+                <a
+                  href={pdffile}
+                  download="tdh-brouchure.pdf"
+                  className="btn-custom btn-sm shadow-none"
+                  target="_blank"
+                  type="application/pdf"
+                >
+                  Download Brochure
+                </a>
+                {/* <button onClick={this.handleSaveChanges} className="btn-custom">Download brochure</button> */}
+                {/* <Modal show={show} onHide={this.handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Please Enter Details</Modal.Title>
           </Modal.Header>
@@ -107,7 +116,7 @@ class Paragraph extends Component {
               Save Changes
             </button>
           </Modal.Footer>
-        </Modal>
+                </Modal> */}
               </div>
             </div>
           </div>
