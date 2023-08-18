@@ -76,7 +76,6 @@
     {
         "id": 4,
         "linkText": "Products",
-        "link":"/menu-v1",
         "child": true,
         "submenu": [
             {
