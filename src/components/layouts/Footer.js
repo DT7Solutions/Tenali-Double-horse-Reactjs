@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import pdffile from './brouchure.pdf'
+
+
 
 class Footer extends Component {
     scrollToTop() {
@@ -86,7 +89,18 @@ class Footer extends Component {
 
                                 <div className="footer-offer">
                                     <p className='text-dark'>Download Our Brochure for More Information!</p>
-                                    <Link to=" " className="btn-custom btn-sm shadow-none">Download Brochure</Link>
+                                    {/* <Link to="/tdh-brouchure.pdf" className="btn-custom btn-sm shadow-none">Download Brochure</Link> */}
+                                    <a
+  href={pdffile}
+  download="brouchure.pdf" // Set the desired filename
+  className="btn-custom btn-sm shadow-none"
+  target="_blank"
+  type="application/pdf"
+>
+  Download Brochure
+</a>
+
+
                                 </div>
                             </div>
                         </div>
@@ -95,12 +109,7 @@ class Footer extends Component {
                 {/* Footer Bottom */}
                 <div className="footer-bottom">
                     <div className="container">
-                        {/* <ul>
-                            <li> <Link to="">Privacy Policy</Link> </li>
-                            <li> <Link to="">Refund Policy</Link> </li>
-                            <li> <Link to="">Cookie Policy</Link> </li>
-                            <li> <Link to="">Terms &amp; Conditions</Link> </li>
-                        </ul> */}
+                       
                         <div className="footer-copyright">
                             <p> Copyright © 2022 <Link to=" ">Tenali Double Horse </Link> All Rights Reserved. </p>
                             <Link to="#" className="back-to-top" onClick={() => this.scrollToTop()}><i className="fas fa-chevron-up" /> </Link>
@@ -113,3 +122,5 @@ class Footer extends Component {
 }
 
 export default Footer;
+
+

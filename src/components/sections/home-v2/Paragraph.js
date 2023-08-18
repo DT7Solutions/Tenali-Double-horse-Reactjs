@@ -38,7 +38,7 @@ class Paragraph extends Component {
   // };
   handleSaveChanges = () => {
     try {
-      // Replace './tdh-brouchure.pdf' with the correct URL to your PDF file
+    
       const pdfUrl = process.env.PUBLIC_URL + "/assets/img/people/tdh-brouchure.pdf";
   
       // Open the PDF file URL in a new tab

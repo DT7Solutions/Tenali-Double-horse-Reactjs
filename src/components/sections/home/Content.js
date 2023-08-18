@@ -17,6 +17,7 @@ import Reviews from './Reviews';
 import Feedback from './Feedback';
 import Instagram from './Instagram';
 
+
 class Content extends Component {
     render() {
         return (
@@ -40,6 +41,7 @@ class Content extends Component {
 
                 <Socialmedia />
                 <Feedback/>
+              
             </Fragment>
         );
     }
