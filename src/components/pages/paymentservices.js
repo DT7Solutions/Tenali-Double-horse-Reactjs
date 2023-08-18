@@ -5,7 +5,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/paymentservices/Content';
 import Breadcrumbs from '../layouts/Breadcrumb';
 
-const pagelocation = 'Products'
+const pagelocation = 'Payment Services'
 
 class paymentservices extends Component {
     render() {

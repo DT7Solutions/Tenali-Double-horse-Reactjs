@@ -5,7 +5,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/privacypolicy/Content';
 import Breadcrumbs from '../layouts/Breadcrumb';
 
-const pagelocation = 'Products'
+const pagelocation = 'Privacy policy'
 
 class Privacypolicy extends Component {
     render() {

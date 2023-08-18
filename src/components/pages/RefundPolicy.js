@@ -5,7 +5,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/refunploicy/Content';
 import Breadcrumbs from '../layouts/Breadcrumb';
 
-const pagelocation = 'Products'
+const pagelocation = 'Refund Policy'
 
 class RefundPolicy extends Component {
     render() {

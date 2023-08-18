@@ -5,7 +5,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/TermsOfUse/Content';
 import Breadcrumbs from '../layouts/Breadcrumb';
 
-const pagelocation = 'Products'
+const pagelocation = 'Terms-and-conditions'
 
 class Termsconditions extends Component {
     render() {

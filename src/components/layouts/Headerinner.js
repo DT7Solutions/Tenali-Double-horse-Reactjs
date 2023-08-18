@@ -55,11 +55,33 @@ class Headerinner extends HeaderComponent {
                                 <div className="floating-container">
                                 <div className="floating-button share-icon"> <img src={process.env.PUBLIC_URL + "/assets/img/header/network-connection.png"} alt="topicon" /></div>
                                 <div className="element-container">
-                                                <span className="float-element tooltip-left" ><i class="fab fa-facebook-f"></i></span>
-                                                <span className="float-element"><i class="fab fa-twitter"></i></span>
-                                                <span className="float-element"><i class="fab fa-instagram"></i></span>
-                                                <span className="float-element"><i class="fab fa-linkedin-in"></i></span>
-                                                <span className="float-element"><i class="fab fa-youtube"></i></span>
+                                                <span className="float-element tooltip-left" >
+                                                <a target="_blank" rel="noopener noreferrer" href={"https://www.facebook.com/tenalidoublehorse"} >
+                                        <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                                    </span>
+                                                <span className="float-element">
+                                        <a target="_blank" rel="noopener noreferrer" href={"https://twitter.com/i/flow/login?redirect_after_login=%2Ftnldoublehorse"} >
+                                        <i class="fab fa-twitter"></i>
+                                        </a>
+                                        </span>
+                                                <span className="float-element">
+                                                <a target="_blank" rel="noopener noreferrer" href={"https://www.instagram.com/tenalidoublehorse/"} >
+                                        <i class="fab fa-instagram"></i>
+                                        </a>
+                                                    </span>
+
+                                                <span className="float-element">
+                                                <a target="_blank" rel="noopener noreferrer" href={"https://www.linkedin.com/company/tenalidoublehorse/?originalSubdomain=in"} >
+                                        <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                                    </span>
+
+                                                <span className="float-element">
+                                                <a target="_blank" rel="noopener noreferrer" href={"https://www.youtube.com/c/TenaliDoubleHorse"} >
+                                        <i class="fab fa-youtube"></i>
+                                        </a>
+                                                    </span>
                                 </div>
                                 </div>
                                    {/* <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>

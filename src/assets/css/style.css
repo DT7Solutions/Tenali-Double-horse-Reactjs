@@ -7805,3 +7805,7 @@ g .rsm-marker{
 .privicey-second-sec{
   margin-left: 35px;
 }
+
+.float-element a i{
+color: white;
+}
