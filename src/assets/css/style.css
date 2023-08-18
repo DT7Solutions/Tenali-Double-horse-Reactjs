@@ -7821,3 +7821,16 @@ g .rsm-marker{
 .float-element a i{
   color: white;
   }
+
+
+
+  /* slider  */
+@media (min-width: 950px) and (max-width: 1500px){
+.ct-category.category-2 img {
+    position: absolute;
+    right: 20px;
+    bottom: -50px !important;
+    width: 370px;
+    z-index: 100;
+}
+  }

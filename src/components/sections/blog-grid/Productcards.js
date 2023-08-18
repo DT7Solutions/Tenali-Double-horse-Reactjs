@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
             <div class="row">
             <div class="col-lg-6 mb-4">
           <div class="card white alignments"  style={{minHeight:'400px'}}>
-          <img src={process.env.PUBLIC_URL + "/assets/img/home/new-idly-ravva.png"}  style={{width:'450px'}} alt="" className='pt-5 ' />
+          <img src={process.env.PUBLIC_URL + "/assets/img/home/new-idly-ravva.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">idly Rava</h5>
                
@@ -27,7 +27,7 @@ import { Link } from 'react-router-dom';
             </div>
             <div class="col-lg-6 mb-4">
             <div class="card alignments" style={{minHeight:'400px'}}>
-            <img src={process.env.PUBLIC_URL + "/assets/img/home/urad-gota.png"} style={{width:'450px'}} alt="urad gota" className='pt-5 ' />
+            <img src={process.env.PUBLIC_URL + "/assets/img/home/urad-gota.png"} style={{width:'500px'}} alt="urad gota" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Urad gota</h5>
                
@@ -38,7 +38,7 @@ import { Link } from 'react-router-dom';
             </div>
           <div class="col-lg-6 mb-4">
           <div class="card black alignments"  style={{minHeight:'400px'}}>
-          <img src={process.env.PUBLIC_URL + "/assets/img/home/toordall.png"} style={{width:'450px'}} alt="" className='pt-5 ' />
+          <img src={process.env.PUBLIC_URL + "/assets/img/home/toordall.png"} style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Toor Dall</h5>
               
@@ -50,7 +50,7 @@ import { Link } from 'react-router-dom';
             
             <div class="col-lg-6 mb-4 ">
             <div class="card yellow alignments"  style={{minHeight:'400px'}} >
-            <img src={process.env.PUBLIC_URL + "/assets/img/home/moong-dall.png"}  style={{width:'450px'}} alt="" className='pt-5 ' />
+            <img src={process.env.PUBLIC_URL + "/assets/img/home/moong-dall.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Moong Dal</h5>
                
