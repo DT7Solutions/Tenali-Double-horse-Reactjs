@@ -81,12 +81,12 @@
         "submenu": [
             {
                 "id": 41,
-                "link": "/menu-v1",
+                "link": "/tenali-double-horse-products",
                 "linkText": "TDH Products"
             },
             {
                 "id": 42,
-                "link": "/menu-v2",
+                "link": "/tenali-double-hosre-food-products",
                 "linkText": "TDHF Products"
             }
         ]
