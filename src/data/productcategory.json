@@ -54,5 +54,13 @@
         "lgimg":"assets/img/categories-lg/2.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":" "
+    },
+    {
+        "id": 8,
+        "title": "Singapore",
+        "img": "assets/img/categories/south africa.png",
+        "lgimg":"assets/img/categories-lg/2.jpg",
+        "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "urls":" "
     }
 ]

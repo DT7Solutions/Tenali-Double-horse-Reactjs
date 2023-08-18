@@ -27,7 +27,7 @@ class Content extends Component {
                 <Process />
 
                 {/* <Nobalactivity /> */}
-                {/* <Instagram/> */}
+                <Instagram/>
                 {/* <CubeSlider/> */}
 
                 <Menuitems />

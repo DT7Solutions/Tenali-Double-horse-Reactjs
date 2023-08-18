@@ -45,7 +45,7 @@ class Content extends Component {
             slidesToScroll: 3,
             arrows: false,
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             responsive: [
                 {
@@ -64,12 +64,14 @@ class Content extends Component {
                     breakpoint: 575,
                     settings: {
                         slidesToShow: 3,
+                        autoplay: true,
                     }
                 },
                 {
                     breakpoint: 400,
                     settings: {
                         slidesToShow: 2,
+                        autoplay: true,
                     }
                 },
             ]

@@ -1,13 +1,41 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
  class  Cards  extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isVisible: false,
+    };
+    this.sectionRef = React.createRef();
+  }
+
+  componentDidMount() {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.3, // Adjust this value to control when the section becomes visible during scrolling
+    };
+
+    const observer = new IntersectionObserver(this.handleIntersection, observerOptions);
+    if (this.sectionRef.current) {
+      observer.observe(this.sectionRef.current);
+    }
+  }
+
+  handleIntersection = (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        this.setState({ isVisible: true });
+      }
+    });
+  };
+
     render() {
+      const { isVisible } = this.state;
         return (
-       
-           
-          
-        <section id="gallery" class="gap-section">
-          <div className="section-title-wrap section-header text-center pb-3">
+   
+        <section id="gallery" className={`gap-section fadeIn ${isVisible ? 'visible' : ''}`}  ref={this.sectionRef}>
+          <div className="section-title-wrap section-header text-center">
             <h5 className="custom-primary">Harvesting Nature's Nourishment</h5>
             <h2 className="title">Explore our Dals and Pulses Collection!</h2>
           
