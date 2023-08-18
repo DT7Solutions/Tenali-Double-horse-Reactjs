@@ -27,6 +27,12 @@ const Menuitemone = React.lazy(() => import("./components/pages/Menuitemone"));
 const Menuitemtwo = React.lazy(() => import("./components/pages/Menuitemtwo"));
 const Locations = React.lazy(() => import("./components/pages/Locations"));
 const Contact = React.lazy(() => import("./components/pages/Contact"));
+// legal links
+const Terms = React.lazy(() => import("./components/pages/Terms-and-conditions"));
+const PrivacyPolicy = React.lazy(() => import("./components/pages/Privacy-policy"));
+const shippingpolicy = React.lazy(() => import("./components/pages/ShippingPolicy"));
+const refundpolicy = React.lazy(() => import("./components/pages/RefundPolicy"));
+const paymentploicy = React.lazy(() => import("./components/pages/paymentservices"));
 
 const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
   useLayoutEffect(() => {
@@ -65,6 +71,11 @@ function App() {
           <Route path="/menu-item-v2/:id" exact component={props => (<Menuitemtwo {...props} key={window.location.pathname} />)} />
           <Route path="/locations" component={Locations} />
           <Route path="/contact" component={Contact} />
+          <Route path="/terms-and-condation" component={Terms} />
+          <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/shipping-policy" component={shippingpolicy} />
+          <Route path="/refund-policy" component={refundpolicy} />
+          <Route path="/payment-ploicy" component={paymentploicy} />
         </ScrollToTop>
       </Suspense>
     </Router>

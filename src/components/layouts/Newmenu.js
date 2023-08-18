@@ -30,7 +30,7 @@ class Newmenu extends Component {
                     </li>
                 )) : null}
                 <li className="menu-item menu-item-has-children mega-menu-wrapper">
-                    <Link to="/menu-v1">Products</Link>
+                    <Link>Products</Link>
                     <ul className="submenu">
                         <li>
                             <div className="container">

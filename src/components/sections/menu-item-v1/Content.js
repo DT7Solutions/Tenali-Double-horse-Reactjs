@@ -73,7 +73,7 @@ class Content extends Component {
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img3} alt={item.name} /></SwiperSlide>
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img4} alt={item.name} /></SwiperSlide>
                                             
-                                            </Swiper>
+                                    </Swiper>
                                     {/* <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /> */}
                                 </div>
                                 {/* /Main Thumb */}

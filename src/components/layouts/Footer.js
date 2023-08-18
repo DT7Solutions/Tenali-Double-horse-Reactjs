@@ -17,7 +17,7 @@ class Footer extends Component {
                         {/* <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div> */}
-                        <div className="footer-buttons" style={{ position: 'absolute', top: '-25px', right: '-1%', zIndex: '9999' }}>
+                        <div className="footer-buttons" style={{ position: 'absolute', top: '-24px', right: '-1%', zIndex: '9999' }}>
                             <img src={process.env.PUBLIC_URL + "/assets/img/great-place-to-work-image.png"} style={{ height: '180px', width: '100%' }} alt="logo" />
                         </div>
 
@@ -43,19 +43,19 @@ class Footer extends Component {
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
                                 <h5 className="widget-title">Legal Links</h5>
                                 <ul>
-                                    <li> <Link to=" ">Terms of Use</Link> </li>
-                                    <li> <Link to=" ">Privacy Policy</Link> </li>
-                                    <li> <Link to=" ">Shipping Policy</Link> </li>
-                                    <li> <Link to=" ">Refund Policy</Link> </li>
-                                    <li> <Link to=" ">Payment Services</Link> </li>
+                                    <li> <Link to="/terms-and-condation">Terms of Use</Link> </li>
+                                    <li> <Link to="/privacy-policy">Privacy Policy</Link> </li>
+                                    <li> <Link to="/shipping-policy">Shipping Policy</Link> </li>
+                                    <li> <Link to="/refund-policy">Refund Policy</Link> </li>
+                                    <li> <Link to="/payment-ploicy">Payment Services</Link> </li>
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
                                 <h5 className="widget-title">Contact</h5>
                                 <ul>
-                                    <li> <Link to=" ">Call Us</Link> </li>
-                                    <li> <Link to=" ">Email</Link> </li>
-                                    <li> <Link to=" ">Locate</Link> </li>
+                                <li><a href="tel:1800 270 567567">Call Us</a></li>
+                                    <li> <a href="mailto:info@tenalidoublehorse.com">Email</a> </li>
+                                    <li> <Link to="/locations">Locate</Link> </li>
 
                                 </ul>
                             </div>

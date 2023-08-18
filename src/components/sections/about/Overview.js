@@ -10,7 +10,7 @@ class TimelineSection extends Component {
                     <div className="demo-card demo-card--step1">
                         <div className="head">
                             <div className="number-box">
-                                <span>01</span>
+                                <span>2005</span>
                             </div>
                             <h2 className='text-white'><span className="small">Subtitle</span> Technology</h2>
                         </div>
@@ -23,7 +23,7 @@ class TimelineSection extends Component {
                     <div className="demo-card demo-card--step2">
                         <div className="head">
                             <div className="number-box">
-                                <span>02</span>
+                                <span>2010</span>
                             </div>
                             <h2  className='text-white'><span className="small">Subtitle</span> Confidence</h2>
                         </div>
@@ -36,7 +36,7 @@ class TimelineSection extends Component {
                     <div className="demo-card demo-card--step3">
                         <div className="head">
                             <div className="number-box">
-                                <span>03</span>
+                                <span>2015</span>
                             </div>
                             <h2  className='text-white'><span className="small">Subtitle</span> Adaptation</h2>
                         </div>
@@ -49,7 +49,7 @@ class TimelineSection extends Component {
                     <div className="demo-card demo-card--step4">
                         <div className="head">
                             <div className="number-box">
-                                <span>04</span>
+                                <span>2020</span>
                             </div>
                             <h2  className='text-white'><span className="small">Subtitle</span> Consistency</h2>
                         </div>
@@ -62,7 +62,7 @@ class TimelineSection extends Component {
                     <div className="demo-card demo-card--step5">
                         <div className="head">
                             <div className="number-box">
-                                <span>05</span>
+                                <span>2023</span>
                             </div>
                             <h2  className='text-white'><span className="small">Subtitle</span> Conversion</h2>
                         </div>

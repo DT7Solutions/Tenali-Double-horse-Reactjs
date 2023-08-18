@@ -27,7 +27,7 @@ class Content extends Component {
                 {/* <MyComponent/> */}
                 <Overview/>
                 {/* <Teammembers/> */}
-                <Newsletter/>
+                {/* <Newsletter/> */}
             </Fragment>
         );
     }
