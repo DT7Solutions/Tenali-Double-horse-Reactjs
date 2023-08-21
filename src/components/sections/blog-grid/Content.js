@@ -16,10 +16,7 @@ class Content extends Component {
        
         return (
             <Fragment>
-     <Mapcountries/>
-     
-            
-      
+                <Mapcountries />
             </Fragment>
         );
     }

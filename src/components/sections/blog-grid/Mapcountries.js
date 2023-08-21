@@ -84,7 +84,7 @@ class Mapointing extends Component {
                  <h5 className="custom-primary text-center">Where to Find Us</h5>
                                 <h2 className="title text-center">Explore Our Operating Locations</h2>
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                <ComposableMap  style={{width: "100%"}}>
+                <ComposableMap width={800} height={600} tyle={{ width: '100%', height: 'auto' }}>
                     <Geographies geography={Mapdata}>
                         {({ geographies }) =>
                             geographies.map((geo) => (
