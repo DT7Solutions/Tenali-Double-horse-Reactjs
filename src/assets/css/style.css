@@ -2859,7 +2859,7 @@ table img{
   
 }
 .category-section{
-  background-image: url(/assets/img/categories/two-bg.png)!important;
+  /* background-image: url(/assets/img/categories/two-bg.png)!important; */
   min-height: auto;
   background-size: 100%;
   /* object-fit: contain!important; */
@@ -7879,3 +7879,7 @@ g .rsm-marker{
         z-index: 100;
     }
       }  
+
+.category-section{
+  background-image: url('');
+}
