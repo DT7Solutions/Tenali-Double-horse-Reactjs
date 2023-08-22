@@ -40,7 +40,7 @@ class Menuitems extends Component {
                 </p>
         </div>
             
-            <div className="section  mt-5 mb-5 pt-0 pb-0 category-section light-pic"  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/two-bg.png)" }}>
+            <div className="section  mt-5 mb-5 pt-0 pb-0 category-section light-pic"  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-souble-horse-about-section-1900x600.png)" }}>
              
                 <div className="container mb-3">
                     {/* Arrow */}
