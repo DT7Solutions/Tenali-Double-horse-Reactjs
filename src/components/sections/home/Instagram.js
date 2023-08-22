@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import $ from 'jquery'; // Import jQuery
 
+
 class Container extends Component {
+  
     componentDidMount() {
         this.rotateInterval = window.setInterval(this.rotate, 4000);
     }
@@ -19,17 +21,19 @@ class Container extends Component {
     };
 
     render() {
+        
         return (
             <div className="container-ac">
         <h2 className='title text-center pt-5'>Notable Activities</h2>
+       
                 <div className="slider-activities">
-                    <div className="box1-activities firstSlide"></div>
-                    <div className="box2-activities"></div>
+                    <div className= "box1-activities firstSlide" ></div>
+                    <div className="box2-activities" ></div>
                     <div className="box3-activities"></div>
-                    <div className="box4-activities"></div>
-                    <div className="box5-activities"></div>
-                    <div className="box6-activities"></div>
-                    <div className="box7-activities"></div>
+                    <div className="box4-activities" ></div>
+                    <div className="box5-activities" ></div>
+                    <div className="box6-activities" ></div>
+                    <div className="box7-activities" > </div>
                 </div>
             </div>
         );
@@ -43,6 +47,9 @@ class TestDiv extends Component {
         );
     }
 }
+
+
+
 
 class Instagram extends Component {
     render() {

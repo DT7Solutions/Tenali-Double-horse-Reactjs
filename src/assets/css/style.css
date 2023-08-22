@@ -2859,7 +2859,7 @@ table img{
   
 }
 .category-section{
-  /* background-image: url(/assets/img/categories/two-bg.png)!important; */
+  background-image: url(/assets/img/categories/two-bg.png)!important;
   min-height: auto;
   background-size: 100%;
   /* object-fit: contain!important; */
@@ -7267,10 +7267,10 @@ td.quantity{
 }
 
 .header-marque{
-  color: #ed4e53;
+  color: #fff;
   font-size: 18px;
   font-weight: 800;
-  background-color: #9d9ea1;
+  background-color: #ed4e53;
   padding: 10px;
   /* margin-top: -40px; */
 }
@@ -7694,7 +7694,7 @@ input[type=radio]:checked ~ label {
 .slider-activities [class*="box"]:nth-child(7),
 .slider-activities [class*="box"]:nth-child(1) {
   width: 100vh;
-  height: 60vh;
+  height: 50vh;
   transform: scale(0.2) translate(-50%, -50%);
   top: 22%;
   z-index: 1;
@@ -7703,7 +7703,7 @@ input[type=radio]:checked ~ label {
 .slider-activities [class*="box"]:nth-child(2),
 .slider-activities [class*="box"]:nth-child(6) {
   width: 100vh;
-  height: 60vh;
+  height: 50vh;
   transform: scale(0.4) translate(-50%, -50%);
   top: 25%;
   z-index: 2;
@@ -7711,7 +7711,7 @@ input[type=radio]:checked ~ label {
 .slider-activities [class*="box"]:nth-child(3),
 .slider-activities [class*="box"]:nth-child(5) {
   width: 100vh;
-  height: 60vh;
+  height: 50vh;
   transform: scale(0.6) translate(-50%, -50%);
   top: 33%;
   z-index: 3;
@@ -7749,6 +7749,43 @@ input[type=radio]:checked ~ label {
 .slider-activities .firstSlide {
   -webkit-animation: firstChild 1s;
   animation: firstChild 1s;
+}
+
+@media (max-width: 576px) {
+  .slider-activities [class*="box"]:nth-child(7),
+  .slider-activities [class*="box"]:nth-child(1) {
+    width: 100vw!important;
+    height: 30vh!important;
+    transform: scale(0.2) translate(-50%, -50%);
+  
+    z-index: 1;
+  }
+  .slider-activities [class*="box"]:nth-child(2),
+  .slider-activities [class*="box"]:nth-child(6) {
+    width: 100vw!important;
+    height: 30vh!important;
+    transform: scale(0.4) translate(-50%, -50%);
+  
+    z-index: 2;
+  }
+  .slider-activities [class*="box"]:nth-child(3),
+  .slider-activities [class*="box"]:nth-child(5) {
+    width: 100vw!important;
+    height: 30vh!important;
+    transform: scale(0.6) translate(-50%, -50%);
+  
+    z-index: 3;
+  }
+  .slider-activities [class*="box"]:nth-child(4) {
+    width: 100vw!important;
+    height: 30vh!important;
+    border-color: #c92026;
+    color: #fff;
+    transform: scale(1) translate(-50%, -50%);
+  
+    z-index: 4;
+  }
+ 
 }
 /*Animation for buyers landing page slider*/
 @-webkit-keyframes firstChild {

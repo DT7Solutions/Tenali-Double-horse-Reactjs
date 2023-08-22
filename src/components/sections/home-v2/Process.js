@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Controller, Scene } from 'react-scrollmagic';
+
 
 const processpost = [
     {
@@ -33,44 +33,28 @@ class Process extends Component {
                 </div>
 
                 <div className="row1-container four-philers">
-                    <Controller>
-                        <Scene
-                            duration={300}
-                            pin={false}
-                            classToggle="fade-up"
-                        >
+                   
                             <div className="box box-down cyan">
                                 <h2>Superior Quality</h2>
                                 <p>delivering excellence in every bite,High-quality standards in terms of freshness, purity, and taste.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Quality.png"} alt="topicon" />
                             </div>
-                        </Scene>
+                        
 
-                        <Scene
-                            duration={300}
-                            pin={false}
-                            classToggle="fade-up"
-                            triggerHook={1} 
-                        >
+                      
                             <div className="box red">
                                 <h2>Trusted Brand</h2>
                                 <p>Building trust with our customers by consistently delivering exceptional quality and reliability.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Trusted.png"} alt="topicon" />
                             </div>
-                        </Scene>
-
-                        <Scene
-                            duration={300}
-                            pin={false}
-                            classToggle="fade-up"
-                        >
+                        
+                       
                             <div className="box box-down blue">
                                 <h2>High Nutritional Value</h2>
                                 <p>Abundant nutrients, vitamins, minerals for optimal health through our products.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="topicon" />
                             </div>
-                        </Scene>
-                    </Controller>
+                        
                 </div>
 
                 <div className="row2-container">
