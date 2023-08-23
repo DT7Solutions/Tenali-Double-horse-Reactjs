@@ -69,7 +69,7 @@ class MapChart extends Component {
           <div className="section text-center cta-2 cta bg-cover bg-center dark-overlay dark-overlay-2 bg-parallax" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/usa-locations.png)" }}>
             <div className="form">
               <form>
-                <fieldset className="form__options">
+                <fieldset className="form__options"  >
                   <p className="form__answer">
                     <input
                       type="radio"

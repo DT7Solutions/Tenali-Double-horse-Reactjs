@@ -10,7 +10,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/menu-v1/Content';
 
 const pagelocation = 'Products'
-const bannerimg = "/assets/img/banner/products-header-banner.jpeg"
+const bannerimg = "/assets/img/banner/products-banner.png"
 
 class Menuone extends Component {
     render() {
