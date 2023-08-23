@@ -7,7 +7,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/about/Content';
 
 const pagelocation = 'About Us'
-
+const bannerimg = "/assets/img/banner/about-header-banner.png"
 class About extends Component {
     render() {
         return (
@@ -20,7 +20,7 @@ class About extends Component {
                     />
                 </MetaTags> 
                 <Header/>
-                <Breadcrumbs breadcrumb={{ pagename: pagelocation }} />
+                <Breadcrumbs breadcrumb={{ pagename: pagelocation,bannerimg:bannerimg }} />
                 <Content/>
                 <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/tenali-double-horse-logo-135x73.png" }} />
             </Fragment>
