@@ -7915,8 +7915,33 @@ g .rsm-marker{
         width: 370px;
         z-index: 100;
     }
-      }  
+    .product-single .product-thumb {
+      margin-top: 60px;
+    }
+}  
 
-.category-section{
-  background-image: url('');
+
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 18px !important;
+    font-weight: 800;
+    text-transform: none !important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-variant: initial;
+    line-height: 1;
+    color: red !important;
 }
+.ct-rating img{
+  height: 65px;
+}
+.ct-rating img:nth-child(2){
+  margin-top: 12px;
+}
+.ct-rating img:nth-child(3){
+  margin-top: 12px;
+}
+.order-btn a{
+  color: white;
+}
+

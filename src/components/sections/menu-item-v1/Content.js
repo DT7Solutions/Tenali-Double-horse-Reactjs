@@ -9,11 +9,18 @@ import Relatedproduct from '../../layouts/Relatedproductone';
 
 // swiperjs
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// // Styles must use direct files imports
+// import 'swiper/swiper.scss'; // core Swiper
+// import 'swiper/modules/navigation/navigation.scss'; // Navigation module
+// import 'swiper/modules/pagination/pagination.scss'; // Pagination module
+
 import 'swiper/swiper-bundle.css';
-import SwiperCore from 'swiper'
+import SwiperCore ,{ Navigation } from 'swiper'
 import { Autoplay } from 'swiper';
 
 SwiperCore.use([Autoplay]);
+SwiperCore.use([Navigation]);
 
 class Content extends Component {
     constructor(props) {
@@ -50,14 +57,7 @@ class Content extends Component {
                         <div className="row">
                             <div className="col-md-5">
                                 {/* Main Thumb */}
-                                <div className="product-thumb ">
-                                    {/* <div class="pic-ctn ">
-                                        <img src={process.env.PUBLIC_URL + "/" + item.img} alt="" class="pic"/>
-                                        <img src="https://picsum.photos/200/300?t=2" alt="" class="pic"/>
-                                        <img src="https://picsum.photos/200/300?t=3" alt="" class="pic"/>
-                                        <img src="https://picsum.photos/200/300?t=4" alt="" class="pic"/>
-                                        <img src="https://picsum.photos/200/300?t=5" alt="" class="pic"/>
-                                    </div> */}
+                                <div className="product-thumb">
                                     <Swiper
                                             spaceBetween={50}
                                             slidesPerView={1}
@@ -65,6 +65,8 @@ class Content extends Component {
                                             onSwiper={(swiper) => console.log(swiper)}
                                             autoplay={{ delay: 4000 }}
                                             loop={true}
+                                            navigation={true}
+                                            // pagination={{ clickable: true }} 
                                             >
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /></SwiperSlide>
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img2} alt={item.name} /></SwiperSlide>
@@ -95,23 +97,24 @@ class Content extends Component {
                                 
                                     {/* Product Short Description */}
                                     <p>{item.shortdesc}</p>
-                                    {/* /Product Short Description */}
-                                        {/* Price */}
+                                
+                                    {/* Price */}
                                         <div className="price-wrapper">
                                         <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
                                     </div>
                                     {/* /Price */}
                                     {/* Variations */}
-                                    {/* <div className="customize-variations">
+                                    <div className="customize-variations">
                                         <div className="customize-size-wrapper">
-                                            <h5>Weight: </h5>
-                                            {item.sizes.map((item, i) => (
-                                                <div key={i} className={item.state ? 'customize-size active' : 'customize-size'}>
-                                                    {item.size}"
-                                                </div>
-                                            ))}
+                                            <div className="ct-rating">
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg1} alt={item.name} />
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg2} alt={item.name} />
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg3} alt={item.name} />
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg4} alt={item.name} />
+                                            </div>
                                         </div>
-                                        <div className="row">
+                                    </div>
+                                       {/*  <div className="row">
                                             
                                             {item.attributes.map((item, i) => (
                                                 <div key={i} className="col-lg-6 col-12">
@@ -169,7 +172,9 @@ class Content extends Component {
                                             ))}
                                                                      
                                         </li>
-                                        <button type="button" className="btn-custom btn-sm ">Order Now</button>
+                                        <button type="button" className="btn-custom btn-sm order-btn">
+                                            <a href='https://amzn.eu/d/ipLSbEe' target='_blank'>Order Now</a>
+                                            </button>
                                         {/* <li>
                                             <span>Tags: </span>
                                             <div className="product-meta-item">
@@ -204,9 +209,9 @@ class Content extends Component {
                                     <Nav.Item>
                                         <Nav.Link eventKey="tab1">Description</Nav.Link>
                                     </Nav.Item>
-                                    {/* <Nav.Item>
+                                    <Nav.Item>
                                         <Nav.Link eventKey="tab2">Reviews ({item.reviews.length})</Nav.Link>
-                                    </Nav.Item> */}
+                                    </Nav.Item>
                                 </Nav>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="tab1">

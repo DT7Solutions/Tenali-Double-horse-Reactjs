@@ -105,6 +105,19 @@ class Quickview extends Component {
                                             <h4>Description</h4>
                                             <p>{item.longdescription}</p>
                                          </div>
+                                         <div>
+                                            {/* <h4>About this item</h4> */}
+                                            {item.category.map((categoryItem, index) => (
+                                            <div key={index}>
+                                                <span className='about-product-span'>About this item</span>
+                                                {Object.keys(categoryItem).map((propertyKey) => (
+                                                <p key={propertyKey} className='about-product-p'>
+                                                    <span className='product-span'>{propertyKey}</span>: {categoryItem[propertyKey]}
+                                                </p>
+                                                ))}
+                                            </div>
+                                            ))}
+                                         </div>
                                     </div>
                                 ))}
                         </div>
