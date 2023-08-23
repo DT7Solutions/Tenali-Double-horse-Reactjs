@@ -16,6 +16,8 @@ import Paragraph from '../home-v2/Paragraph';
 import Reviews from './Reviews';
 import Feedback from './Feedback';
 import Instagram from './Instagram';
+import Messenger from './Messenger';
+
 
 
 class Content extends Component {
@@ -41,6 +43,8 @@ class Content extends Component {
 
                 <Socialmedia />
                 <Feedback/>
+                <Messenger/>
+               
               
             </Fragment>
         );
