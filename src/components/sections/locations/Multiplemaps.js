@@ -39,7 +39,7 @@ const MapWithClickableLocations = () => {
   };
 
   return (
-    <div >
+    <div className='container'>
        <div className="row ">
        <div className="col-lg-12">
       <div style={{backgroundColor:'#ED4E53'}}>
