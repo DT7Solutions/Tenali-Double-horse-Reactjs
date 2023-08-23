@@ -2,8 +2,8 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { getProduct } from '../../../helper/Tdhfproducthelper';
 import { Rating } from "../../../helper/helper";
-import productcategory from "../../../data/tdhproductcategory.json";
-import blogtags from '../../../data/blogtags.json';
+// import productcategory from "../../../data/tdhproductcategory.json";
+// import blogtags from '../../../data/blogtags.json';
 import { Tab, Nav, Accordion, Card, NavLink } from "react-bootstrap";
 import Relatedproduct from '../../layouts/Tdhrelatedproduct';
 import Slider from "react-slick";
@@ -77,6 +77,7 @@ class Content extends Component {
                                             onSwiper={(swiper) => console.log(swiper)}
                                             autoplay={{ delay: 4000 }}
                                             loop={true}
+                                            navigation={true}
                                             >
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /></SwiperSlide>
                                             <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} /></SwiperSlide>
@@ -120,16 +121,17 @@ class Content extends Component {
                                     </div>
                                     {/* /Price */}
                                     {/* Variations */}
-                                    {/* <div className="customize-variations">
+                                    <div className="customize-variations">
                                         <div className="customize-size-wrapper">
-                                            <h5>Weight: </h5>
-                                            {item.sizes.map((item, i) => (
-                                                <div key={i} className={item.state ? 'customize-size active' : 'customize-size'}>
-                                                    {item.size}"
-                                                </div>
-                                            ))}
+                                            <div className="ct-rating">
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg1} alt={item.name} />
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg2} alt={item.name} />
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg3} alt={item.name} />
+                                                <img src={process.env.PUBLIC_URL + "/" + item.productsafetyimg4} alt={item.name} />
+                                            </div>
                                         </div>
-                                        <div className="row">
+                                    </div>
+                                         {/* <div className="row">
                                             
                                             {item.attributes.map((item, i) => (
                                                 <div key={i} className="col-lg-6 col-12">
@@ -175,7 +177,7 @@ class Content extends Component {
                                                 </div>
                                             ))} */}
                                         
-                                        {item.category.map((categoryItem, index) => (
+                                        {item.bulletpoints.map((categoryItem, index) => (
                                             <div key={index}>
                                                 <span className='about-product-span'>About this item</span>
                                                 {Object.keys(categoryItem).map((propertyKey) => (
@@ -222,9 +224,9 @@ class Content extends Component {
                                     <Nav.Item>
                                         <Nav.Link eventKey="tab1">Description</Nav.Link>
                                     </Nav.Item>
-                                    {/* <Nav.Item>
+                                    <Nav.Item>
                                         <Nav.Link eventKey="tab2">Reviews ({item.reviews.length})</Nav.Link>
-                                    </Nav.Item> */}
+                                    </Nav.Item>
                                 </Nav>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="tab1">

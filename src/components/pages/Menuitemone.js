@@ -1,11 +1,12 @@
 import React, { Component, Fragment } from 'react';
 import MetaTags from "react-meta-tags";
-import Header from '../layouts/Headerinner';
+// import Header from '../layouts/Headerinner';
+import Header from '../layouts/Header';
 import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
 import Content from '../sections/menu-item-v1/Content';
 
-const pagelocation = 'Menu Item details'
+const pagelocation = 'Tenali Double Horse'
 const bannerimg = "/assets/img/banner/contact-header-banner.jpeg"
 class Menuitemone extends Component {
     render() {

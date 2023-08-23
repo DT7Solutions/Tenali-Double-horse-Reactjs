@@ -9,7 +9,7 @@ import Breadcrumbs from '../layouts/ProductsBreadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/menu-v1/Content';
 
-const pagelocation = 'Products'
+const pagelocation = 'Tenali Double Horse'
 const bannerimg = "/assets/img/banner/products-banner.png"
 
 class Menuone extends Component {
