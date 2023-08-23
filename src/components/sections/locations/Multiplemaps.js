@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup, Tooltip, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'; // Import Leaflet CSS
 import L from 'leaflet';
@@ -24,7 +25,7 @@ const customMarker = L.icon({
 });
 
 const MapWithClickableLocations = () => {
-  const [selectedLocation, setSelectedLocation] = useState('hyderabad');
+  const [selectedLocation, setSelectedLocation] = useState('guntur');
   const [map, setMap] = useState(null);
 
   useEffect(() => {
@@ -44,7 +45,7 @@ const MapWithClickableLocations = () => {
       <div style={{backgroundColor:'#ED4E53'}}>
         <ul className="ullist controls" style={{ display: 'flex',margin: '0', padding: '0', listStyleType: 'none' }}>
           <li key="guntur" style={{margin: '0'}} className={selectedLocation === 'guntur' ? 'active' : ''} >
-            <a
+            {/* <a
               data-load="guntur"
               id="ullist_a_guntur"
               href="#guntur"
@@ -54,10 +55,11 @@ const MapWithClickableLocations = () => {
               tabIndex="0"
             >
               <span>TENALI</span>
-            </a>
+            </a> */}
+              <Link to="#guntur" className="location-link" onClick={() => handleLocationChange('guntur')} style={{ color: '#ffffff', display: 'block', padding: '15px', fontSize: '18px',fontWeight:'600',borderRight:'2px solid #ffffff', textDecoration: 'none' }}>  TENALI </Link>
           </li>
           <li key="hyderabad" style={{margin: '0'}}  className={selectedLocation === 'hyderabad' ? 'active' : ''}>
-            <a
+            {/* <a
               data-load="hyderabad"
               id="ullist_a_hyderabad"
               href="#hyderabad"
@@ -67,7 +69,8 @@ const MapWithClickableLocations = () => {
               tabIndex="0"
             >
               <span>HYDERABAD</span>
-            </a>
+            </a> */}
+            <Link to="#hyderabad" className="location-link" onClick={() => handleLocationChange('hyderabad')} style={{ color: '#ffffff', display: 'block', padding: '15px', fontSize: '18px',fontWeight:'600',borderRight:'2px solid #ffffff', textDecoration: 'none' }}> HYDERABAD </Link>
           </li>
         </ul>
       </div>
