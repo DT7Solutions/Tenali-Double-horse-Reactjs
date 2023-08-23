@@ -6901,9 +6901,9 @@ td.quantity{
 .isie #feedbackTrigger span {
   display: none;
 }
-.header-marque{
+/* .header-marque{
   margin-top: -10px;
-}
+} */
 
 .product-popup-section{
   display: flex;
@@ -7273,7 +7273,7 @@ td.quantity{
  
   /* background-color: #ed4e53; */
   background-color:#ed4e53;
-  padding: 17px;
+  padding: 15px;
   /* margin-top: -40px; */
 }
 @media (max-width: 767px) {

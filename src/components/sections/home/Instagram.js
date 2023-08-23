@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 import $ from 'jquery'; // Import jQuery
+import img1 from '../../../assets/img/team/trial-notable.png'
+import img2 from '../../../assets/img/team/aha.png'
+import img3 from '../../../assets/img/team/big-boss.png'
+import img4 from '../../../assets/img/team/cash.png'
+import img5 from '../../../assets/img/team/seed-ganesha.png'
+import img6 from '../../../assets/img/team/trial-notable.png'
+import img7 from '../../../assets/img/team/big-boss.png'
+
 
 
 class Container extends Component {
@@ -27,13 +35,13 @@ class Container extends Component {
         <h2 className='title text-center pt-5'>Notable Activities</h2>
        
                 <div className="slider-activities">
-                    <div className= "box1-activities firstSlide" ></div>
-                    <div className="box2-activities" ></div>
-                    <div className="box3-activities"></div>
-                    <div className="box4-activities" ></div>
-                    <div className="box5-activities" ></div>
-                    <div className="box6-activities" ></div>
-                    <div className="box7-activities" > </div>
+                    <div className= "box1-activities firstSlide" style={{ backgroundImage: `url(${img1})` }}> </div>
+                    <div className="box2-activities"  style={{ backgroundImage: `url(${img2})` }}></div>
+                    <div className="box3-activities" style={{ backgroundImage: `url(${img3})` }}></div>
+                    <div className="box4-activities" style={{ backgroundImage: `url(${img4})` }}></div>
+                    <div className="box5-activities" style={{ backgroundImage: `url(${img5})` }}></div>
+                    <div className="box6-activities"style={{ backgroundImage: `url(${img6})` }} ></div>
+                    <div className="box7-activities" style={{ backgroundImage: `url(${img7})` }}> </div>
                 </div>
             </div>
         );
