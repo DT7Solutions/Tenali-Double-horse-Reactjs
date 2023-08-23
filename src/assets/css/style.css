@@ -7267,11 +7267,13 @@ td.quantity{
 }
 
 .header-marque{
-  color: #fff;
-  font-size: 18px;
+  color:#fff;
+  font-size: 17px;
   font-weight: 800;
-  background-color: #ed4e53;
-  padding: 10px;
+ 
+  /* background-color: #ed4e53; */
+  background-color:#ed4e53;
+  padding: 17px;
   /* margin-top: -40px; */
 }
 @media (max-width: 767px) {
@@ -7600,34 +7602,34 @@ input[type=radio]:checked ~ label {
   width: 100%;
 }
 #timeline .demo-card--step1 {
-  background-color: #EE1D25;
+  background-color: #e63946;
 }
 #timeline .demo-card--step1 .head::after {
-  border-color: #EE1D25;
+  border-color: #e63946;
 }
 #timeline .demo-card--step2 {
-  background-color: #8C1A1C;
+  background-color: #fccc4c;
 }
 #timeline .demo-card--step2 .head::after {
-  border-color: #8C1A1C;
+  border-color:#fccc4c;
 }
 #timeline .demo-card--step3 {
-  background-color: #231F20;
+  background-color:#d90429;
 }
 #timeline .demo-card--step3 .head::after {
-  border-color: #231F20;
+  border-color: #d90429;
 }
 #timeline .demo-card--step4 {
-  background-color:#888A8D;
+  background-color:#ffd60a;
 }
 #timeline .demo-card--step4 .head::after {
-  border-color: #888A8D;
+  border-color: #ffd60a;
 }
 #timeline .demo-card--step5 {
-  background-color: #CCD100;
+  background-color: #880d1e;
 }
 #timeline .demo-card--step5 .head::after {
-  border-color: #CCD100;
+  border-color: #880d1e;
 }
 
 
@@ -7649,37 +7651,37 @@ input[type=radio]:checked ~ label {
   justify-content: center;
 }
 .box1-activities {
-  background: url("https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(/assets/img/team/trial-notable.png);
   background-size: cover;
   background-position: center center;
 }
 .box2-activities {
-  background: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(/assets/img/team/aha.png);
   background-size: cover;
   background-position: center center;
 }
 .box3-activities {
-  background: url("https://images.pexels.com/photos/2356059/pexels-photo-2356059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(/assets/img/team/cash.png);
   background-size: cover;
   background-position: center center;
 }
 .box4-activities {
-  background: url("https://images.pexels.com/photos/3274903/pexels-photo-3274903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(/assets/img/team/big-boss.png);
   background-size: cover;
   background-position: center center;
 }
 .box5-activities {
-  background: url("https://images.pexels.com/photos/3618162/pexels-photo-3618162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(/assets/img/team/seed-ganesha.png);
   background-size: cover;
   background-position: center center;
 }
 .box6-activities {
-  background: url("https://images.pexels.com/photos/4256852/pexels-photo-4256852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(/assets/img/team/aha.png);
   background-size: cover;
   background-position: center center;
 }
 .box7-activities {
-  background: url("https://images.pexels.com/photos/1891234/pexels-photo-1891234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(/assets/img/team/big-boss.png);
   background-size: cover;
   background-position: center center;
 }
@@ -7718,7 +7720,7 @@ input[type=radio]:checked ~ label {
 }
 .slider-activities [class*="box"]:nth-child(4) {
   width: 60vw;
-  height: 50vh;
+  height: 60vh;
   border-color: #c92026;
   color: #fff;
   transform: scale(1) translate(-50%, -50%);
@@ -7943,5 +7945,11 @@ g .rsm-marker{
 }
 .order-btn a{
   color: white;
+}
+.wrapper .linked-m:hover,
+.wrapper .linked-m:hover .tooltip,
+.wrapper .linked-m:hover .tooltip::before {
+  background: #3b579d;
+  color:#ffffff;
 }
 

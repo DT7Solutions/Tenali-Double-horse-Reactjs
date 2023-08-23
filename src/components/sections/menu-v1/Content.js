@@ -41,7 +41,7 @@ class Content extends Component {
     };
     render() {
         const settings = {
-            slidesToShow: 8,
+            slidesToShow: 10,
             slidesToScroll: 3,
             arrows: false,
             dots: false,
