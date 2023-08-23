@@ -160,7 +160,7 @@ class Content extends Component {
                                                 </div>
                                             ))} */}
                                         
-                                        {item.category.map((categoryItem, index) => (
+                                        {item.bulletpoints.map((categoryItem, index) => (
                                             <div key={index}>
                                                 <span className='about-product-span'>About this item</span>
                                                 {Object.keys(categoryItem).map((propertyKey) => (
