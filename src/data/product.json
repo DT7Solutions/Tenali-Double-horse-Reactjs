@@ -31,7 +31,6 @@
             "Item Weight ":"1 Kilograms",
             "Variety":"Lentils"
             }
-            
         ],
         "sizes": [
             {
@@ -279,6 +278,10 @@
     {
         "id": 3,
         "img": "assets/img/prods-sm/Tenali-Double-Horse-Urad-Dal-300x300.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Urad Dall 1kg",
         "shortdesc": "Urad Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price":149.00,
@@ -410,6 +413,10 @@
     {
         "id": 4,
         "img": "assets/img/prods-sm/Tenali-Double-Horse-Husked-Urad-Dall-300x300.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Husked Black Gram Dall 1kg",
         "shortdesc": "Split Husked Black Gram Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
         "price": 143.00,
@@ -543,6 +550,10 @@
     {
         "id": 7,
         "img": "assets/img/prods-sm/Tenali-Double-Horse-Black-Gram-Rounds-300x300.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Black Gram 1kg",
         "shortdesc": " Round Black Gram is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price": 138.00,
@@ -673,6 +684,10 @@
     {
         "id": 6,
         "img": "assets/img/prods-sm/Tenali-Double-Horse-Toor-Dall-300x300.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Toor Dall 1kg",
         "shortdesc": "Toor Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price": 150.00,
@@ -805,6 +820,10 @@
     {
         "id": 8,
         "img": "assets/img/prods-sm/Tenali-Double-horse-Moong-Dal-300x300.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Moong Dall 1kg",
         "shortdesc": "Moong Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price":152.00,
@@ -937,6 +956,10 @@
     {
         "id": 9,
         "img": "assets/img/prods-sm/tenali-double-horse-idly-rava-300x300.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Idly Ravva 1kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":65.00,
@@ -1068,6 +1091,10 @@
     {
         "id": 10,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-chana-dall.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "chana Dall 1kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":65.00,
@@ -1197,6 +1224,10 @@
     {
         "id": 11,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-moong-dall.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "moong dall 1kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":65.00,
@@ -1326,6 +1357,10 @@
     {
         "id": 12,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-Toor-dall.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Toor dal 1kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":65.00,
@@ -1455,6 +1490,10 @@
     {
         "id": 13,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Urad dal 1kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":65.00,
@@ -1584,6 +1623,10 @@
     {
         "id": 14,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-urad-gota.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Urad gota 1kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":65.00,
@@ -1713,6 +1756,10 @@
     {
         "id": 14,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-sunnundalu.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "sunnundalu 1kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":65.00,

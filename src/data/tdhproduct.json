@@ -3,9 +3,11 @@
     {
         "id": 1,
         "img": "assets/img/prods-sm/rishika-instant-vada-mix.png",
-        
-        
-   
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
+
         "name": "Rishika Instant Vada Mix 200g(Pack 2)",
         "shortdesc": "Round Urad Gota is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price": 165.00,
@@ -15,6 +17,16 @@
             1,
             4,5,7,8,9,10,11
            
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -126,6 +138,10 @@
     {
         "id": 2,
         "img": "assets/img/prods-sm/rishika-instant-idly-mix.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Rishika Instant Idli Mix 200g(Pack of 2)",
         "shortdesc": "Tenali Double Horse Foods has just launched the Rishika Instant Idli mix. It’s really easy when you have instant idli mix powder on hand.",
         "price": 150.00,
@@ -134,6 +150,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -210,6 +236,10 @@
     {
         "id": 3,
         "img": "assets/img/prods-sm/rishika-instant-dosa-mix.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Rishika Instant Dosa Mix 200g(Pack of 2)",
         "shortdesc": "Tenali Double Horse Foods has just launched the Rishika Instant Dosa mix. The dosas made with this quick mix were really tasty, crispy, and mouth-filling.",
         "price":149.00,
@@ -218,6 +248,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -293,6 +333,10 @@
     {
         "id": 4,
         "img": "assets/img/prods-sm/rishika-sunnundalu.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Rishika Sunnundalu 200gms",
         "shortdesc": "TDH Rishika Sunnundalu makes your celebration special, tasteful and complete. Its sweetness brings about a feeling of togetherness and oneness with your family.",
         "price": 150.00,
@@ -301,6 +345,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -380,6 +434,10 @@
     {
         "id": 7,
         "img": "assets/img/prods-sm/rishika-coriander.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Coriander Powder",
         "shortdesc": " Discover the exceptional flavor and aroma of Tenali Double Horse Foods Coriander Powder. Made from the finest coriander seeds, this 100gm pack",
         "price": 55.00,
@@ -388,6 +446,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -464,6 +532,10 @@
     {
         "id": 6,
         "img": "assets/img/prods-sm/rishika-dhaniya-powder.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Dhaniya Karam Podi",
         "shortdesc": "Experience the true essence of Indian cuisine with our Authentic Pure Dhaniya Kara Podi. Sourced from the finest coriander seeds and meticulously blended",
         "price": 55.00,
@@ -473,6 +545,16 @@
             1,
             4,5,7,8,9,10,11
             
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -549,6 +631,10 @@
     {
         "id": 8,
         "img": "assets/img/prods-sm/rishika-idli-karapodi.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Idly Karam Podi",
         "shortdesc": "Tenali Double Horse Foods Idli Karam Podi is the perfect solution for adding a spicy and flavorful twist to your idlis. Made in India",
         "price":55.00,
@@ -558,6 +644,16 @@
             1,
             4,5,7,8,9,10,11
             
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -634,6 +730,10 @@
     {
         "id": 9,
         "img": "assets/img/prods-sm/rishika-rasam-powder.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Rasam Powder",
         "shortdesc": "Experience the rich flavors of South India with Tenali Double Horse Foods Rasam Powder. Our premium blend of handpicked spices and herbs brings you the authentic taste of traditional rasam.",
         "price":72.00,
@@ -642,6 +742,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -719,6 +829,10 @@
     {
         "id": 10,
         "img": "assets/img/prods-sm/rishika-sambar-powder.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Sambar Powder",
         "shortdesc": "Indulge in the authentic flavors of South India with Tenali Double Horse Sambar Powder. Crafted with passion and expertise, this spice mix is the secret to mouthwatering sambar",
         "price":72.00,
@@ -727,6 +841,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -804,6 +928,10 @@
     {
         "id": 11,
         "img": "assets/img/prods-sm/rsihika-kandi-karapodi.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Kandi Powder",
         "shortdesc": "A culinary delight that will add an explosion of flavors to your meals. Crafted with care and expertise, our Kandi Kara Podi is a versatile spice blend that will elevate your cooking to new heights.",
         "price":55.00,
@@ -812,6 +940,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -888,6 +1026,10 @@
     {
         "id": 12,
         "img": "assets/img/prods-sm/rishika-karvepaku-karapodi.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Karvepaku Powder",
         "shortdesc": "Indulge in the authentic flavors of Tenali Double Horse Foods’ Karvepaku Karam Podi. Made from carefully selected, high-quality ingredients",
         "price":55.00,
@@ -896,6 +1038,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -972,6 +1124,10 @@
     {
         "id": 13,
         "img": "assets/img/prods-sm/rishika-chilli-powder.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Chilli Powder",
         "shortdesc": "Enhance the taste of your favorite dishes with Tenali Double Horse Foods Chilli Powder. Made from the finest quality hand-picked chillies",
         "price":55.00,
@@ -980,6 +1136,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -1057,6 +1223,10 @@
     {
         "id": 14,
         "img": "assets/img/prods-sm/rishika-tumeric.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Turmeric Powder",
         "shortdesc": "Experience the finest quality of Turmeric Powder with Tenali Double Horse Foods. Our 100g pack of Turmeric Powder is made from carefully selected organic turmeric roots",
         "price":65.00,
@@ -1065,6 +1235,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -1142,6 +1322,10 @@
     {
         "id": 14,
         "img": "assets/img/prods-sm/rishika-tomato-pickle.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Tomato Pickle",
         "shortdesc": "Discover the Flavors of India with Tenali Double Horse Foods’ Rishika Tomato Pickles.Handcrafted with care and made from the finest ingredients",
         "price":99.00,
@@ -1150,6 +1334,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -1227,6 +1421,10 @@
     {
         "id": 15,
         "img": "assets/img/prods-sm/rishika-mango-pickle.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Mango Pickle ",
         "shortdesc": "Indulge in the rich and traditional flavors of Tenali Double Horse Foods Rishika Mango Pickles, carefully crafted to perfection. Our delicious mango pickles are a true delight for pickle enthusiasts.",
         "price":65.00,
@@ -1235,6 +1433,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {
@@ -1312,6 +1520,10 @@
     {
         "id": 16,
         "img": "assets/img/prods-sm/rishika-gongura-pickle.png",
+        "productsafetyimg1": "assets/img/safety-images/no-colora.png",
+        "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
+        "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
+        "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Gongura Pickle",
         "shortdesc": "Experience the Rich and Tangy Flavors of Tenali Double Horse Rishika Gongura Pickle. Discover the secret to delightful meals with our authentic Gongura Pickle.",
         "price":65.00,
@@ -1320,6 +1532,16 @@
         "category": [
             1,
             4,5,7,8,9,10,11
+        ],
+        "bulletpoints": [
+            {
+                
+            "Brand":"Tenali Double Horse",
+            "Speciality":"suitable for vegetarians",
+            "Diet Type":"Vegetarian",
+            "Item Weight ":"1 Kilograms",
+            "Variety":"Lentils"
+            }
         ],
         "sizes": [
             {

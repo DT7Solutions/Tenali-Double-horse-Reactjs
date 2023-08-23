@@ -2,8 +2,8 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { getProduct } from '../../../helper/Producthelper';
 import { Rating } from "../../../helper/helper";
-import productcategory from "../../../data/productcategory.json";
-import blogtags from '../../../data/blogtags.json';
+// import productcategory from "../../../data/productcategory.json";
+// import blogtags from '../../../data/blogtags.json';
 import { Tab, Nav } from "react-bootstrap";
 import Relatedproduct from '../../layouts/Relatedproductone';
 
@@ -175,24 +175,6 @@ class Content extends Component {
                                         <button type="button" className="btn-custom btn-sm order-btn">
                                             <a href='https://amzn.eu/d/ipLSbEe' target='_blank'>Order Now</a>
                                             </button>
-                                        {/* <li>
-                                            <span>Tags: </span>
-                                            <div className="product-meta-item">
-                                                {item.tags.slice(0, 4).map((tag) => (
-                                                    blogtags.filter(item => {
-                                                        return item.id === tag
-                                                    }).map((tags, i) => (
-                                                        <Link key={i} to={"/blog/tag/" + tags.id}>{tags.title}, </Link>
-                                                    ))
-                                                ))}
-                                            </div>
-                                        </li> 
-                                        <li>
-                                            <span>SKU: </span>
-                                            <div className="product-meta-item">
-                                                <span>{item.sku}</span>
-                                            </div>
-                                        </li>*/}
                                     </ul>
                                     {/* /Product Meta */}
                                 </div>
