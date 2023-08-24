@@ -31,7 +31,7 @@ class Menuitems extends Component {
             }]
         }
         return (
-            <div className='mt-5 pt-5'>
+            <div className='mt-lg-5 pt-lg-5'>
             <div className="section-title-wrap section-header text-center ">
             <h5 className="custom-primary">Heartwarming Goodness</h5>
             <h2 className="title">Taste the Love in Our Dals and Pulses</h2>

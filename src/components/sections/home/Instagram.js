@@ -32,7 +32,7 @@ class Container extends Component {
         
         return (
             <div className="container-ac">
-        <h2 className='title text-center pt-5'>Notable Activities</h2>
+        <h2 className='title text-center pt-lg-5  mt-lg-5'>Notable Activities</h2>
        
                 <div className="slider-activities">
                     <div className= "box1-activities firstSlide" style={{ backgroundImage: `url(${img1})` }}> </div>

@@ -34,8 +34,8 @@ import { Link } from 'react-router-dom';
       const { isVisible } = this.state;
         return (
    
-        <section id="gallery" className={`gap-section fadeIn ${isVisible ? 'visible' : ''}`}  ref={this.sectionRef}>
-          <div className="section-title-wrap section-header text-center">
+        <section id="gallery" className={`gap-section  fadeIn ${isVisible ? 'visible' : ''}`}  ref={this.sectionRef}>
+          <div className="section-title-wrap section-header text-center mb-0">
             <h5 className="custom-primary">Harvesting Nature's Nourishment</h5>
             <h2 className="title">Explore our Dals and Pulses Collection!</h2>
           

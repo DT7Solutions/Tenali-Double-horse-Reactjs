@@ -7787,6 +7787,10 @@ input[type=radio]:checked ~ label {
   
     z-index: 4;
   }
+  .slider-activities {
+    height: 400px;
+    
+  }
  
 }
 /*Animation for buyers landing page slider*/
