@@ -15,11 +15,7 @@ const markers = [
       name: "Australia",
       coordinates: [133.7751, -25.2744], // Australia coordinates [longitude, latitude]
     },
-    // {
-    //   markerOffset: 15,
-    //   name: "Europe",
-    //   coordinates: [15.2551, 54.5260], // Europe coordinates [longitude, latitude] (Note: This is just an approximate central location of Europe)
-    // },
+    
     {
       markerOffset: 15,
       name: "USA",
@@ -30,11 +26,7 @@ const markers = [
       name: "UK",
       coordinates: [-3.4359, 55.3781], // UK coordinates [longitude, latitude]
     },
-    // {
-    //   markerOffset: 15,
-    //   name: "South Africa",
-    //   coordinates: [24.0232, -30.5595], // South Africa coordinates [longitude, latitude]
-    // },
+    
     {
       markerOffset: -30,
       name: "UAE",
@@ -70,7 +62,7 @@ const markers = [
       name: "SEYCHELLES",
       coordinates: [55.4919, -4.6796], // UAE coordinates [longitude, latitude]
     },
-    // Add more markers if needed...
+   
   ];
   
   const geoUrl =
@@ -80,7 +72,7 @@ const markers = [
 class Mapointing extends Component {
     render() {
         return (
-          <div class="container mb-5 pt-5 pb-3">
+          <div className="container mb-5 pt-5 pb-3">
                  <h5 className="custom-primary text-center">Where to Find Us</h5>
                                 <h2 className="title text-center">Explore Our Operating Locations</h2>
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>

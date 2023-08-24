@@ -21,7 +21,7 @@ class Footer extends Component {
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div> */}
                         <div className="footer-buttons" style={{ position: 'absolute', top: '-24px', right: '-1%', zIndex: '9999' }}>
-                            <img src={process.env.PUBLIC_URL + "/assets/img/great-place-to-work-image.png"} style={{ height: '180px', width: '100%' }} alt="logo" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/redesgin-great-place-work.png"} style={{ height: '100%', width: '100%' }} className='img-responsive' alt="logo" />
                         </div>
 
                     </div>

@@ -92,15 +92,15 @@ const MyTable = () => {
   return (
     <div className='mt-5' style={{ backgroundColor: '#f9f9f9' }}>
       <div className='search-section shadow-sm p-3 bg-rounded'>
-        <div className='col-lg-9 col-6'>
+        <div className='col-lg-6'>
           <h3>Find Your Store</h3>
         </div>
-        <div className='col-lg-3 col-6'>
+        <div className='col-lg-6'>
           <input
             type='text'
             placeholder='Search...'
             onChange={handleSearchChange}
-            style={{ borderColor: 'black', border: '2px solid #66676A',borderRadius:'5px' }}
+            style={{ borderColor: 'black', border: '3px solid #66676A' }}
           />
         </div>
       </div>
@@ -139,3 +139,4 @@ const MyTable = () => {
 };
 
 export default MyTable;
+
