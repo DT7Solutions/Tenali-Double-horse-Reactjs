@@ -173,7 +173,7 @@ class Content extends Component {
                                                                      
                                         </li>
                                         <button type="button" className="btn-custom btn-sm order-btn">
-                                            <a href='https://amzn.eu/d/ipLSbEe' target='_blank'>Order Now</a>
+                                        <a href={item.urls} target='_blank'>Order Now</a>
                                             </button>
                                     </ul>
                                     {/* /Product Meta */}

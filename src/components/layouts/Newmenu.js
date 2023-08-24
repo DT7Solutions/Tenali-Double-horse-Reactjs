@@ -35,7 +35,7 @@ class Newmenu extends Component {
                         <li>
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 product-hover-sec">
                                     <h5 className='text-center'>Explore Our Products Range </h5>
                                         <div className="mega-menu-item d-flex justify-content-center align-items-center">
                                             <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
