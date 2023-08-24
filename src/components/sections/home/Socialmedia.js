@@ -9,7 +9,7 @@ class Socialmedia extends Component {
         return (
         
           <div className="social-icons mb-5 mt-3"style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
-          <span className="title text-center text-dark" style={{fontFamily:'Helvetica',lineHeight:'48px',fontWeight:'700'}}> Follow us :</span>
+         
           <ul className="wrapper" >
             <li className="icon facebookf">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="icon facebookf">

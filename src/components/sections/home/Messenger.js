@@ -34,12 +34,14 @@
 
 // export default Messenger;
 import React, { Component } from 'react';
+import plusicon from '../../../assets/img/team/trial-notable.png'
+import minusicon from '../../../assets/img/team/aha.png'
 
 class Messenger extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      openIndex: 0,
+      openIndex: -1,
     };
   }
 
@@ -53,13 +55,13 @@ class Messenger extends Component {
     const accordionData = [
       {
         heading: "Exports Enquiries ?",
-        content: "Content for Exports Enquiries goes here.",
+        // content: " Call us on 1800 270 567567 exports@tenalidoublehorse.com",
       },
       // Add more accordion items as needed
     ];
 
     return (
-      <div className="womensdayawrap">
+      <div className="womensdayawrap ">
       <div className="accordion">
         {accordionData.map((item, index) => (
           <div
@@ -79,11 +81,12 @@ class Messenger extends Component {
                 </h5>
                 {/* <p className="text-white mb-0"></p> */}
               </span>
-              <div className={`plusicon ${index === this.state.openIndex ? 'shake' : ''}`}></div>
+              <div className={`plusicon ${index === this.state.openIndex ? 'minusicon' : 'plusicon'}`}></div>
             </div>
             {index === this.state.openIndex && (
-              <div className="accordion-content">
-                <p className='bg-white p-3'>{item.content}</p>
+              <div className="accordion-content bg-white">
+                <p className='p-1 mb-1 text-center'> Call us on <a href="tel:1800270567567">1800 270 567567</a></p>
+                <p className='p-1 text-center'>mail us <a href="mailto:exports@tenalidoublehorse.com">exports@tenalidoublehorse.com</a></p>
               </div>
             )}
           </div>

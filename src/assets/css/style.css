@@ -7962,6 +7962,7 @@ g .rsm-marker{
   bottom: 0;
   z-index: 99999;
   width: 370px;
+  background: #fff;
 }
 .womendaycontent {
   background: #fff;
@@ -8005,13 +8006,35 @@ g .rsm-marker{
   vertical-align: middle;
 }
 .plusicon {
-  /* background: url(../images/plus-w.png); */
+  background: url(/assets/img/ig/icon-plus-one.png);
   position: absolute;
-  right: 20px;
-  top: 37%;
-  width: 26px;
-  height: 26px;
+  right: 10%;
+  top: 15%;
+  width:30px;
+  height:30px;
   background-repeat: no-repeat;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+}
+
+.minusicon{
+  background: url(/assets/img/ig/icon-minus.png);
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+}
+
+@media screen and (max-width: 767px){
+.womensdayawrap {
+    width: 100%;
+}
+.womensdayawrapsec span:first-child {
+  left: -5px;
+}
 }
