@@ -35,7 +35,7 @@ class MapChart extends Component {
     return (
       <div className="section">
         <div className="container">
-          <ComposableMap  
+          {/* <ComposableMap  
       projection="geoAlbersUsa">
           <Geographies geography={geoUrl}>
         {({ geographies }) => (
@@ -57,7 +57,7 @@ class MapChart extends Component {
         )}
       </Geographies>
           </ComposableMap>
-       
+        */}
           <div className="section-title-wrap section-header text-center">
             <h5 className="custom-primary">Find Nearby Stores</h5>
             <h2 className="title ">Discover Stores Near You</h2>

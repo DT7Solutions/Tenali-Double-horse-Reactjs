@@ -73,7 +73,9 @@ class Content extends Component {
     render() {
         return (
             <Fragment>
-                <div>
+              <div className="container mb-5 pt-5 pb-3">
+                 <h5 className="custom-primary text-center">Where to Find Us</h5>
+                                <h2 className="title text-center">Explore Our Operating Locations</h2>
     <ComposableMap>
       <Geographies geography={geoUrl}>
         {({ geographies }) =>

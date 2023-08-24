@@ -29,11 +29,11 @@ class Newmenu extends Component {
                         }
                     </li>
                 )) : null}
-                <li className="menu-item menu-item-has-children mega-menu-wrapper">
+                <li className="menu-item menu-item-has-children mega-menu-wrapper" >
                     <Link>Products</Link>
                     <ul className="submenu">
                         <li>
-                            <div className="container">
+                            <div className="container" >
                                 <div className="row">
                                     <div className="col-lg-12">
                                     <h5 className='text-center'>Explore Our Products Range </h5>

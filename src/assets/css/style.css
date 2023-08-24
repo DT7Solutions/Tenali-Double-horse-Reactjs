@@ -1145,6 +1145,7 @@ table img{
   -webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   min-width: 250px;
+  /* max-width:500px; */
   z-index: 990;
   border-radius: 8px;
 }
@@ -7614,10 +7615,10 @@ input[type=radio]:checked ~ label {
   border-color:#fccc4c;
 }
 #timeline .demo-card--step3 {
-  background-color:#e82026;
+  background-color:#ee5f64;
 }
 #timeline .demo-card--step3 .head::after {
-  border-color: #d90429;
+  border-color: #ee5f64;
 }
 #timeline .demo-card--step4 {
   background-color:#ffd60a;
@@ -7626,10 +7627,10 @@ input[type=radio]:checked ~ label {
   border-color: #ffd60a;
 }
 #timeline .demo-card--step5 {
-  background-color: #d8161c;
+  background-color: #f07175;
 }
 #timeline .demo-card--step5 .head::after {
-  border-color: #d8161c;
+  border-color:#f07175;
 }
 
 
