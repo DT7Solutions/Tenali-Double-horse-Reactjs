@@ -4,7 +4,8 @@ import { geoCentroid } from "d3-geo";
 import { ComposableMap, Geographies, Geography, Marker, Annotation } from "react-simple-maps";
 import Eastcoast from "./Eastcoast";
 import WestCoast from "./Westcoast";
-import allStates from "../../../data/usedata.json";
+
+
 
 
 

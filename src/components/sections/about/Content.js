@@ -7,17 +7,25 @@ import Stats from '../home/Stats';
 import Rules from './Rules';
 import MyComponent from '../home-v2/MyComponent';
 import Overview from './Overview'
+import Greatplacetowork from '../blog-full/Greatplacetowork'
+import Cardhover from './Cardhover';
+import Tdhgroup from './Tdhgroup';
+
 
 class Content extends Component {
     render() {
         return (
             <Fragment>
                <Aboutcompany/>
+               <Tdhgroup/>
                 <Rules/>
                 {/* <Aboutus /> */}
                 
-                
+               
+                {/* <Cardhover/> */}
+                <Greatplacetowork/>
                 <Stats/>
+                
                
                 {/* <div className="enquires">
                     <h1 className="heading">For export enquires mail us</h1>
@@ -26,7 +34,8 @@ class Content extends Component {
               
                 {/* <MyComponent/> */}
                 <Overview/>
-                {/* <Teammembers/> */}
+              
+        
                 {/* <Newsletter/> */}
             </Fragment>
         );

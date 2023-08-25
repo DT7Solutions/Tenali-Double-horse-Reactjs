@@ -1,14 +1,50 @@
 import React, { Component } from 'react';
 
 
-class Greatplacetowork extends Component {
+class Cardhover extends Component {
     render() {
         return (
             <div className="section light-bg">
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 mb-lg-30 ">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/great-place-to-work.png"} alt="img" className='shadow  p-1  bg-white rounded' />
+                        <div class="container-hover">
+                            <div class="card">
+                               
+
+                                    <div class="slide slide1">
+
+                                        <div class="content">
+
+                                            <div class="icon">
+
+                                                <i class="fa fa-user-circle" aria-hidden="true"></i>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide slide2">
+
+                                        <div class="content">
+
+                                            <h3>
+
+                                                Hello there!
+
+                                            </h3>
+
+                                            <p>Trust yourself and keep going.</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
                         </div>
                         <div className="col-lg-6 alignments">
                             <div className="section-title-wrap mr-lg-30 mt-lg-2">
@@ -28,4 +64,4 @@ class Greatplacetowork extends Component {
     }
 }
 
-export default Greatplacetowork;
+export default Cardhover;
