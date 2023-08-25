@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import WOW from 'wow.js';
+import 'animate.css';
+
 
 const successpost = [
     {
@@ -25,6 +28,9 @@ const successpost = [
 ]
 
 class stats extends Component {
+    componentDidMount() {
+        new WOW().init(); 
+    }
     render() {
         return (
             <div className="section section-padding  bg-cover bg-center mt-5 " style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/stats-banner.png)" }} >
@@ -37,7 +43,7 @@ class stats extends Component {
                     </div>
                     <div className="row ">
                         {successpost.map((item, i) => (
-                            <div key={i} className="col-lg-3 col-md-6 col-sm-6">
+                            <div key={i} className="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
                                 <div className="ct-infographic-item">
                                     <i className={item.icon} />
                                     <h4>{new Intl.NumberFormat().format(item.count)}</h4>

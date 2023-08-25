@@ -14,8 +14,12 @@ class Content extends Component {
         this.state = {
             modalshow: false,
             lastActiveBox: -1,
-            filteredProducts: products,
-            activeItem: -1
+            // filteredProducts: products,
+            // activeItem: -1
+            filteredProducts: products.filter(
+                (product) => product.category.includes(1) 
+            ),
+            activeItem: 1
         };
         this.modalShow = this.modalShow.bind(this);
         this.modalClose = this.modalClose.bind(this);
@@ -37,6 +41,7 @@ class Content extends Component {
                 (product) => product.category.includes(id)
             );
         }
+        
         this.setState({ filteredProducts, activeItem: id });
     };
     render() {
@@ -126,6 +131,7 @@ class Content extends Component {
                                     <h6>All Products</h6>
                                 </div>
                             </Link>
+                       
                             {productcategory.map((item, i) => (
                                 <Link key={item.id} to="#" className={this.state.activeItem === parseInt(item.id) ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, item.id)}>
                                     <div className="menu-category-thumb">

@@ -14,8 +14,12 @@ class Tenalifoodproducts extends Component {
         this.state = {
             modalshow: false,
             lastActiveBox: -1,
-            filteredProducts: products,
-            activeItem: -1
+            // filteredProducts: products,
+            // activeItem: -1
+            filteredProducts: products.filter(
+                (product) => product.category.includes(1) 
+            ),
+            activeItem: 1
         };
         this.modalShow = this.modalShow.bind(this);
         this.modalClose = this.modalClose.bind(this);
@@ -117,7 +121,7 @@ class Tenalifoodproducts extends Component {
                         <Slider className="menu-category-slider" {...settings}>
                             <Link to="#" data-filter="*" className={this.state.activeItem === -1 ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, -1)}>
                                 <div className="menu-category-thumb">
-                                    <img src={process.env.PUBLIC_URL + "/assets/img/categories/tdh-foods-logo-menu.png"} alt="All" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/categories/tdhf-foods-icon.png"} alt="All" />
                                 </div>
                                 <div className="menu-category-desc">
                                     <h6>All Products</h6>

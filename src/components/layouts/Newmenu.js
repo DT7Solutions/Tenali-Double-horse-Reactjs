@@ -31,70 +31,30 @@ class Newmenu extends Component {
                 )) : null}
                 <li className="menu-item menu-item-has-children mega-menu-wrapper" >
                     <Link>Products</Link>
-                    <ul className="submenu">
-                        <li>
+                    <ul className="submenu" >
+                        <li className='d-flex '>
                             <div className="container" >
                                 <div className="row">
-                                    <div className="col-lg-12 product-hover-sec">
+                                    <div className="col-lg-12 product-hover-sec" > 
                                     <h5 className='text-center'>Explore Our Products Range </h5>
-                                        <div className="mega-menu-item d-flex justify-content-center align-items-center">
+                                        <div className="mega-menu-item d-flex justify-content-center align-items-center" >
                                             <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
                                            
-                                            <a href={"/tenali-double-horse-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tenali-double-horse-icon.png"} alt="pizza" /></a>
+                                            <a href={"/tenali-double-horse-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tenali-double-horse-icon.png"}   alt="pizza" /></a>
                                             <Link to="/tenali-double-horse-products"><a  className="btn-custom  shadow-none btn-sm">View More</a></Link>
                                             </div>
                                             <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
-                                            <a href={"/tenali-double-hosre-food-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdh-icon.png"} alt="pizza" /></a>
+                                            <a href={"/tenali-double-hosre-food-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdh-icon.png"}  alt="pizza" /></a>
                                             <Link to="/tenali-double-hosre-food-products"><button className="btn-custom  shadow-none btn-sm">View More</button></Link>
                                             </div>
                                         </div>
                                     </div>
                                    
-                                    {/* <div className="col-12 mega-menu-promotion-wrapper">
-                                        <div className="row">
-                                        
-                                            <div className="col-3">
-                                                <div className="mega-menu-promotion">
-                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png"} alt="pizza" /></a>
-                                                    <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"/menu-v1"}>Urad Gota</a></h4>
-                                                        <span>₹165</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-3">
-                                                <div className="mega-menu-promotion">
-                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Dall-300x300.png"} alt="pizza" /></a>
-                                                    <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"/menu-v1"}>Maharani Urad Dall </a></h4>
-                                                        <span>₹143.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-3">
-                                                <div className="mega-menu-promotion">
-                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Dal-300x300.png"} alt="pizza" /></a>
-                                                    <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"/menu-v1"}>Urad Dall</a></h4>
-                                                        <span>₹149.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                           
-                                            <div className="col-3">
-                                                <div className="mega-menu-promotion">
-                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Husked-Urad-Dall-300x300.png"} alt="pizza" /></a>
-                                                    <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"/menu-v1"}>Husked Black Gram Dall</a></h4>
-                                                        <span>₹143.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div> */}
+                                   
                                 </div>
                             </div>
+                          
+                           
                         </li>
                     </ul>
                 </li>
