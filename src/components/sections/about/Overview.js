@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class TimelineSection extends Component {
     render() {
         return (
-            <section id="timeline">
+            <section id="timeline" style={{backgroundColor:'#fff',borderTop:'none'}}>
                 <h5 className="custom-primary text-center">Unraveling Our Story</h5>
         <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2>
                 <div className="demo-card-wrapper">

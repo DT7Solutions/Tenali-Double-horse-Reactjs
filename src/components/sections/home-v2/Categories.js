@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
-import products from "../../../data/product.json";
+import products from "../../../data/dubai.json";
 import productcategory from "../../../data/productcategory.json";
 
 class Menuitems extends Component {
@@ -33,10 +33,10 @@ class Menuitems extends Component {
         return (
             <div className='mt-lg-5 pt-lg-5'>
             <div className="section-title-wrap section-header text-center ">
-            <h5 className="custom-primary">Heartwarming Goodness</h5>
-            <h2 className="title">Taste the Love in Our Dals and Pulses</h2>
+            <h5 className="custom-primary">Explore Taste Horizons in the UAE</h5>
+            <h2 className="title">Now we are in UAE</h2>
             <p className="subtitle">
-            Experience a revolution in healthy breakfast regimes with Tenali Double Horse!Discover the finest quality Urad Gota and Urad Dall available near you, ensuring every morning begins with wholesomeness and taste. 
+            Embark on a culinary adventure with Tenali Double Horse as we bring our exquisite range of Urad Gota and Urad Dall to the UAE.
                 </p>
         </div>
             
@@ -56,7 +56,8 @@ class Menuitems extends Component {
                                             <h5 className="custom-primary" key={i}>{cat.title}</h5>
                                         ))
                                     ))}
-                                    <h3>{item.name}</h3>
+                                        
+                                        <h3>{item.name}</h3>
                                     <p>{item.shortdesc}</p>
                                     <a href={item.urls}className="btn-custom">Order Now</a>
                                 </div>

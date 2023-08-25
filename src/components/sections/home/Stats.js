@@ -18,7 +18,7 @@ const successpost = [
     },
     {
         icon:  "fas fa-globe",
-        count: 8,
+        count: 11,
         title: "Total country"
     }
     

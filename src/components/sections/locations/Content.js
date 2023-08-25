@@ -92,33 +92,34 @@ class Content extends Component {
                                 <form className='mb-5'>
                                     <div className="row">
                                         <div className="form-group col-lg-6">
-                                            <input type="text" placeholder="First Name" className="form-control" name="fname" />
+                                            <input type="text" placeholder="First Name" required className="form-control" name="fname" />
                                         </div>
                                         <div className="form-group col-lg-6">
-                                            <input type="text" placeholder="Last Name" className="form-control" name="lname" />
+                                            <input type="text" placeholder="Last Name" required className="form-control" name="lname" />
                                         </div>
                                         <div className="form-group col-lg-12">
-                                            <input type="email" placeholder="Email Address" className="form-control" name="email" />
+                                            <input type="email" placeholder="Email Address" required className="form-control" name="email" />
                                         </div>
                                         <div className="form-group col-lg-6">
-                                            <input type="text" placeholder="Phone no" className="form-control" name="Phonenumber" />
+                                            <input type="text" placeholder="Phone no" required className="form-control" name="Phonenumber" />
                                         </div>
                                         <div className="form-group col-lg-6">
-                                            <select className="form-control" name="purpose">
-                                                <option value="" disabled selected>Purpose</option>
-                                                <option value="export">Export & Import</option>
+                                            <select className="form-control" name="purpose" required>
+                                                <option value="" disabled selected>Purpose of Contact</option>
+                                                <option value="export">Export</option>
 
                                                 <option value="distribution">Distribution Enquiry </option>
                                                 <option value="Feedback">Feedback</option>
-                                                <option value="Other">Other</option>
+                                                <option value="Suggestions">Suggestions</option>
+                                                <option value="Other">Job Enquiry</option>
 
                                             </select>
                                         </div>
                                         <div className="form-group col-lg-12">
-                                            <input type="text" placeholder="Subject" className="form-control" name="subject" />
+                                            <input type="text" placeholder="Subject" required className="form-control" name="subject" />
                                         </div>
                                         <div className="form-group col-lg-12">
-                                            <textarea name="message" className="form-control" placeholder="Type your message" rows={9} />
+                                            <textarea name="message" className="form-control" required placeholder="Type your message" rows={9} />
                                         </div>
                                     </div>
                                     <button type="submit" className="btn-custom primary" name="button">Send Message</button>

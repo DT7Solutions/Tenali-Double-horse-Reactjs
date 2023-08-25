@@ -32,7 +32,16 @@ class Container extends Component {
         
         return (
             <div className="container-ac">
-        <h2 className='title text-center pt-lg-5  mt-lg-5'>Notable Activities</h2>
+        {/* <h2 className='title text-center pt-lg-5  mt-lg-5'></h2> */}
+        <div className="section-title-wrap section-header  mt-lg-5 text-center ">
+                    <h5 className="custom-primary">Explore Our </h5>
+                    <h2 className="title">Notable Activities</h2>
+                    <p className="subtitle">
+                    Discover the range of impactful initiatives and remarkable undertakings that define Tenali Double Horse's commitment to excellence and quality.
+                    </p>
+                </div>
+       
+                               
        
                 <div className="slider-activities">
                     <div className= "box1-activities firstSlide" style={{ backgroundImage: `url(${img1})` }}> </div>

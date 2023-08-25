@@ -8,7 +8,7 @@ class Tdhgroup extends Component {
                 <div className="container">
                 <div className="section-title-wrap section-header text-center ">
                     <h5 className="custom-primary">A Brand of </h5>
-                    <h2 className="title">Tenali Double horse Group</h2>
+                    <h2 className="title">Tenali Double Horse Group</h2>
                     <p className="subtitle">
                         Tenali Double Horse industry-leading all-in-one platform makes it simple to set a healthy breakfast regime.
                     </p>

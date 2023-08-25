@@ -7763,6 +7763,10 @@ input[type=radio]:checked ~ label {
   
     z-index: 1;
   }
+  .border-right{
+    border-right:none!important;
+  
+  }
   .slider-activities [class*="box"]:nth-child(2),
   .slider-activities [class*="box"]:nth-child(6) {
     width: 100vw!important;

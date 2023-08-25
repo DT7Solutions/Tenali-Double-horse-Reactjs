@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Greatplacetowork extends Component {
     render() {
         return (
-            <div className="section light-bg">
+            <div className="section ">
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 mb-lg-30 ">
