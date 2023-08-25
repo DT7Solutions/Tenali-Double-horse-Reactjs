@@ -5,7 +5,9 @@ import 'aos/dist/aos.css';
 
 class TimelineSection extends Component {
     componentDidMount() {
-        AOS.init(); // Initialize AOS when the component mounts
+        AOS.init({
+            duration: 1500, 
+        });
     }
     render() {
         return (
@@ -17,6 +19,7 @@ class TimelineSection extends Component {
                         <div className="head">
                             <div className="number-box">
                                 <span>2005</span>
+
                             </div>
                             <h2 className='text-white'><span className="small">Subtitle</span> Technology</h2>
                         </div>
@@ -26,7 +29,7 @@ class TimelineSection extends Component {
                         </div>
                     </div>
                     
-                    <div className="demo-card demo-card--step2 " data-aos="fade-right" data-aos-delay="400">
+                    <div className="demo-card demo-card--step2 " data-aos="fade-right" data-aos-delay="600">
                         <div className="head">
                             <div className="number-box">
                                 <span>2010</span>
@@ -39,7 +42,7 @@ class TimelineSection extends Component {
                         </div>
                     </div>
                     
-                    <div className="demo-card demo-card--step3 " data-aos="fade-left" data-aos-delay="600">
+                    <div className="demo-card demo-card--step3 " data-aos="fade-left" data-aos-delay="800">
                         <div className="head">
                             <div className="number-box">
                                 <span>2015</span>
@@ -52,7 +55,7 @@ class TimelineSection extends Component {
                         </div>
                     </div>
                     
-                    <div className="demo-card demo-card--step4 " data-aos="fade-right" data-aos-delay="800">
+                    <div className="demo-card demo-card--step4 " data-aos="fade-right" data-aos-delay="1000">
                         <div className="head">
                             <div className="number-box">
                                 <span>2020</span>
