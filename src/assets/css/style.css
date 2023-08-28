@@ -2951,6 +2951,10 @@ table img{
   .ct-category-desc{
     margin-bottom:20px;
   }
+.ct-category.category-2 {
+  display: flex!important;
+  flex-direction: column-reverse!important;
+}
   
 }
 .ct-category.category-2 img{
@@ -2961,7 +2965,6 @@ table img{
   width: 460px;
   
 }
-
 .ct-category.category-2 .ct-category-desc a{
   margin-top: 30px;
 }
@@ -4902,7 +4905,7 @@ td.quantity{
     padding: 60px 0;
   }
   .ct-footer{
-    padding: 60px 0 0 0;
+    padding: 90px 0 0 0;
   }
 
   .section.section-padding{
@@ -5358,6 +5361,12 @@ td.quantity{
 @media (max-width: 575px){
   .modal-lg{
     max-width: 500px;
+  }
+  .footer-buttons{
+    position: absolute!important;
+    top: -24px!important;
+    right: 35%!important;
+    z-index: 9999!important;
   }
   .button-gmail{
     width: 100%!important;
@@ -7763,6 +7772,7 @@ input[type=radio]:checked ~ label {
   
     z-index: 1;
   }
+  
   .border-right{
     border-right:none!important;
   
@@ -8196,3 +8206,19 @@ g .rsm-marker{
   border-right:2px solid #ccc!important;
 
 }
+@media (max-width: 768px) {
+  .mobile-reorder {
+      flex-direction: column-reverse; /* Reorder elements for mobile */
+  }
+ 
+}
+.footer-buttons{
+  position: absolute;
+  top: -24px;
+  right: 0;
+  z-index: 9999;
+  
+}
+
+
+

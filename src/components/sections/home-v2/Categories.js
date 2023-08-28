@@ -48,7 +48,7 @@ class Menuitems extends Component {
                     <Slider className="category-slider" {...settings} ref={c => (this.slider = c)}>
                         {products.map((item, i) => (
                             <div key={i} className="ct-category category-2">
-                                <div className="ct-category-desc ">
+                                <div className="ct-category-desc"  >
                                     {item.category.slice(0, 1).map((category) => (
                                         productcategory.filter(item => {
                                             return item.id === category
@@ -62,7 +62,7 @@ class Menuitems extends Component {
                                     <a href={item.urls}className="btn-custom">Order Now</a>
                                 </div>
                                 
-                                <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
+                                <img src={process.env.PUBLIC_URL + "/" + item.img}   alt={item.name} />
                                
                             </div>
                         ))}

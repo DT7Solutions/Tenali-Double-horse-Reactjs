@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 
 
 class Socialmedia extends Component {
+  componentDidMount() {
+    AOS.init({
+        duration: 1500, 
+    });
+}
     render() {
         return (
         
-          <div className="social-icons mb-5 mt-3"style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
+          <div className="social-icons mb-5 mt-3 " data-aos="fade-in" data-aos-delay="400" style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
          
           <ul className="wrapper" >
             <li className="icon facebookf">

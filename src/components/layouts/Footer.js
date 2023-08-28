@@ -20,15 +20,15 @@ class Footer extends Component {
                         {/* <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div> */}
-                        <div className="footer-buttons" style={{ position: 'absolute', top: '-24px', right: '-1%', zIndex: '9999' }}>
+                        <div className="footer-buttons " >
                             <img src={process.env.PUBLIC_URL + "/assets/img/redesgin-great-place-work.png"} style={{ height: '100%', width: '100%' }} className='img-responsive' alt="logo" />
                         </div>
 
                     </div>
                 </div>
                 {/* Middle Footer */}
-                <div className="footer-middle">
-                    <div className="container">
+                <div className="footer-middle ">
+                    <div className="container ">
                         <div className="row">
                             
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
