@@ -9,6 +9,8 @@ class Banner extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
+            speed: 1000,
+            autoplay: true,
             dots: false,
             responsive: [{
                 breakpoint: 768,
@@ -27,7 +29,7 @@ class Banner extends Component {
                 </Slider>
                 <div className='header-marque' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <marquee width="97%" direction="left">
-                    Recently Our Products lanuches in UAE For Exports Enquiry Call us on 1800 270 567567  & Mail us :- exports@tenalidoublehorse.com
+                    Recently Our Products lanuches in UAE For Exports Enquiry Call us on 1800 270 567 567  & Mail us :- exports@tenalidoublehorse.com
                 </marquee>
                 </div>
 
