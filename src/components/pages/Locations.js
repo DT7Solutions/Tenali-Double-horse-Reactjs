@@ -24,6 +24,7 @@ class Locations extends Component {
                 <Header/>
                 <Breadcrumbs breadcrumb={{ pagename: pagelocation,bannerimg:bannerimg }} />
                 <Content/>
+           
                 <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/tenali-double-horse-logo-135x73.png" }} />
             </Fragment>
         );

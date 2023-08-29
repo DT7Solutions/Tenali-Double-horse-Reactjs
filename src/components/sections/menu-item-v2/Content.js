@@ -7,7 +7,8 @@ import { Rating } from "../../../helper/helper";
 import { Tab, Nav, Accordion, Card, NavLink } from "react-bootstrap";
 import Relatedproduct from '../../layouts/Tdhrelatedproduct';
 import Slider from "react-slick";
-
+import Feedback from '../home/Feedback';
+import Messenger from '../home/Messenger';
 // swiperjs
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -117,7 +118,7 @@ class Content extends Component {
                                     {/* /Product Short Description */}
                                         {/* Price */}
                                         <div className="price-wrapper">
-                                        <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
+                                        <p className="product-price">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</p>
                                     </div>
                                     {/* /Price */}
                                     {/* Variations */}
@@ -291,6 +292,9 @@ class Content extends Component {
                     </div>
                 </div>
                 <Relatedproduct />
+                <Feedback/>
+                <Messenger/>
+
             </Fragment>
         );
     }

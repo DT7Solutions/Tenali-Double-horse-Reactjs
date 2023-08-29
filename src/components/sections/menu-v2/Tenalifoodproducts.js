@@ -7,6 +7,9 @@ import products from "../../../data/tdhproduct.json";
 import tdhproductcategory from "../../../data/tdhproductcategory.json";
 import { Rating } from "../../../helper/helper";
 import Masonry from 'react-masonry-component';
+import Feedback from '../home/Feedback';
+import Messenger from '../home/Messenger';
+
 
 class Tenalifoodproducts extends Component {
     constructor(props) {
@@ -154,6 +157,9 @@ class Tenalifoodproducts extends Component {
                 <Modal show={this.state.modalshow} id="customizeModal" onHide={this.modalClose} aria-labelledby="contained-modal-title-vcenter" size="lg" centered>
                     <Quickview productId={this.state.lastActiveBox} />
                 </Modal>
+                <Feedback/>
+                <Messenger/>
+
                 {/* Menu Wrapper End */}
             </Fragment>
         );

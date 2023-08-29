@@ -20,7 +20,7 @@ class Footer extends Component {
                         {/* <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div> */}
-                        <div className="footer-buttons " >
+                        <div className="footer-buttons" style={{ position: 'absolute', top: '-22px', right: '-1%', zIndex: '9999' }}>
                             <img src={process.env.PUBLIC_URL + "/assets/img/redesgin-great-place-work.png"} style={{ height: '100%', width: '100%' }} className='img-responsive' alt="logo" />
                         </div>
 
@@ -65,7 +65,7 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-widget">
-                                <h5 className="widget-title">Social Media</h5>
+                                <h5 className="widget-title">follow us on Social Media</h5>
                                 <ul className="social-media">
                                     <li>
                                         <a target="_blank" rel="noopener noreferrer" href={"https://www.facebook.com/tenalidoublehorse"} className="facebook">
@@ -90,7 +90,7 @@ class Footer extends Component {
                                 </ul>
 
                                 <div className="footer-offer">
-                                    <p className='text-dark'>Download Our Brochure for More Information!</p>
+                                    <p className='text-dark'>Know More Information!</p>
                                     {/* <Link to="/tdh-brouchure.pdf" className="btn-custom btn-sm shadow-none">Download Brochure</Link> */}
                                     <a
   href={pdffile}

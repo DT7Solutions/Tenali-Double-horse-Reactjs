@@ -8,6 +8,7 @@ import Content from '../sections/blog-grid/Content';
 
 const pagelocation = 'Where we are'
 const bannerimg = "/assets/img/banner/contact-header-banner.jpeg"
+
 class Bloggrid extends Component {
     render() {
         return (
@@ -22,6 +23,7 @@ class Bloggrid extends Component {
                 <Header/>
                 <Breadcrumbs breadcrumb={{ pagename: pagelocation,bannerimg:bannerimg }} />
                 <Content tagId={this.props.match.params.tagId}/>
+             
                 <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/transparent-logo.png" }} />
             </Fragment>
         );

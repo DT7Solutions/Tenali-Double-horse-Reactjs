@@ -3,6 +3,8 @@ import location from '../../../data/restaurant.json';
 import L from 'leaflet';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import MultipleMaps from './Multiplemaps'
+import Feedback from '../home/Feedback';
+import Messenger from '../home/Messenger';
 
 
 const customMarker = L.icon({
@@ -129,6 +131,9 @@ class Content extends Component {
                     </div>
 
                     <MultipleMaps />
+                    <Feedback/>
+                    <Messenger/>
+
                     {/* {location.map((item, i) => (
                         <div key={i} className="location-item">
                             <div className="row">
@@ -178,6 +183,7 @@ class Content extends Component {
                     ))} */}
                 </div>
             </div>
+            
         );
     }
 }

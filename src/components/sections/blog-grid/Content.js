@@ -1,8 +1,9 @@
 import React, { Component , Fragment} from 'react';
 
-
+import Feedback from '../home/Feedback';
 import { ComposableMap, Geographies, Geography ,Marker} from "react-simple-maps";
 import { Link } from 'react-router-dom';
+import Messenger from '../home/Messenger';
 
 const geoUrl ="https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json"
 
@@ -136,6 +137,8 @@ class Content extends Component {
             ))}
       
     </ComposableMap>
+    <Feedback/>
+    <Messenger/>
   </div>
                 
               

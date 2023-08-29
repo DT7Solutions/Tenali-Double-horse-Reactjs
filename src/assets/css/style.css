@@ -6872,7 +6872,7 @@ td.quantity{
   position: absolute;
   padding: 8px 10px 5px ;
   left: -81px;
-  top: 326px;
+  top: 300px;
 
   /*	button rotation*/
   -webkit-transform: rotate(-90deg);
@@ -8221,4 +8221,8 @@ g .rsm-marker{
 }
 
 
+
+.product-hover-sec{
+  background:transparent;
+}
 

@@ -10,7 +10,8 @@ import Overview from './Overview'
 import Greatplacetowork from '../blog-full/Greatplacetowork'
 import Cardhover from './Cardhover';
 import Tdhgroup from './Tdhgroup';
-
+import Feedback from '../home/Feedback';
+import Messenger from '../home/Messenger';
 
 class Content extends Component {
     render() {
@@ -35,7 +36,8 @@ class Content extends Component {
                 {/* <MyComponent/> */}
                 <Overview/>
               
-        
+                <Feedback/>
+                <Messenger/>
                 {/* <Newsletter/> */}
             </Fragment>
         );
