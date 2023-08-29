@@ -7,7 +7,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/menu-v2/Content';
 
 const pagelocation = 'Tdh Products'
-const bannerimg = "/assets/img/banner/products-header-banner.jpeg"
+const bannerimg = "/assets/img/banner/tenali-double-horse-products-page-banner.png"
 class Menutwo extends Component {
     render() {
         return (

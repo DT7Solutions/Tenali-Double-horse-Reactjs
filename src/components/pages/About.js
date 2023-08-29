@@ -8,7 +8,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/about/Content';
 
 const pagelocation = 'About Us'
-const bannerimg = "/assets/img/banner/about-header-banner.png"
+const bannerimg = "/assets/img/banner/tenali-double-horse-about-page-banner.png"
 class About extends Component {
     render() {
         return (

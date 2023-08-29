@@ -29,7 +29,7 @@ class Banner extends Component {
                 </Slider>
                 <div className='header-marque' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <marquee width="97%" direction="left">
-                    Recently Our Products lanuches in UAE For Exports Enquiry Call us on 1800 270 567 567  & Mail us :- exports@tenalidoublehorse.com
+                We have recently introduced our products in the UAE. For inquiries regarding exports, please reach out to us at 1800 270 567 567 or email us at exports@tenalidoublehorse.com.
                 </marquee>
                 </div>
 

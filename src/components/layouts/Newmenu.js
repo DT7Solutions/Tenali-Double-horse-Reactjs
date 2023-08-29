@@ -32,18 +32,18 @@ class Newmenu extends Component {
                 <li className="menu-item menu-item-has-children mega-menu-wrapper" >
                     <Link>Products</Link>
                     <ul className="submenu" >
-                        <li className='d-flex '>
-                            <div className="container" >
+                        <li className='d-flex' >
+                            <div className="container-small"  >
                                 <div className="row">
-                                    <div className="col-lg-12 product-hover-sec" > 
+                                    <div className="col-lg-12 product-hover-sec"  > 
                                     <h5 className='text-center'>Explore Our Products Range </h5>
-                                        <div className="mega-menu-item d-flex justify-content-center align-items-center" >
-                                            <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
+                                        <div className="mega-menu-item d-flex justify-content-center align-items-center"  >
+                                            <div className='col-lg-6 d-flex flex-column justify-content-center align-items-center'>
                                            
                                             <a href={"/tenali-double-horse-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tenali-double-horse-icon.png"}   alt="pizza" /></a>
                                             <Link to="/tenali-double-horse-products"><a  className="btn-custom  shadow-none btn-sm">View More</a></Link>
                                             </div>
-                                            <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
+                                            <div className='col-lg-6 d-flex flex-column justify-content-center align-items-center'>
                                             <a href={"/tenali-double-hosre-food-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdh-icon.png"}  alt="pizza" /></a>
                                             <Link to="/tenali-double-hosre-food-products"><button className="btn-custom  shadow-none btn-sm">View More</button></Link>
                                             </div>

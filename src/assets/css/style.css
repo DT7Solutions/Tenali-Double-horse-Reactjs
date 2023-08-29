@@ -1135,7 +1135,7 @@ table img{
 .navbar .menu-item .submenu {
   position: absolute;
   top: 110%;
-  left: 0;
+  left: 25%;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.3s;
@@ -1242,7 +1242,8 @@ table img{
   position: static;
 }
 .navbar .menu-item.mega-menu-wrapper .submenu{
-  width: 100%;
+  /* width: 100%; */
+  /* edited for nav-item */
 }
 .navbar .menu-item.mega-menu-wrapper .submenu li{
   margin: 0;
@@ -6678,6 +6679,7 @@ td.quantity{
 .testimonial .testimonial-content{
   padding: 35px 25px 35px 50px;
   margin-bottom: 35px;
+  min-height: 210px!important;
   background:  rgb(227, 227, 227);
   border: 1px solid #f0f0f0;
   position: relative;
@@ -6715,7 +6717,8 @@ td.quantity{
 }
 .testimonial .description{
   font-size: 15px;
-  font-style: italic;
+  /* font-style: italic; */
+  font-family:  Helvetica;
   color: #8a8a8a;
   line-height: 23px;
   margin: 0;
@@ -8220,5 +8223,9 @@ g .rsm-marker{
   
 }
 
+.container-small{
+  width:700px!important;
+
+}
 
 
