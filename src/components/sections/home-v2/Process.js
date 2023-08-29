@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const processpost = [
@@ -21,6 +23,11 @@ const processpost = [
 ];
 
 class Process extends Component {
+    componentDidMount() {
+        AOS.init({
+            duration: 1500, 
+        });
+    }
     render() {
         return (
             <div className="container-fluid mb-5">
@@ -34,7 +41,7 @@ class Process extends Component {
 
                 <div className="row1-container four-philers">
                    
-                            <div className="box box-down cyan">
+                            <div className="box box-down cyan"  data-aos="slide-up" data-aos-anchor-placement="top-center"  data-aos-easing="ease-in-sine" data-aos-delay="400">
                                 <h2>Superior Quality</h2>
                                 <p>delivering excellence in every bite,High-quality standards in terms of freshness, purity, and taste.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Quality.png"} alt="topicon" />
@@ -42,14 +49,14 @@ class Process extends Component {
                         
 
                       
-                            <div className="box red">
+                            <div className="box red" data-aos="slide-up" data-aos-easing="ease-in-sine" data-aos-delay="400">
                                 <h2>Trusted Brand</h2>
                                 <p>Building trust with our customers by consistently delivering exceptional quality and reliability.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Trusted.png"} alt="topicon" />
                             </div>
                         
                        
-                            <div className="box box-down blue">
+                            <div className="box box-down blue" data-aos="slide-up"  data-aos-easing="ease-in-sine" data-aos-delay="400">
                                 <h2>High Nutritional Value</h2>
                                 <p>Abundant nutrients, vitamins, minerals for optimal health through our products.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="topicon" />
@@ -58,7 +65,7 @@ class Process extends Component {
                 </div>
 
                 <div className="row2-container">
-                    <div className="box orange">
+                    <div className="box orange" data-aos="slide-up" data-aos-easing="ease-in-sine"  data-aos-delay="400">
                         <h2>Affordable</h2>
                         <p>Regularly evaluates our talent to ensure quality</p>
                         <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Affordable.png"} alt="topicon" />

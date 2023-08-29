@@ -60,22 +60,7 @@ class Header extends HeaderComponent {
         });
         return (
             <Fragment>
-                {/* Cart Sidebar Start */}
-                {/* <div className="cart-sidebar-wrapper">
-                    <aside className={classNames("cart-sidebar", { "cart-open": this.state.cartmethod })}>
-                        <div className="cart-sidebar-header">
-                            <h3>Your Cart</h3>
-                            <div className="close-btn cart-trigger close-dark" onClick={this.cartToggle}>
-                                <span />
-                                <span />
-                            </div>
-                        </div>
-                        <Cartlist />
-                    </aside>
-                    <div className="cart-sidebar-overlay cart-trigger" onClick={this.cartToggle} />
-                </div> */}
-                {/* Cart Sidebar End */}
-                {/* Search Form Start*/}
+               
                 <div className={classNames("search-form-wrapper", { "open": this.state.searchmethod })}>
                     <div className="search-trigger close-btn" onClick={this.searchToggle}>
                         <span />
@@ -83,7 +68,7 @@ class Header extends HeaderComponent {
                     </div>
                     <Search />
                 </div>
-                {/* Search Form End*/}
+             
                 {/* Aside (Mobile Navigation) */}
                 <aside className={classNames("main-aside", { "open": this.state.navmethod })}>
                     <Mobilemenu />
@@ -112,15 +97,7 @@ class Header extends HeaderComponent {
                                                 <span className="float-element"><i class="fab fa-youtube"></i></span>
                                 </div>
                                 </div>
-                                   {/* <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>
-                                        <span className="cart-item-count">{cartitem.length}</span>
-                                        <i className="flaticon-shopping-bag" />
-                                    </li> */}
                                   
-                                    {/* <li className="search-dropdown-wrapper search-trigger" onClick={this.searchToggle}>
-                                        <i className="flaticon-search" />
-                                    </li> */}
-
                                 </ul>
                                 {/* Toggler */}
                                 <div className="aside-toggler aside-trigger" onClick={this.toggleNav}>

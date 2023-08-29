@@ -84,15 +84,7 @@ class Headerinner extends HeaderComponent {
                                                     </span>
                                 </div>
                                 </div>
-                                   {/* <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>
-                                        <span className="cart-item-count">{cartitem.length}</span>
-                                        <i className="flaticon-shopping-bag" />
-                                    </li> */}
-                                  
-                                    {/* <li className="search-dropdown-wrapper search-trigger" onClick={this.searchToggle}>
-                                        <i className="flaticon-search" />
-                                    </li> */}
-
+                                 
                                 </ul>
                                 {/* Toggler */}
                                 <div className="aside-toggler aside-trigger" onClick={this.toggleNav}>

@@ -46,10 +46,10 @@ class Reviews extends React.Component {
                         <i className="fa fa-quote-left"></i>
                       </div>
                       <p className="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                      It my personal experience. I came from vizag there we used tenali double horse minapagullu. After i came to tenali regularly i am sending DTH products to my family members n friends at vizag. It is good products
                       </p>
                     </div>
-                    <h3 className="title">williamson</h3>
+                    <h3 className="title">Aditya Ratnam</h3>
                     {/* <span className="post">Web Developer</span> */}
                   </div>
   
@@ -59,10 +59,10 @@ class Reviews extends React.Component {
                         <i className="fa fa-quote-left"></i>
                       </div>
                       <p className="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                      Good range of dalls and instant foods ...Most trusted brand in India
                       </p>
                     </div>
-                    <h3 className="title">williamson</h3>
+                    <h3 className="title">bhaskar donepudi</h3>
                     {/* <span className="post">Web Developer</span> */}
                   </div>
                   <div className="testimonial">
@@ -71,10 +71,10 @@ class Reviews extends React.Component {
                         <i className="fa fa-quote-left"></i>
                       </div>
                       <p className="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                      Enjoy our Sundays with tdh recipes with family not only breakfast but sweets too... meeting together with delicious food is a long lasting memory. Tq tdh
                       </p>
                     </div>
-                    <h3 className="title">williamson</h3>
+                    <h3 className="title">Radhika Mamidi</h3>
                     {/* <span className="post">Web Developer</span> */}
                   </div>
                   <div className="testimonial">
@@ -83,10 +83,11 @@ class Reviews extends React.Component {
                         <i className="fa fa-quote-left"></i>
                       </div>
                       <p className="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                      Good Morning sir.
+I want some branding and advertising in different area.then consumer offer with promoters appointment in top outlets.
                       </p>
                     </div>
-                    <h3 className="title">williamson</h3>
+                    <h3 className="title">Subrat Nayak</h3>
                     {/* <span className="post">Web Developer</span> */}
                   </div>
   
