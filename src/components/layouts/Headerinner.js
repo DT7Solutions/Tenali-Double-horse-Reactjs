@@ -7,6 +7,9 @@ import Mobilemenu from '../layouts/Mobilemenu';
 import Newmenu from './Newmenu';
 import classNames from 'classnames';
 import cartitem from '../../data/cartlist.json';
+import { StickyContainer, Sticky } from 'react-sticky';
+
+
 
 class Headerinner extends HeaderComponent {
     render() {
@@ -42,6 +45,7 @@ class Headerinner extends HeaderComponent {
                 </aside>
                 <div className="aside-overlay aside-trigger" onClick={this.toggleNav} />
                 {/* Header Start */}
+                
                 <header className="main-header header-1 header-absolute header-light">
                    
                     <div className="container">
@@ -96,7 +100,7 @@ class Headerinner extends HeaderComponent {
                         </nav>
                     </div>
                 </header>
-                {/* Header End */}
+               
 
             </Fragment>
         );

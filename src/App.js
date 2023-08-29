@@ -34,6 +34,8 @@ const PrivacyPolicy = React.lazy(() => import("./components/pages/Privacy-policy
 const shippingpolicy = React.lazy(() => import("./components/pages/ShippingPolicy"));
 const refundpolicy = React.lazy(() => import("./components/pages/RefundPolicy"));
 const paymentploicy = React.lazy(() => import("./components/pages/paymentservices"));
+const Contactus = React.lazy(() => import("./components/pages/Contactus"));
+
 
 const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
   useLayoutEffect(() => {
@@ -77,6 +79,8 @@ function App() {
           <Route path="/shipping-policy" component={shippingpolicy} />
           <Route path="/refund-policy" component={refundpolicy} />
           <Route path="/payment-ploicy" component={paymentploicy} />
+          <Route path="/Contactus" component={Contactus} />
+          
         </ScrollToTop>
       </Suspense>
     </Router>
