@@ -3,11 +3,17 @@ import React, { Component } from 'react';
 class Factorylocation extends Component {
     render() {
         return (
-            <div className="section  pb-5  mb-5  ">
+            <div className="section" style={{ backgroundColor: '#f2f2f2' }}>
                 <div className="container">
-                <h5 className="custom-primary text-center mb-5">Our Locations</h5>
+                    <div className="section-title-wrap text-center">
+                        <h5 className="custom-primary">Explore Our Factory Locations</h5>
+                        <h2 className="title">Where Innovation Takes Shape</h2>
+                        <p className="subtitle">
+                            For inquiries about our factory locations and more
+                        </p>
+                    </div>
                     <div className="row ">
-                  
+
                         <div className="col-lg-3">
                             <div className="card-locations mb-4">
 

@@ -33,10 +33,10 @@ class Menuitems extends Component {
         return (
             <div className='mt-lg-5 pt-lg-5'>
             <div className="section-title-wrap section-header text-center ">
-            <h5 className="custom-primary">Explore Taste Horizons in the UAE</h5>
-            <h2 className="title">Now we are in UAE</h2>
+            <h5 className="custom-primary">Leading the Way</h5>
+            <h2 className="title">Introducing Our UAE Product Launches</h2>
             <p className="subtitle">
-            Embark on a culinary adventure with Tenali Double Horse as we bring our exquisite range of Urad Gota and Urad Dall to the UAE.
+            We're thrilled to introduce our latest product lineup in the UAE, where innovation and excellence converge. Each product is designed to enhance your lifestyle, bringing convenience, style, and functionality to your fingertips.
                 </p>
         </div>
             

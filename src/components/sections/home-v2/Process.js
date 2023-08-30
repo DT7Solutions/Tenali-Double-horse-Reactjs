@@ -32,10 +32,10 @@ class Process extends Component {
         return (
             <div className="container-fluid mb-5">
                 <div className="section-title-wrap section-header text-center ">
-                    <h5 className="custom-primary">We Committed for </h5>
-                    <h2 className="title">Tenali Double horse</h2>
+                    <h5 className="custom-primary">Where Quality Meets Commitment </h5>
+                    <h2 className="title">Nourishing Lives with Trusted Nutrition</h2>
                     <p className="subtitle">
-                        Tenali Double Horse industry-leading all-in-one platform makes it simple to set a healthy breakfast regime. To provide the best quality Urad Gota and Urad Dall near you.
+                    Experience the goodness of high nutritional value and affordability with Tenali Double Horse. Elevate your breakfast routine with our superior products.
                     </p>
                 </div>
 

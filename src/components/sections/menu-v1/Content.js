@@ -125,14 +125,14 @@ class Content extends Component {
                 <div className="ct-menu-categories menu-filter">
                     <div className="container">
                         <Slider className="menu-category-slider" {...settings}>
-                            <Link to="#" data-filter="*" className={this.state.activeItem === -1 ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, -1)}>
+                            {/* <Link to="#" data-filter="*" className={this.state.activeItem === -1 ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, -1)}>
                                 <div className="menu-category-thumb">
                                     <img src={process.env.PUBLIC_URL + "/assets/img/categories/countries.png"} alt="All" />
                                 </div>
                                 <div className="menu-category-desc">
                                     <h6>All Products</h6>
                                 </div>
-                            </Link>
+                            </Link> */}
                        
                             {productcategory.map((item, i) => (
                                 <Link key={item.id} to="#" className={this.state.activeItem === parseInt(item.id) ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, item.id)}>

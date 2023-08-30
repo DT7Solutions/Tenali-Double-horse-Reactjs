@@ -15,9 +15,9 @@ class Content extends Component {
     render() {
         return (
             
-            <div className="section">
+            <div className="section" style={{paddingBottom:'0px'}}>
 
-                <div className="container locations-wrapper">
+                <div className="fluid-container locations-wrapper">
                     <div className="container">
                         <div className="section-title-wrap text-center mb-5">
                             <h5 className="custom-primary">Let's Chat</h5>
@@ -42,9 +42,10 @@ class Content extends Component {
                                             </div>
                                         </div> 
                                     </div>
-                                   
+                                    </div>
+                                    {/* <div className='container'> */}
                                        
-                                    <div className="col-lg-12  mb-lg-5 shadow ">
+                                    <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{borderRadius:'20px'}}>
                                     <h5 className="custom-primary">Corporate Address</h5>
                                     <p>+919666389389</p>
                                     <p>JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
@@ -53,7 +54,7 @@ class Content extends Component {
                                     
                                         </div>
                                             
-                                    <div className="col-lg-12  mb-lg-5 shadow ">
+                                    <div className="col-lg-12 pt-3 pb-3 mb-5 shadow bg-rounded " style={{borderRadius:'20px'}}>
                                     <h5 className="custom-primary">Factory  Address</h5>
                                     <p>+919666389389</p>
                                     <p>Nandivelugu, Nandivelugu (Post)  </p>
@@ -62,9 +63,9 @@ class Content extends Component {
                                     
                                         </div>
                                       
-                                      
+                                        {/* </div> */}
                                        
-                                </div>
+                               
                             </div>
                             <div className="col-lg-5  p-2">
 
