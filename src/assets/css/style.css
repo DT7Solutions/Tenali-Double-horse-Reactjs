@@ -8233,3 +8233,21 @@ g .rsm-marker{
   background:transparent;
 }
 
+@media (min-width: 320px) and (max-width: 480px){
+.ourstory-section{
+  padding: 10px;
+  margin-top: -150px;
+}
+.footer-top img{
+  margin-top: 1px;
+}
+}
+
+.email-toll-card12{
+    color: #fff;
+    background: #ed4e53;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: box-shadow .3s,-webkit-transform .3s cubic-bezier(.155,1.105,.295,1.12);
+    transition: transform .3s cubic-bezier(.155,1.105,.295,1.12),box-shadow .3s;
+    transition: transform .3s cubic-bezier(.155,1.105,.295,1.12),box-shadow .3s,-webkit-transform .3s cubic-bezier(.155,1.105,.295,1.12);
+}

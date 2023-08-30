@@ -35,7 +35,7 @@ class Container extends Component {
         {/* <h2 className='title text-center pt-lg-5  mt-lg-5'></h2> */}
         <div className="section-title-wrap section-header  mt-lg-5 text-center ">
                     <h5 className="custom-primary">Making a Difference  </h5>
-                    <h2 className="title">Our CSR Initiatives</h2>
+                    <h2 className="title">Notable activities</h2>
                     <p className="subtitle">
                     We're dedicated to creating positive change in society. Through our CSR programs, we're fostering education, environmental sustainability, community health, and more. Our commitment to making a difference is unwavering.
                     </p>

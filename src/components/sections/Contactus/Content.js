@@ -32,7 +32,7 @@ class Content extends Component {
                                 <div className="row row-cols-1 row-cols-md-2">
                                     <div className="col-lg-12 col-md-7 col-sm-12  mb-lg-30  ">
                                         <div className="row  top-row">
-                                            <div className="col-lg-6 col-sm-12 mb-3 d-flex email-toll-card1">
+                                            <div className="col-lg-6 col-sm-12 mb-3 d-flex email-toll-card12">
                                                 <div><i className='fas fa-envelope mt-3 phone-email' style={{ fontSize: '30px', color: 'white' }} /></div> &nbsp;
                                                 <div className='mt-1'>email<h5 className="card-title"> <a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
                                             </div>
@@ -51,7 +51,9 @@ class Content extends Component {
                                     <p>JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
                                      <p> Gayatri Hills,Jubilee Hills,Hyderabad, Telangana 500033</p>   
                                      
-                                    
+                                    <button type="button" className="btn-custom btn-sm order-btn">
+                                        <a href="https://goo.gl/maps/XiEweexpzdsBQoC96" target='_blank'>Get directions</a>
+                                    </button>
                                         </div>
                                             
                                     <div className="col-lg-12 pt-3 pb-3 mb-5 shadow bg-rounded " style={{borderRadius:'20px'}}>
@@ -60,7 +62,9 @@ class Content extends Component {
                                     <p>Nandivelugu, Nandivelugu (Post)  </p>
                                      <p> – 522 306 TENALI,   Guntur Dist, A.P</p>   
                                    
-                                    
+                                     <button type="button" className="btn-custom btn-sm order-btn">
+                                        <a href="https://goo.gl/maps/kFJS3WnhyJWUNGbu5" target='_blank'>Get directions</a>
+                                    </button>
                                         </div>
                                       
                                         {/* </div> */}

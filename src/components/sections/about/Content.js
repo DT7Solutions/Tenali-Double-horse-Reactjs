@@ -12,6 +12,7 @@ import Cardhover from './Cardhover';
 import Tdhgroup from './Tdhgroup';
 import Feedback from '../home/Feedback';
 import Messenger from '../home/Messenger';
+import Ourstory  from '../home/Ourstory';
 
 class Content extends Component {
     render() {
@@ -35,6 +36,7 @@ class Content extends Component {
               
                 {/* <MyComponent/> */}
                 <Overview/>
+                {/* <Ourstory/> */}
               
                 <Feedback/>
                 <Messenger/>
