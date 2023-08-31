@@ -258,6 +258,7 @@ class Content extends Component {
                         </div>
                         {/* Additional Information End */}
                     </div>
+                    
                 </div>
                 <Relatedproduct />
                 <Feedback/>

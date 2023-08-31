@@ -98,7 +98,7 @@ class Tenalifoodproducts extends Component {
                     </Link>
                     <div className="product-body">
                         <div className="product-desc">
-                            <h4> <Link to={"/menu-v2/" + item.id}>{item.name}</Link></h4>
+                            <h4> <Link to={"/menu-item-v2/" + item.id}>{item.name}</Link></h4>
                             <div className="ct-rating-wrapper">
                                 <div className="ct-rating">
                                     {Rating(item.rating)}

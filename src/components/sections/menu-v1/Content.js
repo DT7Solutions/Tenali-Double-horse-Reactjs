@@ -101,7 +101,7 @@ class Content extends Component {
                     </Link>
                     <div className="product-body">
                         <div className="product-desc">
-                            <h4> <Link to={"/tenali-double-horse-products/" + item.id}>{item.name}</Link></h4>
+                            <h4> <Link to={"/menu-item-v1/" + item.id}>{item.name}</Link></h4>
                             <div className="ct-rating-wrapper">
                                 <div className="ct-rating">
                                     {Rating(item.rating)}
