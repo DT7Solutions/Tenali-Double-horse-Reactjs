@@ -4,12 +4,27 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 class TimelineSection extends Component {
+
+    
     componentDidMount() {
         AOS.init({
             duration: 1500, 
         });
     }
+
+    
     render() {
+        const backgroundStyles = {
+            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/video-background-image.png)`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize:'cover',
+            width:'100%',
+            
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center',
+            
+          };
         return (
             <section id="timeline" style={{backgroundColor:'#fff',borderTop:'none'}}>
                 <h5 className="custom-primary text-center">Unraveling Our Story</h5>
@@ -83,19 +98,20 @@ class TimelineSection extends Component {
                 </div>
                     
             
-                <div className="container">
-                <div className=''>
-                          <h2 className="text-center title pt-5 pb-5  ">Our Story</h2>
-                      </div>
-                    <div className="row ourstory-section text-center" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-double-horse-about-page-video-bg.png)" }}>
-                      
-                      <video width="100%" height="400px" controls>
+                <div className="fluid-container" >
+                        <h2 className="text-center title pt-5 pb-5 ">Our Story</h2>
+                   
+                    
+                    <div className="row ourstory-section text-center" style={backgroundStyles} >
+                      <div className='col-lg-10 col-12'>
+                      <video width="100%" height="100%" controls >
                           <source src={process.env.PUBLIC_URL + "/assets/video/tdh-our-story.mp4"} type="video/mp4" />
                       </video>
+                      </div>
                     </div>
                 </div>
 
-
+               
                     
             </section>
         );

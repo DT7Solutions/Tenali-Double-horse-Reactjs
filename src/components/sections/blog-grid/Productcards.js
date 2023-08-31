@@ -56,7 +56,7 @@ import 'animate.css';
             <div class="card yellow alignments"  style={{minHeight:'400px'}} >
             <img src={process.env.PUBLIC_URL + "/assets/img/home/moong-dall.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
-                <h5 class="text-center">Moong Dal</h5>
+                <h5 class="text-center">Moong Dall</h5>
                
                 <a href={""} className="btn-custom btn-sm " >Read more</a>
                

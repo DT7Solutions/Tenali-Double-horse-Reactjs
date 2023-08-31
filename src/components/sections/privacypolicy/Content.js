@@ -1,9 +1,14 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-const privacypolicy = () => {
-  
-  return (
+import Messenger  from '../home/Messenger';
+
+import { Fragment } from 'react';
+class privacypolicy extends Component {
+  render() {
+
+return (
+    <Fragment>
     <div className="section">
         <h1 className='text-center legeal-title'> Privacy Policy </h1>
         <div className='container'>
@@ -74,7 +79,10 @@ const privacypolicy = () => {
             </div>
         </div>
     </div>
-  );
-};
+ <Messenger/>
+  </Fragment>
+);
+}
+}
 
 export default privacypolicy;

@@ -1,9 +1,14 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-const paymentservices = () => {
-  
-  return (
+import Messenger  from '../home/Messenger';
+
+import { Fragment } from 'react';
+class paymentservices extends Component {
+  render() {
+
+return (
+    <Fragment>
     <div className="section">
         <h1 className='text-center legeal-title'> Payment Services</h1>
         <div className='container'>
@@ -37,7 +42,10 @@ standing. By providing the Payment Details, You represent, warrant, and covenant
            
         </div>
     </div>
-  );
-};
+    <Messenger/>
+  </Fragment>
+);
+}
+}
 
 export default paymentservices;
