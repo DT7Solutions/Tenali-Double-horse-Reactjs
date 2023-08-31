@@ -1,9 +1,13 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-const Terms = () => {
+import Messenger from '../home/Messenger';
+import { Fragment } from 'react';
+class Terms extends Component {
+    render() {
   
   return (
+    <Fragment>
     <div className="section">
         <h1 className='text-center legeal-title'> Terms And Conditions </h1>
         <div className='container'>
@@ -119,7 +123,9 @@ const Terms = () => {
             </div>
         </div>
     </div>
+    <Messenger/>
+    </Fragment>
   );
-};
-
+}
+}
 export default Terms;

@@ -1,9 +1,13 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-const Shippingpolicy = () => {
-  
-  return (
+import Messenger from '../home/Messenger';
+import { Fragment } from 'react';
+class Shippingpolicy extends Component {
+  render() {
+
+return (
+  <Fragment>
     <div className="section">
         <h1 className='text-center legeal-title'> Shipping Policy</h1>
         <div className='container'>
@@ -26,7 +30,10 @@ returned by the rider and refund will not be given to You.</li>
             </div>
         </div>
     </div>
+    <Messenger/>
+    </Fragment>
   );
-};
+}
+}
 
 export default Shippingpolicy;

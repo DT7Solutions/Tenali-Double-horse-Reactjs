@@ -1,10 +1,14 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Messenger  from '../home/Messenger';
 
-const refunploicy = () => {
-  
-  return (
+import { Fragment } from 'react';
+class refunploicy extends Component {
+  render() {
+
+return (
+    <Fragment>
     <div className="section">
         <h1 className='text-center legeal-title'>Refund Policy</h1>
         <div className='container'>
@@ -21,7 +25,10 @@ const refunploicy = () => {
             </div>
         </div>
     </div>
-  );
-};
+  <Messenger/>
+  </Fragment>
+);
+}
+}
 
 export default refunploicy;
