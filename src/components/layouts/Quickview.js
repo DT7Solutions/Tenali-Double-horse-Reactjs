@@ -64,7 +64,7 @@ class Quickview extends Component {
                           <div className=''>
                           <h4 className="customize-title">{item.name}  </h4>
                           <p>{item.shortdesc}</p>
-                          <h5><span className="custom-primary">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</span></h5>
+                          <h5><span className="custom-primary">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</span></h5>
                           <button type="button" className="btn-custom btn-sm ">Order Now</button>   
                           {/* <button type="button" className="btn-custom btn-sm ">Order Now</button> */}
                           </div>
@@ -93,7 +93,7 @@ class Quickview extends Component {
                                                         <input type={item.type} id={add.title + i} name={item.name} className="custom-control-input" />
                                                         <label className="custom-control-label" htmlFor={add.title + i}>{add.title}</label>
                                                     </div>
-                                                    <span>+{new Intl.NumberFormat().format((add.addprice).toFixed(2))}$</span>
+                                                    <span>+{new Intl.NumberFormat().format((add.addprice).toFixed(2))}</span>
                                                 </div>
                                             ))}
                                         </div>

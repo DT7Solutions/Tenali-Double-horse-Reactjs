@@ -111,7 +111,9 @@ class Content extends Component {
                             {/* <Link to="#" className="btn-custom light btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}>More info<i className="fas fa-plus" /> </Link> */}
                         </div>
                         <div className="product-controls">
-                            <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
+                            <p className="product-price">₹
+                            {new Intl.NumberFormat().format((item.price).toFixed(2))}
+                            </p>
                             {/* <a href={ item.urls} className="order-item btn-custom btn-sm shadow-none">Order <i className="fas fa-shopping-cart" /> </a> */}
                             <a  className="order-item btn-custom btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)} >More info<i className="fas fa-plus" /> </a>
                         </div>

@@ -65,7 +65,7 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-widget">
-                                <h5 className="widget-title">follow us on Social Media</h5>
+                                <h5 className="widget-title">Follow us on Social Media</h5>
                                 <ul className="social-media">
                                     <li>
                                         <a target="_blank" rel="noopener noreferrer" href={"https://www.facebook.com/tenalidoublehorse"} className="facebook">
