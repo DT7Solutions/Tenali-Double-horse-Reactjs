@@ -4,6 +4,8 @@ import { geoCentroid } from "d3-geo";
 import { ComposableMap, Geographies, Geography, Marker, Annotation } from "react-simple-maps";
 import Eastcoast from "./Eastcoast";
 import WestCoast from "./Westcoast";
+import Messenger from "../home/Messenger";
+import { Fragment } from "react";
 
 
 
@@ -34,6 +36,7 @@ class MapChart extends Component {
     const { selectedOption } = this.state;
 
     return (
+      <Fragment>
       <div className="section">
         <div className="container">
           {/* <ComposableMap  
@@ -112,6 +115,8 @@ class MapChart extends Component {
         
         </div>
       </div>
+      <Messenger/>
+      </Fragment>
     );
   }
 }

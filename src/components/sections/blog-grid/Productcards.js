@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component , } from 'react';
 import WOW from 'wow.js';
 import 'animate.css';
 
@@ -36,7 +36,7 @@ import 'animate.css';
               <div class="card-body">
                 <h5 class="text-center">Urad gota</h5>
               
-                <a  className="btn-custom btn-sm">Read more</a>
+               <a  className="btn-custom btn-sm">Read more</a>
               
               </div>
               </div>
@@ -47,7 +47,7 @@ import 'animate.css';
               <div class="card-body">
                 <h5 class="text-center">Toor Dall</h5>
                
-                <a href={""} className="btn-custom btn-sm">Read more</a>
+                <a href={""} className="btn-custom btn-sm " >Read more</a>
                
               </div>
               </div>
