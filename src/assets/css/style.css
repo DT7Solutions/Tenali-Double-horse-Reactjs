@@ -7283,11 +7283,15 @@ td.quantity{
   color:#fff;
   font-size: 17px;
   font-weight: 800;
+
  
   /* background-color: #ed4e53; */
   background-color:#ed4e53;
   padding: 15px;
   /* margin-top: -40px; */
+}
+#marquee:hover {
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .menu-item.blog {

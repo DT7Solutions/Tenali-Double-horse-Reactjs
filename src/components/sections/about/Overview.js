@@ -87,9 +87,9 @@ class TimelineSection extends Component {
                 <div className=''>
                           <h2 className="text-center title pt-5 pb-5  ">Our Story</h2>
                       </div>
-                    <div className="row ourstory-section text-center">
+                    <div className="row ourstory-section text-center" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-double-horse-about-page-video-bg.png)" }}>
                       
-                      <video width="100%" height="100%" controls>
+                      <video width="100%" height="400px" controls>
                           <source src={process.env.PUBLIC_URL + "/assets/video/tdh-our-story.mp4"} type="video/mp4" />
                       </video>
                     </div>

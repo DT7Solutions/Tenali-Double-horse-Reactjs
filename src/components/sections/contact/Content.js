@@ -60,10 +60,10 @@ class MapChart extends Component {
           </ComposableMap>
         */}
           <div className="section-title-wrap section-header text-center">
-            <h5 className="custom-primary">Find Nearby Stores</h5>
-            <h2 className="title ">Discover Stores Near You</h2>
+            <h5 className="custom-primary">Discover Our USA Stores</h5>
+            <h2 className="title ">Locate Tenali Double Horse Near You</h2>
             <p className="subtitle ">
-            Quickly locate stores in your vicinity. Simply select your preferred option, and we'll show you the nearest stores that match your choice, bringing convenience right to your doorstep.
+            Find convenient addresses of our stores across the USA. Experience the essence of quality and taste as you explore our products in a store near you.
             </p>
           </div>
 

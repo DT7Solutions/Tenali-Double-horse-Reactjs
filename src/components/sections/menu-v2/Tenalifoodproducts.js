@@ -48,29 +48,29 @@ class Tenalifoodproducts extends Component {
     };
     render() {
         const settings = {
-            slidesToShow: 8,
+            slidesToShow: 2,
             slidesToScroll: 3,
             arrows: false,
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             responsive: [
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 6
+                        slidesToShow: 2
                     }
                 },
                 {
                     breakpoint: 991,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 2,
                     }
                 },
                 {
                     breakpoint: 575,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                     }
                 },
                 {

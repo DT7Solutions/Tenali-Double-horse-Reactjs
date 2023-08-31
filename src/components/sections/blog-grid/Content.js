@@ -75,8 +75,11 @@ class Content extends Component {
         return (
             <Fragment>
               <div className="container mb-5 pt-5 pb-3">
-                 <h5 className="custom-primary text-center">Where to Find Us</h5>
-                                <h2 className="title text-center">Explore Our Operating Locations</h2>
+              <div className="section-title-wrap section-header text-center">
+                 <h5 className="custom-primary text-center">Global Presence</h5>
+                                <h2 className="title text-center">Discover Where We Deliver</h2>
+                                <p>Explore our product availability across the globe. Use the interactive world map to select countries and regions, and find out where you can enjoy the taste of Tenali Double Horse.</p>
+                                </div>
     <ComposableMap>
       <Geographies geography={geoUrl}>
         {({ geographies }) =>

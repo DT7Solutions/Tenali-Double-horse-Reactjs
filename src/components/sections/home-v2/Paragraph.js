@@ -67,7 +67,7 @@ class Paragraph extends Component {
             <div className="col-lg-6">
               <div className="section-title-wrap mr-lg-30 text-center">
                 <h5 className="custom-primary">Explore Our Story</h5>
-                <h2 className="title">Download Our Company Brochure</h2>
+                <h2 className="title">Download Our  Brochure</h2>
                 <p className="subtitle " style={{ textAlign: 'justify' }}>
                 Delve into the essence of Tenali Double Horse with our comprehensive company brochure. Uncover our heritage, products, and commitment to quality in this informative guide.
                 </p>

@@ -21,10 +21,10 @@ class Content extends Component {
                 <div className="container locations-wrapper">
                     <div className="container">
                         <div className="section-title-wrap text-center mb-5">
-                            <h5 className="custom-primary">Let's Chat</h5>
-                            <h2 className="title">Contact Us for Any Questions or Business Inquiries</h2>
+                            <h5 className="custom-primary">Connect with Us</h5>
+                            <h2 className="title">Reach Out to Tenali Double Horse</h2>
                             <p className="subtitle">
-                                Connect with us for questions, business inquiries & support. Let's chat!
+                            Find our corporate and factory addresses along with contact information. We're here to assist you. Feel free to get in touch for inquiries, feedback, or any assistance you need.
                             </p>
                         </div>
                         <div className="row  p-2">
