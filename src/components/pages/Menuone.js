@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import MetaTags from "react-meta-tags";
 // import Header from '../layouts/Headertwo';
+import Header from '../layouts/Header';
 // import Header from '../layouts/Headerinner';
-import Header from '../layouts/Headerinner';
 
 
 import Breadcrumbs from '../layouts/ProductsBreadcrumbs';
