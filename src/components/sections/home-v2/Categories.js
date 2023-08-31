@@ -59,7 +59,7 @@ class Menuitems extends Component {
                                         
                                         <h3>{item.name}</h3>
                                     <p>{item.shortdesc}</p>
-                                    <a href={item.urls}className="btn-custom">Order Now</a>
+                                    <a href={item.urls}  target='_blank'  className="btn-custom">Order Now</a>
                                 </div>
                                 
                                 <img src={process.env.PUBLIC_URL + "/" + item.img}   alt={item.name} />
