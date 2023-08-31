@@ -4,6 +4,15 @@ import Slider from 'react-slick';
 import { hometwo as bannerpost} from '../../../data/banner.json'
 
 class Banner extends Component {
+    handleMarqueeHover = () => {
+        const marquee = document.getElementById('marquee');
+        marquee.stop();
+    };
+
+    handleMarqueeLeave = () => {
+        const marquee = document.getElementById('marquee');
+        marquee.start();
+    };
     render() {
         const settings = {
             slidesToShow: 1,
@@ -19,6 +28,7 @@ class Banner extends Component {
                 }
             }]
         }
+     
         return (
             <div className="banner banner-2">
                 <Slider className="banner-slider-2" {...settings}>
@@ -27,8 +37,9 @@ class Banner extends Component {
                         <img src={process.env.PUBLIC_URL + "/" + item.bg} alt={item.title} />
                     ))}
                 </Slider>
-                <div id="marquee" className='header-marque' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                <marquee width="97%" direction="left">
+                <div className='header-marque' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                <marquee id="marquee" width="97%" direction="left" onMouseEnter={this.handleMarqueeHover}
+                        onMouseLeave={this.handleMarqueeLeave}>
                 We have recently introduced our products in the UAE. For inquiries regarding exports, please reach out to us at 1800 270 567 567 or email us at exports@tenalidoublehorse.com.
                 </marquee>
                 </div>
