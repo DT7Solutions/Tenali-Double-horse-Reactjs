@@ -45,7 +45,7 @@ class Aboutcompany extends Component {
                             <ol  className="breadcrumb breadcrumb-two ">
                                 <li className="breadcrumb-item "><h5 className="custom-primary" style={{marginBottom:'10px'}}>About</h5></li>
                                 <li className="breadcrumb-item "><h2 className="title" style={{marginBottom:'10px'}}>Tenali Double Horse</h2></li>
-                                <li className="breadcrumb-item active text-dark" aria-current="page">Since launching in 2005,  Tenali Double Horse has empowered many lives in India and gained millions of people. By putting all the pieces of a successful business in one convenient platform, Tenali Double Horse’s impeccable distribution network got started and grew faster. We provide the best quality Urad Gota and Urad Dall near you.</li>
+                                <li className="breadcrumb-item active text-dark" aria-current="page" style={{textAlign:'justify'}}>At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India. Guided by our commitment to quality and customer satisfaction, we have since become a trusted name that resonates with millions.</li>
                                 {/* <a href={"/about"} className="btn-custom  mt-4">Read more</a> */}
                                 <Link  to={"/about"} className="btn-custom primary mt-4">Read More  </Link>
                             </ol>

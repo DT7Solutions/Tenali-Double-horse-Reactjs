@@ -13,7 +13,7 @@ import Tdhgroup from './Tdhgroup';
 import Feedback from '../home/Feedback';
 import Messenger from '../home/Messenger';
 import Ourstory  from '../home/Ourstory';
-
+import Tdhf from './Tdhf'
 class Content extends Component {
     render() {
         return (
@@ -21,26 +21,24 @@ class Content extends Component {
                <Aboutcompany/>
                <Tdhgroup/>
                 <Rules/>
-                {/* <Aboutus /> */}
+              
                 
                
-                {/* <Cardhover/> */}
+              
                 <Greatplacetowork/>
                 <Stats/>
                 
                
-                {/* <div className="enquires">
-                    <h1 className="heading">For export enquires mail us</h1>
-                    <button className="button-gmail">exports@tenalidoublehorse.com</button>
-                </div> */}
+                
               
-                {/* <MyComponent/> */}
+              
                 <Overview/>
-                {/* <Ourstory/> */}
+                <Tdhf/>
+               
               
                 <Feedback/>
                 <Messenger/>
-                {/* <Newsletter/> */}
+              
             </Fragment>
         );
     }

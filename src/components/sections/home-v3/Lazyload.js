@@ -101,10 +101,10 @@ class YourComponent extends Component {
       <div className="section">
         <div className="container">
         <div className="section-title-wrap section-header text-center pb-3">
-                            <h5 className="custom-primary">Discover the World of Culinary Delights</h5>
-                            <h3 className="text-dark"> Impress your guests with mouthwatering recipes</h3>
+                            <h5 className="custom-primary">Wholesome Creations</h5>
+                            <h3 className="text-dark"> Cooking Inspirations with Our Products</h3>
                             {/* <h2 className="title text-dark"> Impress your guests  with mouthwatering recipes and culinary tips!</h2> */}
-                            
+                            <p>Unleash your culinary creativity with our collection of delectable recipes. From hearty breakfasts to satisfying meals, explore delightful dishes crafted with Tenali Double Horse's Products.</p>
                         </div>
           <div className="container">
             <Slider className="gallery-slider row" {...settings}>

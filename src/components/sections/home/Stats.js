@@ -36,9 +36,9 @@ class stats extends Component {
             <div className="section section-padding  bg-cover bg-center mt-5 " style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/stats-banner.png)" }} >
                 <div className="container" >
                     <div className="section-title-wrap section-header text-center">
-                        <h2 className="title text-white">Our success Story</h2>
+                        <h2 className="title text-white">Empowering Progress</h2>
                         <p className="subtitle text-white">
-                        Tenali Double Horse team is committed to provide the highest quality products and services to our customers to satisfy their needs and expectations of quality, reliability, and timely delivery.
+                        Explore the statistics that define Tenali Double Horse's journey. From years of excellence to a growing customer base, discover the metrics that highlight our commitment to quality and growth.
                         </p>
                     </div>
                     <div className="row ">

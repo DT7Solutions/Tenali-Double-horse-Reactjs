@@ -31,10 +31,10 @@ class Reviews extends React.Component {
         <div className="demo">
           <div className="container">
           <div className="section-title-wrap section-header text-center pt-5">
-                        <h5 className="custom-primary">Our Pillars of Success</h5>
-                        <h2 className="title">Testimonials that Drive Us</h2>
-                        <p className="subtitle">
-                        Discover the excellence and delight that our customers can't stop talking about. Experience it for yourself and become one of our satisfied customers today!
+                        <h5 className="custom-primary">Voices of Delight</h5>
+                        <h2 className="title">Customer Testimonials</h2>
+                        <p className="subtitle ">
+                        Discover the experiences that define Tenali Double Horse through the words of our valued customers. Read their authentic feedback and join the chorus of satisfied voices.
                         </p>
                     </div>
             <div className="row">

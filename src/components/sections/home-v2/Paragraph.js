@@ -66,10 +66,10 @@ class Paragraph extends Component {
             </div>
             <div className="col-lg-6">
               <div className="section-title-wrap mr-lg-30 text-center">
-                <h5 className="custom-primary">Good Health In</h5>
-                <h2 className="title">Every "Bite"</h2>
-                <p className="subtitle" style={{ textAlign: 'justify' }}>
-                  Pulses are Good Source of Iron. Pulses are also a strachy Food and add fibre to your meal. Eating a high diet fibre is asssociated with a reduced risk of Heart Disease and Type 2 Diabetes
+                <h5 className="custom-primary">Explore Our Story</h5>
+                <h2 className="title">Download Our Company Brochure</h2>
+                <p className="subtitle " style={{ textAlign: 'justify' }}>
+                Delve into the essence of Tenali Double Horse with our comprehensive company brochure. Uncover our heritage, products, and commitment to quality in this informative guide.
                 </p>
                 <a
                   href={pdffile}
