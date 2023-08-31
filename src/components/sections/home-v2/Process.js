@@ -43,7 +43,7 @@ class Process extends Component {
                    
                             <div className="box box-down cyan"  data-aos="slide-up" data-aos-anchor-placement="top-center"  data-aos-easing="ease-in-sine" data-aos-delay="400">
                                 <h2>Superior Quality</h2>
-                                <p>delivering excellence in every bite,High-quality standards in terms of freshness, purity, and taste.</p>
+                                <p>Delivering excellence in every bite , High-quality standards in terms of freshness, purity, and taste.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Quality.png"} alt="topicon" />
                             </div>
                         
@@ -67,7 +67,7 @@ class Process extends Component {
                 <div className="row2-container">
                     <div className="box orange" data-aos="slide-up" data-aos-easing="ease-in-sine"  data-aos-delay="400">
                         <h2>Affordable</h2>
-                        <p>Regularly evaluates our talent to ensure quality</p>
+                        <p className='fontcolor'>Premium Urad Dal at Affordable prices. Elevate your Daily Routine without compromising on quality. Your satisfaction, our priority.</p>
                         <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Affordable.png"} alt="topicon" />
                     </div>
                 </div>

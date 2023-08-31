@@ -12,8 +12,9 @@ import 'animate.css';
   
         <section id="gallery" class="gap-section">
           <div className="section-title-wrap section-header text-center pb-3">
-            <h5 className="custom-primary">Harvesting Nature's Nourishment</h5>
-            <h2 className="title">Explore our Dals and Pulses Collection!</h2>
+            <h5 className="custom-primary">Flavors of Excellence</h5>
+            <h2 className="title">Discover Our Culinary Treasures</h2>
+            <p>Indulge in a diverse range of superior quality products from Tenali Double Horse. From staples to specialties, explore the finest ingredients that elevate your meals to perfection</p>
           
         </div>
           <div class="container">

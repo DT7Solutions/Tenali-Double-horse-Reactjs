@@ -39,10 +39,10 @@ class Testimonials extends Component {
             <section className="section testimonials  pt-0">
                 <div className="container">
                     <div className="section-title-wrap section-header text-center">
-                        <h5 className="custom-primary">Our Pillars of Success</h5>
-                        <h2 className="title">Testimonials that Drive Us</h2>
+                        <h5 className="custom-primary">Voices of Delight</h5>
+                        <h2 className="title">Customer Testimonials</h2>
                         <p className="subtitle">
-                        Discover the excellence and delight that our customers can't stop talking about. Experience it for yourself and become one of our satisfied customers today!
+                        Discover the experiences that define Tenali Double Horse through the words of our valued customers. Read their authentic feedback and join the chorus of satisfied voices.
                         </p>
                     </div>
                     <Slider className="ct-testimonials-slider" {...settings} ref={c => (this.slider = c)}>

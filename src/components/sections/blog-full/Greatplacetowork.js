@@ -6,16 +6,17 @@ class Greatplacetowork extends Component {
         return (
             <div className="section ">
                 <div className="container">
+              
                     <div className="row ">
-                        <div className="col-lg-6 mb-lg-30 ">
+                        <div className="col-lg-6 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}> 
                             <img src={process.env.PUBLIC_URL + "/assets/img/misc/great-place-to-work.png"} alt="img" className='shadow  p-1  bg-white rounded' />
                         </div>
                         <div className="col-lg-6 alignments">
                             <div className="section-title-wrap mr-lg-30 mt-lg-2">
-                                <h5 className="custom-primary">Achievement Certificate</h5>
-                                <h2 className="title">Great Place to Work</h2>
+                                <h5 className="custom-primary">Cultivating Excellence: A Great Place to Work</h5>
+                                <h2 className="title">Nurturing Growth, Collaboration, and Fulfillment</h2>
                                 <p className="subtitle" style={{ textAlign: 'justify' }}>
-                                    The Great Place to Work certification is a prestigious recognition given to companies that have created a positive workplace culture where employees feel valued, respected, and engaged. Tenali Double Horse Company has achieved this certification by meeting the high standards set by the Great Place to Work Institute.
+                                At Tenali Double Horse, our journey is defined not only by our products but also by our people. We take immense pride in fostering a work environment that is more than just a workplace – it's a space where creativity, innovation, and camaraderie flourish.As a testament to our commitment to our employees, we are honored to be recognized as a 'Great Place to Work.' This recognition reflects our dedication to creating an atmosphere where talent is nurtured, diversity is celebrated, and personal growth is encouraged.
                                 </p>
 
 

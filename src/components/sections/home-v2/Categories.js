@@ -33,10 +33,10 @@ class Menuitems extends Component {
         return (
             <div className='mt-lg-5 pt-lg-5'>
             <div className="section-title-wrap section-header text-center ">
-            <h5 className="custom-primary">Leading the Way</h5>
-            <h2 className="title">Introducing Our UAE Product Launches</h2>
-            <p className="subtitle">
-            We're thrilled to introduce our latest product lineup in the UAE, where innovation and excellence converge. Each product is designed to enhance your lifestyle, bringing convenience, style, and functionality to your fingertips.
+            <h5 className="custom-primary">Embracing New Horizons</h5>
+            <h2 className="title">Our Journey to the UAE Market</h2>
+            <p className="subtitle ">
+            Witness our remarkable expansion as Tenali Double Horse ventures into the UAE. Experience the flavor of tradition and quality as we introduce our products to a new audience.
                 </p>
         </div>
             
@@ -59,7 +59,7 @@ class Menuitems extends Component {
                                         
                                         <h3>{item.name}</h3>
                                     <p>{item.shortdesc}</p>
-                                    <a href={item.urls}className="btn-custom">Order Now</a>
+                                    <a href={item.urls}  target='_blank'  className="btn-custom">Order Now</a>
                                 </div>
                                 
                                 <img src={process.env.PUBLIC_URL + "/" + item.img}   alt={item.name} />

@@ -34,10 +34,10 @@ class Container extends Component {
             <div className="container-ac">
         {/* <h2 className='title text-center pt-lg-5  mt-lg-5'></h2> */}
         <div className="section-title-wrap section-header  mt-lg-5 text-center ">
-                    <h5 className="custom-primary">Making a Difference  </h5>
-                    <h2 className="title">Notable activities</h2>
-                    <p className="subtitle">
-                    We're dedicated to creating positive change in society. Through our CSR programs, we're fostering education, environmental sustainability, community health, and more. Our commitment to making a difference is unwavering.
+                    <h5 className="custom-primary">Campaign Chronicles  </h5>
+                    <h2 className="title">Explore Our Ongoing Campaigns</h2>
+                    <p className="subtitle ">
+                    Discover the latest buzz in the digital realm. Dive into our ongoing digital or PR campaigns that bring you exciting updates, engaging content, and a taste of the future with Tenali Double Horse.
                     </p>
                 </div>
        
