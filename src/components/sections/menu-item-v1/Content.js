@@ -116,51 +116,10 @@ class Content extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                       {/*  <div className="row">
-                                            
-                                            {item.attributes.map((item, i) => (
-                                                <div key={i} className="col-lg-6 col-12">
-                                                    <div className="customize-variation-wrapper">
-                                                        <i className={item.icon} />
-                                                        <h5>{item.name}</h5>
-                                                        {item.items.map((add, i) => (
-                                                            <div key={i} className="customize-variation-item">
-                                                                <div className={"custom-control custom-" }>
-                                                                    <input type={item.type} id={add.title + i} name={item.name} className="custom-control-input" />
-                                                                    <label className="custom-control-label" htmlFor={add.title + i}>{add.title}</label>
-                                                                </div>
-                                                                <span>{new Intl.NumberFormat().format((add.addprice).toFixed(2))}</span>
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div> */}
-                                    {/* /Variations */}
-                                    {/* Add To Cart Form */}
-                                    {/* <form className="atc-form" method="post">
-                                        <div className="form-group">
-                                            <label>Quantity</label>
-                                            <div className="qty">
-                                                <span className="qty-subtract" onClick={this.DecreaseItem}><i className="fa fa-minus" /></span>
-                                                <input type="text" name="clicks" value={this.state.clicks} onChange={this.handleChange.bind(this)} />
-                                                <span className="qty-add" onClick={this.IncrementItem}><i className="fa fa-plus" /></span>
-                                            </div>
-                                        </div>
-                                        <button type="submit" name="button" className="btn-custom secondary"> Order <i className="fas fa-shopping-cart" /> </button>
-                                    </form> */}
-                                    {/* /Add To Cart Form */}
-                                    {/* Product Meta */}
+                                       
                                     <ul className="product-meta">
                                         <li>
-                                            {/* <span>About this item: </span> */}
-                                            {/* <div className="product-meta-item"> */}
-                                            {/* {item.category.map((item, i) => (
-                                                <div key={i} className={item.state ? 'customize-size active' : 'customize-size'}>
-                                                    {item.size}"
-                                                </div>
-                                            ))} */}
+                                            
                                         
                                         {item.bulletpoints.map((categoryItem, index) => (
                                             <div key={index}>

@@ -20,10 +20,10 @@ class Content extends Component {
                 <div className="fluid-container locations-wrapper">
                     <div className="container">
                         <div className="section-title-wrap text-center mb-5">
-                            <h5 className="custom-primary">Let's Chat</h5>
-                            <h2 className="title">Contact Us for Any Questions or Business Inquiries</h2>
+                            <h5 className="custom-primary">Connect with Us</h5>
+                            <h2 className="title">Reach Out to Tenali Double Horse</h2>
                             <p className="subtitle">
-                                Connect with us for questions, business inquiries & support. Let's chat!
+                            Find our corporate and factory addresses along with contact information. We're here to assist you. Feel free to get in touch for inquiries, feedback, or any assistance you need.
                             </p>
                         </div>
                         <div className="row  p-2">
@@ -32,9 +32,9 @@ class Content extends Component {
                                 <div className="row row-cols-1 row-cols-md-2">
                                     <div className="col-lg-12 col-md-7 col-sm-12  mb-lg-30  ">
                                         <div className="row  top-row">
-                                            <div className="col-lg-6 col-sm-12 mb-3 d-flex email-toll-card12">
+                                        <div className="col-lg-6 col-sm-12 mb-3 d-flex email-toll-card1">
                                                 <div><i className='fas fa-envelope mt-3 phone-email' style={{ fontSize: '30px', color: 'white' }} /></div> &nbsp;
-                                                <div className='mt-1'>email<h5 className="card-title "> <a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
+                                                <div className='mt-1'>email<h5 className="card-title"> <a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
                                             </div>
                                             <div className="col-lg-6 col-sm-12   mb-3 d-flex email-toll-card2">
                                                 <div><i className='fas fa-phone-volume mt-3 phone-icon' style={{ fontSize: '33px', color: '#ED4E53' }} /></div> &nbsp;

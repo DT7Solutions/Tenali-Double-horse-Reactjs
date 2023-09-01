@@ -7276,7 +7276,7 @@ td.quantity{
   height: 300px;
 }
 .popup-product-image-sec{
-  width: 45%;
+  width: 40%;
 }
 
 .header-marque{
@@ -8645,7 +8645,11 @@ g .rsm-marker{
 .product-hover-sec{
   background:transparent;
 }
-
+.ourstory-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 320px) and (max-width: 480px){
 .ourstory-section{
   padding: 10px;
