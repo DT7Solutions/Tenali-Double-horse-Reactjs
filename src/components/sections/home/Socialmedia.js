@@ -20,7 +20,7 @@ class Socialmedia extends Component {
          
           <ul className="wrapper" >
             <li className="icon facebookf">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="icon facebookf">
+            <a href="https://www.facebook.com/tenalidoublehorse" target="_blank" rel="noopener noreferrer" className="icon facebookf">
               <span className="tooltip">Facebook</span>
               <span>
                 <i className="fab fa-facebook-f"></i>
@@ -28,7 +28,7 @@ class Socialmedia extends Component {
               </a>
             </li>
             <li className="icon twittert">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="icon twittert">
+            <a href="https://twitter.com/tnldoublehorse" target="_blank" rel="noopener noreferrer" className="icon twittert">
               <span className="tooltip">Twitter</span>
               <span>
                 <i className="fab fa-twitter"></i>
@@ -36,7 +36,7 @@ class Socialmedia extends Component {
               </a>
             </li>
             <li className="icon instagram">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="icon instagram">
+            <a href="https://www.instagram.com/tenalidoublehorse/" target="_blank" rel="noopener noreferrer" className="icon instagram">
               <span className="tooltip">Instagram</span>
               <span>
                 <i className="fab fa-instagram"></i>
@@ -45,7 +45,7 @@ class Socialmedia extends Component {
             </li>
            
             <li className="icon youtubey">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="icon youtubey">
+            <a href="https://www.youtube.com/c/TenaliDoubleHorse" target="_blank" rel="noopener noreferrer" className="icon youtubey">
               <span className="tooltip">Youtube</span>
               <span>
                 <i className="fab fa-youtube"></i>
@@ -53,7 +53,7 @@ class Socialmedia extends Component {
               </a>
             </li>
             <li className="icon linked-m">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="icon linked-m">
+            <a href="https://www.linkedin.com/company/tenalidoublehorse/" target="_blank" rel="noopener noreferrer" className="icon linked-m">
               <span className="tooltip">Linkedin</span>
               <span>
                 <i className="fab fa-linkedin"></i>

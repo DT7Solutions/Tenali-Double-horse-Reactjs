@@ -58,7 +58,7 @@ import 'animate.css';
               <div class="card-body">
                 <h5 class="text-center">Moong Dall</h5>
                
-                <a href={"https://dt7solutions.github.io/Tenali-Double-horse-Reactjs/#/Tenali-Double-horse-Reactjs/menu-item-v1/8"} className="btn-custom btn-sm " >Read more</a>
+                <a href={"https://dt7solutions.github.io/Tenali-Double-horse-Reactjs/#/Tenali-Double-horse-Reactjs/menu-item-v1/7"} className="btn-custom btn-sm " >Read more</a>
                
               </div>
              </div>

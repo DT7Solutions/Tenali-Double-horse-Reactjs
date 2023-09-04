@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import location from '../../../data/restaurant.json';
 import L from 'leaflet';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import Factorylocation from './Factorylocation';
+import Messenger from '../home/Messenger';
+import Feedback from '../home/Feedback';
 
 
 
@@ -14,6 +16,7 @@ const customMarker = L.icon({
 class Content extends Component {
     render() {
         return (
+            <Fragment>
             
             <div className="section" style={{paddingBottom:'0px'}}>
 
@@ -71,7 +74,16 @@ class Content extends Component {
                                        
                                
                             </div>
-                            <div className="col-lg-5  p-2">
+                            <div className="col-lg-5 ">
+                            <div className="row  top-row">
+                                            <div className="col-lg-12 col-sm-12 mb-3 d-flex email-toll-card3" style={{display:'flex',justifyContent:'space-around',alignItems:'center'}}>
+                                            <div><i className='fas  fa-envelope mt-3 phone-email' style={{ fontSize: '30px', color: 'white' }} /></div> &nbsp;
+                                            <div> <h5 className="text-white mb-0"> We Value Your Input</h5></div>
+                                           
+                                            <div><i className='fas fa-truck mt-3 phone-icon' style={{ fontSize: '33px', color: ' #ED4E53' }} /></div> &nbsp;
+                                               
+                                            </div>
+                                        </div> 
 
                                 <form className='mb-5'>
                                     <div className="row">
@@ -116,6 +128,9 @@ class Content extends Component {
                    <Factorylocation/>
                 </div>
             </div>
+            <Messenger/>
+            <Feedback/>
+            </Fragment>
         );
     }
 }

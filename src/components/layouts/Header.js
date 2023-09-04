@@ -90,11 +90,12 @@ class Header extends HeaderComponent {
                                 <div className="floating-container">
                                 <div className="floating-button share-icon"> <img src={process.env.PUBLIC_URL + "/assets/img/header/network-connection.png"} alt="topicon" /></div>
                                 <div className="element-container">
-                                                <span className="float-element tooltip-left" ><i class="fab fa-facebook-f"></i></span>
-                                                <span className="float-element"><i class="fab fa-twitter"></i></span>
-                                                <span className="float-element"><i class="fab fa-instagram"></i></span>
-                                                <span className="float-element"><i class="fab fa-linkedin-in"></i></span>
-                                                <span className="float-element"><i class="fab fa-youtube"></i></span>
+                               <span className="float-element tooltip-left" > <a href="https://www.facebook.com/tenalidoublehorse" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></span>
+                                <span className="float-element"><a href="https://twitter.com/tnldoublehorse" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></span>
+                                 <span className="float-element"><a href="https://www.instagram.com/tenalidoublehorse/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></span>
+                                 <span className="float-element"><a href="https://www.linkedin.com/company/tenalidoublehorse/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></span>
+                                
+                                <span className="float-element"><a href="https://www.youtube.com/c/TenaliDoubleHorse" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></span>
                                 </div>
                                 </div>
                                   

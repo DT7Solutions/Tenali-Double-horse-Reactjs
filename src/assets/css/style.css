@@ -6137,7 +6137,20 @@ td.quantity{
 }
 .email-toll-card1{
   /* border: 1px solid black; */
-  border-bottom-left-radius: 30px;
+  border-top-left-radius: 25px;
+  
+  color: #ffff;
+  background: #ed4e53;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow;
+  cursor: pointer;
+
+  
+}
+.email-toll-card3{
+  /* border: 1px solid black; */
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   color: #ffff;
   background: #ed4e53;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);

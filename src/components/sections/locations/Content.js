@@ -90,6 +90,7 @@ class Content extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-5  p-2">
+                            
 
                                 <form className='mb-5'>
                                     <div className="row">
