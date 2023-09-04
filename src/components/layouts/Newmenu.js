@@ -45,7 +45,7 @@ class Newmenu extends Component {
                                             </div>
                                             <div className='col-lg-6 d-flex flex-column justify-content-center align-items-center'>
                                             <a href={"/tenali-double-hosre-food-products"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdh-icon.png"}  alt="pizza" /></a>
-                                            <Link to="/tenali-double-hosre-food-products"><button className="btn-custom  shadow-none btn-sm">View More</button></Link>
+                                            <a href={"https://tdhfoodproducts.com/shop/"} target='_blank'><button className="btn-custom  shadow-none btn-sm">View More</button></a>
                                             </div>
                                         </div>
                                     </div>
