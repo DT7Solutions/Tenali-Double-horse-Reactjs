@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Messenger from '../home/Messenger';
 import { Fragment } from 'react';
+import Feedback  from '../home/Feedback';
 class Shippingpolicy extends Component {
   render() {
 
@@ -31,6 +32,7 @@ returned by the rider and refund will not be given to You.</li>
         </div>
     </div>
     <Messenger/>
+    <Feedback/>
     </Fragment>
   );
 }

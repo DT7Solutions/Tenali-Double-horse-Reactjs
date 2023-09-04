@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Messenger  from '../home/Messenger';
+import Feedback from '../home/Feedback';
 
 import { Fragment } from 'react';
 class paymentservices extends Component {
@@ -43,6 +44,7 @@ standing. By providing the Payment Details, You represent, warrant, and covenant
         </div>
     </div>
     <Messenger/>
+    <Feedback/>
   </Fragment>
 );
 }

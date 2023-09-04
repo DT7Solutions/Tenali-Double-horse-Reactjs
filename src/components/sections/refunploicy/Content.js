@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Messenger  from '../home/Messenger';
+import Feedback from '../home/Feedback';
 
 import { Fragment } from 'react';
 class refunploicy extends Component {
@@ -26,6 +27,7 @@ return (
         </div>
     </div>
   <Messenger/>
+  <Feedback/>
   </Fragment>
 );
 }

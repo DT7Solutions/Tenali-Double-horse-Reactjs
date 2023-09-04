@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Messenger from '../home/Messenger';
 import { Fragment } from 'react';
+import Feedback  from '../home/Feedback';
 class Terms extends Component {
     render() {
   
@@ -124,6 +125,7 @@ class Terms extends Component {
         </div>
     </div>
     <Messenger/>
+    <Feedback/>
     </Fragment>
   );
 }
