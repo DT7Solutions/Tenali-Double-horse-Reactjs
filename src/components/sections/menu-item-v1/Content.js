@@ -52,6 +52,13 @@ class Content extends Component {
     render() {
         const productId = this.props.productId;
         const item = getProduct(productId);
+        
+        const productsToHideButton = [3, 8,10,11,12,13,14,25,26,27,28,29,30];
+
+        // Check if the current product's ID is in the array of products to hide the button
+        const shouldHideOrderButton = productsToHideButton.includes(productId);
+       
+           
         return (
             <Fragment>
                 <div className="section product-single">
@@ -94,6 +101,7 @@ class Content extends Component {
                                             {Rating(item.rating)}
                                         </div>
                                         <span>(24 ratings)</span>
+                                        
                                     </div>
                                     {/* /Rating */}
                                 
@@ -117,26 +125,32 @@ class Content extends Component {
                                         </div>
                                     </div>
                                        
-                                    <ul className="product-meta">
-                                        <li>
-                                            
-                                        
-                                        {item.bulletpoints.map((categoryItem, index) => (
-                                            <div key={index}>
-                                                <span className='about-product-span'>About this item</span>
-                                                {Object.keys(categoryItem).map((propertyKey) => (
-                                                <p key={propertyKey} className='about-product-p'>
-                                                    <span className='product-span'>{propertyKey}</span>: {categoryItem[propertyKey]}
-                                                </p>
-                                                ))}
-                                            </div>
-                                            ))}
-                                                                     
-                                        </li>
-                                        <button type="button" className="btn-custom btn-sm order-btn">
-                                        <a href={item.urls} target='_blank'>Order Now</a>
-                                            </button>
-                                    </ul>
+                                     
+                        <ul className="product-meta">
+                            <li>
+                                {item.bulletpoints.map((categoryItem, index) => (
+                                    <div key={index}>
+                                        <span className='about-product-span'>About this item</span>
+                                        {Object.keys(categoryItem).map((propertyKey) => (
+                                            <p key={propertyKey} className='about-product-p'>
+                                                <span className='product-span'>{propertyKey}</span>: {categoryItem[propertyKey]}
+                                            </p>
+                                        ))}
+                                    </div>
+                                ))}
+                                
+                            </li>
+                            
+                            {!shouldHideOrderButton && (
+                              
+                              <button type="button" className="btn-custom btn-sm order-btn">
+                                  <a href={item.urls} target='_blank'>Order Now</a>
+                              </button>
+                           
+                              )}
+                        </ul>
+                        
+                  
                                     {/* /Product Meta */}
                                 </div>
                             </div>

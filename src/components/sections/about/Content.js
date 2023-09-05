@@ -6,7 +6,7 @@ import Newsletter from "../home-v2/Newsletter";
 import Stats from '../home/Stats';
 import Rules from './Rules';
 import MyComponent from '../home-v2/MyComponent';
-import Overview from './Overview'
+
 import Greatplacetowork from '../blog-full/Greatplacetowork'
 import Cardhover from './Cardhover';
 import Tdhgroup from './Tdhgroup';
@@ -33,7 +33,7 @@ class Content extends Component {
                 
               
               
-                <Overview/>
+                {/* <Overview/> */}
                 <Tdhf/>
                
               
