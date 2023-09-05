@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import location from '../../../data/restaurant.json';
+// import location from '../../../data/restaurant.json';
 import L from 'leaflet';
-import { MapContainer, TileLayer, Marker } from 'react-leaflet';
+// import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import Factorylocation from './Factorylocation';
 import Messenger from '../home/Messenger';
 import Feedback from '../home/Feedback';
@@ -50,9 +50,9 @@ class Content extends Component {
                                        
                                     <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{borderRadius:'20px'}}>
                                     <h5 className="custom-primary">Corporate Address</h5>
-                                    <p>+919666389389</p>
-                                    <p>JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
-                                     <p> Gayatri Hills,Jubilee Hills,Hyderabad, Telangana 500033</p>   
+                                    <p><i className='fas fa-phone' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
+                                    <p><i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} /> JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
+                                     <p>Gayatri Hills,Jubilee Hills,Hyderabad, Telangana 500033</p>   
                                      
                                     <button type="button" className="btn-custom btn-sm order-btn">
                                         <a href="https://goo.gl/maps/XiEweexpzdsBQoC96" target='_blank'>Get directions</a>
@@ -61,8 +61,8 @@ class Content extends Component {
                                             
                                     <div className="col-lg-12 pt-3 pb-3 mb-5 shadow bg-rounded " style={{borderRadius:'20px'}}>
                                     <h5 className="custom-primary">Factory  Address</h5>
-                                    <p>+919666389389</p>
-                                    <p>Nandivelugu, Nandivelugu (Post)  </p>
+                                    <p><i className='fas fa-phone' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
+                                    <p><i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} /> Nandivelugu, Nandivelugu (Post)</p>
                                      <p> – 522 306 TENALI,   Guntur Dist, A.P</p>   
                                    
                                      <button type="button" className="btn-custom btn-sm order-btn">

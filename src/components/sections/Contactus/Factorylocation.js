@@ -20,8 +20,13 @@ class Factorylocation extends Component {
                                 <div className="card-body">
                                     <i className='fas fa-industry' style={{ fontSize: '40px', color: ' #ED4E53' }} />
                                     <h5 className="card-title">MAHENDRA DALL MILL</h5>
-                                    <p className="card-text content-justify" >P.No.37,47,48,49 & 49A, AutoNagar, Somasundarapalem,
-                                        Kattevaram (Post) – 522 295, TENALI, Guntur Dist, A.P</p>
+                                    <p className="card-text d-flex content-justify" > <i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} />P.No.37,47,48,49&49A, AutoNagar,Somasundarapalem,
+                                        Kattevaram(Post),522295,
+                                        TENALI,Guntur, A.P</p>
+                                        <p className="card-text content-justify d-flex justify-content-center p-text" > <i class='fas fa-envelope'  style={{ fontSize: '20px', color: '#7e8083' }} />
+                                    &nbsp;<a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a>
+                                    </p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -31,8 +36,11 @@ class Factorylocation extends Component {
                                 <div className="card-body">
                                     <i className='fas fa-industry' style={{ fontSize: '40px', color: ' #ED4E53' }} />
                                     <h5 className="card-title">MAHARANI DALL MILL</h5>
-                                    <p className="card-text content-justify">Plot.No. 38, 39, 40, AutoNagar, Somasundarapalem,
-                                        Kattevaram (Post) – 522 295, TENALI, Guntur Dist, A.P</p>
+                                    <p className="card-text d-flex content-justify"><i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} /> Plot.No.38,39,40,AutoNagar, Somasundarapalem,
+                                        Kattevaram(Post)–522295, TENALI, Guntur Dist, A.P</p>
+                                        <p className="card-text content-justify d-flex justify-content-center p-text" > <i class='fas fa-envelope'  style={{ fontSize: '20px', color: '#7e8083' }} />
+                                    &nbsp;<a href = "mailto: maharanidallmill@gmail.com">maharanidallmill@gmail.com</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -42,9 +50,12 @@ class Factorylocation extends Component {
                                 <div className="card-body">
                                     <i className='fas fa-industry' style={{ fontSize: '40px', color: ' #ED4E53' }} />
                                     <h5 className="card-title">MAHADEVA DALL INDUSTRIES PVT LTD</h5>
-                                    <p className="card-text content-justify">Nandivelugu,
+                                    <p className="card-text d-flex content-justify"><i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} /> Nandivelugu,
                                         Nandivelugu (Post) – 522 306
                                         TENALI, Guntur Dist, A.P</p>
+                                    <p className="card-text content-justify d-flex justify-content-center p-text" > <i class='fas fa-envelope'  style={{ fontSize: '20px', color: '#7e8083' }} />
+                                    &nbsp;<a href = "mailto: mahadevadallindustries@gmail.com">mahadevadallindustries@gmail.com</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +65,10 @@ class Factorylocation extends Component {
                                 <div className="card-body">
                                     <i className='fas fa-industry' style={{ fontSize: '35px', color: ' #ED4E53' }} />
                                     <h5 className="card-title">TDH Foods</h5>
-                                    <p className="card-text content-justify">60 A, AUTONAGAR, TENALI, GUNTUR, ANDHRA PRADESH - 522295, Tenali, Andhra Pradesh 530012 </p>
+                                    <p className="card-text d-flex content-justify"><i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} /> 60 A, AUTONAGAR, TENALI, GUNTUR, ANDHRA PRADESH - 522295, Tenali, Andhra Pradesh 530012 </p>
+                                    <p className="card-text content-justify d-flex justify-content-center p-text" > <i class='fas fa-envelope'  style={{ fontSize: '20px', color: '#7e8083' }} />
+                                    &nbsp;<a href = "mailto: tenalidoublehorsefoods@gmail.com">tenalidoublehorsefoods@gmail.com</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>

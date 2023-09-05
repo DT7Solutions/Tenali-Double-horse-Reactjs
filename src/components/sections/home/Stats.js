@@ -7,22 +7,26 @@ const successpost = [
     {
         icon: "flaticon-employee",
         count: 24934,
-        title: "Happy Customers"
+        title: "Happy Customers",
+        delay:"0.4s"
     },
     {
         icon:"fas fa-box-open",
         count: 20,
-        title: "Products"
+        title: "Products",
+        delay:"0.8s"
     },
     {
         icon:  "fas fa-truck",
         count: 67335,
-        title: "Orders delivered"
+        title: "Orders delivered",
+        delay:"1s"
     },
     {
         icon:  "fas fa-globe",
         count: 12,
-        title: "Total countries"
+        title: "Total countries",
+        delay:"1.2s"
     }
     
 ]
@@ -43,7 +47,7 @@ class stats extends Component {
                     </div>
                     <div className="row ">
                         {successpost.map((item, i) => (
-                            <div key={i} className="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                            <div key={i} className="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay={item.delay}>
                                 <div className="ct-infographic-item">
                                     <i className={item.icon} />
                                     <h4>{new Intl.NumberFormat().format(item.count)}</h4>

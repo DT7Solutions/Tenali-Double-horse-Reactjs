@@ -8671,6 +8671,9 @@ g .rsm-marker{
 .footer-top img{
   margin-top: 1px;
 }
+.p-text{
+  float: left;
+}
 }
 
 .email-toll-card12{
@@ -8687,4 +8690,8 @@ g .rsm-marker{
 }
 .content-justify{
   text-align: justify!important;
+}
+
+.card-locations a{
+font-size: 13px;
 }

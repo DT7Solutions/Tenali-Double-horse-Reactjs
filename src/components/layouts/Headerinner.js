@@ -6,8 +6,8 @@ import Search from '../layouts/Search';
 import Mobilemenu from '../layouts/Mobilemenu';
 import Newmenu from './Newmenu';
 import classNames from 'classnames';
-import cartitem from '../../data/cartlist.json';
-import { StickyContainer, Sticky } from 'react-sticky';
+// import cartitem from '../../data/cartlist.json';
+// import { StickyContainer, Sticky } from 'react-sticky';
 
 
 

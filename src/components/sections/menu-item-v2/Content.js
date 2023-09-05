@@ -4,9 +4,9 @@ import { getProduct } from '../../../helper/Tdhfproducthelper';
 import { Rating } from "../../../helper/helper";
 // import productcategory from "../../../data/tdhproductcategory.json";
 // import blogtags from '../../../data/blogtags.json';
-import { Tab, Nav, Accordion, Card, NavLink } from "react-bootstrap";
+import { Tab, Nav} from "react-bootstrap";
 import Relatedproduct from '../../layouts/Tdhrelatedproduct';
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import Feedback from '../home/Feedback';
 import Messenger from '../home/Messenger';
 // swiperjs
