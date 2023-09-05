@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import WOW from 'wow.js';
+// import WOW from 'wow.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

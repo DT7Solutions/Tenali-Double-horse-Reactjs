@@ -6,7 +6,7 @@ import Search from '../layouts/Search';
 import Mobilemenu from '../layouts/Mobilemenu';
 import Menu from './Menu';
 import classNames from 'classnames';
-import cartitem from '../../data/cartlist.json';
+// import cartitem from '../../data/cartlist.json';
 
 class Headertwo extends HeaderComponent {
     render() {

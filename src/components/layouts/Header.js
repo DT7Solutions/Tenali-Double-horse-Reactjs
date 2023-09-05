@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import HeaderComponent from '../../helper/Navigationhelper';
-import Cartlist from '../layouts/Cartlist';
+// import Cartlist from '../layouts/Cartlist';
 import Search from '../layouts/Search';
 import Mobilemenu from '../layouts/Mobilemenu';
 import Newmenu from './Newmenu';
 import classNames from 'classnames';
-import cartitem from '../../data/cartlist.json';
+// import cartitem from '../../data/cartlist.json';
 
 class Header extends HeaderComponent {
     constructor(props) {
