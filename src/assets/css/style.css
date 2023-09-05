@@ -6450,11 +6450,11 @@ td.quantity{
  
  @media (max-width: 450px) {
    .box {
-       height: 200px;
-       margin-left: -4px;
+       height: 250px;
+       margin-left: -2px;
    }
    .box .box-img{
-    margin-top: -40px;
+    margin-top: -20px;
     height: 50px;
     width: 50px;
    }

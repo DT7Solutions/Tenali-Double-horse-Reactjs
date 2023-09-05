@@ -5,28 +5,30 @@ import 'animate.css';
 
 const successpost = [
     {
-        icon: "flaticon-employee",
-        count: 24934,
-        title: "Happy Customers",
+        icon: "fas fa-medal",
+        count: 18,
+        title: "Years of Experience",
         delay:"0.4s"
-    },
-    {
-        icon:"fas fa-box-open",
-        count: 20,
-        title: "Products",
-        delay:"0.8s"
-    },
-    {
-        icon:  "fas fa-truck",
-        count: 67335,
-        title: "Orders delivered",
-        delay:"1s"
     },
     {
         icon:  "fas fa-globe",
         count: 12,
         title: "Total countries",
-        delay:"1.2s"
+        delay:"0.6s"
+    },
+   
+    {
+        icon:  "fas fa-map",
+        count: 18,
+        title: "States",
+        delay:"0.8s"
+    },
+    
+    {
+        icon:"fas fa-box-open",
+        count: 20,
+        title: "Products",
+        delay:"0.9s"
     }
     
 ]

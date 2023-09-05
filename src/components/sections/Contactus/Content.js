@@ -6,6 +6,8 @@ import Factorylocation from './Factorylocation';
 import Messenger from '../home/Messenger';
 import Feedback from '../home/Feedback';
 
+import emailjs from 'emailjs-com';
+
 
 
 const customMarker = L.icon({
@@ -14,7 +16,60 @@ const customMarker = L.icon({
 });
 
 class Content extends Component {
+    constructor(props) {
+        super(props);
+        this.form = React.createRef();
+        this.state = {
+          isSubmitted: false,
+          formData: {
+            fname: '',
+            lname: '',
+            email: '',
+            Phonenumber: '',
+            purpose: '',
+            subject: '',
+            message: '',
+          },
+        };
+      }
+    
+      handleInputChange = (e) => {
+        const { name, value } = e.target;
+        this.setState((prevState) => ({
+          formData: {
+            ...prevState.formData,
+            [name]: value,
+          },
+        }));
+      };
+    
+      sendEmail = async (e) => {
+        e.preventDefault();
+    
+        try {
+          await emailjs.sendForm('service_u0jehlt', 'template_3b2mxe5', this.form.current, 'cjCRUWDX0cKAQSKL6')
+          
+          // Reset the form fields
+          this.setState((prevState) => ({
+            formData: {
+              fname: '',
+              lname: '',
+              email: '',
+              Phonenumber: '',
+              purpose: '',
+              subject: '',
+              message: '',
+            },
+            isSubmitted: true,
+          }));
+          alert("Message successfully sent!");
+        } catch (error) {
+          console.log(error.text);
+        }
+      };
+    
     render() {
+        const { formData, isSubmitted } = this.state;
         return (
             <Fragment>
             
@@ -85,41 +140,99 @@ class Content extends Component {
                                             </div>
                                         </div> 
 
-                                <form className='mb-5'>
+
+                                        <div>
+                           <form className='mb-5' ref={this.form} onSubmit={this.sendEmail}>
                                     <div className="row">
                                         <div className="form-group col-lg-6">
-                                            <input type="text" placeholder="First Name" required className="form-control" name="fname" />
+                                        <input
+                  type="text"
+                  placeholder="First Name"
+                  required
+                  className="form-control"
+                  name="fname"
+                  value={formData.fname}
+                  onChange={this.handleInputChange}
+                />
                                         </div>
                                         <div className="form-group col-lg-6">
-                                            <input type="text" placeholder="Last Name" required className="form-control" name="lname" />
+                                        <input
+                  type="text"
+                  placeholder="Last Name"
+                  required
+                  className="form-control"
+                  name="lname"
+                  value={formData.lname}
+                  onChange={this.handleInputChange}
+                />
                                         </div>
                                         <div className="form-group col-lg-12">
-                                            <input type="email" placeholder="Email Address" required className="form-control" name="email" />
+                                            
+                                            <input
+                  type="text"
+                  placeholder="Email Address"
+                  required
+                  className="form-control"
+                  name="email"
+                  value={formData.email}
+                  onChange={this.handleInputChange}
+                />
                                         </div>
                                         <div className="form-group col-lg-6">
-                                            <input type="text" placeholder="Phone no" required className="form-control" name="Phonenumber" />
+                                        <input
+                  type="text"
+                  placeholder="Phone no"
+                  required
+                  className="form-control"
+                  name="Phonenumber"
+                  value={formData.Phonenumber}
+                  onChange={this.handleInputChange}
+                />
+                                          
                                         </div>
                                         <div className="form-group col-lg-6">
-                                            <select className="form-control" name="purpose" required>
-                                                <option value="" disabled selected>Purpose of Contact</option>
-                                                <option value="export">Export</option>
-
-                                                <option value="distribution">Distribution Enquiry </option>
-                                                <option value="Feedback">Feedback</option>
-                                                <option value="Suggestions">Suggestions</option>
-                                                <option value="Other">Job Enquiry</option>
-
-                                            </select>
-                                        </div>
-                                        <div className="form-group col-lg-12">
-                                            <input type="text" placeholder="Subject" required className="form-control" name="subject" />
-                                        </div>
-                                        <div className="form-group col-lg-12">
-                                            <textarea name="message" className="form-control" required placeholder="Type your message" rows={9} />
-                                        </div>
+  <select
+    className="form-control"
+    name="purpose"
+    required
+    value={formData.purpose}
+    onChange={this.handleInputChange}
+  >
+    <option value="" disabled>Purpose of Contact</option>
+    <option value="export">Export</option>
+    <option value="distribution">Distribution Enquiry</option>
+    <option value="Feedback">Feedback</option>
+    <option value="Suggestions">Suggestions</option>
+    <option value="Other">Job Enquiry</option>
+  </select>
+</div>
+<div className="form-group col-lg-12">
+  <input
+    type="text"
+    placeholder="Subject"
+    required
+    className="form-control"
+    name="subject"
+    value={formData.subject}
+    onChange={this.handleInputChange}
+  />
+</div>
+<div className="form-group col-lg-12">
+  <textarea
+    name="message"
+    className="form-control"
+    required
+    placeholder="Type your message"
+    rows={9}
+    value={formData.message}
+    onChange={this.handleInputChange}
+  />
+</div>
                                     </div>
-                                    <button type="submit" className="btn-custom primary" name="button">Send Message</button>
+                                    <button type="submit"  value="Send" className="btn-custom primary" name="button">Send Message</button>
                                 </form>
+                               
+                                </div>
                             </div>
                         </div>
                     </div>

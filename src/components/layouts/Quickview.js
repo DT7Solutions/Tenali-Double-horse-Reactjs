@@ -38,6 +38,10 @@ class Quickview extends Component {
     render() {
         const productId = this.props.productId;
         const item = getProduct(productId);
+        const productsToHideButton = [3, 8,10,11,12,13,14,25,26,27,28,29,30];
+
+    // Check if the current product's ID is in the array of products to hide the button
+        const shouldHideOrderButton = productsToHideButton.includes(productId);
         return (
             <Fragment> 
                 {/* <Modal.Header className="modal-bg mt-5 bg-warning" closeButton style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.img + ")" }} /> */}
@@ -65,21 +69,17 @@ class Quickview extends Component {
                           <h4 className="customize-title">{item.name}  </h4>
                           <p>{item.shortdesc}</p>
                           <h5><span className="custom-primary">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</span></h5>
-                          <button type="button" className="btn-custom btn-sm ">Order Now</button>   
+                          {!shouldHideOrderButton && (
+                        <button type="button" className="btn-custom btn-sm">Order Now</button>
+                    )}
+                          {/* <button type="button" className="btn-custom btn-sm ">Order Now</button>    */}
                           {/* <button type="button" className="btn-custom btn-sm ">Order Now</button> */}
                           </div>
                         </div>
                         
                     </div>
                     <div className="customize-variations">
-                        {/* <div className="customize-size-wrapper">
-                            <h5>Size: </h5>
-                            {item.sizes.map((item, i) => (
-                                <div key={i} className={item.state ? 'customize-size active' : 'customize-size'}>
-                                    {item.size}
-                                </div>
-                            ))}
-                        </div> */}
+                        
                         <div className="row">
                           
                                 {item.attributes.slice(0,3).map((item, i) => (
