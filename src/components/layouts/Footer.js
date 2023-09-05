@@ -87,25 +87,25 @@ class Footer extends Component {
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </li>
-                                    {/* <li>
+                                    <li>
                                         <a target="_blank" rel="noopener noreferrer" href={"https://www.linkedin.com/company/tenalidoublehorse/"} className="linkedin">
                                             <i className="fab fa-linkedin" />
                                         </a>
-                                    </li> */}
+                                    </li>
                                 </ul>
 
                                 <div className="footer-offer">
                                     <p className='text-dark'>Know More Information!</p>
                                     {/* <Link to="/tdh-brouchure.pdf" className="btn-custom btn-sm shadow-none">Download Brochure</Link> */}
                                     <a
-  href={pdffile}
-  download="tdh-brouchure.pdf" // Set the desired filename
-  className="btn-custom btn-sm shadow-none"
-  target="_blank"
-  type="application/pdf"
->
-  Download Brochure
-</a>
+                                        href={pdffile}
+                                        download="tdh-brouchure.pdf" // Set the desired filename
+                                        className="btn-custom btn-sm shadow-none"
+                                        target="_blank"
+                                        type="application/pdf"
+                                        >
+                                        Download Brochure
+                                        </a>
 
 
                                 </div>
