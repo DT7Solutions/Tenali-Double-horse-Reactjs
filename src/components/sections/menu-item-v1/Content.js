@@ -203,7 +203,7 @@ class Content extends Component {
                                                                 {Rating(item.rating)}
                                                             </div>
                                                             <span>Posted on: {review.date}</span>
-                                                            <p>{review.comment}College in Virginia</p>
+                                                            <p>{review.comment}</p>
                                                             <Link to="#" className="reply-link"> Reply </Link>
                                                         </div>
                                                     </li>

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Aboutus from "../home/Aboutus";
-import Aboutcompany from '../home/Aboutcompany';
+import Tdhabout from './Tdhabout'
 import Infographics from "../home-v3/Infographics";
 import Newsletter from "../home-v2/Newsletter";
 import Stats from '../home/Stats';
@@ -19,7 +19,7 @@ class Content extends Component {
     render() {
         return (
             <Fragment>
-               <Aboutcompany/>
+               <Tdhabout/>
                <Tdhgroup/>
                 <Rules/>
               

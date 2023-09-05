@@ -23,7 +23,7 @@ class Tdhgroup extends Component {
                                
                                 <h2 className="title">About  Company</h2>
                                 <p className="subtitle" style={{ textAlign: 'justify' }}>
-                                TDH Foods is a Sister company to Tenali Double Horse, that started on the core factor of selling the healthiest foods in their purest form, without adding any preservatives. Everything that is made, is of the highest quality, and there are no second guesses about our authenticity. We assure you’ll only have the best – so good that there’s no turning back! It’ll make you crave for more and be hooked onto our products!
+                                TDH Foods is a Sister company to Tenali Double Horse, that started on the core factor of selling the healthiest foods in their purest form, without adding any preservatives. Everything that is made, is of the highest quality, and there are no second guesses about our authenticity. We assure you’ll only have the best – so good that there’s no turning back! It’ll make you crave more and be hooked on our products!
                                 </p>
                                 <a  href="https://tdhfoodproducts.com/about/" rel="noopener noreferrer" target="_blank" class="btn-custom  shadow-none ">View More</a>
 

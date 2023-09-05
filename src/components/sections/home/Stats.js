@@ -17,12 +17,12 @@ const successpost = [
     {
         icon:  "fas fa-truck",
         count: 67335,
-        title: "orders delivered"
+        title: "Orders delivered"
     },
     {
         icon:  "fas fa-globe",
-        count: 11,
-        title: "Total country"
+        count: 12,
+        title: "Total countries"
     }
     
 ]

@@ -6,6 +6,7 @@ import Eastcoast from "./Eastcoast";
 import WestCoast from "./Westcoast";
 import Messenger from "../home/Messenger";
 import { Fragment } from "react";
+import Feedback from "../home/Feedback";
 
 
 
@@ -116,6 +117,7 @@ class MapChart extends Component {
         </div>
       </div>
       <Messenger/>
+      <Feedback/>
       </Fragment>
     );
   }

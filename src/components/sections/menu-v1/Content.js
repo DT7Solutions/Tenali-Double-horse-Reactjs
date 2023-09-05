@@ -48,7 +48,7 @@ class Content extends Component {
     };
     render() {
         const settings = {
-            slidesToShow: 10,
+            slidesToShow: 4,
             slidesToScroll: 3,
             arrows: false,
             dots: false,
@@ -58,7 +58,7 @@ class Content extends Component {
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 6,
+                        slidesToShow: 4,
                         
                     }
                 },

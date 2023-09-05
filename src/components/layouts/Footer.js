@@ -87,6 +87,11 @@ class Footer extends Component {
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </li>
+                                    {/* <li>
+                                        <a target="_blank" rel="noopener noreferrer" href={"https://www.linkedin.com/company/tenalidoublehorse/"} className="linkedin">
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </li> */}
                                 </ul>
 
                                 <div className="footer-offer">

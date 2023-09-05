@@ -16,7 +16,7 @@ class Greatplacetowork extends Component {
                                 <h5 className="custom-primary">Cultivating Excellence: A Great Place to Work</h5>
                                 <h2 className="title">Nurturing Growth, Collaboration, and Fulfillment</h2>
                                 <p className="subtitle" style={{ textAlign: 'justify' }}>
-                                At Tenali Double Horse, our journey is defined not only by our products but also by our people. We take immense pride in fostering a work environment that is more than just a workplace – it's a space where creativity, innovation, and camaraderie flourish.As a testament to our commitment to our employees, we are honored to be recognized as a 'Great Place to Work.' This recognition reflects our dedication to creating an atmosphere where talent is nurtured, diversity is celebrated, and personal growth is encouraged.
+                                At Tenali Double Horse, our journey is defined not only by our products but also by our people. We take immense pride in fostering a work environment that is more than just a workplace – it's a space where creativity, innovation, and camaraderie flourish. As a testament to our commitment to our employees, we are honoured to be recognized as a 'Great Place to Work.' This recognition reflects our dedication to creating an atmosphere where talent is nurtured, diversity is celebrated, and personal growth is encouraged.
                                 </p>
 
 
