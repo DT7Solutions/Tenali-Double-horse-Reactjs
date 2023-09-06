@@ -9,7 +9,10 @@ class Greatplacetowork extends Component {
               
                     <div className="row ">
                         <div className="col-lg-6 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}> 
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/great-place-to-work.png"} alt="img" className='shadow  p-1  bg-white rounded' />
+                        <video width="100%" height="95%" controls poster="/assets/img/misc/great-place-to-work.png">
+                          <source src={process.env.PUBLIC_URL + "/assets/video/great-place.mp4"} type="video/mp4" />
+                      </video>
+                            {/* <img src={process.env.PUBLIC_URL + "/assets/img/misc/great-place-to-work.png"} alt="img" className='shadow  p-1  bg-white rounded' /> */}
                         </div>
                         <div className="col-lg-6 alignments">
                             <div className="section-title-wrap mr-lg-30 mt-lg-2">

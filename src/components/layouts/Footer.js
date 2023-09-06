@@ -35,24 +35,24 @@ class Footer extends Component {
                                 <h5 className="widget-title">Quick Links</h5>
                                 <ul>
                                     {/* <li> <Link to="/">Gallery</Link> </li> */}
-                                    <li> <Link to="/about"  target="_blank">Our Company</Link> </li>
-                                    <li> <Link to="/tenali-double-horse-products"  target="_blank">Tdh Products</Link> </li>
-                                    <li> <Link to="/tenali-double-hosre-food-products"  target="_blank">Tdh Food Products</Link> </li>
+                                    <li> <Link to="/about">Our Company</Link> </li>
+                                    <li> <Link to="/tenali-double-horse-products">Tdh Products</Link> </li>
+                                    <li> <a href="https://tdhfoodproducts.com/shop/"  target="_blank">Tdh Food Products</a> </li>
                                     {/* <li> <Link to=" ">Recipes</Link> </li>
                                     <li> <Link to=" ">Blog</Link> </li> */}
-                                     <li> <Link to="/usa-shops"  target="_blank">Usa</Link> </li>
-                                    <li> <Link to="/Contactus"  target="_blank">Contact</Link> </li>
+                                     <li> <Link to="/usa-shops">Usa</Link> </li>
+                                    <li> <Link to="/Contactus">Contact</Link> </li>
                                    
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
                                 <h5 className="widget-title"  >Legal Links</h5>
                                 <ul>
-                                    <li> <Link to="/terms-and-condation"  target="_blank">Terms of Use</Link> </li>
-                                    <li> <Link to="/privacy-policy"  target="_blank">Privacy Policy</Link> </li>
-                                    <li> <Link to="/shipping-policy"  target="_blank">Shipping Policy</Link> </li>
-                                    <li> <Link to="/refund-policy"  target="_blank">Refund Policy</Link> </li>
-                                    <li> <Link to="/payment-ploicy"  target="_blank">Payment Services</Link> </li>
+                                    <li> <Link to="/terms-and-condation"  >Terms of Use</Link> </li>
+                                    <li> <Link to="/privacy-policy"  >Privacy Policy</Link> </li>
+                                    <li> <Link to="/shipping-policy"  >Shipping Policy</Link> </li>
+                                    <li> <Link to="/refund-policy"  >Refund Policy</Link> </li>
+                                    <li> <Link to="/payment-ploicy"  >Payment Services</Link> </li>
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">

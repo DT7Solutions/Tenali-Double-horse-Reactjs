@@ -8439,6 +8439,7 @@ g .rsm-marker{
   cursor: pointer;
   color: #fff;
   text-align: center;
+  
 }
 .womensdayawrapsec span:first-child {
   width: 120px;
@@ -8741,4 +8742,8 @@ font-size: 13px;
   border: 1PX SOLID #7e8083;
   border-radius: 20px;
   background-color: transparent !important;
+}
+
+video{
+  border-radius: 4px;
 }
