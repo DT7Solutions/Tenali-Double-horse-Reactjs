@@ -5317,7 +5317,7 @@ td.quantity{
     width: 200px;
   }
   .rules-container{
-    width:100%;
+    /* width:100%; */
     /* margin:10px; */
     padding:10px;
   
@@ -5467,7 +5467,7 @@ td.quantity{
   height:100%;
 }
 .rules-container{
-  width:100%;
+  /* width:100%; */
   /* margin:10px; */
   padding:10px;
 
@@ -8677,6 +8677,9 @@ g .rsm-marker{
 }
 .footer-top img{
   margin-top: 1px;
+}
+.table td, .table th {
+  padding: 0.55rem!important;
 }
 .p-text{
   float: left;
