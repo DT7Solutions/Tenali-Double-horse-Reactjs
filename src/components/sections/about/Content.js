@@ -1,18 +1,19 @@
 import React, { Component, Fragment } from 'react';
-import Aboutus from "../home/Aboutus";
+// import Aboutus from "../home/Aboutus";
 import Tdhabout from './Tdhabout'
-import Infographics from "../home-v3/Infographics";
-import Newsletter from "../home-v2/Newsletter";
+// import Infographics from "../home-v3/Infographics";
+// import Newsletter from "../home-v2/Newsletter";
 import Stats from '../home/Stats';
 import Rules from './Rules';
-import MyComponent from '../home-v2/MyComponent';
+// import MyComponent from '../home-v2/MyComponent';
 
 import Greatplacetowork from '../blog-full/Greatplacetowork'
-import Cardhover from './Cardhover';
+// import Cardhover from './Cardhover';
 import Tdhgroup from './Tdhgroup';
 import Feedback from '../home/Feedback';
 import Messenger from '../home/Messenger';
-import Ourstory  from '../home/Ourstory';
+// import Ourstory  from '../home/Ourstory';
+import Overview from "../about/Overview";
 import Tdhf from './Tdhf'
 
 class Content extends Component {
@@ -33,7 +34,7 @@ class Content extends Component {
                 
               
               
-                {/* <Overview/> */}
+                <Overview/>
                 <Tdhf/>
                
               

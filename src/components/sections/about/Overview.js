@@ -32,8 +32,8 @@ class TimelineSection extends Component {
 
           
         return (
-            <section id="timeline" style={{backgroundColor:'#fff',borderTop:'none'}}>
-                <h5 className="custom-primary text-center">Unraveling Our Story</h5>
+            <section id="timeline1" style={{backgroundColor:'#fff',borderTop:'none'}}>
+                {/* <h5 className="custom-primary text-center">Unraveling Our Story</h5>
         <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2>
                 <div className="demo-card-wrapper">
                     <div className="demo-card demo-card--step1 " data-aos="fade-left" data-aos-delay="400">
@@ -101,11 +101,11 @@ class TimelineSection extends Component {
                             <img src="http://placehold.it/1000x500" alt="Graphic" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                     
             
-                <div className="fluid-container"   >
-                        <h2 className="text-center title pt-5 pb-5 ">Our Story</h2>
+                <div className="fluid-container video-conatiner"   >
+                        <h2 className="text-center title mt-4 mb-3">Our Story</h2>
                    
                     
                     <div className="row ourstory-section text-center"  style={backgroundStyles} >
