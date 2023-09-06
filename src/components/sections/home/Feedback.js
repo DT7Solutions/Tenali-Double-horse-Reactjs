@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
+import emailjs from 'emailjs-com';
+
 
 
 
@@ -22,17 +24,30 @@ const FeedbackDrawer = () => {
         email,
         message,
       };
+      const serviceId = 'service_u0jehlt';
+      const templateId = 'template_aamrei5';
+      const userId = 'cjCRUWDX0cKAQSKL6'; // Your public key
     
+      emailjs.send(serviceId, templateId, formData, userId)
+        .then((response) => {
+          console.log('Email sent successfully:', response);
+          alert("Message successfully sent!");
+          // Show success message or take other actions as needed
+        })
+        .catch((error) => {
+          console.error('Email sending error:', error);
+          // Show error message or take other actions as needed
+        });
       // Perform your API call or form submission logic here
       // For simplicity, we'll just log the form data to the console
-      console.log(formData);
+      
     
       // Reset the form fields after submission
       setFullName('');
       setEmail('');
       setMessage('');
     
-      // Optionally, show the success message or any other handling after successful form submission
+      
       setShowDrawer(false)
   };
 
