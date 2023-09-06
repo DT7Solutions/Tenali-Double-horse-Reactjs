@@ -26,7 +26,8 @@ class Loader extends Component {
                                 <animate attributeName="fill-opacity" keyTimes="0;1" dur="1s" repeatCount="indefinite" values="1;0" begin="-0.625s" />
                             </circle>
                         </g>
-                    </g><g transform="translate(28.786796564403577,71.21320343559643)">
+                    </g>
+                    {/* <g transform="translate(28.786796564403577,71.21320343559643)">
                         <g transform="rotate(135)">
                             <circle cx={0} cy={0} r={6} fill="#ED4E53" fillOpacity="0.625">
                                 <animateTransform attributeName="transform" type="scale" begin="-0.5s" values="1.5 1.5;1 1" keyTimes="0;1" dur="1s" repeatCount="indefinite" />
@@ -54,14 +55,15 @@ class Loader extends Component {
                                 <animate attributeName="fill-opacity" keyTimes="0;1" dur="1s" repeatCount="indefinite" values="1;0" begin="-0.125s" />
                             </circle>
                         </g>
-                    </g><g transform="translate(71.21320343559643,28.78679656440357)">
+                    </g>
+                    <g transform="translate(71.21320343559643,28.78679656440357)">
                         <g transform="rotate(315)">
                             <circle cx={0} cy={0} r={6} fill="#ED4E53" fillOpacity="0.125">
                                 <animateTransform attributeName="transform" type="scale" begin="0s" values="1.5 1.5;1 1" keyTimes="0;1" dur="1s" repeatCount="indefinite" />
                                 <animate attributeName="fill-opacity" keyTimes="0;1" dur="1s" repeatCount="indefinite" values="1;0" begin="0s" />
                             </circle>
                         </g>
-                    </g>
+                    </g> */}
                 </svg>
             </div>
         );

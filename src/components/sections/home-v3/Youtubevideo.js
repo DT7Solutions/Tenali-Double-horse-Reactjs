@@ -16,7 +16,7 @@ const gallery = [
         videoEmbedLink: "https://www.youtube.com/embed/9x2tbixYIas",
     },
     {
-        videoEmbedLink: "https://www.youtube.com/embed/i2U2pFXOXUg",
+        videoEmbedLink: "poster",
     },
     
 ];
