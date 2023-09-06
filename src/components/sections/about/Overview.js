@@ -18,7 +18,7 @@ class TimelineSection extends Component {
             backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/video-background-image.png)`,
             backgroundRepeat: 'no-repeat',
             backgroundSize:'cover',
-            width:'100%',
+           
             height:'600px'
             
            

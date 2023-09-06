@@ -5,7 +5,7 @@ class Rules extends Component{
     render(){
         return(
             <div className='container mt-5'>
-                <div className="row g-2 rules-container">
+                <div className="row  rules-container">
                     <div className="col-lg-6 col-md-12">
                         <div className="tdh-legacy-principles">
                             <h5 className='custom-primary text-center'>Our Legacy</h5>
