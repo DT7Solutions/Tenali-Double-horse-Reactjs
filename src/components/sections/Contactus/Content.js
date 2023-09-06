@@ -85,16 +85,16 @@ class Content extends Component {
                             </p>
                         </div>
                         <div className="row  p-2">
-                            <div className="col-lg-7 mb-lg-30 ">
+                            <div className="col-lg-7  mb-lg-5 ">
                     
                                 <div className="row row-cols-1 row-cols-md-2">
-                                    <div className="col-lg-12 col-md-7 col-sm-12  mb-lg-30  ">
+                                    <div className="col-lg-12 col-md-12  col-sm-12   ">
                                         <div className="row  top-row">
-                                        <div className="col-lg-6 col-sm-12 mb-3 d-flex email-toll-card1">
+                                        <div className="col-lg-6  col-sm-12 mb-3 d-flex email-toll-card1">
                                                 <div><i className='fas fa-envelope mt-3 phone-email' style={{ fontSize: '30px', color: 'white' }} /></div> &nbsp;
                                                 <div className='mt-1'>email<h5 className="card-title"> <a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
                                             </div>
-                                            <div className="col-lg-6 col-sm-12   mb-3 d-flex email-toll-card2">
+                                            <div className="col-lg-6  col-sm-12   mb-3 d-flex email-toll-card2">
                                                 <div><i className='fas fa-phone-volume mt-3 phone-icon' style={{ fontSize: '33px', color: '#ED4E53' }} /></div> &nbsp;
                                                 <div className='mt-1'>Toll Free Number<h5 className="card-title"> <a href = "tel: 1800 270 567567">1800 270 567567</a></h5></div>
                                             </div>
@@ -105,8 +105,8 @@ class Content extends Component {
                                        
                                     <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{borderRadius:'20px'}}>
                                     <h5 className="custom-primary">Corporate Address</h5>
-                                    <p><i className='fas fa-phone' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
-                                    <p><i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} /> JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
+                                    <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
+                                    <p><i class='fas fa-location-arrow pr-2'  style={{ fontSize: '20px', color: '#7e8083' }} /> JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
                                      <p>Gayatri Hills,Jubilee Hills,Hyderabad, Telangana 500033</p>   
                                      
                                     <button type="button" className="btn-custom btn-sm order-btn">
@@ -116,8 +116,8 @@ class Content extends Component {
                                             
                                     <div className="col-lg-12 pt-3 pb-3 mb-5 shadow bg-rounded " style={{borderRadius:'20px'}}>
                                     <h5 className="custom-primary">Factory  Address</h5>
-                                    <p><i className='fas fa-phone' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
-                                    <p><i class='fas fa-location-arrow'  style={{ fontSize: '20px', color: '#7e8083' }} /> Nandivelugu, Nandivelugu (Post)</p>
+                                    <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
+                                    <p><i class='fas fa-location-arrow pr-2'  style={{ fontSize: '20px', color: '#7e8083' }} /> Nandivelugu, Nandivelugu (Post)</p>
                                      <p> – 522 306 TENALI,   Guntur Dist, A.P</p>   
                                    
                                      <button type="button" className="btn-custom btn-sm order-btn">
@@ -223,7 +223,7 @@ class Content extends Component {
     className="form-control"
     required
     placeholder="Type your message"
-    rows={9}
+    rows={7}
     value={formData.message}
     onChange={this.handleInputChange}
   />

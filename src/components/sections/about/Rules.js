@@ -4,7 +4,7 @@ import React,{Component} from 'react';
 class Rules extends Component{
     render(){
         return(
-            <div className='container'>
+            <div className='container mt-5'>
              
                 <div className="row  g-2 rules-container">
                     <div className="col-lg-6 col-md-12">
