@@ -8716,7 +8716,20 @@ font-size: 13px;
 .box img {
   margin-top: -35px;
 }
+.tdh-legacy-principles{
+  max-width: 600px;
+  margin: auto;
+}
 
+}
+
+.tdh-legacy-principles h5 {
+  font-weight: 800;
+  font-size: 25px;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.tdh-legacy-principles p {
+  color: #4c4e61 !important;
 }
 .mail-btn{
   border: 1PX SOLID #7e8083;
