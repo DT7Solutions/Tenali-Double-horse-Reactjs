@@ -100,7 +100,7 @@ class Content extends Component {
                                         <div className="ct-rating">
                                             {Rating(item.rating)}
                                         </div>
-                                        <span>(24 ratings)</span>
+                                        {/* <span>(24 ratings)</span> */}
                                         
                                     </div>
                                     {/* /Rating */}
@@ -174,7 +174,7 @@ class Content extends Component {
                                         <Nav.Link eventKey="tab1">Description</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="tab2">Reviews ({item.reviews.length})</Nav.Link>
+                                        <Nav.Link eventKey="tab2">Reviews </Nav.Link>
                                     </Nav.Item>
                                 </Nav>
                                 <Tab.Content>
@@ -223,7 +223,7 @@ class Content extends Component {
                                                             <div className="ct-rating">
                                                                 {/* {Rating(item.rating)} */}
                                                             </div>
-                                                            <span>Posted on: {review.date}</span>
+                                                            {/* <span>Posted on: {review.date}</span> */}
                                                             <p>{review.comment}</p>
                                                             <Link to="#" className="reply-link"></Link>
                                                         </div>
