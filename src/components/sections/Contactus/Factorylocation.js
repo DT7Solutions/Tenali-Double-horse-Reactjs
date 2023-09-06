@@ -23,7 +23,7 @@ class Factorylocation extends Component {
                                     <p className="card-text d-flex content-justify" > P.No.37,47,48,49&49A, AutoNagar,Somasundarapalem,
                                         Kattevaram(Post),522295,
                                         TENALI,Guntur, A.P</p>
-                                    <button type="button" className=" btn-sm mail-btn">
+                                    <button type="button" className=" btn-sm mail-btn ">
                                         <a href="mailto: info@tenalidoublehorse.com" target='_blank'>Write Us <i class='fas fa-envelope' style={{ fontSize: '15px', color: '#7e8083' }} /></a>
                                     </button>
                                         {/* <p className="card-text content-justify d-flex justify-content-center p-text" > 
