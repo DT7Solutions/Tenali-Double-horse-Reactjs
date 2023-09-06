@@ -22,6 +22,7 @@ class Content extends Component {
             <Fragment>
                <Tdhabout/>
                <Tdhgroup/>
+               <Overview/>
                 <Rules/>
               
                 
@@ -34,7 +35,7 @@ class Content extends Component {
                 
               
               
-                <Overview/>
+               
                 <Tdhf/>
                
               

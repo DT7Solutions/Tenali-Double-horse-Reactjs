@@ -14,7 +14,8 @@ class Quickview extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            clicks: 1
+            clicks: 1,
+            
         };
     }
     IncrementItem = () => {
@@ -32,6 +33,8 @@ class Quickview extends Component {
             });
         }
     };
+
+  
     handleChange(event) {
         this.setState({ clicks: event.target.value });
     }
@@ -39,13 +42,18 @@ class Quickview extends Component {
         const productId = this.props.productId;
         const item = getProduct(productId);
         const productsToHideButton = [3, 8,10,11,12,13,14,25,26,27,28,29,30];
+        const { show } = this.state;
 
     // Check if the current product's ID is in the array of products to hide the button
         const shouldHideOrderButton = productsToHideButton.includes(productId);
         return (
             <Fragment> 
                 {/* <Modal.Header className="modal-bg mt-5 bg-warning" closeButton style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.img + ")" }} /> */}
-                <Modal.Body>
+              
+                <Modal.Header closeButton>
+                        <Modal.Title className='custom-primary' style={{fontSize:'18px',fontWeight:'700'}}>Product Details</Modal.Title>
+                    </Modal.Header>
+                <Modal.Body >
                     <div className="customize-meta product-popup-section ">
                         <div className='popup-product-image-sec'>
                         <Swiper
@@ -136,6 +144,7 @@ class Quickview extends Component {
                     </div> */}
                     {/* <button type="button" className="btn-custom btn-sm ">Order Now</button> */}
                 </Modal.Body>
+               
             </Fragment>
         );
     }

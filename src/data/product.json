@@ -898,9 +898,9 @@
     {
         "id": 8,
         "img": "assets/img/prods-sm/tenali-double-horse-chana-dall.png",
-        "img2": "assets/img/prods-sm/idly/tenali-double-horse-idly-rava-1.png",
-        "img3": "assets/img/prods-sm/tenali-double-horse-idly-rava-3.png",
-        "img4": "assets/img/prods-sm/idly/tenali-double-horse-idly-rava-2.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-chana-dall.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-chana-dall.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-chana-dall.png",
   
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
@@ -1303,7 +1303,7 @@
         "name": "Idly Rava 30kgs",
         "shortdesc": " Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price": 0.00,
-        "urls":"https://amzn.eu/d/9igahcH",
+        "urls":"",
         "rating": 4,
         "category": [
             1,
@@ -1426,7 +1426,7 @@
         "name": "Orid Rounds ",
         "shortdesc": "Experience the Richness of Orid Rounds by Tenali Double Horse",
         "price": 0.00,
-        "urls":"https://amzn.eu/d/9igahcH",
+        "urls":"",
         "rating": 4,
         "category": [
             1,
@@ -1549,7 +1549,7 @@
         "name": "Urad Dall 30kgs",
         "shortdesc": " Urad Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price": 0.00,
-        "urls":"https://amzn.eu/d/9igahcH",
+        "urls":"",
         "rating": 4,
         "category": [
             1,
@@ -1895,7 +1895,7 @@
                 ]
             }
         ],
-        "longdescription":"Urad Gota is used for preparing idly ,dosa,vada,and other indian recepies. it is a protein rich food and its qaulity is determined by the softness of the batter and taste of the recipe .Tenali Double Horse  urad gota is the best choice as it is procured from the best framers& fields across India .it is processes in hygenical conditions and packed in substainable packing pounches to ensure that the freshness tasts for long time ",
+        "longdescription":"Add Tenali Double Horse's Chana Dall to your cart today and savor the authentic taste of India. Elevate your culinary skills and enjoy the goodness of premium Chana Dal with every meal.",
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
@@ -2017,7 +2017,7 @@
                 ]
             }
         ],
-        "longdescription":"Urad Gota is used for preparing idly ,dosa,vada,and other indian recepies. it is a protein rich food and its qaulity is determined by the softness of the batter and taste of the recipe .Tenali Double Horse  urad gota is the best choice as it is procured from the best framers& fields across India .it is processes in hygenical conditions and packed in substainable packing pounches to ensure that the freshness tasts for long time ",
+        "longdescription":"Are you craving a taste of authentic Indian cuisine? Look no further than Tenali Double Horse's premium Moong Dal! Sourced from the heart of India's fertile farmlands, our Moong Dal is a must-have for every kitchen.",
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
@@ -2139,23 +2139,23 @@
                 ]
             }
         ],
-        "longdescription":"Urad Gota is used for preparing idly ,dosa,vada,and other indian recepies. it is a protein rich food and its qaulity is determined by the softness of the batter and taste of the recipe .Tenali Double Horse  urad gota is the best choice as it is procured from the best framers& fields across India .it is processes in hygenical conditions and packed in substainable packing pounches to ensure that the freshness tasts for long time ",
+        "longdescription":"Indulge in the rich and authentic taste of Tenali Double Horse Toor Dal, a culinary gem that's cherished for its quality and flavor. Renowned for its wholesomeness, our Toor Dal is a kitchen essential that promises to elevate your cooking to new heights.",
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+         
+                "comment":""
             }
         ]
     },
     {
         "id": 17,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
-        "img1": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
         "img2": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
         "img3": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
 
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
@@ -2419,7 +2419,7 @@
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
-        "name": "sunnundalu 1kg",
+        "name": "Sunnundalu 1kg",
         "shortdesc": "TDH Rishika Sunnundalu makes your celebration special, tasteful and complete. Its sweetness brings about a feeling of togetherness and oneness with your family.",
         "price":65.00,
         "urls":"https://tenalidoublehorse.com/product/moong-dal-1kg/ ",
@@ -2429,9 +2429,10 @@
         ],
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+               "Authentic Indian sweet": "Enjoy the traditional taste of Rishika Sunnundalu, a popular Andhra sweet.",
+              "Made from ghee" : "Made from roasted urad flour, jaggery, and desi ghee for a delicious and wholesome treat",
+                "Nutrient-rich": "These laddus are rich in iron, providing both sweetness and nutritional value.",
+                "No preservatives or added colors": "sweets are made with pure and natural ingredients."
                 }
         ],
         "sizes": [
@@ -2520,7 +2521,7 @@
                 ]
             }
         ],
-        "longdescription":"Urad Gota is used for preparing idly ,dosa,vada,and other indian recepies. it is a protein rich food and its qaulity is determined by the softness of the batter and taste of the recipe .Tenali Double Horse  urad gota is the best choice as it is procured from the best framers& fields across India .it is processes in hygenical conditions and packed in substainable packing pounches to ensure that the freshness tasts for long time ",
+        "longdescription":"Indulge in the authentic flavors of India with Tenali Double Horse Foods Rishika Sunnundalu. These delectable laddus, also known as urad dal laddu, are a beloved traditional sweet from Andhra Pradesh. Made with a blend of roasted urad flour, jaggery, and desi ghee , these sweets offer a delightful combination of flavors and textures. Each box contains 12 pieces of Rishika Sunnundalu, providing you with ample servings to share with family and friends.",
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
@@ -2908,7 +2909,7 @@
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Urad Gota 4LB",
-        "shortdesc": "Tenali double Horse Husked Black Gram Dall is Rich in Nutrients & Urad dall is naturally rich in protein and high in dietary fiber.",
+        "shortdesc": "Round Urad Gota is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
         "price":65.00,
         "urls":"https://tenalidoublehorse.com/product/moong-dal-1kg/ ",
         "rating": 4,
@@ -3031,7 +3032,7 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Toor Dall 4LB",
         "shortdesc": "Toor Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
-        "price":65.00,
+        "price":0.00,
         "urls":"https://tenalidoublehorse.com/product/moong-dal-1kg/ ",
         "rating": 4,
         "category": [
@@ -3400,7 +3401,7 @@
         "name": "Chana Dall 30kgs",
         "shortdesc": "Elevate your culinary experience with the finest Chana Dal brought to you by Tenali Double Horse. Sourced from the heartlands of India",
         "price":0.00,
-        "urls":" ",
+        "urls":"",
         "rating": 4,
         "category": [
             1,
@@ -3662,7 +3663,7 @@
         "name": "Moong Dall 30kgs",
         "shortdesc": "Moong Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price":0.00,
-        "urls":" ",
+        "urls":"",
         "rating": 4,
         "category": [
             1,

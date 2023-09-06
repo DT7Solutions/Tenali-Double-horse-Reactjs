@@ -40,7 +40,7 @@ class Banner extends Component {
                 <div className='header-marque' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <marquee id="marquee" width="97%" direction="left" onMouseEnter={this.handleMarqueeHover}
                         onMouseLeave={this.handleMarqueeLeave}>
-                We have recently introduced our products in the UAE. For inquiries regarding exports, please reach out to us at 1800 270 567 567 or email us at exports@tenalidoublehorse.com.
+                We have recently introduced our products in  UAE. For inquiries regarding exports, please reach out to us at 1800 270 567 567 or email us at exports@tenalidoublehorse.com.
                 </marquee>
                 </div>
 

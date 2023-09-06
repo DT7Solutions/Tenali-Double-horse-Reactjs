@@ -38,7 +38,8 @@ class Aboutcompany extends Component {
         const { isVisible } = this.state;
         return (
             <div ref={this.sectionRef} className={`subheader mt-lg-5 mb-5 pt-5  fade-in-section ${isVisible ? 'visible' : ''}`} style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-souble-horse-about-section-1900x600.png)", paddingTop:'30px!important' }}>
-                <div className="container" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                {/* <div className="container" style={{display:'flex',justifyContent:'center',alignItems:'center'}}> */}
+                <div className='container'>
                     <div className="subheader-inner">
                       
                         <nav  aria-label="breadcrumb breadcrumb-two">

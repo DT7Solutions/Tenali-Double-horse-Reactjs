@@ -6689,6 +6689,12 @@ td.quantity{
 .testimonial{
   margin: 0 20px 40px;
 }
+@media (min-width: 600px) and (max-width: 1024px) {
+  .testimonial .testimonial-content{
+    min-height: 30px!important;
+    
+  }
+}
 .testimonial .testimonial-content{
   padding: 35px 25px 35px 50px;
   margin-bottom: 35px;
