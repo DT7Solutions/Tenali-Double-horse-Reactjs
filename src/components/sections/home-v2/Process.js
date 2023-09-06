@@ -41,7 +41,7 @@ class Process extends Component {
 
                 <div className="row1-container four-philers">
                    
-                            <div className="box box-down cyan"  data-aos="slide-up" data-aos-anchor-placement="top-center"  data-aos-easing="ease-in-sine" data-aos-delay="400">
+                            <div className="box box-down cyan" data-aos="slide-right"  data-aos-anchor-placement="top-center"  data-aos-easing="ease-in-sine" data-aos-delay="200">
                                 <h2>Superior Quality</h2>
                                 <p className='content-justify'>Delivering excellence in every bite , High-quality standards in terms of freshness, purity, and taste.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Quality.png"} alt="topicon" />
@@ -49,14 +49,14 @@ class Process extends Component {
                         
 
                       
-                            <div className="box red" data-aos="slide-up" data-aos-easing="ease-in-sine" data-aos-delay="400">
+                            <div className="box red" data-aos="slide-down" data-aos-easing="ease-in-sine" data-aos-delay="200">
                                 <h2>Trusted Brand</h2>
                                 <p className='content-justify'>Building trust with our customers by consistently delivering exceptional quality and reliability.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Trusted.png"} alt="topicon" />
                             </div>
                         
                        
-                            <div className="box box-down blue" data-aos="slide-up"  data-aos-easing="ease-in-sine" data-aos-delay="400">
+                            <div className="box box-down blue" data-aos="slide-left"  data-aos-easing="ease-in-sine" data-aos-delay="200">
                                 <h2>High Nutritional Value</h2>
                                 <p className='content-justify'>Abundant nutrients, vitamins, minerals for optimal health through our products.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="topicon" />
@@ -65,7 +65,7 @@ class Process extends Component {
                 </div>
 
                 <div className="row2-container">
-                    <div className="box orange" data-aos="slide-up" data-aos-easing="ease-in-sine"  data-aos-delay="400">
+                    <div className="box orange" data-aos="slide-up" data-aos-easing="ease-in-sine"  data-aos-delay="200">
                         <h2>Affordable</h2>
                         <p className='fontcolor content-justify'>Premium Urad Dal at Affordable prices. Elevate your Daily Routine without compromising on quality. Your satisfaction, our priority.</p>
                         <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Affordable.png"} alt="topicon" />

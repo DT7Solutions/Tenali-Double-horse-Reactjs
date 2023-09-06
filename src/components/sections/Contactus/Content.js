@@ -103,7 +103,7 @@ class Content extends Component {
                                     </div>
                                     {/* <div className='container'> */}
                                        
-                                    <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{borderRadius:'20px'}}>
+                                    <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{borderRadius:'8px'}}>
                                     <h5 className="custom-primary">Corporate Address</h5>
                                     <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
                                     <p><i class='fas fa-location-arrow pr-2'  style={{ fontSize: '20px', color: '#7e8083' }} /> JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
@@ -114,7 +114,7 @@ class Content extends Component {
                                     </button>
                                         </div>
                                             
-                                    <div className="col-lg-12 pt-3 pb-3 mb-5 shadow bg-rounded " style={{borderRadius:'20px'}}>
+                                    <div className="col-lg-12 pt-3 pb-3 mb-5 shadow bg-rounded " style={{borderRadius:'8px'}}>
                                     <h5 className="custom-primary">Factory  Address</h5>
                                     <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
                                     <p><i class='fas fa-location-arrow pr-2'  style={{ fontSize: '20px', color: '#7e8083' }} /> Nandivelugu, Nandivelugu (Post)</p>
