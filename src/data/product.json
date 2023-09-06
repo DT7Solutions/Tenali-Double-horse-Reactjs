@@ -120,10 +120,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Lavesh Ravindranath Shenava",
-                "date":"28 August 2023",
-                "rating":5,
-                "comment":"Value for money product"
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
@@ -246,10 +246,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+                
+                "comment":""
             }
         ]
     }
@@ -371,10 +371,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+                
+                "comment":""
             }
         ]
     },
@@ -498,10 +498,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+                
+                "comment":""
             }
         ]
     },
@@ -761,10 +761,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
@@ -888,10 +888,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
@@ -1017,24 +1017,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+              
+                "comment":""
             }
         ]
     }
@@ -1162,10 +1148,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
@@ -1293,24 +1279,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+            
+                "comment":""
             }
         ]
     },
@@ -1321,6 +1293,9 @@
     {
         "id": 10,
         "img": "assets/img/prods-sm/tenali-double -horse-idly-rava-thirty-kgs.png",
+        "img2": "assets/img/prods-sm/tenali-double -horse-idly-rava-thirty-kgs.png",
+        "img3": "assets/img/prods-sm/tenali-double -horse-idly-rava-thirty-kgs.png",
+        "img4": "assets/img/prods-sm/tenali-double -horse-idly-rava-thirty-kgs.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -1431,30 +1406,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
     {
         "id": 11,
         "img": "assets/img/prods-sm/tenali-double -horse-Orid-rounds.png",
+        "img2": "assets/img/prods-sm/tenali-double -horse-Orid-rounds.png",
+        "img3": "assets/img/prods-sm/tenali-double -horse-Orid-rounds.png",
+        "img4": "assets/img/prods-sm/tenali-double -horse-Orid-rounds.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -1565,30 +1529,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+              
+                "comment":""
             }
         ]
     },
     {
         "id": 12,
         "img": "assets/img/prods-sm/tenali-double -horse-urad-dall-thirty-kgs.png",
+        "img2": "assets/img/prods-sm/tenali-double -horse-urad-dall-thirty-kgs.png",
+        "img3": "assets/img/prods-sm/tenali-double -horse-urad-dall-thirty-kgs.png",
+        "img4": "assets/img/prods-sm/tenali-double -horse-urad-dall-thirty-kgs.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -1699,30 +1652,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+              
+                "comment":""
             }
         ]
     },
     {
         "id": 13,
         "img": "assets/img/prods-sm/tenali-double -horse-urad-gota-thirty-kg.png",
+        "img2": "assets/img/prods-sm/tenali-double -horse-urad-gota-thirty-kg.png",
+        "img3": "assets/img/prods-sm/tenali-double -horse-urad-gota-thirty-kg.png",
+        "img4": "assets/img/prods-sm/tenali-double -horse-urad-gota-thirty-kg.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -1833,24 +1775,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney   "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
@@ -1859,6 +1787,9 @@
     {
         "id": 14,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-chana-dall.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-dubai-chana-dall.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-dubai-chana-dall.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-dubai-chana-dall.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -1968,24 +1899,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney "
+                "name":"",
+                "date":"",
+              
+                "comment":""
             }
         ]
     },
@@ -2104,30 +2021,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
     {
         "id": 16,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-Toor-dall.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-dubai-Toor-dall.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-dubai-Toor-dall.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-dubai-Toor-dall.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -2241,26 +2147,16 @@
                 "date":"January 13 2021",
                 "rating":4,
                 "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
             }
         ]
     },
     {
         "id": 17,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
+        "img1": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-dubai-urad-dall.png",
+
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -2370,30 +2266,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
     {
         "id": 18,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-urad-gota.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-dubai-urad-gota.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-dubai-urad-gota.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-dubai-urad-gota.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -2527,6 +2412,9 @@
     {
         "id": 19,
         "img": "assets/img/prods-sm/tenali-double-horse-dubai-sunnundalu.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-dubai-sunnundalu.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-dubai-sunnundalu.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-dubai-sunnundalu.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -2636,24 +2524,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+              
+                "comment":""
             }
         ]
     },
@@ -2661,6 +2535,9 @@
     {
         "id": 20,
         "img": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
+        "img2": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
+        "img3": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
+        "img4": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -2770,16 +2647,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     }
     , {
         "id": 21,
         "img": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
+        "img2": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
+        "img3": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
+        "img4": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -2889,30 +2769,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
     {
         "id": 21,
         "img": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
+        "img2": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
+        "img3": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
+        "img4": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -3022,29 +2891,18 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     }, {
         "id": 22,
         "img": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
+        "img2": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
+        "img3": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
+        "img4": "assets/img/prods-sm/Tenali-double-horse-international-products-urad-gota-2lb-image-300x300.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -3154,30 +3012,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     }
     , {
         "id": 23,
         "img": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
+        "img2": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
+        "img3": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
+        "img4": "assets/img/prods-sm/Tenali-double-horse-international-products-Toor-dal-2lb-image-300x300.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -3287,30 +3134,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     },
     {
         "id": 24,
         "img": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
+        "img2": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
+        "img3": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
+        "img4": "assets/img/prods-sm/Tenali-double-horse-international-products-Moong-dal-2lb-image-300x300.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -3420,30 +3256,19 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     } ,
     {
         "id": 25,
         "img": "assets/img/prods-sm/tenali-double-horse-husked-black-gram-thirty-kgs-pack.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-husked-black-gram-thirty-kgs-pack.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-husked-black-gram-thirty-kgs-pack.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-husked-black-gram-thirty-kgs-pack.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -3554,24 +3379,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+              
+                "comment":""
             }
         ]
     }
@@ -3579,14 +3390,17 @@
     {
         "id": 26,
         "img": "assets/img/prods-sm/tenali-double-horse-husked-chana-dall-thirty-kgs-pack.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-husked-chana-dall-thirty-kgs-pack.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-husked-chana-dall-thirty-kgs-pack.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-husked-chana-dall-thirty-kgs-pack.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Chana Dall 30kgs",
         "shortdesc": "Elevate your culinary experience with the finest Chana Dal brought to you by Tenali Double Horse. Sourced from the heartlands of India",
-        "price":65.00,
-        "urls":"https://tenalidoublehorse.com/product/moong-dal-1kg/ ",
+        "price":0.00,
+        "urls":" ",
         "rating": 4,
         "category": [
             1,
@@ -3689,24 +3503,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
+                "name":"",
+                "date":"",
                 "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "comment":""
             }
         ]
     }
@@ -3714,14 +3514,17 @@
     {
         "id": 27,
         "img": "assets/img/prods-sm/tenali-double-horse-husked-toor-dall-thirty-kgs-pack.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-husked-toor-dall-thirty-kgs-pack.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-husked-toor-dall-thirty-kgs-pack.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-husked-toor-dall-thirty-kgs-pack.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Toor Dall 30Kgs",
         "shortdesc": "Toor Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
-        "price":65.00,
-        "urls":"https://tenalidoublehorse.com/product/moong-dal-1kg/ ",
+        "price":0.00,
+        "urls":"",
         "rating": 4,
         "category": [
             1,
@@ -3849,6 +3652,9 @@
     {
         "id": 28,
         "img": "assets/img/prods-sm/tenali-double-horse-moong-dall-thirty-kgs-pack.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-moong-dall-thirty-kgs-pack.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-moong-dall-thirty-kgs-pack.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-moong-dall-thirty-kgs-pack.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
@@ -3959,24 +3765,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     }
@@ -3984,14 +3776,17 @@
     {
         "id": 29,
         "img": "assets/img/prods-sm/tenali-double-horse-urad-rounds.png",
+        "img2": "assets/img/prods-sm/tenali-double-horse-urad-rounds.png",
+        "img3": "assets/img/prods-sm/tenali-double-horse-urad-rounds.png",
+        "img4": "assets/img/prods-sm/tenali-double-horse-urad-rounds.png",
         "productsafetyimg1": "assets/img/safety-images/no-colora.png",
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Urad Rounds 30kgs",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
-        "price":65.00,
-        "urls":"https://tenalidoublehorse.com/product/moong-dal-1kg/ ",
+        "price":0.00,
+        "urls":"",
         "rating": 4,
         "category": [
             1,
@@ -4094,24 +3889,10 @@
         "reviews":[
             {
                 "img":"assets/img/people/1.jpg",
-                "name":"Henry Crow",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly"
-            },
-            {
-                "img":"assets/img/people/2.jpg",
-                "name":"Ilyn Rodrick",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-            },
-            {
-                "img":"assets/img/people/3.jpg",
-                "name":"Fiyona Lumber",
-                "date":"January 13 2021",
-                "rating":4,
-                "comment":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney    "
+                "name":"",
+                "date":"",
+               
+                "comment":""
             }
         ]
     }
