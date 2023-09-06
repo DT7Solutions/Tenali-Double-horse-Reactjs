@@ -6347,14 +6347,14 @@ td.quantity{
  .wrapper .facebookf:hover,
  .wrapper .facebookf:hover .tooltip,
  .wrapper .facebookf:hover .tooltip::before {
-   background: #1877F2;
+   background: #fccc4c;
    color: #ffffff !important;
  }
  
  .wrapper .twittert:hover,
  .wrapper .twittert:hover .tooltip,
  .wrapper .twittert:hover .tooltip::before {
-   background: #1DA1F2;
+  background: #fccc4c;
    color: #ffffff !important;
  }
  
@@ -6363,7 +6363,7 @@ td.quantity{
  .wrapper .instagram:hover,
  .wrapper .instagram:hover .tooltip,
  .wrapper .instagram:hover .tooltip::before {
-   background: #E4405F;
+  background: #fccc4c;
    color: #ffffff;
  }
  
@@ -6373,7 +6373,7 @@ td.quantity{
  .wrapper .youtubey:hover,
  .wrapper .youtubey:hover .tooltip,
  .wrapper .youtubey:hover .tooltip::before {
-   background: #CD201F;
+  background: #fccc4c;
    color: #ffffff;
  } 
  
@@ -8397,7 +8397,7 @@ g .rsm-marker{
 .wrapper .linked-m:hover,
 .wrapper .linked-m:hover .tooltip,
 .wrapper .linked-m:hover .tooltip::before {
-  background: #3b579d;
+  background: #fccc4c;
   color:#ffffff;
 }
 
@@ -8717,4 +8717,9 @@ font-size: 13px;
   margin-top: -35px;
 }
 
+}
+.mail-btn{
+  border: 1PX SOLID #7e8083;
+  border-radius: 20px;
+  background-color: transparent !important;
 }

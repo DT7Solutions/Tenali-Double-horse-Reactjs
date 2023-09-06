@@ -19,7 +19,7 @@ import 'animate.css';
         </div>
           <div class="container">
             <div class="row">
-            <div class="col-lg-6 mb-4 wow animate__animated animate__fadeInUp "  data-wow-delay="0.2s">
+            <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp "  data-wow-delay="0.2s">
             <div class="card alignments" style={{minHeight:'400px'}}>
             <img src={process.env.PUBLIC_URL + "/assets/img/home/new-idly-ravva.png"} style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
@@ -30,7 +30,7 @@ import 'animate.css';
               </div>
              </div>
             </div>
-          <div class="col-lg-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.4s">
+          <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.4s">
           <div class="card black alignments"  style={{minHeight:'400px'}}>
           <img src={process.env.PUBLIC_URL + "/assets/img/home/urad-gota.png"} style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
@@ -41,7 +41,7 @@ import 'animate.css';
               </div>
               </div>
             </div>
-            <div class="col-lg-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.6s">
+            <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.6s">
           <div class="card white alignments"  style={{minHeight:'400px'}}>
           <img src={process.env.PUBLIC_URL + "/assets/img/home/toordall.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
@@ -52,7 +52,7 @@ import 'animate.css';
               </div>
               </div>
             </div>
-            <div class="col-lg-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.8s">
+            <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.8s">
             <div class="card yellow alignments"  style={{minHeight:'400px'}} >
             <img src={process.env.PUBLIC_URL + "/assets/img/home/moong-dall.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
