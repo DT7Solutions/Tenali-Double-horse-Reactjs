@@ -8698,3 +8698,23 @@ g .rsm-marker{
 .card-locations a{
 font-size: 13px;
 }
+
+@media (min-width:769px) and (max-width: 1024px){
+  .floating-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: -5px 120px;
+}
+
+.row1-container {
+  display: block !important;
+  justify-content: center;
+  align-items: center;
+  width: 95% !important;
+}
+.box img {
+  margin-top: -35px;
+}
+
+}
