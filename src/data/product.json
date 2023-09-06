@@ -1327,7 +1327,7 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Idly Rava 30kgs",
         "shortdesc": " Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
-        "price": 138.00,
+        "price": 0.00,
         "urls":"https://amzn.eu/d/9igahcH",
         "rating": 4,
         "category": [
@@ -3450,8 +3450,8 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Husked Black gram 30kgs",
         "shortdesc": "Tenali double Horse Husked Black Gram Dall is Rich in Nutrients & Urad dall is naturally rich in protein and high in dietary fiber.",
-        "price":65.00,
-        "urls":"https://tenalidoublehorse.com/product/moong-dal-1kg/ ",
+        "price":0.00,
+        "urls":"",
         "rating": 4,
         "category": [
             1,

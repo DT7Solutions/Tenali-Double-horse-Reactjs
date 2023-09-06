@@ -68,7 +68,9 @@ class Quickview extends Component {
                           <div className=''>
                           <h4 className="customize-title">{item.name}  </h4>
                           <p>{item.shortdesc}</p>
-                          <h5><span className="custom-primary">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</span></h5>
+                          {item.price === 0 ? <p></p>:<h5>
+                          <span className="custom-primary">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</span></h5> }
+                          
                           {!shouldHideOrderButton && (
                         <button type="button" className="btn-custom btn-sm">Order Now</button>
                     )}

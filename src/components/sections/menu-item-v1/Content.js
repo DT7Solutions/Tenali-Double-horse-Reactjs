@@ -109,9 +109,10 @@ class Content extends Component {
                                     <p>{item.shortdesc}</p>
                                 
                                     {/* Price */}
-                                        <div className="price-wrapper">
-                                        <p className="product-price">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</p>
-                                    </div>
+                                       <div className="price-wrapper">
+                                        {item.price === 0 ? <p className="product-price"></p> :<p className="product-price">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</p> }
+                                         
+                                       </div>
                                     {/* /Price */}
                                     {/* Variations */}
                                     <div className="customize-variations">
@@ -141,13 +142,19 @@ class Content extends Component {
                                 
                             </li>
                             
-                            {!shouldHideOrderButton && (
-                              
+                            {/* {!shouldHideOrderButton && (
+                             
                               <button type="button" className="btn-custom btn-sm order-btn">
                                   <a href={item.urls} target='_blank'>Order Now</a>
                               </button>
-                           
-                              )}
+            
+                              )} */}
+                               {item.urls === '' ?<div></div>
+                                :
+                                <button type="button" className="btn-custom btn-sm order-btn">
+                                                    <a href={item.urls} target='_blank'>Order Now</a>
+                                                </button>
+                                }
                         </ul>
                         
                   
