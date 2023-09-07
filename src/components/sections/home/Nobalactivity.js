@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
-
-
+// import WOW from 'wow.js';
+import 'animate.css';
 
 
 class Nobalactivity extends Component {
@@ -14,75 +14,116 @@ class Nobalactivity extends Component {
         this.sectionRef = React.createRef();
       }
     
-      componentDidMount() {
-        const observerOptions = {
-          root: null,
-          rootMargin: '0px',
-          threshold: 0.3, // Adjust this value to control when the section becomes visible during scrolling
-        };
-    
-        const observer = new IntersectionObserver(this.handleIntersection, observerOptions);
-        if (this.sectionRef.current) {
-          observer.observe(this.sectionRef.current);
-        }
-      }
-    
-      handleIntersection = (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            this.setState({ isVisible: true });
-          }
-        });
-      };
     render() {
-        const { isVisible } = this.state;
         return (
            
-              //  <div  ref={this.sectionRef}  className={`activites mb-4 fade-in-section ${isVisible ? 'visible' : ''}`} >
-              //       <h2 className='title text-center'>Notable Activities</h2>
-              //       <div className='social-media-actives'>
-              //           <img src={process.env.PUBLIC_URL + "/assets/img/misc/aha.png"} className="aha" alt="aha"/>
-              //           <img src={process.env.PUBLIC_URL + "/assets/img/misc/double-horse.png"} className="aha" alt="aha"/>
-              //           <img src={process.env.PUBLIC_URL + "/assets/img/misc/amma-kuchi.png"} className="aha" alt="aha"/>   
-              //       </div>
-              //   </div>
-            <div  ref={this.sectionRef}  className={`activites mb-4 fade-in-section ${isVisible ? 'visible' : ''}`} >
-            <div className="container">
-            <h2 className='title text-center pb-5'>Notable Activities</h2>
-              <div className="row align-items-center ">
-             
-                <div className="col-lg-5 mb-lg-30">
-                <img src={process.env.PUBLIC_URL + "/assets/img/misc/double-horse.png"}  alt="aha"/>
-                </div>
-                <div className="col-lg-7 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                  {/* <div class="gallery" >
-                    <img src="https://picsum.photos/id/1004/400/400" alt="a lovely kiss in the night" />
-                    <img src="https://picsum.photos/id/1013/400/400" alt="a women inside a car" />
-                    <img src="https://picsum.photos/id/1066/400/400" alt="a baby" />
-                    <img src="https://picsum.photos/id/325/400/400" alt="a girl in the forest" />
-                    <img src="https://picsum.photos/id/65/400/400" alt="a girl" />
-                  </div> */}
-                  <div className='animation-cube'>
-                    {/* <div className="title-cube">
-                      <h1>Animated Cube Slider</h1>
-                      <p>CSS Only</p>
-                      <p className="small-cube">best viewed in Firefox</p>
-                    </div> */}
+          <div className="container">
+            <h5 className="text-center pt-5">M2</h5>
+            <h2 className='title text-center pb-4'>Premium Desi Urad Chakki Dall </h2>
+            {/* <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p> */}
 
-                    <div className="slider-cube">
-                      <div className="container-cube">
-                        <div className="slide x"></div>
-                        <div className="slide y"></div>
-                        <div className="slide z"></div>
-                      </div>
-                      <div className="shadow-cube"></div>
+            <div class="why-choose-section">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center pb-5">
+                            <div class="col-lg-6">
+                                <h4 class="section-title1">M2 Highlights</h4>
+                                <div class="row my-5">
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                                        <div class="feature d-flex align-items-center">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                                    <div class="feature d-flex align-items-center ">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                                    <div class="feature d-flex align-items-center">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                                    <div class="feature d-flex align-items-center">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                    <div class="feature d-flex align-items-center">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                    <div class="feature d-flex align-items-center">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp " data-wow-delay="0.9s">
+                                    <div class="feature d-flex align-items-center">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
+                                    <div class="feature d-flex align-items-center">
+                                            <div class="icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="Image" class="" style={{height:'50px'}}/>
+                                            </div>
+                                            <div className='mt-4'>
+                                              <h5>Superior Quality</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5">
+                                <div class="img-wrap">
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-m2-bag.png"} alt="Image" class="img-fluid" />
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-
-
-                  </div>
                 </div>
-              </div>
-            </div>
           </div>
         );
     }

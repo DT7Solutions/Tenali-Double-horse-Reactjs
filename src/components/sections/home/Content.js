@@ -28,7 +28,7 @@ class Content extends Component {
                 <Aboutcompany />
                 <Process />
 
-                {/* <Nobalactivity /> */}
+                <Nobalactivity />
                 <Instagram/>
                 {/* <CubeSlider/> */}
 
