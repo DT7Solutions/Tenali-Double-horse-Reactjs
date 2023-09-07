@@ -26,7 +26,7 @@ const successpost = [
     
     {
         icon:"fas fa-box-open",
-        count: 26,
+        count: 11,
         title: "Products",
         delay:"0.9s"
     }
