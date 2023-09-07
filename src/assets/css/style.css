@@ -8837,3 +8837,10 @@ font-size: 13px;
 video{
   border-radius: 4px;
 }
+
+@media (min-width: 1450px) {
+  .section.section-padding{
+    padding: 150px 0 80px;
+  }
+
+}

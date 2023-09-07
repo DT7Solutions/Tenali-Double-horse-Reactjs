@@ -33,7 +33,7 @@ class Container extends Component {
         return (
             <div className="container-ac">
         {/* <h2 className='title text-center pt-lg-5  mt-lg-5'></h2> */}
-        <div className="section-title-wrap section-header  mt-lg-5 text-center ">
+        <div className="section-title-wrap section-header  mt-lg-5 mt-xl-5  mt-xxl-5 text-center ">
                     <h5 className="custom-primary">Campaign Chronicles  </h5>
                     <h2 className="title">Explore Our Ongoing Campaigns</h2>
                     <p className="subtitle ">

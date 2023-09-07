@@ -229,7 +229,8 @@ class Content extends Component {
   />
 </div>
                                     </div>
-                                    <button type="submit"  value="Send" className="btn-custom primary" name="button">Send Message</button>
+                                    <div className="g-recaptcha" data-sitekey="6LcwDQcoAAAAAIkSarHAe3BinIu75WQ0Ay26ypbP"></div>
+                                    <button type="submit"  value="Send" className="btn-custom primary mt-3" name="button">Send Message</button>
                                 </form>
                                
                                 </div>

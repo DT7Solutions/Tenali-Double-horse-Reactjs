@@ -19,7 +19,7 @@ class TimelineSection extends Component {
             backgroundRepeat: 'no-repeat',
             backgroundSize:'cover',
            
-            height:'600px'
+           
             
            
            
