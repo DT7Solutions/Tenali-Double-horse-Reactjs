@@ -5,7 +5,7 @@ import L from 'leaflet';
 import Factorylocation from './Factorylocation';
 import Messenger from '../home/Messenger';
 import Feedback from '../home/Feedback';
-
+import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from 'emailjs-com';
 
 
@@ -30,6 +30,7 @@ class Content extends Component {
             subject: '',
             message: '',
           },
+          recaptchaValue: null,
         };
       }
     
@@ -42,9 +43,20 @@ class Content extends Component {
           },
         }));
       };
-    
+
+      handleRecaptchaChange = (value) => {
+        this.setState({ recaptchaValue: value });
+      };
+
       sendEmail = async (e) => {
         e.preventDefault();
+        const { formData, recaptchaValue } = this.state;
+
+    if (!recaptchaValue) {
+      // Display an error message or prevent form submission
+      console.error("Please complete the reCAPTCHA");
+      return;
+    }
     
         try {
           await emailjs.sendForm('service_u0jehlt', 'template_3b2mxe5', this.form.current, 'cjCRUWDX0cKAQSKL6')
@@ -61,6 +73,7 @@ class Content extends Component {
               message: '',
             },
             isSubmitted: true,
+            recaptchaValue: null,
           }));
           alert("Message successfully sent!");
         } catch (error) {
@@ -223,13 +236,19 @@ class Content extends Component {
     className="form-control"
     required
     placeholder="Type your message"
-    rows={7}
+    rows={3}
     value={formData.message}
     onChange={this.handleInputChange}
   />
 </div>
                                     </div>
-                                    <div className="g-recaptcha" data-sitekey="6LcwDQcoAAAAAIkSarHAe3BinIu75WQ0Ay26ypbP"></div>
+                                    <div className="" >
+          <ReCAPTCHA
+            sitekey="6LcwDQcoAAAAAIkSarHAe3BinIu75WQ0Ay26ypbP"
+            onChange={this.handleRecaptchaChange}
+          />
+        </div>
+
                                     <button type="submit"  value="Send" className="btn-custom primary mt-3" name="button">Send Message</button>
                                 </form>
                                
