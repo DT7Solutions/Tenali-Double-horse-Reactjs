@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import HeaderComponent from '../../helper/Navigationhelper';
 // import Cartlist from '../layouts/Cartlist';
 import Search from '../layouts/Search';
-import Mobilemenu from '../layouts/Mobilemenu';
+import Mobilemenu from '../layouts/NewmobileMenu';
 import Newmenu from './Newmenu';
 import classNames from 'classnames';
 // import cartitem from '../../data/cartlist.json';

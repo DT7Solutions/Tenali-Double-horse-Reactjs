@@ -92,7 +92,7 @@ class Content extends Component {
                                         <div className="row  top-row">
                                         <div className="col-lg-6  col-sm-12 mb-3 d-flex email-toll-card1">
                                                 <div><i className='fas fa-envelope mt-3 phone-email' style={{ fontSize: '30px', color: 'white' }} /></div> &nbsp;
-                                                <div className='mt-1'>email<h5 className="card-title"> <a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
+                                                <div className='mt-1'>Email<h5 className="card-title"> <a href = "mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
                                             </div>
                                             <div className="col-lg-6  col-sm-12   mb-3 d-flex email-toll-card2">
                                                 <div><i className='fas fa-phone-volume mt-3 phone-icon' style={{ fontSize: '33px', color: '#ED4E53' }} /></div> &nbsp;

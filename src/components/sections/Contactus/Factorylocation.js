@@ -17,18 +17,16 @@ class Factorylocation extends Component {
                         <div className="col-lg-3">
                             <div className="card-locations mb-4">
 
-                                <div className="card-body">
+                                <div className="card-body ">
                                     <i className='fas fa-industry' style={{ fontSize: '40px', color: ' #ED4E53' }} />
                                     <h5 className="card-title ">MAHENDRA DALL MILL</h5>
-                                    <p className="card-text d-flex content-justify" > P.No.37,47,48,49&49A, AutoNagar,Somasundarapalem,
+                                    <p className="card-text  content-justify"  style={{ wordWrap: 'break-word' }} > P.No.37,47,48,49&49A, AutoNagar,Somasundarapalem,
                                         Kattevaram(Post),522295,
                                         TENALI,Guntur, A.P</p>
                                     <button type="button" className=" btn-sm mail-btn ">
                                         <a href="mailto: info@tenalidoublehorse.com" target='_blank'>Write Us <i class='pl-2 fas fa-envelope' style={{ fontSize: '15px', color: '#7e8083' }} /></a>
                                     </button>
-                                        {/* <p className="card-text content-justify d-flex justify-content-center p-text" > 
-                                    &nbsp;<a href = "mailto: info@tenalidoublehorse.com"><i class='fas fa-arrow-right'  style={{ fontSize: '20px', color: '#7e8083' }}/></a>
-                                    </p> */}
+                                       
                                     
                                 </div>
                             </div>

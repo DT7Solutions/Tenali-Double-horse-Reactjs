@@ -6075,7 +6075,7 @@ td.quantity{
   /* filter: drop-shadow(0 20px 10px black); */
   text-shadow:2px 4px 6px rgb(49, 48, 48);
 }
-@media (max-width: 480px){
+@media (max-width: 992px){
   .my-font-style{
     font-size: 25px;
     margin-top: -5px;
@@ -6083,6 +6083,8 @@ td.quantity{
   .email-toll-card1{
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
+    border-top-left-radius:0px!important;
+   
   }
   .email-toll-card2{
     border-bottom-left-radius: 30px;
@@ -8213,7 +8215,7 @@ input[type=radio]:checked ~ label {
   animation: firstChild 1s;
 }
 
-@media (max-width: 576px) {
+@media (max-width:560px)  {
   .slider-activities [class*="box"]:nth-child(7),
   .slider-activities [class*="box"]:nth-child(1) {
     width: 100vw!important;
@@ -8251,6 +8253,52 @@ input[type=radio]:checked ~ label {
     transform: scale(1) translate(-50%, -50%);
   
     z-index: 4;
+  }
+  .slider-activities {
+    height: 400px;
+    
+  }
+ 
+}
+@media (min-width:560px) and (max-width:992px)  {
+  .slider-activities [class*="box"]:nth-child(7),
+  .slider-activities [class*="box"]:nth-child(1) {
+    width: 100vw!important;
+    height: 30vh!important;
+    transform: scale(0.2) translate(-50%, -50%);
+  
+    z-index: 1;
+  }
+  
+  .border-right{
+    border-right:none!important;
+  
+  }
+  .slider-activities [class*="box"]:nth-child(2),
+  .slider-activities [class*="box"]:nth-child(6) {
+    width: 100vw!important;
+    height: 30vh!important;
+    transform: scale(0.4) translate(-50%, -50%);
+  
+    z-index: 2;
+  }
+  .slider-activities [class*="box"]:nth-child(3),
+  .slider-activities [class*="box"]:nth-child(5) {
+    width: 100vw!important;
+    height: 30vh!important;
+    transform: scale(0.6) translate(-50%, -50%);
+  
+    z-index: 3;
+  }
+  .slider-activities [class*="box"]:nth-child(4) {
+    width: 98vw!important;
+    height: 40vh!important;
+    border-color: #c92026;
+    color: #fff;
+    transform: scale(1) translate(-50%, -50%);
+  
+    z-index: 4;
+    
   }
   .slider-activities {
     height: 400px;
@@ -8699,6 +8747,9 @@ g .rsm-marker{
 .footer-top{
   z-index: 500;
 }
+.border-right{
+  border-right:none!important;
+}
 .table td, .table th {
   padding: 0.55rem!important;
 }
@@ -8743,14 +8794,16 @@ g .rsm-marker{
 font-size: 13px;
 }
 
-@media (min-width:769px) and (max-width: 1024px){
+@media (min-width:769px) and (max-width: 1025px){
   .floating-container {
     position: fixed;
     top: 0;
     right: 0;
     margin: -5px 120px;
 }
-
+.card-locations{
+ min-height:350px!important;
+}
 .row1-container {
   display: block !important;
   justify-content: center;
