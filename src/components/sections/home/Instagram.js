@@ -4,7 +4,7 @@ import img1 from '../../../assets/img/team/trial-notable.png'
 import img2 from '../../../assets/img/team/aha.png'
 import img3 from '../../../assets/img/team/big-boss.png'
 import img4 from '../../../assets/img/team/cash.png'
-import img5 from '../../../assets/img/team/seed-ganesha.png'
+import img5 from '../../../assets/img/team/Tenali-double-horse-varalakshmi-varathamu.png'
 import img6 from '../../../assets/img/team/trial-notable.png'
 import img7 from '../../../assets/img/team/big-boss.png'
 
