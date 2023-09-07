@@ -20,7 +20,7 @@ class Footer extends Component {
                         {/* <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div> */}
-                        <div className="footer-buttons" style={{ position: 'absolute', top: '-22px', right: '-1%', zIndex: '9999' }}>
+                        <div className="footer-buttons" style={{ position: 'absolute', top: '-22px', right: '-1%' }}>
                             <img src={process.env.PUBLIC_URL + "/assets/img/redesgin-great-place-work.png"} style={{ height: '100%', width: '100%' }} className='img-responsive' alt="logo" />
                         </div>
 
@@ -46,7 +46,7 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
-                                <h5 className="widget-title"  >Legal Links</h5>
+                                <h5 className="widget-title">Legal Links</h5>
                                 <ul>
                                     <li> <Link to="/terms-and-condation"  >Terms of Use</Link> </li>
                                     <li> <Link to="/privacy-policy"  >Privacy Policy</Link> </li>
@@ -56,12 +56,13 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
-                                <h5 className="widget-title">Contact</h5>
+                                <h5 className="widget-title">Reach out to us</h5>
+                                
+                                 
                                 <ul>
-                                <li><a href="tel:1800 270 567567"  target="_blank">Call Us</a></li>
-                                    <li> <a href="mailto:info@tenalidoublehorse.com"  target="_blank">Email</a> </li>
-                                    <li> <Link to="/Contactus"  target="_blank">Locate</Link> </li>
-
+                                    <li><a href="tel:1800 270 567567" target="_blank">Call Us</a></li>
+                                    <li> <a href="mailto:info@tenalidoublehorse.com" target="_blank">Email</a> </li>
+                                    <li> <Link to="/Contactus" target="_blank">Locate</Link> </li>
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-widget">
@@ -118,7 +119,7 @@ class Footer extends Component {
                     <div className="container">
                        
                         <div className="footer-copyright">
-                            <p> Copyright © 2022 <Link to=" ">Tenali Double Horse </Link> All Rights Reserved. </p>
+                            <p> Copyright © 2023 <Link to=" ">Tenali Double Horse </Link> All Rights Reserved. </p>
                             <Link to="#" className="back-to-top" onClick={() => this.scrollToTop()}><i className="fas fa-chevron-up" /> </Link>
                         </div>
                     </div>
