@@ -1,30 +1,36 @@
 {
-    "pizzamenu":[
+    "benefits":[
         {
-            "id":1,
-            "title":"Freshness",
-            "price":14.99,
-            "icon":"fa fa-leaf"
-        },{
-            "id":2,
-            "title":"Purity",
-            "price":13.99,
-            "icon":"fas fa-snowflake"
-        },{
-            "id":3,
-            "title":"Authentic flavor",
-            "price":9.99,
-            "icon":"fas fa-cookie-bite"
-        },{
-            "id":4,
-            "title":"Texture",
-            "price":13.99,
-            "icon":"fa fa-lemon"
-        },{
             "id":5,
             "title":"Hygiene",
             "price":11.99,
             "icon":"fas fa-shield-alt"
+        },{
+            "id":6,
+            "title":"Longer Shelf Life",
+            "price":10.99,
+            "icon":"fa fa-hourglass-half"
+        }
+        ,{
+            "id":7,
+            "title":"Easy to cook",
+            "price":10.99,
+            "icon":"fa fa-utensils"
+        },{
+            "id":8,
+            "title":"Nutrient-rich",
+            "price":10.99,
+            "icon":"far fa-thumbs-up"
+        },{
+            "id":9,
+            "title":"Versatility",
+            "price":10.99,
+            "icon":"fa fa-puzzle-piece"
+        },{
+            "id":10,
+            "title":"Customer Satisfaction",
+            "price":10.99,
+            "icon":"far fa-smile"
         }
     ],
     "pastamenu":[
