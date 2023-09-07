@@ -119,8 +119,8 @@ class Content extends Component {
                                     <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{borderRadius:'8px'}}>
                                     <h5 className="custom-primary">Corporate Address</h5>
                                     <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
-                                    <p><i class='fas fa-location-arrow pr-2'  style={{ fontSize: '20px', color: '#7e8083' }} /> JK TOWERS, 8-2-293/82/B/S-7,2nd Floor,Road Number 10C,</p>
-                                     <p>Gayatri Hills,Jubilee Hills,Hyderabad, Telangana 500033</p>   
+                                    <p><i class='fas fa-location-arrow pr-2'  style={{ fontSize: '20px', color: '#7e8083' }} /> JK TOWERS, 8-2-293/82/B/S-7, 2nd Floor, Road Number 10C, Gayatri Hills, </p>
+                                   <p>  Jubilee Hills, Hyderabad, Telangana 500033</p>
                                      
                                     <button type="button" className="btn-custom btn-sm order-btn">
                                         <a href="https://goo.gl/maps/XiEweexpzdsBQoC96" target='_blank'>Get directions</a>
