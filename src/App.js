@@ -1,7 +1,7 @@
 import React, { Suspense, useLayoutEffect } from 'react'
 // import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
-import { HashRouter as Router, Route, withRouter } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
+// HashRouter
 // Preloader
 const Preloader = React.lazy(() => import("./components/layouts/Preloader"));
 
@@ -51,10 +51,10 @@ function App() {
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
           <Preloader />
-          <Route exact path="/" component={Home}  />
-          <Route path="/home-v2" component={Hometwo} />
-          <Route path="/home-v3" component={Homethree} />
-          <Route path="/home-v4" component={Homefour} />
+          <Route exact path="/"  component={Home}/>
+          <Route path="/home-v2" component={Hometwo}/>
+          <Route path="/home-v3" component={Homethree}/>
+          <Route path="/home-v4" component={Homefour}/>
           <Route path="/blog-grid" exact component={Bloggrid} />
           <Route path="/blog/tag/:tagId" exact component={props => (<Bloggrid {...props} key={window.location.pathname} />)} />
           <Route path="/Where-we-are" component={Whereweare} />
