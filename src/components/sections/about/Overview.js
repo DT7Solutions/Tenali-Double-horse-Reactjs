@@ -32,8 +32,8 @@ class TimelineSection extends Component {
 
           
         return (
-            <section id="timeline1" style={{backgroundColor:'#fff',borderTop:'none'}}>
-                {/* <h5 className="custom-primary text-center">Unraveling Our Story</h5>
+            <section id="timeline" style={{backgroundColor:'#fff',borderTop:'none'}}>
+                <h5 className="custom-primary text-center">Unraveling Our Story</h5>
         <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2>
                 <div className="demo-card-wrapper">
                     <div className="demo-card demo-card--step1 " data-aos="fade-left" data-aos-delay="400">
@@ -42,10 +42,10 @@ class TimelineSection extends Component {
                                 <span>2005</span>
 
                             </div>
-                            <h2 className='text-white'><span className="small">Subtitle</span> Technology</h2>
+                            <h2 className='text-white'><span className="small">The</span>Beginning</h2>
                         </div>
                         <div className="body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+                            <p className='content-justify'>Tenali Double Horse, renowned for high-quality dals and ready-to-eat products, started in 2005 when Shri Munagala Krishnamurthy planted a seed in Tenali, Andhra Pradesh. His care nurtured Sri Krishnamurthy's Mahendra Dall Mill, supplying premium uradal in 50-kilogram packs.</p>
                             <img src="http://placehold.it/1000x500" alt="Graphic" />
                         </div>
                     </div>
@@ -55,10 +55,10 @@ class TimelineSection extends Component {
                             <div className="number-box">
                                 <span>2010</span>
                             </div>
-                            <h2  className='text-white'><span className="small">Subtitle</span> Confidence</h2>
+                            <h2  className='text-white'><span className="small">Passing </span> the Torch</h2>
                         </div>
                         <div className="body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+                            <p className='content-justify'>Sri Krishnamurthy's legacy continued through his son, Sri Munagala Mohan shyam Prasad, driving our swift growth. Outstanding response led to South India's first 1 kg uraddaal consumer pack by Shri Shyam Prasad.</p>
                             <img src="http://placehold.it/1000x500" alt="Graphic" />
                         </div>
                     </div>
@@ -68,10 +68,10 @@ class TimelineSection extends Component {
                             <div className="number-box">
                                 <span>2015</span>
                             </div>
-                            <h2  className='text-white'><span className="small">Subtitle</span> Adaptation</h2>
+                            <h2  className='text-white'><span className="small">Expanding </span> Horizons</h2>
                         </div>
                         <div className="body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+                            <p className='content-justify'>New infrastructure led to our second mill, the Maharani Dal Mill, addressing the challenging consumer market. Tireless work by the Tenali Double Horse team secured successful product placement, initially in general trade and later in modern trade outlets.</p>
                             <img src="http://placehold.it/1000x500" alt="Graphic" />
                         </div>
                     </div>
@@ -81,10 +81,10 @@ class TimelineSection extends Component {
                             <div className="number-box">
                                 <span>2020</span>
                             </div>
-                            <h2  className='text-white'><span className="small">Subtitle</span> Consistency</h2>
+                            <h2  className='text-white'><span className="small">Going</span> Global</h2>
                         </div>
                         <div className="body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+                            <p className='content-justify'>Tenali Double Horse's high-yield Uradal earned consumer affection. Partnerships with influential brand ambassadors, like our IPL partnership with Sunrise's Hyderabad, expanded our global presence, attracting distributors and consumers from the US, UK, Singapore, and Australia, fueling growth.</p>
                             <img src="http://placehold.it/1000x500" alt="Graphic" />
                         </div>
                     </div>
@@ -94,14 +94,14 @@ class TimelineSection extends Component {
                             <div className="number-box">
                                 <span>2023</span>
                             </div>
-                            <h2  className='text-white'><span className="small">Subtitle</span> Conversion</h2>
+                            <h2  className='text-white'><span className="small">Expanding </span> the Range</h2>
                         </div>
                         <div className="body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+                            <p className='content-justify'>Our third mill, MAHADEVA DALL Industries Private Limited, was a significant milestone. We aimed to reach every Indian home, introducing new products such as dals and the beloved Telugu sweet, sunundulu. This transformation, embodied by brands like TDH, Rishika, and sunundulu, symbolizes our journey from humble beginnings to a renowned name in the food industry.</p>
                             <img src="http://placehold.it/1000x500" alt="Graphic" />
                         </div>
                     </div>
-                </div> */}
+                </div>
                     
             
                 <div className="fluid-container video-conatiner"   >
