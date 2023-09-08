@@ -6,7 +6,7 @@ import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
 import Content from '../sections/Contactus/Content';
 
-const pagelocation = 'Locations'
+const pagelocation = 'Contact'
 const bannerimg = "/assets/img/bg/tenali-double-horse-contact-page-banner.png"
 
 class Locations extends Component {
@@ -14,9 +14,9 @@ class Locations extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Tenali  doublehorse | {pagelocation}</title>
+                    <title>Contact Tenali Double Horse - Reach Out to Us for Quality Indian Products | {pagelocation}</title>
                     <meta
-                        name="description"
+                        name="Have questions or inquiries? Contact Tenali Double Horse today! We're here to assist you with all your needs for premium Indian groceries and products. Reach out for top-quality ingredients and exceptional service."
                         content="#"
                     />
                 </MetaTags> 

@@ -5,16 +5,16 @@ import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
 import Content from '../sections/home/Content';
 
-const pagelocation = 'Homepage';
+const pagelocation = 'Home';
 
 class Home extends Component {
     render() {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Tenali  doublehorse | {pagelocation}</title>
+                    <title>Best Quality Urad Dal in India by Tenali Double Horse | {pagelocation}</title>
                     <meta
-                        name="description"
+                        name="Discover unbeatable prices for high-quality Tenali Double Horse products such as Urad Dal, Toor Dal, and Moong Dal."
                         content="#"
                     />
                 </MetaTags> 

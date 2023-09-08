@@ -14,9 +14,9 @@ class About extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Tenali  doublehorse | {pagelocation}</title>
+                    <title>Known for quality and taste Tenali double Horse | {pagelocation}</title>
                     <meta
-                        name="description"
+                        name="Come get Tenali double horse quality products like urad dal, toor dal, and moong dal for a reasonable price from stores near you"
                         content="#"
                     />
                 </MetaTags> 

@@ -13,9 +13,9 @@ class Menuitemone extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Tenali  doublehorse | {pagelocation}</title>
+                    <title>Tenali Double Horse Products - Authentic Indian Ingredients and Spices | {pagelocation}</title>
                     <meta
-                        name="description"
+                        name="Discover the excellence of Tenali Double Horse's Urad Gota. Shop online for the finest quality 1kg sourced from the heart of India. Elevate your culinary experience with our authentic Indian products"
                         content="#"
                     />
                 </MetaTags> 

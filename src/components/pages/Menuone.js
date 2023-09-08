@@ -17,9 +17,9 @@ class Menuone extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Tenali  doublehorse | {pagelocation}</title>
+                    <title>Dall Products - Tenali Double Horse - Premium Indian Lentils and Pulses | {pagelocation}</title>
                     <meta
-                        name="description"
+                        name="Explore our wide range of high-quality Indian products at Tenali Double Horse. Discover the heart of Indian cuisine with our high-quality, nutritious, and flavorful lentils. Elevate your cooking with our range of authentic dall varieties"
                         content="#"
                     />
                 </MetaTags> 

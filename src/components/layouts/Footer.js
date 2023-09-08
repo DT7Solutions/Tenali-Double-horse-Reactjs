@@ -31,7 +31,7 @@ class Footer extends Component {
                     <div className="container ">
                         <div className="row">
                             
-                            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
+                            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget link-1 link-2">
                                 <h5 className="widget-title">Quick Links</h5>
                                 <ul>
                                     {/* <li> <Link to="/">Gallery</Link> </li> */}
@@ -45,7 +45,7 @@ class Footer extends Component {
                                    
                                 </ul>
                             </div>
-                            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
+                            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget link-1 link-2">
                                 <h5 className="widget-title">Legal Links</h5>
                                 <ul>
                                     <li> <Link to="/terms-and-condation"  >Terms of Use</Link> </li>
@@ -55,7 +55,7 @@ class Footer extends Component {
                                     <li> <Link to="/payment-ploicy"  >Payment Services</Link> </li>
                                 </ul>
                             </div>
-                            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
+                            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget link-1 ">
                                 <h5 className="widget-title">Reach out to us</h5>
                                 
                                  
