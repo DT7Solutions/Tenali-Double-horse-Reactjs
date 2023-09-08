@@ -6453,7 +6453,7 @@ td.quantity{
  @media (max-width: 450px) {
    .box {
        height: 250px;
-       margin-left: -2px;
+       margin-left: 0px;
    }
    .box .box-img{
     margin-top: -20px;

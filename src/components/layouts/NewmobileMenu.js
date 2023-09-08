@@ -21,24 +21,28 @@ class Mobilemenu extends HeaderComponent {
                                 {item.child ? <Link onClick={e => e.preventDefault()} to="/"> {item.linkText} </Link> : <Link to={item.link}> {item.linkText} </Link>}
                                 {item.child ?
                                     <ul className={`submenu ${item.child ? 'menu-item-has-children' : ''}`}>
-                                        {item.submenu.map((sub_item, i) => (
-                                            <li key={i} className={`menu-item ${sub_item.child ? 'menu-item-has-children' : ''} `}>
+                                        {item.submenu.map((sub_item, j) => (
+                                            <li key={j} className={`menu-item ${sub_item.child ? 'menu-item-has-children' : ''} `}>
                                                 {sub_item.child ? <Link onClick={e => e.preventDefault()} to="/"> {sub_item.linkText} </Link> : <Link to={sub_item.link}> {sub_item.linkText} </Link>}
                                                 {sub_item.submenu ?
                                                     <ul className="submenu">
-                                                        {sub_item.submenu.map((third_item, i) => (
-                                                            <li className="menu-item" key={i}><Link
+                                                        {sub_item.submenu.map((third_item, k) => (
+                                                            <li className="menu-item" key={k}><Link
                                                                 to={third_item.link}>{third_item.linkText}</Link>
                                                             </li>
                                                         ))}
-                                                    </ul> : null}
+                                                    </ul>
+                                                    : null}
                                             </li>
                                         ))}
-                                        {/* Add the "TDHF Products" link here */}
-                                        {isMobile && (
-                                            <li className="menu-item">
-                                                <a href="https://tdhfoodproducts.com/" target="_blank" rel="noopener noreferrer">TDHF Products</a>
-                                            </li>
+                                        {/* Add the "Tdh Products" and "Tdhf Products" links to the "Products" submenu */}
+                                        {item.linkText === 'Products' && isMobile && (
+                                            <Fragment>
+                                               
+                                                <li className="menu-item">
+                                                    <a href="https://tdhfoodproducts.com/" target="_blank" rel="noopener noreferrer">TDHF Products</a>
+                                                </li>
+                                            </Fragment>
                                         )}
                                     </ul>
                                     : null
