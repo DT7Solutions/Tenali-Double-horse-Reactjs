@@ -7972,8 +7972,9 @@ input[type=radio]:checked ~ label {
     max-width: 450px;
     height: 400px;
     margin: 90px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    /* margin-top: 45px;
+    margin-bottom: 45px; */
+    margin: 50px auto 80px;
   }
   #timeline .demo-card:nth-child(odd) {
     margin-right: 45px;
