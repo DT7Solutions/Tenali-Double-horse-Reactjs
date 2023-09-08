@@ -14,9 +14,9 @@ class Bloggrid extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Tenali  doublehorse | {pagelocation}</title>
+                    <title>Authentic Indian Groceries | Tenali Double Horse USA |Tenali Double Horse UAE| {pagelocation}</title>
                     <meta
-                        name="description"
+                        name="Discover the flavors of India in the USA with Tenali Double Horse. We offer a wide range of premium Indian groceries and spices to elevate your culinary experience. Shop now for authentic taste!"
                         content="#"
                     />
                 </MetaTags> 

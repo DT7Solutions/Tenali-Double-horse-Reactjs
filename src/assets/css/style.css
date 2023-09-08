@@ -1912,7 +1912,6 @@ table img{
   /* padding: 80px 0 0; */
   padding:10px 0 0;
   border-top: 2px solid #ff1629;
-
   background-image: url(/assets/img/footer/tenali-double-horse-footer-banner.png)!important;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -8781,6 +8780,15 @@ g .rsm-marker{
 .footer-widget ul li{
  text-align: start;
 }
+.m2-broacher{
+  margin-left: -80px;
+}
+.footer-middle .link-1{
+  margin-left:-45px;
+}
+.footer-middle .link-2 .widget-title{
+  margin-left:-45px;
+}
 }
 
 .email-toll-card12{
@@ -8860,4 +8868,22 @@ video{
   .border-right {
     border-right: none!important;
   }
+}
+ /* .m2-broacher{
+  display: flex;
+  align-items: center;
+ margin:auto;
+  margin-left: 140px;
+} */
+.m2-broacher a{
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
+
+.wow .feature .icon{
+padding-left: 30px; 
+
+}
+.feature .icon img{
+  margin-left: -5px;
 }
