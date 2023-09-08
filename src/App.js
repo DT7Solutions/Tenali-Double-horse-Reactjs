@@ -1,6 +1,6 @@
 import React, { Suspense, useLayoutEffect } from 'react'
 // import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
-import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
+import { HashRouter as Router, Route, withRouter } from 'react-router-dom';
 // HashRouter
 // Preloader
 const Preloader = React.lazy(() => import("./components/layouts/Preloader"));
@@ -47,7 +47,7 @@ const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
 
 function App() {
   return (
-    <Router  basename='/'>
+    <Router hashType='noslash' basename='/' >
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
           <Preloader />
