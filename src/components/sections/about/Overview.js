@@ -35,8 +35,8 @@ class TimelineSection extends Component {
             <section id="timeline" style={{backgroundColor:'#fff',borderTop:'none'}}>
                 <h5 className="custom-primary text-center">Unraveling Our Story</h5>
         <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2>
-                <div className="demo-card-wrapper">
-                    <div className="demo-card demo-card--step1 " data-aos="fade-left" data-aos-delay="400">
+                <div className="demo-card-wrapper pt-5 pb-5">
+                    <div className="demo-card demo-card--step1  " data-aos="fade-left" data-aos-delay="400">
                         <div className="head">
                             <div className="number-box">
                                 <span>2005</span>
