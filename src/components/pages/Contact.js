@@ -5,7 +5,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/contact/Content';
 import Breadcrumbs from "../layouts/Breadcrumb"
 
-const pagelocation = 'Contact Us'
+const pagelocation = 'USA Outlets'
 const bannerimg = "/assets/img/banner/tenali-double-horse-usa-top-banner.png"
 
 class Contact extends Component {

@@ -5,7 +5,7 @@ import HeaderComponent from '../../helper/Navigationhelper';
 
 class Mobilemenu extends HeaderComponent {
     render() {
-        const isMobile = window.innerWidth <= 767;
+        const isMobile = window.innerWidth <= 990;
 
         return (
             <Fragment>

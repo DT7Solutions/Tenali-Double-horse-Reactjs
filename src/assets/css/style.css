@@ -1913,8 +1913,8 @@ table img{
   padding:10px 0 0;
   border-top: 2px solid #ff1629;
 
-  /* background-image: url(/assets/img/footer/footer-bg-image.png)!important; */
-  background-size: cover;
+  background-image: url(/assets/img/footer/tenali-double-horse-footer-banner.png)!important;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
 }
@@ -8051,7 +8051,7 @@ input[type=radio]:checked ~ label {
 }
 @media (min-width: 1000px) {
   #timeline .demo-card .body {
-    height: 315px;
+    /* height: 315px; */
   }
 }
 #timeline .demo-card .body p {
@@ -8430,7 +8430,7 @@ g .rsm-marker{
     .ct-category.category-2 img {
         position: absolute;
         right: 20px;
-        bottom: -50px !important;
+        bottom: -20px !important;
         width: 370px;
         z-index: 100;
     }
@@ -8813,6 +8813,9 @@ font-size: 13px;
 .card-locations{
  min-height:350px!important;
 }
+.border-right {
+  border-right: none!important;
+}
 .row1-container {
   display: block !important;
   justify-content: center;
@@ -8852,4 +8855,9 @@ video{
     padding: 150px 0 80px;
   }
 
+}
+@media (max-width: 900px) {
+  .border-right {
+    border-right: none!important;
+  }
 }

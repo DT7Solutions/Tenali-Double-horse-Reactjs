@@ -46,7 +46,7 @@ class TimelineSection extends Component {
                         </div>
                         <div className="body">
                             <p className='content-justify'>Tenali Double Horse, renowned for high-quality dals and ready-to-eat products, started in 2005 when Shri Munagala Krishnamurthy planted a seed in Tenali, Andhra Pradesh. His care nurtured Sri Krishnamurthy's Mahendra Dall Mill, supplying premium uradal in 50-kilogram packs.</p>
-                            <img src="http://placehold.it/1000x500" alt="Graphic" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/people/2005.png"} alt="Graphic" />
                         </div>
                     </div>
                     
@@ -59,7 +59,7 @@ class TimelineSection extends Component {
                         </div>
                         <div className="body">
                             <p className='content-justify'>Sri Krishnamurthy's legacy continued through his son, Sri Munagala Mohan shyam Prasad, driving our swift growth. Outstanding response led to South India's first 1 kg uraddaal consumer pack by Shri Shyam Prasad.</p>
-                            <img src="http://placehold.it/1000x500" alt="Graphic" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/people/2010.png"} alt="Graphic" />
                         </div>
                     </div>
                     
@@ -72,7 +72,7 @@ class TimelineSection extends Component {
                         </div>
                         <div className="body">
                             <p className='content-justify'>New infrastructure led to our second mill, the Maharani Dal Mill, addressing the challenging consumer market. Tireless work by the Tenali Double Horse team secured successful product placement, initially in general trade and later in modern trade outlets.</p>
-                            <img src="http://placehold.it/1000x500" alt="Graphic" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/people/2012.png"} alt="Graphic" />
                         </div>
                     </div>
                     
@@ -85,7 +85,7 @@ class TimelineSection extends Component {
                         </div>
                         <div className="body">
                             <p className='content-justify'>Tenali Double Horse's high-yield Uradal earned consumer affection. Partnerships with influential brand ambassadors, like our IPL partnership with Sunrise's Hyderabad, expanded our global presence, attracting distributors and consumers from the US, UK, Singapore, and Australia, fueling growth.</p>
-                            <img src="http://placehold.it/1000x500" alt="Graphic" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/people/2020.png"} alt="Graphic" />
                         </div>
                     </div>
                     
@@ -98,7 +98,7 @@ class TimelineSection extends Component {
                         </div>
                         <div className="body">
                             <p className='content-justify'>Our third mill, MAHADEVA DALL Industries Private Limited, was a significant milestone. We aimed to reach every Indian home, introducing new products such as dals and the beloved Telugu sweet, sunundulu. This transformation, embodied by brands like TDH, Rishika, and sunundulu, symbolizes our journey from humble beginnings to a renowned name in the food industry.</p>
-                            <img src="http://placehold.it/1000x500" alt="Graphic" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/people/2025.png"} alt="Graphic" />
                         </div>
                     </div>
                 </div>

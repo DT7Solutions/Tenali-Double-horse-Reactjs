@@ -7,7 +7,7 @@ import Footer from '../layouts/Footer';
 import Content from '../sections/Contactus/Content';
 
 const pagelocation = 'Locations'
-const bannerimg = "/assets/img/banner/tenali-double-horse-contact-us.png"
+const bannerimg = "/assets/img/bg/tenali-double-horse-contact-page-banner.png"
 
 class Locations extends Component {
     render() {
