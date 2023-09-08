@@ -112,7 +112,7 @@ class Content extends Component {
                         </div>
                         <div className="product-controls">
                         {item.price === 0 ? <p></p>:
-                            <p className="product-price">₹
+                            <p className="product-price">{item.symbol} 
                             {new Intl.NumberFormat().format((item.price).toFixed(2))}
                             </p>
                         }

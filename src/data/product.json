@@ -15,6 +15,7 @@
         "name": "Urad Gota 1Kg",
         "shortdesc": "Round Urad Gota is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price": 190.00,
+        "symbol":"₹",
         "urls":"https://amzn.eu/d/ipLSbEe/",
         "rating": 4,
         "category": [
@@ -140,6 +141,7 @@
         "name": "Tenali Maharani Urad Dall 1kg",
         "shortdesc": "Round Urad Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
         "price": 160.00,
+        "symbol":"₹",
         "urls":"https://amzn.eu/d/4vd4fR1/",
         "rating": 4,
         "category": [
@@ -267,6 +269,7 @@
         "name": "Urad Dall 1kg",
         "shortdesc": "Urad Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price":165.00,
+        "symbol":"₹",
         "urls":"",
         "rating": 4,
         "category": [
@@ -393,6 +396,7 @@
         "name": "Husked Black Gram Dall 1kg",
         "shortdesc": "Tenali double Horse Husked Black Gram Dall is Rich in Nutrients & Urad dall is naturally rich in protein and high in dietary fiber.",
         "price": 150.00,
+        "symbol":"₹",
         "urls":"https://amzn.eu/d/0O3t9IJ",
         "rating": 4,
         "category": [
@@ -519,6 +523,7 @@
         "name": "Black Gram 1kg",
         "shortdesc": "Tenali Double Horse Black Gram Dal is Rich in Nutrients & Urad dal is naturally rich in protein and high in dietary fiber.",
         "price": 145.00,
+        "symbol":"₹",
         "urls":"https://amzn.eu/d/51gEpmI",
         "rating": 4,
         "category": [
@@ -656,6 +661,7 @@
         "name": "Toor Dall 1kg",
         "shortdesc": "Toor Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price": 240.00,
+        "symbol":"₹",
         "urls":"https://amzn.eu/d/8d0e5US",
         "rating": 4,
         "category": [
@@ -783,6 +789,7 @@
         "name": "Moong Dall 1kg",
         "shortdesc": "Moong Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions",
         "price":85.00,
+        "symbol":"₹",
         "urls":"https://www.amazon.in/dp/B0BJ784MMY?ref=myi_title_dp ",
         "rating": 4,
         "category": [
@@ -1168,6 +1175,7 @@
         "name": "Idly Ravva 1Kg",
         "shortdesc": "Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option",
         "price":60.00,
+        "symbol":"₹",
         "urls":"https://amzn.eu/d/5o6j5U2/",
         "rating": 4,
         "category": [
@@ -1793,7 +1801,8 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Chana Dall 1kg",
         "shortdesc": "Our Chana Dal, sourced with care and crafted with excellence, brings you the essence of health and taste in every bite.",
-        "price":65.00,
+        "price":4.95,
+        "symbol":"د.إ ",
         "urls":"https://qr.emenu.ae/goodearth/#/product/110618",
         "rating": 4,
         "category": [
@@ -1915,7 +1924,8 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Moong Dall 1kg",
         "shortdesc": "Moong Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
-        "price":25.00,
+        "price": 6.95,
+        "symbol":"د.إ ",
         "urls":"https://qr.emenu.ae/goodearth/#/product/110620",
         "rating": 4,
         "category": [
@@ -2037,7 +2047,8 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Toor Dal 1kg",
         "shortdesc": "Toor Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
-        "price":240.00,
+        "price":14.50,
+        "symbol":"د.إ ",
         "urls":"https://qr.emenu.ae/goodearth/#/product/110614",
         "rating": 4,
         "category": [
@@ -2160,7 +2171,8 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Urad Dal 1kg",
         "shortdesc": "Urad Dall is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
-        "price":65.00,
+        "price":6.50,
+        "symbol":"د.إ ",
         "urls":"https://qr.emenu.ae/goodearth/#/product/110621",
         "rating": 4,
         "category": [
@@ -2282,7 +2294,8 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Urad Gota 1kg",
         "shortdesc": "Round Urad Gota is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions.",
-        "price":65.00,
+        "price":13.50,
+        "symbol":"د.إ ",
         "urls":"https://qr.emenu.ae/goodearth/#/product/110615",
         "rating": 4,
         "category": [
@@ -2418,7 +2431,8 @@
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
         "name": "Sunnundalu 1kg",
         "shortdesc": "TDH Rishika Sunnundalu makes your celebration special, tasteful and complete. Its sweetness brings about a feeling of togetherness and oneness with your family.",
-        "price":65.00,
+        "price":11.95,
+        "symbol":"د.إ ",
         "urls":"https://qr.emenu.ae/goodearth/#/product/110622",
         "rating": 4,
         "category": [
