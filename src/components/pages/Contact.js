@@ -13,9 +13,9 @@ class Contact extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Slices - React Template | {pagelocation}</title>
+                    <title>Tenali Double Horse USA Shops - Authentic Indian Groceries Near You | {pagelocation}</title>
                     <meta
-                        name="description"
+                        name="Discover Tenali Double Horse's USA shops near you and experience the convenience of purchasing authentic Indian groceries and spices. Explore our locations and bring the flavors of India closer to home"
                         content="#"
                     />
                 </MetaTags> 

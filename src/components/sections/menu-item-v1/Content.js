@@ -173,9 +173,9 @@ class Content extends Component {
                                     <Nav.Item>
                                         <Nav.Link eventKey="tab1">Description</Nav.Link>
                                     </Nav.Item>
-                                    <Nav.Item>
+                                    {/* <Nav.Item>
                                         <Nav.Link eventKey="tab2">Reviews </Nav.Link>
-                                    </Nav.Item>
+                                    </Nav.Item> */}
                                 </Nav>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="tab1">

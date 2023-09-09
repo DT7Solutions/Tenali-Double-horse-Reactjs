@@ -54,6 +54,7 @@ class Content extends Component {
             dots: false,
             autoplay: true,
             autoplaySpeed: 2000,
+            infinite: true,
             responsive: [
                 {
                     breakpoint: 1200,

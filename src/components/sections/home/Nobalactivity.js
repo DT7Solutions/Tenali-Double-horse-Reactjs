@@ -34,18 +34,18 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Naturally-Processed.png"} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>Naturally processed</h5>
+                                              <h6>Naturally Processed</h6>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                                     <div class="feature d-flex align-items-center ">
-                                            <div class="icon px-2">
+                                            <div class="icon">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Without-Hand-Touch.png"} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>Packed without hand touch</h5>
+                                              <h6>Packed Without Hand Touch</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -53,10 +53,10 @@ class Nobalactivity extends Component {
                                     <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
                                     <div class="feature d-flex align-items-center">
                                             <div class="icon">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Harvesting-Fields.png"} alt="Image" class="" style={{height:'65px'}}/>
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/quality-taste.png"} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>&nbsp;The best in quality, taste & yielding</h5>
+                                              <h6>The Best In Quality, Taste</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/fully-atomized-plant.png"} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>Processed in a Fully Automated Plant</h5>
+                                              <h6>Processed In a Fully Automated Plant</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -77,7 +77,7 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/No-Added-Preservaties.png"} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>No added preservatives</h5>
+                                              <h6>No Added Preservatives</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Harvesting-Fields.png "} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>Procurement from the best harvesting fields</h5>
+                                              <h6>Procurement From The Best Harvesting Fields</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Desi-Black-Gram.png"} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>Processed with Desi Black Gram</h5>
+                                              <h6>Processed With Desi Black Gram</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Quality.png"} alt="Image" class="" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
-                                              <h5>Superior Quality</h5>
+                                              <h6>Superior Quality</h6>
                                             </div>
                                         </div>
                                     </div>

@@ -12,7 +12,8 @@ class Loader extends Component {
                                 <animate attributeName="fill-opacity" keyTimes="0;1" dur="1s" repeatCount="indefinite" values="1;0" begin="-0.875s" />
                             </circle>
                         </g>
-                    </g><g transform="translate(71.21320343559643,71.21320343559643)">
+                    </g>
+                    <g transform="translate(71.21320343559643,71.21320343559643)">
                         <g transform="rotate(45)">
                             <circle cx={0} cy={0} r={6} fill="#ED4E53" fillOpacity="0.875">
                                 <animateTransform attributeName="transform" type="scale" begin="-0.75s" values="1.5 1.5;1 1" keyTimes="0;1" dur="1s" repeatCount="indefinite" />

@@ -98,9 +98,10 @@ const MyTable = () => {
         <div className='col-lg-6'>
           <input
             type='text'
-            placeholder='Search...'
+            placeholder='Search Our Store...'
+            className='store-search'
             onChange={handleSearchChange}
-            style={{ borderColor: 'black', border: '3px solid #66676A' }}
+            
           />
         </div>
       </div>
