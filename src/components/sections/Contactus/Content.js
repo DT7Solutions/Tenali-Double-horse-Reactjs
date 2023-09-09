@@ -117,7 +117,7 @@ class Content extends Component {
                                     {/* <div className='container'> */}
                                        
                                     <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{borderRadius:'8px'}}>
-                                    <h5 className="custom-primary">Corporate Address</h5>
+                                    <h5 className="custom-primary">Regional Office Address</h5>
                                     <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
                                     <div className='d-flex'>
                                       <div>
