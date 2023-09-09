@@ -1,6 +1,6 @@
 {
   "name": "Tenali-Double-horse-Reactjs",
-  "homepage": "https://www.tenalidoublehorse.com/wp-content/reactjs",
+  "homepage": ".",
   "version": "0.1.0",
   "private": false,
   "main": "lib/index",
