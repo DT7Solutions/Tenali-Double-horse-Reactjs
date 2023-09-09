@@ -30,7 +30,7 @@ class Content extends Component {
             subject: '',
             message: '',
           },
-          recaptchaValue: null,
+         
         };
       }
     
@@ -50,13 +50,13 @@ class Content extends Component {
 
       sendEmail = async (e) => {
         e.preventDefault();
-        const { formData, recaptchaValue } = this.state;
+        const recaptchaValue = this.recaptchaRef.current.getValue(); // Get the reCAPTCHA value
 
-    if (!recaptchaValue) {
-      // Display an error message or prevent form submission
-      console.error("Please complete the reCAPTCHA");
-      return;
-    }
+        if (!recaptchaValue) {
+          // Display an error message or prevent form submission
+          console.error("Please complete the reCAPTCHA");
+          return;
+        }
     
         try {
           await emailjs.sendForm('service_u0jehlt', 'template_3b2mxe5', this.form.current, 'cjCRUWDX0cKAQSKL6')
@@ -73,7 +73,7 @@ class Content extends Component {
               message: '',
             },
             isSubmitted: true,
-            recaptchaValue: null,
+           
           }));
           alert("Message successfully sent!");
         } catch (error) {
@@ -259,8 +259,8 @@ class Content extends Component {
                                     </div>
                                     <div className="" >
           <ReCAPTCHA
-            sitekey="6LcwDQcoAAAAAIkSarHAe3BinIu75WQ0Ay26ypbP"
-            onChange={this.handleRecaptchaChange}
+              ref={this.recaptchaRef}
+              sitekey="6LcwDQcoAAAAAIkSarHAe3BinIu75WQ0Ay26ypbP"
           />
         </div>
 

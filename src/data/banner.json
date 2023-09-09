@@ -30,13 +30,13 @@
     "hometwo":[
         {
             "id":1,
-            "bg":"assets/img/banner/home-background-1200x525.png",
+            "bg":"assets/img/banner/home-background-1200x525.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
             
         },
         {
             "id":2,
-            "bg":"assets/img/banner/trail-webp.webp",
+            "bg":"assets/img/banner/tenali-double-horse-sunnundulu.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png",
             "title":"Urad Gota 1kg",
             "subtitle":"Buy Tenali Double Horse  Urad Gota 1kg .",
