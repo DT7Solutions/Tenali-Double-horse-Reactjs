@@ -31,7 +31,7 @@ class Menuitems extends Component {
             }]
         }
         return (
-            <div className='mt-lg-5 pt-lg-5'>
+            <div className='mt-5 pt-lg-5'>
             <div className="section-title-wrap section-header text-center ">
             <h5 className="custom-primary">Embracing New Horizons</h5>
             <h2 className="title">Our Journey to the UAE Market</h2>

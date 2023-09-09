@@ -17,9 +17,9 @@ class Rules extends Component{
                     <div className="col-lg-6 col-md-12" >
                         <div className="tdh-legacy-principles">
                             <h5 className='custom-primary text-center'>Our Principles</h5>
-                            <p className="para" style={{ textAlign: 'justify' }}>We strongly believe in commitment and loyalty being primary work ethics. And in its decades of service, these are what brought the Tenali Double Horse success without fail. As a reason, Tenali Double Horse stands committed to serve its consumers with products of the highest quality and keeps striving to exceed their expectations and remain their favorite choice forever. </p>
+                            <p className="para" style={{ textAlign: 'justify' }}>We strongly believe that commitment and loyalty are primary work ethics. And in its decades of service, these are what brought the Tenali Double Horse success without fail. As a result, Tenali Double Horse stands committed to serving its consumers with products of the highest quality and keeps striving to exceed their expectations and remain their favorite choice forever.</p>
                             {/* <br/> */}
-                            <p className='para' style={{ textAlign: 'justify' }}>A higher amount of dedication and commitment is shown towards our team consisting of hundreds of employees because of whom we are who we are today.</p>
+                            <p className='para' style={{ textAlign: 'justify' }}>A higher amount of dedication and commitment is shown towards our team, which consists of hundreds of employees, because of whom we are who we are today.</p>
                         </div>
                     </div>
                 </div>
