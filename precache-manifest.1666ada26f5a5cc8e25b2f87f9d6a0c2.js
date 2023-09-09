@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/wp-content/reactjs/static/js/21.ff214f17.chunk.js"
   },
   {
-    "revision": "3aa65a82156139dcbcea",
-    "url": "/wp-content/reactjs/static/js/22.3aa65a82.chunk.js"
+    "revision": "e42196a554bf59a7f30f",
+    "url": "/wp-content/reactjs/static/js/22.e42196a5.chunk.js"
   },
   {
     "revision": "baa45b16425595849ae7",
@@ -192,28 +192,24 @@ self.__precacheManifest = [
     "url": "/wp-content/reactjs/static/js/40.7c32c945.chunk.js"
   },
   {
-    "revision": "5d52ab2e584a39a95901",
-    "url": "/wp-content/reactjs/static/js/runtime~main.5d52ab2e.js"
+    "revision": "d164baa22862b69589fc",
+    "url": "/wp-content/reactjs/static/js/runtime~main.d164baa2.js"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/wp-content/reactjs/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/wp-content/reactjs/static/media/slick.f97e3bbf.svg"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/wp-content/reactjs/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/wp-content/reactjs/static/media/slick.d41f55a7.ttf"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/wp-content/reactjs/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "bb35c0d2910c8e51556e0def01e59de9",
-    "url": "/wp-content/reactjs/static/media/Flaticon.bb35c0d2.ttf"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/wp-content/reactjs/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
@@ -228,12 +224,20 @@ self.__precacheManifest = [
     "url": "/wp-content/reactjs/static/media/Flaticon.b6c8e60e.woff2"
   },
   {
+    "revision": "bb35c0d2910c8e51556e0def01e59de9",
+    "url": "/wp-content/reactjs/static/media/Flaticon.bb35c0d2.ttf"
+  },
+  {
     "revision": "ce0f9471b17df9ee353b7ee44a37d9f6",
     "url": "/wp-content/reactjs/static/media/Flaticon.ce0f9471.svg"
   },
   {
     "revision": "6814d0e8136d34e313623eb7129d538e",
     "url": "/wp-content/reactjs/static/media/fa-brands-400.6814d0e8.woff2"
+  },
+  {
+    "revision": "da408238128b876cbda6424391f1566f",
+    "url": "/wp-content/reactjs/static/media/fa-brands-400.da408238.woff"
   },
   {
     "revision": "e8019d507e8cb51d169ab4f94a0cda12",
@@ -244,8 +248,8 @@ self.__precacheManifest = [
     "url": "/wp-content/reactjs/static/media/fa-brands-400.fdf44bc4.ttf"
   },
   {
-    "revision": "da408238128b876cbda6424391f1566f",
-    "url": "/wp-content/reactjs/static/media/fa-brands-400.da408238.woff"
+    "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
+    "url": "/wp-content/reactjs/static/media/fa-regular-400.8d9ab84b.woff2"
   },
   {
     "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
@@ -256,32 +260,28 @@ self.__precacheManifest = [
     "url": "/wp-content/reactjs/static/media/fa-regular-400.dad90637.woff"
   },
   {
-    "revision": "8d220c793e2612bd131ed8522c54669f",
-    "url": "/wp-content/reactjs/static/media/fa-regular-400.8d220c79.ttf"
-  },
-  {
-    "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
-    "url": "/wp-content/reactjs/static/media/fa-regular-400.8d9ab84b.woff2"
-  },
-  {
     "revision": "cd17140fa66c29c783c63f9b0d956a82",
     "url": "/wp-content/reactjs/static/media/fa-regular-400.cd17140f.svg"
   },
   {
-    "revision": "b75b4bfe0d58faeced5006c785eaae23",
-    "url": "/wp-content/reactjs/static/media/fa-solid-900.b75b4bfe.woff2"
+    "revision": "8d220c793e2612bd131ed8522c54669f",
+    "url": "/wp-content/reactjs/static/media/fa-regular-400.8d220c79.ttf"
   },
   {
     "revision": "ea363ed422723673917901680be9b37c",
     "url": "/wp-content/reactjs/static/media/fa-solid-900.ea363ed4.eot"
   },
   {
-    "revision": "132e9759d93e4eefd7cdde0d7a322991",
-    "url": "/wp-content/reactjs/static/media/fa-solid-900.132e9759.ttf"
-  },
-  {
     "revision": "2d0415fa29ea596b7a02c78eddeede20",
     "url": "/wp-content/reactjs/static/media/fa-solid-900.2d0415fa.woff"
+  },
+  {
+    "revision": "b75b4bfe0d58faeced5006c785eaae23",
+    "url": "/wp-content/reactjs/static/media/fa-solid-900.b75b4bfe.woff2"
+  },
+  {
+    "revision": "132e9759d93e4eefd7cdde0d7a322991",
+    "url": "/wp-content/reactjs/static/media/fa-solid-900.132e9759.ttf"
   },
   {
     "revision": "f79929bb75161e13a5e457dfdd50c75b",
@@ -316,7 +316,7 @@ self.__precacheManifest = [
     "url": "/wp-content/reactjs/static/media/tdh-rakesh-bandan.9a80d50e.png"
   },
   {
-    "revision": "db727d1b12c6fbe9cb45429de8dd4665",
+    "revision": "c427a89637a87fe66c7866c1dc2ced3d",
     "url": "/wp-content/reactjs/index.html"
   }
 ];
