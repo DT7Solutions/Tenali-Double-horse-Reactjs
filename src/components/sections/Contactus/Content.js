@@ -44,19 +44,19 @@ class Content extends Component {
         }));
       };
 
-      handleRecaptchaChange = (value) => {
-        this.setState({ recaptchaValue: value });
-      };
+      // handleRecaptchaChange = (value) => {
+      //   this.setState({ recaptchaValue: value });
+      // };
 
       sendEmail = async (e) => {
         e.preventDefault();
-        const recaptchaValue = this.recaptchaRef.current.getValue(); // Get the reCAPTCHA value
+        // const recaptchaValue = this.recaptchaRef.current.getValue(); // Get the reCAPTCHA value
 
-        if (!recaptchaValue) {
-          // Display an error message or prevent form submission
-          console.error("Please complete the reCAPTCHA");
-          return;
-        }
+        // if (!recaptchaValue) {
+          
+        //   console.error("Please complete the reCAPTCHA");
+        //   return;
+        // }
     
         try {
           await emailjs.sendForm('service_u0jehlt', 'template_3b2mxe5', this.form.current, 'cjCRUWDX0cKAQSKL6')
@@ -257,12 +257,12 @@ class Content extends Component {
   />
 </div>
                                     </div>
-                                    <div className="" >
+                                    {/* <div className="" >
           <ReCAPTCHA
               ref={this.recaptchaRef}
               sitekey="6LcwDQcoAAAAAIkSarHAe3BinIu75WQ0Ay26ypbP"
           />
-        </div>
+        </div> */}
 
                                     <button type="submit"  value="Send" className="btn-custom primary mt-3" name="button">Send Message</button>
                                 </form>
