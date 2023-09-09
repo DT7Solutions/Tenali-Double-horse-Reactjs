@@ -38,10 +38,10 @@ class TimelineSection extends Component {
                 <div className="demo-card-wrapper pt-2 pb-5">
                     <div className="demo-card demo-card--step1  " data-aos="fade-left" data-aos-delay="400">
                         <div className="head">
-                            <div className="number-box">
+                            {/* <div className="number-box">
                                 <span>2005</span>
 
-                            </div>
+                            </div> */}
                             <h2 className='text-white'><span className="small">The</span>Beginning</h2>
                         </div>
                         <div className="body">
@@ -52,9 +52,9 @@ class TimelineSection extends Component {
                     
                     <div className="demo-card demo-card--step2 " data-aos="fade-right" data-aos-delay="600">
                         <div className="head">
-                            <div className="number-box">
+                            {/* <div className="number-box">
                                 <span>2010</span>
-                            </div>
+                            </div> */}
                             <h2  className='text-white'><span className="small">Passing </span> the Torch</h2>
                         </div>
                         <div className="body">
@@ -65,9 +65,9 @@ class TimelineSection extends Component {
                     
                     <div className="demo-card demo-card--step3 " data-aos="fade-left" data-aos-delay="800">
                         <div className="head">
-                            <div className="number-box">
+                            {/* <div className="number-box">
                                 <span>2015</span>
-                            </div>
+                            </div> */}
                             <h2  className='text-white'><span className="small">Expanding </span> Horizons</h2>
                         </div>
                         <div className="body">
@@ -78,9 +78,9 @@ class TimelineSection extends Component {
                     
                     <div className="demo-card demo-card--step4 " data-aos="fade-right" data-aos-delay="1000">
                         <div className="head">
-                            <div className="number-box">
+                            {/* <div className="number-box">
                                 <span>2020</span>
-                            </div>
+                            </div> */}
                             <h2  className='text-white'><span className="small">Going</span> Global</h2>
                         </div>
                         <div className="body">
@@ -91,9 +91,9 @@ class TimelineSection extends Component {
                     
                     <div className="demo-card demo-card--step5" data-aos="fade-left" data-aos-delay="500">
                         <div className="head">
-                            <div className="number-box">
+                            {/* <div className="number-box">
                                 <span>2023</span>
-                            </div>
+                            </div> */}
                             <h2  className='text-white'><span className="small">Expanding </span> the Range</h2>
                         </div>
                         <div className="body">
