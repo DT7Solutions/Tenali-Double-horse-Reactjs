@@ -1,6 +1,6 @@
 import React, { Suspense, useLayoutEffect } from 'react'
 // import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
-import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
+import { HashRouter as Router, Route, withRouter } from 'react-router-dom';
 // HashRouter
 // Preloader
 const Preloader = React.lazy(() => import("./components/layouts/Preloader"));
