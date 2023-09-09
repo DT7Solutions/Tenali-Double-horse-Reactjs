@@ -16,7 +16,7 @@ class Tdhgroup extends Component {
                     <div className="row ">
                         <div className="col-lg-6 mb-lg-30 alignments d-flex flex-column border-right" >
                             <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdh-main-3.png"} alt="img" className='mb-2  ' />
-                            <a href= {'tenali-double-horse-products#/Tenali-Double-horse-Reactjs/tenali-double-horse-products'} rel="noopener noreferrer" target="_blank" class="btn-custom  shadow-none ">View More</a>
+                            <a href= {'/tenali-double-horse-products'} rel="noopener noreferrer" target="_blank" class="btn-custom  shadow-none ">View More</a>
                         </div>
                         <div className="col-lg-6 alignments d-flex flex-column">
                         <img src={process.env.PUBLIC_URL + "/assets/img/prods/tdhf-icon-3.png"} alt="img" className=' mb-2' />
