@@ -3,7 +3,7 @@ import React, { Suspense, useLayoutEffect } from 'react'
 import { HashRouter as Router, Route, withRouter } from 'react-router-dom';
 // HashRouter
 // Preloader
-const Preloader = React.lazy(() => import("./components/layouts/Preloader"));
+// const Preloader = React.lazy(() => import("./components/layouts/Preloader"));
 
 // Pages
 const Home = React.lazy(() => import("./components/pages/Home"));
@@ -50,7 +50,7 @@ function App() {
     <Router hashType='noslash' basename='/' >
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
-          <Preloader />
+          {/* <Preloader /> */}
           <Route exact path="/"  component={Home}/>
           <Route path="/home-v2" component={Hometwo}/>
           <Route path="/home-v3" component={Homethree}/>
