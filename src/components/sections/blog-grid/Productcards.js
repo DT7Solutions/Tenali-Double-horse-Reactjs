@@ -25,7 +25,7 @@ import 'animate.css';
               <div class="card-body">
                 <h5 class="text-center">Idly Rava</h5>
                
-                <a href={"menu-item-v1/9"} target='_blank' className="btn-custom btn-sm">Read more</a>
+                <a href={"#menu-item-v1/9"} target='_blank' className="btn-custom btn-sm">Read more</a>
                
               </div>
              </div>
@@ -36,7 +36,7 @@ import 'animate.css';
               <div class="card-body">
                 <h5 class="text-center">Urad gota</h5>
               
-               <a href={"menu-item-v1/1"} target='_blank' className="btn-custom btn-sm">Read more</a>
+               <a href={"#menu-item-v1/1"} target='_blank' className="btn-custom btn-sm">Read more</a>
               
               </div>
               </div>
@@ -47,7 +47,7 @@ import 'animate.css';
               <div class="card-body">
                 <h5 class="text-center">Toor Dall</h5>
                
-                <a href={"menu-item-v1/6"}  target='_blank' className="btn-custom btn-sm " >Read more</a>
+                <a href={"#menu-item-v1/6"}  target='_blank' className="btn-custom btn-sm " >Read more</a>
                
               </div>
               </div>
@@ -58,7 +58,7 @@ import 'animate.css';
               <div class="card-body">
                 <h5 class="text-center">Moong Dall</h5>
                
-                <a href={"menu-item-v1/7"} target='_blank'  className="btn-custom btn-sm " >Read more</a>
+                <a href={"#menu-item-v1/7"} target='_blank'  className="btn-custom btn-sm " >Read more</a>
                
               </div>
              </div>
