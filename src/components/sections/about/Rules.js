@@ -4,7 +4,7 @@ import React,{Component} from 'react';
 class Rules extends Component{
     render(){
         return(
-            <div className='container mt-5'>
+            <div className='container mt-md-5 mt-sm-5 '>
                 <div className="row  rules-container">
                     <div className="col-lg-6 col-md-12">
                         <div className="tdh-legacy-principles">

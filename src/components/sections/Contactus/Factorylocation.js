@@ -72,7 +72,7 @@ class Factorylocation extends Component {
 
                                 <div className="card-body">
                                     <i className='fas fa-industry' style={{ fontSize: '35px', color: ' #ED4E53' }} />
-                                    <h5 className="card-title cutsom-primary">TENALI DOUBLE HORSE FOODS</h5>
+                                    <h5 className="card-title cutsom-primary">TENALI DOUBLE HORSE FOODS PVT LIMITED</h5>
                                     <p className="card-text d-flex content-justify"> 60 A, AUTONAGAR, TENALI, GUNTUR, ANDHRA PRADESH - 522295, Tenali, Andhra Pradesh 530012 </p>
                                     {/* <p className="card-text content-justify d-flex justify-content-center p-text" >
                                     &nbsp;<a href = "mailto: tenalidoublehorsefoods@gmail.com"><i class='fas fa-arrow-right'  style={{ fontSize: '20px', color: '#7e8083' }}/></a>

@@ -13,14 +13,14 @@ class Footer extends Component {
     }
     render() {
         return (
-            <footer id="footer-bg"className={this.props.footer.style} style={{ position: 'relative'}}>
+            <footer id="footer-bg section section-padding" className={this.props.footer.style} style={{ position: 'relative'}} >
                 {/* Top Footer */}
                 <div className="container">
                     <div className="footer-top">
                         {/* <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div> */}
-                        <div className="footer-buttons" style={{ position: 'absolute', top: '-22px', right: '-1%' }}>
+                        <div className="footer-buttons " style={{ position: 'absolute', top: '-22px', right: '-1%' }}>
                             <img src={process.env.PUBLIC_URL + "/assets/img/redesgin-great-place-work.png"} style={{ height: '100%', width: '100%' }} className='img-responsive' alt="logo" />
                         </div>
 

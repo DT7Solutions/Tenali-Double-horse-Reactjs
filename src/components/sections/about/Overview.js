@@ -37,7 +37,7 @@ class TimelineSection extends Component {
         <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2>
                 <div className="demo-card-wrapper pt-2 pb-5">
                     <div className="demo-card demo-card--step1  " data-aos="fade-left" data-aos-delay="400">
-                        <div className="head">
+                        <div className="head p-3">
                             {/* <div className="number-box">
                                 <span>2005</span>
 
@@ -51,7 +51,7 @@ class TimelineSection extends Component {
                     </div>
                     
                     <div className="demo-card demo-card--step2 " data-aos="fade-right" data-aos-delay="600">
-                        <div className="head">
+                        <div className="head p-3">
                             {/* <div className="number-box">
                                 <span>2010</span>
                             </div> */}
@@ -64,7 +64,7 @@ class TimelineSection extends Component {
                     </div>
                     
                     <div className="demo-card demo-card--step3 " data-aos="fade-left" data-aos-delay="800">
-                        <div className="head">
+                        <div className="head p-3">
                             {/* <div className="number-box">
                                 <span>2015</span>
                             </div> */}
@@ -77,7 +77,7 @@ class TimelineSection extends Component {
                     </div>
                     
                     <div className="demo-card demo-card--step4 " data-aos="fade-right" data-aos-delay="1000">
-                        <div className="head">
+                        <div className="head p-3">
                             {/* <div className="number-box">
                                 <span>2020</span>
                             </div> */}
@@ -90,7 +90,7 @@ class TimelineSection extends Component {
                     </div>
                     
                     <div className="demo-card demo-card--step5" data-aos="fade-left" data-aos-delay="500">
-                        <div className="head">
+                        <div className="head p-3">
                             {/* <div className="number-box">
                                 <span>2023</span>
                             </div> */}

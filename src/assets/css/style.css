@@ -1911,10 +1911,11 @@ table img{
 ========================*/
 .ct-footer {
   background-color: #f9f9f9;
+  
   /* padding: 80px 0 0; */
   padding:10px 0 0;
   border-top: 2px solid #ff1629;
-  background-image: url(/assets/img/footer/tenali-double-horse-footer-banner.png)!important;
+  background-image: url(/assets/img/bg/tenali-double-horse-footer-banner-1900x500.png)!important;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -7904,10 +7905,10 @@ input[type=radio]:checked ~ label {
 /* Fonts */
 
 #timeline {
-  padding: 100px 0;
+  padding: 50px 0;
   background: #f7f7f7;
   border-top: 1px solid rgba(191, 191, 191, 0.4);
-  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+  /* border-bottom: 1px solid rgba(191, 191, 191, 0.4); */
 }
 #timeline h1 {
   text-align: center;
@@ -8705,7 +8706,7 @@ g .rsm-marker{
 } 
 
 .border-right{
-  border-right:2px solid #ccc!important;
+  border-right:2px solid #474647!important;
 
 }
 @media (max-width: 768px) {
@@ -8906,4 +8907,8 @@ padding-left: 30px;
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.m-icon{
+  min-width:65px!important;
 }

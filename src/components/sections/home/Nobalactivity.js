@@ -26,92 +26,96 @@ class Nobalactivity extends Component {
                     <div class="container">
                         <div class="row justify-content-between align-items-center pb-5">
                             <div class="col-lg-7 ">
-                                <h4 class="section-title1 px-3">M2 Highlights</h4>
-                                <div class="row my-5">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-                                        <div class="feature d-flex align-items-center">
-                                            <div class="icon">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Naturally-Processed.png"} alt="Image" className="pr-2" style={{height:'65px'}}/>
+                                <h4 class="section-title1 text-center">M2 Highlights</h4>
+                                <div class="row d-flex my-5">
+                                  <div className='col-lg-6 border-right'>
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                                       
+                                            <div class="m-icon ">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Naturally-Processed.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>Naturally Processed</h6>
-                                            </div>
+                                          
                                         </div>
                                     </div>
 
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-                                    <div class="feature d-flex align-items-center ">
-                                            <div class="icon px-2">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Without-Hand-Touch.png"} alt="Image" className="pr-2" style={{height:'65px'}}/>
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                                    
+                                            <div class="m-icon ">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Without-Hand-Touch.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>Packed Without Hand Touch</h6>
-                                            </div>
+                                           
                                         </div>
                                     </div>
 
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
-                                    <div class="feature d-flex align-items-center">
-                                            <div class="icon">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Harvesting-Fields.png"} alt="Image" className="pr-2" style={{height:'65px'}}/>
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                                    
+                                            <div class="m-icon ">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Harvesting-Fields.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>The Best In Quality, Taste</h6>
                                             </div>
-                                        </div>
+                                      
                                     </div>
 
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
-                                    <div class="feature d-flex align-items-center">
-                                            <div class="icon">          
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/fully-atomized-plant.png"} alt="Image" className="pr-2" style={{height:'65px'}}/>
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                                   
+                                            <div class="m-icon ">          
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/fully-atomized-plant.png"} alt="Image" className="pr-2" style={{height:'100%px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>Processed In a Fully Automated Plant</h6>
                                             </div>
-                                        </div>
+                                       
                                     </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
-                                    <div class="feature d-flex align-items-center">
-                                            <div class="icon">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/No-Added-Preservaties.png"} alt="Image" className="pr-2" style={{height:'65px'}}/>
+                                    </div> 
+                                    <div className='col-lg-6'>
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex  mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                   
+                                            <div class="m-icon ">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/No-Added-Preservaties.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>No Added Preservatives</h6>
                                             </div>
-                                        </div>
+                                       
                                     </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
-                                    <div class="feature d-flex align-items-center">
-                                            <div class="icon">
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                    
+                                            <div class="m-icon">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Harvesting-Fields.png "} alt="Image" className="pr-2" style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>Procurement From The Best Harvesting Fields</h6>
                                             </div>
-                                        </div>
+                                       
                                     </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp " data-wow-delay="0.9s">
-                                    <div class="feature d-flex align-items-center">
-                                            <div class="icon">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Desi-Black-Gram.png"} alt="Image" className="pr-2" style={{height:'65px'}}/>
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex wow animate__animated animate__fadeInUp " data-wow-delay="0.9s">
+                                   
+                                            <div class="icon ">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Desi-Black-Gram.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>Processed With Desi Black Gram</h6>
                                             </div>
-                                        </div>
+                                       
                                     </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
-                                    <div class="feature d-flex align-items-center">
-                                            <div class="icon">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Quality.png"} alt="Image"className="pr-2" style={{height:'65px'}}/>
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
+                                  
+                                            <div class="m-icon">
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Quality.png"} alt="Image"className="pr-2 " style={{height:'65px'}}/>
                                             </div>
                                             <div className='mt-4'>
                                               <h6>Superior Quality</h6>
                                             </div>
-                                        </div>
+                                       
+                                    
                                     </div>
-
+                                    </div>
                                 </div>
                     
                             </div>
