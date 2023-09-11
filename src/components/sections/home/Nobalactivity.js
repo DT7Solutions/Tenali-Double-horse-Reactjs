@@ -122,7 +122,7 @@ class Nobalactivity extends Component {
 
                             <div class="col-lg-5">
                                 <div class="img-wrap">
-                                    <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/m2-urad-chakki.png"} alt="Image" class="img-fluid" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/m2-urad-chakki.webp"} alt="Image" class="img-fluid" />
                                 </div>
                                 {/* <div className='m2-broacher'>
                                 <a

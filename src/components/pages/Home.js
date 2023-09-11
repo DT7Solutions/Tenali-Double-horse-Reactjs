@@ -21,7 +21,7 @@ class Home extends Component {
                 <Header/>
             
                 <Content/>
-                <Footer className="footer-with-border"   footer={{ style: "ct-footer", logo: "assets/img/tenali-double-horse-logo-250x73.png", backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/footer/footer-bg-image.png)" }} />
+                <Footer className="footer-with-border"   footer={{ style: "ct-footer", logo: "assets/img/tenali-double-horse-logo-250x73.png", backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-double-horse-footer-banner-1900x500.png)" }} />
                 {/* <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/transparent-logo.png" }} /> */}
             </Fragment>
         );
