@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import $ from 'jquery'; // Import jQuery
-import img1 from '../../../assets/img/team/Tenali-double-horse-varalakshmi-varathamu.png'
-import img2 from '../../../assets/img/team/sree-ganesh.png'
-import img3 from '../../../assets/img/team/tdh-rakesh-bandan.png'
-import img4 from '../../../assets/img/team/sree-ganesh.png'
-import img5 from '../../../assets/img/team/Tenali-double-horse-varalakshmi-varathamu.png'
-import img6 from '../../../assets/img/team/tdh-rakesh-bandan.png'
-import img7 from '../../../assets/img/team/sree-ganesh.png'
+import img1 from '../../../assets/img/team/tenali-double-horse-varalakshmi-vartam-campaign-image.webp'
+import img2 from '../../../assets/img/team/tenali-double-horse-seed-ganesh-campaign-image.webp'
+import img3 from '../../../assets/img/team/tenali-double-horse-Raksha-bandhan-campaign-image.webp'
+import img4 from '../../../assets/img/team/tenali-double-horse-seed-ganesh-campaign-image.webp'
+import img5 from '../../../assets/img/team/tenali-double-horse-varalakshmi-vartam-campaign-image.webp'
+import img6 from '../../../assets/img/team/tenali-double-horse-Raksha-bandhan-campaign-image.webp'
+import img7 from '../../../assets/img/team/tenali-double-horse-seed-ganesh-campaign-image.webp'
 
 
 

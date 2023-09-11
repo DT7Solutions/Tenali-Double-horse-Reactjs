@@ -31,7 +31,7 @@ class Menuitems extends Component {
             }]
         }
         return (
-            <div className='mt-5 pt-lg-5'>
+            <div className='mt-lg-5 mt-md-5 pt-lg-5'>
             <div className="section-title-wrap section-header text-center ">
             <h5 className="custom-primary">Embracing New Horizons</h5>
             <h2 className="title">Our Journey to the UAE Market</h2>
@@ -40,7 +40,7 @@ class Menuitems extends Component {
                 </p>
         </div>
             
-            <div className="section section-padding  bg-cover bg-center mt-5 mb-5 pt-0 pb-0 category-section light-pic"  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/tenali-double-horse-homepage-uae-banner.png)" }}>
+            <div className="section section-padding  bg-cover bg-center mt-5 mb-5 pt-0 pb-0 category-section light-pic"  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/tenali-double-horse-homepage-uae-banner.webp)" }}>
              
                 <div className="container mb-3">
                     {/* Arrow */}
