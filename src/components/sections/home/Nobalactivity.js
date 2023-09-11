@@ -26,7 +26,7 @@ class Nobalactivity extends Component {
                     <div class="container">
                         <div class="row justify-content-between align-items-center pb-5">
                             <div class="col-lg-7 ">
-                                <h4 class="section-title1 text-center">M2 Highlights</h4>
+                                <h4 class="section-title1 text-center">Highlights</h4>
                                 <div class="row d-flex my-5">
                                   <div className='col-lg-6 border-right'>
                                     <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -45,7 +45,7 @@ class Nobalactivity extends Component {
                                             <div class="m-icon ">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Without-Hand-Touch.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
-                                            <div className='mt-4'>
+                                            <div className='mt-2'>
                                               <h6>Packed Without Hand Touch</h6>
                                            
                                         </div>
@@ -54,9 +54,9 @@ class Nobalactivity extends Component {
                                     <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
                                     
                                             <div class="m-icon ">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Harvesting-Fields.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Quality.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
-                                            <div className='mt-4'>
+                                            <div className='mt-2'>
                                               <h6>The Best In Quality, Taste</h6>
                                             </div>
                                       
@@ -67,7 +67,7 @@ class Nobalactivity extends Component {
                                             <div class="m-icon ">          
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/fully-atomized-plant.png"} alt="Image" className="pr-2" style={{height:'100%px'}}/>
                                             </div>
-                                            <div className='mt-4'>
+                                            <div className='mt-2'>
                                               <h6>Processed In a Fully Automated Plant</h6>
                                             </div>
                                        
@@ -89,17 +89,17 @@ class Nobalactivity extends Component {
                                             <div class="m-icon">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Harvesting-Fields.png "} alt="Image" className="pr-2" style={{height:'65px'}}/>
                                             </div>
-                                            <div className='mt-4'>
+                                            <div className='mt-2'>
                                               <h6>Procurement From The Best Harvesting Fields</h6>
                                             </div>
                                        
                                     </div>
                                     <div class="col-sm-12 col-md-6 col-lg-12 d-flex wow animate__animated animate__fadeInUp " data-wow-delay="0.9s">
                                    
-                                            <div class="icon ">
+                                            <div class="m-icon ">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Desi-Black-Gram.png"} alt="Image" className="pr-2 " style={{height:'65px'}}/>
                                             </div>
-                                            <div className='mt-4'>
+                                            <div className='mt-2'>
                                               <h6>Processed With Desi Black Gram</h6>
                                             </div>
                                        
@@ -107,9 +107,9 @@ class Nobalactivity extends Component {
                                     <div class="col-sm-12 col-md-6 col-lg-12 d-flex mb-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
                                   
                                             <div class="m-icon">
-                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/Best-Quality.png"} alt="Image"className="pr-2 " style={{height:'65px'}}/>
+                                                <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/seven.png"} alt="Image"className="pr-2 " style={{height:'65px'}}/>
                                             </div>
-                                            <div className='mt-4'>
+                                            <div className='mt-3'>
                                               <h6>Superior Quality</h6>
                                             </div>
                                        

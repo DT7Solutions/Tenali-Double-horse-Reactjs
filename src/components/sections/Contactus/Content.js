@@ -163,7 +163,7 @@ class Content extends Component {
                                            
                                             <div> <h5 className="text-white mb-0"> We Value Your Input</h5></div>
                                            
-                                            <div><i className='fas fa-truck mt-3 phone-icon' style={{ fontSize: '33px', color: ' #ED4E53' }} /></div> &nbsp;
+                                            <div><i className='fas fa-file-invoice mt-3 phone-icon' style={{ fontSize: '33px', color: ' #ED4E53' }} /></div> &nbsp;
                                                
                                             </div>
                                         </div> 
