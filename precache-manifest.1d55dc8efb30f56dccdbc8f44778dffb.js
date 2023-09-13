@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "./static/js/12.0379f7ae.chunk.js"
   },
   {
-    "revision": "0bb4dd4c302d0c603124",
-    "url": "./static/css/main.5f0ea6e1.chunk.css"
+    "revision": "d733fcc60f9d455bd0c2",
+    "url": "./static/css/main.6afb8478.chunk.css"
   },
   {
-    "revision": "0bb4dd4c302d0c603124",
-    "url": "./static/js/main.0bb4dd4c.chunk.js"
+    "revision": "d733fcc60f9d455bd0c2",
+    "url": "./static/js/main.d733fcc6.chunk.js"
   },
   {
-    "revision": "14c27a7daa8968d13538",
+    "revision": "55921c4b3b6d79b1bb48",
     "url": "./static/css/14.26ad4f6d.chunk.css"
   },
   {
-    "revision": "14c27a7daa8968d13538",
-    "url": "./static/js/14.14c27a7d.chunk.js"
+    "revision": "55921c4b3b6d79b1bb48",
+    "url": "./static/js/14.55921c4b.chunk.js"
   },
   {
     "revision": "7895f79136d2ccbc23ee",
@@ -188,16 +188,16 @@ self.__precacheManifest = [
     "url": "./static/js/39.4384811f.chunk.js"
   },
   {
-    "revision": "28af21e1a7a13f97f8a6",
-    "url": "./static/js/runtime~main.28af21e1.js"
-  },
-  {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "./static/media/slick.b7c9e1e4.woff"
+    "revision": "db443288a3f138e0f617",
+    "url": "./static/js/runtime~main.db443288.js"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "./static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "./static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -244,16 +244,16 @@ self.__precacheManifest = [
     "url": "./static/media/fa-brands-400.fdf44bc4.ttf"
   },
   {
+    "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
+    "url": "./static/media/fa-regular-400.8d9ab84b.woff2"
+  },
+  {
     "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
     "url": "./static/media/fa-regular-400.e6c93cb4.eot"
   },
   {
     "revision": "dad90637f797356bbc70d2664832e0b6",
     "url": "./static/media/fa-regular-400.dad90637.woff"
-  },
-  {
-    "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
-    "url": "./static/media/fa-regular-400.8d9ab84b.woff2"
   },
   {
     "revision": "8d220c793e2612bd131ed8522c54669f",
@@ -316,7 +316,7 @@ self.__precacheManifest = [
     "url": "./static/media/tenali-double-horse-Raksha-bandhan-campaign-image.6db7f688.webp"
   },
   {
-    "revision": "8a1a7fd111bd1ecd2f6eb5e8b153320c",
+    "revision": "1521fbd40d682f47c28e514543cb4724",
     "url": "./index.html"
   }
 ];
