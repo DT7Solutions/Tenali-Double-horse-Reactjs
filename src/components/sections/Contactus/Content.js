@@ -159,11 +159,11 @@ class Content extends Component {
                             </div>
                             <div className="col-lg-5 ">
                             <div className="row  top-row">
-                                            <div className="col-lg-12 col-sm-12 mb-3 p-2 d-flex email-toll-card3" style={{display:'flex',justifyContent:'space-around',alignItems:'center'}}>
-                                           
+                                            <div className="col-lg-12 col-sm-12 mb-3 p-2 d-flex email-toll-card3" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                                            <div><i className='fas fa-file-invoice mt-3 mr-3 phone-icon' style={{ fontSize: '33px', color: ' #ED4E53' }} /></div> &nbsp;
                                             <div> <h5 className="text-white mb-0"> We Value Your Input</h5></div>
                                            
-                                            <div><i className='fas fa-file-invoice mt-3 phone-icon' style={{ fontSize: '33px', color: ' #ED4E53' }} /></div> &nbsp;
+                                           
                                                
                                             </div>
                                         </div> 
