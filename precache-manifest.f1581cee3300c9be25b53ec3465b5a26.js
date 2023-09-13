@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "./static/js/12.0379f7ae.chunk.js"
   },
   {
-    "revision": "6f2d7d98ab52f52a6a4f",
-    "url": "./static/css/main.5eb891d5.chunk.css"
+    "revision": "0b4f2368f00705b42403",
+    "url": "./static/css/main.c3db9b9c.chunk.css"
   },
   {
-    "revision": "6f2d7d98ab52f52a6a4f",
-    "url": "./static/js/main.6f2d7d98.chunk.js"
+    "revision": "0b4f2368f00705b42403",
+    "url": "./static/js/main.0b4f2368.chunk.js"
   },
   {
-    "revision": "56c4532bc080e78c18f9",
+    "revision": "20a462a6586ef6bf5a6d",
     "url": "./static/css/14.26ad4f6d.chunk.css"
   },
   {
-    "revision": "56c4532bc080e78c18f9",
-    "url": "./static/js/14.56c4532b.chunk.js"
+    "revision": "20a462a6586ef6bf5a6d",
+    "url": "./static/js/14.20a462a6.chunk.js"
   },
   {
     "revision": "7895f79136d2ccbc23ee",
@@ -156,8 +156,8 @@ self.__precacheManifest = [
     "url": "./static/js/33.6ac4069a.chunk.js"
   },
   {
-    "revision": "11cdd4e83a8400a17865",
-    "url": "./static/js/34.11cdd4e8.chunk.js"
+    "revision": "2329bedd945b97879b0f",
+    "url": "./static/js/34.2329bedd.chunk.js"
   },
   {
     "revision": "3677c1cffce9a685cc5d",
@@ -188,16 +188,12 @@ self.__precacheManifest = [
     "url": "./static/js/39.4384811f.chunk.js"
   },
   {
-    "revision": "909872591817a9355ee4",
-    "url": "./static/js/runtime~main.90987259.js"
+    "revision": "d5826f24136960e46f66",
+    "url": "./static/js/runtime~main.d5826f24.js"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "./static/media/slick.b7c9e1e4.woff"
-  },
-  {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "./static/media/slick.ced611da.eot"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -208,20 +204,24 @@ self.__precacheManifest = [
     "url": "./static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "b6c8e60e23068cf82686d1fecf0be576",
-    "url": "./static/media/Flaticon.b6c8e60e.woff2"
-  },
-  {
-    "revision": "bb35c0d2910c8e51556e0def01e59de9",
-    "url": "./static/media/Flaticon.bb35c0d2.ttf"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "./static/media/slick.ced611da.eot"
   },
   {
     "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
     "url": "./static/media/Flaticon.49c4db89.eot"
   },
   {
+    "revision": "bb35c0d2910c8e51556e0def01e59de9",
+    "url": "./static/media/Flaticon.bb35c0d2.ttf"
+  },
+  {
     "revision": "4bd579dec5ffb099ff5da13898e33e8e",
     "url": "./static/media/Flaticon.4bd579de.woff"
+  },
+  {
+    "revision": "b6c8e60e23068cf82686d1fecf0be576",
+    "url": "./static/media/Flaticon.b6c8e60e.woff2"
   },
   {
     "revision": "ce0f9471b17df9ee353b7ee44a37d9f6",
@@ -232,20 +232,20 @@ self.__precacheManifest = [
     "url": "./static/media/fa-brands-400.e8019d50.eot"
   },
   {
-    "revision": "6814d0e8136d34e313623eb7129d538e",
-    "url": "./static/media/fa-brands-400.6814d0e8.woff2"
+    "revision": "da408238128b876cbda6424391f1566f",
+    "url": "./static/media/fa-brands-400.da408238.woff"
   },
   {
     "revision": "fdf44bc43e8fa2358bbb7d9165d78455",
     "url": "./static/media/fa-brands-400.fdf44bc4.ttf"
   },
   {
-    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
-    "url": "./static/media/fa-regular-400.e6c93cb4.eot"
+    "revision": "6814d0e8136d34e313623eb7129d538e",
+    "url": "./static/media/fa-brands-400.6814d0e8.woff2"
   },
   {
-    "revision": "da408238128b876cbda6424391f1566f",
-    "url": "./static/media/fa-brands-400.da408238.woff"
+    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
+    "url": "./static/media/fa-regular-400.e6c93cb4.eot"
   },
   {
     "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
@@ -316,7 +316,7 @@ self.__precacheManifest = [
     "url": "./static/media/tenali-double-horse-Raksha-bandhan-campaign-image.6db7f688.webp"
   },
   {
-    "revision": "5c20b3d81520b009fb580962749fc899",
+    "revision": "5c5ca2f536ea6c2d550c53c8111fd7a8",
     "url": "./index.html"
   }
 ];
