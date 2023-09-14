@@ -30,18 +30,31 @@
     "hometwo":[
         {
             "id":1,
-            "bg":"assets/img/banner/home-background-1200x525.webp",
+            "bg":"assets/img/banner/tenali-double-horse-seed-ganesha.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
             
         },
         {
             "id":2,
+            "bg":"assets/img/banner/tenali-double-horse-phir-se-udan-banner.webp",
+            "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
+            
+        },
+        {
+            "id":3,
+            "bg":"assets/img/banner/home-background-1200x525.webp",
+            "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
+            
+        },
+        {
+            "id":4,
             "bg":"assets/img/banner/tenali-double-horse-sunnundulu.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png",
             "title":"Urad Gota 1kg",
             "subtitle":"Buy Tenali Double Horse  Urad Gota 1kg .",
             "desc":"Round Urad Gota is the choicest by procuring from the best farms & fields in the country, is packed under hygienical conditions, and packed in laminated pouches to ensure the freshness long lasted."
         }
+        
     ],
     "homethree": [
         {

@@ -14,7 +14,9 @@ import Feedback from '../home/Feedback';
 import Messenger from '../home/Messenger';
 // import Ourstory  from '../home/Ourstory';
 import Overview from "../about/Overview";
-import Tdhf from './Tdhf'
+import Tdhf from './Tdhf';
+// import HorizontalTimeline from './Horizontaltimeline';
+// import TimelineComponent from "./Vertical"
 
 class Content extends Component {
     render() {
@@ -24,9 +26,9 @@ class Content extends Component {
                <Tdhgroup/>
                <Overview/>
                 <Rules/>
-              
+              {/* <HorizontalTimeline/> */}
                 
-               
+               {/* <TimelineComponent/> */}
               
                 <Greatplacetowork/>
                 <Stats/>
