@@ -5075,7 +5075,7 @@ td.quantity{
         -ms-flex-direction: column-reverse;
             /* flex-direction: column-reverse; */
     text-align: center;
-    margin: 0 15px;
+    margin: 0 0px;
   }
   .ct-category.category-2 img{
     position: relative;
@@ -8259,7 +8259,7 @@ input[type=radio]:checked ~ label {
     z-index: 4;
   }
   .slider-activities {
-    height: 400px;
+    height: 300px;
     
   }
  
