@@ -26,16 +26,16 @@ class PortfolioV2 extends Component {
                                
                                 </div>
         <div className="container">
-          <div className="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---">
+          <div className="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---" > 
             {instaData.map((item) => (
               <div
                 key={item.id}
-                className="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12 " 
+                className="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12 "  
               >
-                <div className="ltn__gallery-item-inner " >
-                  <div className="ltn__gallery-item-img " >
-                    <a href={publicUrl + "/" + item.imageUrl} data-rel="magnific:myCollection" >
-                      <img src={process.env.PUBLIC_URL + "/" + item.imageUrl} alt="img" className="img-overflow overlay-image" />
+                <div className="ltn__gallery-item-inner shadow-lg p-2 "  style={{boxShadow:' 2.5px 20px 10px )'}}>
+                  <div className="ltn__gallery-item-img  "  >
+                    <a  href={publicUrl + "/" + item.imageUrl} data-rel="magnific:myCollection" >
+                      <img src={process.env.PUBLIC_URL + "/" + item.imageUrl} alt="img" className="img-overflow "  />
                       <span className="ltn__gallery-action-icon">
                         <i className="fas fa-search" />
                       </span>
