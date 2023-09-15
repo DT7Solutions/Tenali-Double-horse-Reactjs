@@ -1,10 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import MetaTags from "react-meta-tags";
-import Header from '../layouts/Headerthree';
+import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
 import Content from '../sections/home-v3/Content';
+import Breadcrumbs from '../layouts/Breadcrumb';
 
-const pagelocation = 'Homepage';
+
+const pagelocation = 'News Events'
+const bannerimg = "/assets/img/banner/contact-header-banner.jpeg"
 
 class Homethree extends Component {
     render() {
@@ -18,6 +21,7 @@ class Homethree extends Component {
                     />
                 </MetaTags> 
                 <Header/>
+                <Breadcrumbs breadcrumb={{ pagename: pagelocation,bannerimg:bannerimg }} />
                 <Content/>
                 <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/logo-light.png" }} />
             </Fragment>

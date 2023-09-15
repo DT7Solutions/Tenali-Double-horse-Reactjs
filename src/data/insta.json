@@ -1,44 +1,47 @@
 [
+    
+    {
+        "id": 9,
+        "imageUrl": "assets/img/newsevents/tenali-double-horse-news-event.jpeg",
+        "caption": "Image 2"
+      
+       
+    }
+    ,
+    {
+        "id": 6,
+        "imageUrl": "assets/img/newsevents/five.jpeg"
+    },
+    {
+        "id": 7,
+        "imageUrl": "assets/img/newsevents/six.jpeg"
+    },
     {
         "id": 1,
+        "imageUrl": "assets/img/newsevents/eight.jpeg"
+    },
+    {
+        "id": 2,
+        "imageUrl": "assets/img/newsevents/vit-industrial.png"
+    },
+    {
+        "id": 3,
+        "imageUrl": "assets/img/newsevents/seven.jpeg"
+    },
+    {
+        "id": 4,
+        "imageUrl": "assets/img/newsevents/three.jpeg"
+    },
+    {
+        "id": 5,
+        "imageUrl": "assets/img/newsevents/four.jpeg"
+    },
+   
+    {
+        "id": 8,
         "imageUrl": "assets/img/ig/one.jpeg",
         "caption": "Image 1"
        
         
-    },
-    {
-        "id": 2,
-        "imageUrl": "assets/img/ig/two.jpg",
-        "caption": "Image 2"
-      
-       
-    },
-    {
-        "id": 3,
-        "imageUrl": "assets/img/ig/1.jpg"
-    },
-    {
-        "id": 4,
-        "imageUrl": "assets/img/ig/1.jpg"
-    },
-    {
-        "id": 5,
-        "imageUrl": "assets/img/ig/1.jpg"
-    },
-    {
-        "id": 6,
-        "imageUrl": "assets/img/ig/1.jpg"
-    },
-    {
-        "id": 7,
-        "imageUrl": "assets/img/ig/1.jpg"
-    },
-    {
-        "id": 8,
-        "imageUrl": "assets/img/ig/1.jpg"
-    },
-    {
-        "id": 9,
-        "imageUrl": "assets/img/ig/1.jpg"
     }
 ]

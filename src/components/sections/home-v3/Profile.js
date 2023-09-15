@@ -19,18 +19,23 @@ class PortfolioV2 extends Component {
     let publicUrl = process.env.PUBLIC_URL + '/';
 
     return (
-      <div className="ltn__gallery-area mb-120">
+      <div className="ltn__gallery-area mt-5 mb-5">
+         <div className="section-title-wrap section-header text-center">
+                 <h5 className="custom-primary text-center">Get real-time updates on events </h5>
+                                <h2 className="title text-center">That impact our world.</h2>
+                               
+                                </div>
         <div className="container">
           <div className="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---">
             {instaData.map((item) => (
               <div
                 key={item.id}
-                className="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12"
+                className="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12 " 
               >
-                <div className="ltn__gallery-item-inner" >
-                  <div className="ltn__gallery-item-img" >
+                <div className="ltn__gallery-item-inner " >
+                  <div className="ltn__gallery-item-img " >
                     <a href={publicUrl + item.imageUrl} data-rel="magnific:myCollection" >
-                      <img src={process.env.PUBLIC_URL + item.imageUrl} alt="img" className="img-overflow" />
+                      <img src={process.env.PUBLIC_URL + item.imageUrl} alt="img" className="img-overflow overlay-image" />
                       <span className="ltn__gallery-action-icon">
                         <i className="fas fa-search" />
                       </span>
@@ -64,8 +69,8 @@ class PortfolioV2 extends Component {
             </p>
           </div>
           <div className="btn-wrapper text-center">
-            <Link to="#" className="btn btn-transparent btn-effect-3 btn-border">
-              LOAD MORE +
+            <Link to="#" className="btn-custom primary mb-5">
+              VIEW  MORE
             </Link>
           </div>
         </div>
