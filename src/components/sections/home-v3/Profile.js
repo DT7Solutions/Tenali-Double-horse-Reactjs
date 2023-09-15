@@ -34,8 +34,8 @@ class PortfolioV2 extends Component {
               >
                 <div className="ltn__gallery-item-inner " >
                   <div className="ltn__gallery-item-img " >
-                    <a href={publicUrl + item.imageUrl} data-rel="magnific:myCollection" >
-                      <img src={process.env.PUBLIC_URL + item.imageUrl} alt="img" className="img-overflow overlay-image" />
+                    <a href={publicUrl + "/" + item.imageUrl} data-rel="magnific:myCollection" >
+                      <img src={process.env.PUBLIC_URL + "./assets/img/ig/1.jpg"} alt="img" className="img-overflow overlay-image" />
                       <span className="ltn__gallery-action-icon">
                         <i className="fas fa-search" />
                       </span>
