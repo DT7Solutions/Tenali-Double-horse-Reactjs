@@ -43,10 +43,10 @@ class PortfolioV2 extends Component {
                      
                   </div>
                   <div className="ltn__gallery-item-info">
-                    <h4 className="go-top">
+                    {/* <h4 className="go-top">
                       <Link to="/portfolio-details">Portfolio Link </Link>
-                    </h4>
-                    <p>{item.caption}</p>
+                    </h4> */}
+                    {/* <p>{item.caption}</p> */}
                   </div>
                 </div>
               </div>
