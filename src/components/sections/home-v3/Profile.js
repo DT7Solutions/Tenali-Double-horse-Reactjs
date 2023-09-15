@@ -16,7 +16,7 @@ class PortfolioV2 extends Component {
   }
 
   render() {
-    let publicUrl = process.env.PUBLIC_URL + '/';
+    let publicUrl = process.env.PUBLIC_URL;
 
     return (
       <div className="ltn__gallery-area mt-5 mb-5">
