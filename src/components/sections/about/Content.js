@@ -29,18 +29,9 @@ class Content extends Component {
               {/* <HorizontalTimeline/> */}
                 
                {/* <TimelineComponent/> */}
-              
                 <Greatplacetowork/>
                 <Stats/>
-                
-               
-                
-              
-              
-               
                 <Tdhf/>
-               
-              
                 <Feedback/>
                 <Messenger/>
                 
