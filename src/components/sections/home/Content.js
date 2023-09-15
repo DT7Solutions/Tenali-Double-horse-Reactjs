@@ -22,6 +22,7 @@ import Messenger from './Messenger';
 
 
 
+
 class Content extends Component {
     render() {
         return (
@@ -32,6 +33,8 @@ class Content extends Component {
 
                 {/* <Nobalactivity /> */}
                 <Instagram/>
+
+               
                 {/* <Benefits/> */}
                 {/* <CubeSlider/> */}
 
