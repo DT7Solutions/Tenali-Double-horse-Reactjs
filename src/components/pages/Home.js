@@ -12,9 +12,9 @@ class Home extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Best Quality Urad Dal in India by Tenali Double Horse | {pagelocation}</title>
+                    <title>Quality Urad dal manufacture in Andhra & Telanagana, India || Tenali Double Horse| {pagelocation}</title>
                     <meta
-                        name="Discover unbeatable prices for high-quality Tenali Double Horse products such as Urad Dal, Toor Dal, and Moong Dal."
+                        name="We, Tenali Double Horse are the Top quality Urad dal manufacturing & suppliers in andhra & telangana, India at affordable prices"
                         content="#"
                     />
                 </MetaTags> 

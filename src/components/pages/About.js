@@ -14,9 +14,9 @@ class About extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Known for quality and taste Tenali double Horse | {pagelocation}</title>
+                    <title>Urad Dal Wholesale Supplier and Manufacturers in India || Tenali Double Horse | {pagelocation}</title>
                     <meta
-                        name="Come get Tenali double horse quality products like urad dal, toor dal, and moong dal for a reasonable price from stores near you"
+                        name="At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India"
                         content="#"
                     />
                 </MetaTags> 

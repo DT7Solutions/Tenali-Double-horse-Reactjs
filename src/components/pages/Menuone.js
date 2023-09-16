@@ -17,9 +17,9 @@ class Menuone extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Dall Products - Tenali Double Horse - Premium Indian Lentils and Pulses | {pagelocation}</title>
+                    <title>Buy Dals and Pulses Online in India || Tenali Double Horse| {pagelocation}</title>
                     <meta
-                        name="Explore our wide range of high-quality Indian products at Tenali Double Horse. Discover the heart of Indian cuisine with our high-quality, nutritious, and flavorful lentils. Elevate your cooking with our range of authentic dall varieties"
+                        name="We are the Online finest dals and pulses supplier across the india such as Chana dal, Moong dal, Idly Rava etc."
                         content="#"
                     />
                 </MetaTags> 

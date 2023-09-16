@@ -14,7 +14,7 @@ class Homethree extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Slices - React Template | {pagelocation}</title>
+                    <title>Premium Urad Dal & Pulses in Andhra & Telangana| {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

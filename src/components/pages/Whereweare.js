@@ -16,7 +16,7 @@ class Bloggrid extends Component {
                 <MetaTags>
                     <title>Authentic Indian Groceries | Tenali Double Horse USA |Tenali Double Horse UAE| {pagelocation}</title>
                     <meta
-                        name="Discover the flavors of India in the USA with Tenali Double Horse. We offer a wide range of premium Indian groceries and spices to elevate your culinary experience. Shop now for authentic taste!"
+                        name="We are the premium quality supplier of Urad dal and pulses in Andhra Pradesh & Telangana"
                         content="#"
                     />
                 </MetaTags> 
