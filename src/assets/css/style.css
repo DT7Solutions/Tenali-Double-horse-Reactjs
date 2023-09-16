@@ -8835,8 +8835,18 @@ g .rsm-marker{
 .ct-footer{
   background-image: none !important;
 }
-}
+.seed-ganesh img {
+  margin-left:30px;
 
+}
+}
+@media (min-width:769px) and (max-width: 1500px){
+  .seed-ganesh img {
+    border-radius: 4px;
+    /* margin: auto; */
+    margin-left: 20%;
+  }
+}
 .email-toll-card12{
     color: #fff;
     background: #ed4e53;
