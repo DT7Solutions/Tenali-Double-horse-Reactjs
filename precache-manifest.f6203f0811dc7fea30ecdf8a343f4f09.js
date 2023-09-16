@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "./static/js/12.15e01065.chunk.js"
   },
   {
-    "revision": "2d81e1429aa4bee7d317",
-    "url": "./static/css/main.4a02c187.chunk.css"
+    "revision": "ce773fddec5c3dabc59b",
+    "url": "./static/css/main.c9f80cf1.chunk.css"
   },
   {
-    "revision": "2d81e1429aa4bee7d317",
-    "url": "./static/js/main.2d81e142.chunk.js"
+    "revision": "ce773fddec5c3dabc59b",
+    "url": "./static/js/main.ce773fdd.chunk.js"
   },
   {
     "revision": "b028a856d61b19c42dfd",
@@ -188,6 +188,10 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.61995b1e.js"
   },
   {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "./static/media/slick.d41f55a7.ttf"
+  },
+  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "./static/media/slick.ced611da.eot"
   },
@@ -196,48 +200,44 @@ self.__precacheManifest = [
     "url": "./static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "./static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "./static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
-    "url": "./static/media/Flaticon.4bd579de.woff"
-  },
-  {
-    "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
-    "url": "./static/media/Flaticon.49c4db89.eot"
   },
   {
     "revision": "b6c8e60e23068cf82686d1fecf0be576",
     "url": "./static/media/Flaticon.b6c8e60e.woff2"
   },
   {
-    "revision": "bb35c0d2910c8e51556e0def01e59de9",
-    "url": "./static/media/Flaticon.bb35c0d2.ttf"
+    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
+    "url": "./static/media/Flaticon.4bd579de.woff"
   },
   {
     "revision": "ce0f9471b17df9ee353b7ee44a37d9f6",
     "url": "./static/media/Flaticon.ce0f9471.svg"
   },
   {
-    "revision": "6814d0e8136d34e313623eb7129d538e",
-    "url": "./static/media/fa-brands-400.6814d0e8.woff2"
+    "revision": "bb35c0d2910c8e51556e0def01e59de9",
+    "url": "./static/media/Flaticon.bb35c0d2.ttf"
+  },
+  {
+    "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
+    "url": "./static/media/Flaticon.49c4db89.eot"
+  },
+  {
+    "revision": "e8019d507e8cb51d169ab4f94a0cda12",
+    "url": "./static/media/fa-brands-400.e8019d50.eot"
   },
   {
     "revision": "fdf44bc43e8fa2358bbb7d9165d78455",
     "url": "./static/media/fa-brands-400.fdf44bc4.ttf"
   },
   {
-    "revision": "da408238128b876cbda6424391f1566f",
-    "url": "./static/media/fa-brands-400.da408238.woff"
+    "revision": "6814d0e8136d34e313623eb7129d538e",
+    "url": "./static/media/fa-brands-400.6814d0e8.woff2"
   },
   {
-    "revision": "e8019d507e8cb51d169ab4f94a0cda12",
-    "url": "./static/media/fa-brands-400.e8019d50.eot"
+    "revision": "da408238128b876cbda6424391f1566f",
+    "url": "./static/media/fa-brands-400.da408238.woff"
   },
   {
     "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
@@ -248,20 +248,20 @@ self.__precacheManifest = [
     "url": "./static/media/fa-regular-400.8d220c79.ttf"
   },
   {
-    "revision": "cd17140fa66c29c783c63f9b0d956a82",
-    "url": "./static/media/fa-regular-400.cd17140f.svg"
-  },
-  {
     "revision": "8d9ab84bfe87a3f77112a6698cf639fb",
     "url": "./static/media/fa-regular-400.8d9ab84b.woff2"
+  },
+  {
+    "revision": "b75b4bfe0d58faeced5006c785eaae23",
+    "url": "./static/media/fa-solid-900.b75b4bfe.woff2"
   },
   {
     "revision": "dad90637f797356bbc70d2664832e0b6",
     "url": "./static/media/fa-regular-400.dad90637.woff"
   },
   {
-    "revision": "b75b4bfe0d58faeced5006c785eaae23",
-    "url": "./static/media/fa-solid-900.b75b4bfe.woff2"
+    "revision": "cd17140fa66c29c783c63f9b0d956a82",
+    "url": "./static/media/fa-regular-400.cd17140f.svg"
   },
   {
     "revision": "ea363ed422723673917901680be9b37c",
@@ -312,7 +312,7 @@ self.__precacheManifest = [
     "url": "./static/media/tenali-double-horse-phir-se-udan-campaingh.c17b1977.webp"
   },
   {
-    "revision": "5b57404db6782032d840e5964b9b883b",
+    "revision": "ce79f05697b4e547c73eb2340fee71b8",
     "url": "./index.html"
   }
 ];
