@@ -187,7 +187,7 @@ class Nobalactivity extends Component {
                                   {/* <video width="70%" height="50%" controls >
                                     <source src={process.env.PUBLIC_URL + "/assets/video/tdh-seed-vinayaka.mp4"} type="video/mp4" />
                                   </video> */}
-                                    <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/suma-poster.png"} alt="Image" class="img-fluid" style={{height:'460px'}} />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/suma-poster.webp"} alt="Image" class="img-fluid" style={{height:'460px'}} />
                                 </div>
                                 {/* <div className='m2-broacher'>
                                 <a
