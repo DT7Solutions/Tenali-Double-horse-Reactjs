@@ -9437,4 +9437,15 @@ a, a:hover, a:focus, a:active {
   .slider__content .slider__image:before {
     padding-top: 0%;
   }
+  .campaing .camp-content{
+    margin-top: 10px;
+  }
+}
+
+.campaing img{
+  border-radius: 5px;
+}
+
+.campaing .camp-content{
+  margin-top: 50px;
 }

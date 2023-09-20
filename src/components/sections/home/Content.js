@@ -11,11 +11,12 @@ import Menuitems from '../home-v2/Categories';
 import Aboutcompany from './Aboutcompany';
 import Process from '../home-v2/Process';
 import Lazyload from '../home-v3/Lazyload';
-import Nobalactivity from './Nobalactivity';
+// import Nobalactivity from './Nobalactivity';
+import Camapaing  from './Camapaing';
 import Paragraph from '../home-v2/Paragraph';
 import Reviews from './Reviews';
 import Feedback from './Feedback';
-import Instagram from './Instagram';
+// import Instagram from './Instagram';
 import Messenger from './Messenger';
 // import Benefits from '../home-v2/Benefits';
 // import Benefits from '../home-v2/Whychoose'
@@ -31,8 +32,9 @@ class Content extends Component {
                 <Aboutcompany />
                 <Process />
 
-                <Nobalactivity />
-                <Instagram/>
+                {/* <Nobalactivity /> */}
+                {/* <Instagram/> */}
+                <Camapaing/>
 
                
                 {/* <Benefits/> */}

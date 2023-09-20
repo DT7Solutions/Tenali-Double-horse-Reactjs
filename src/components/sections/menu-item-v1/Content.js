@@ -240,7 +240,7 @@ class Content extends Component {
                     </div>
                     
                 </div>
-                <Relatedproduct />
+                <Relatedproduct productId={item.countery}/>
                 <Feedback/>
                 <Messenger/>
             </Fragment>

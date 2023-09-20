@@ -30,30 +30,24 @@
     "hometwo":[
         {
             "id":1,
-            "bg":"assets/img/banner/tenali-double-horse-seed-ganesha.webp",
-            "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
-            
-        },
-        {
-            "id":2,
             "bg":"assets/img/banner/tenali-double-horse-phir-se-udan-banner.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
             
         },
         {
-            "id":3,
+            "id":2,
             "bg":"assets/img/banner/tdh-award-banner.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
             
         },
         {
-            "id":4,
+            "id":3,
             "bg":"assets/img/banner/home-background-1200x525.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png"
             
         },
         {
-            "id":5,
+            "id":4,
             "bg":"assets/img/banner/tenali-double-horse-sunnundulu.webp",
             "img":"assets/img/veg/Top-banner-eco-pack-100x100.png",
             "title":"Urad Gota 1kg",

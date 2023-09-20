@@ -6,7 +6,9 @@ import products from "../../data/product.json";
 import { Rating } from "../../helper/helper";
 
 class Relatedproduct extends Component {
+
     constructor(props) {
+        debugger;
         super(props);
         this.state = {
             modalshow: false,
@@ -15,6 +17,8 @@ class Relatedproduct extends Component {
         this.modalShow = this.modalShow.bind(this);
         this.modalClose = this.modalClose.bind(this);
     }
+    
+    
     // Modal
     modalShow(index) {
         this.setState({ modalshow: true, lastActiveBox: index });
@@ -22,14 +26,17 @@ class Relatedproduct extends Component {
     modalClose() {
         this.setState({ modalshow: false });
     }
+   
     render() {
+        const { productId } = this.props;
         return (
+            
             <div className="section section-padding related-products pt-0">
                 <div className="container">
                     <h3>You might also like</h3>
                     <div className="row menu-v2">
-                        {/* Product Start */}
-                        {products.slice(0, 3).map((item, i) => (
+                     
+                        {products.filter(item => item.countery === productId).slice(0, 3).map((item, i) => (
                             <div key={i} className="col-lg-4 col-md-6">
                                 <div className="product">
                                     <div className="favorite">
@@ -50,7 +57,11 @@ class Relatedproduct extends Component {
                                          
                                         </div>
                                         <div className="product-controls">
-                                            <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
+                                        {item.price === 0 ? <p></p>:
+                                            <p className="product-price">{item.symbol} 
+                                            {new Intl.NumberFormat().format((item.price).toFixed(2))}
+                                            </p>
+                                        }
                                             {/* <Link to={"/menu-item-v1/" + item.id} className="order-item btn-custom btn-sm shadow-none">Order <i className="fas fa-shopping-cart" /> </Link> */}
                                             <button type="button" className="order-item btn-custom btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}> More info<i className="fas fa-plus" /> </button>
                                         </div>
