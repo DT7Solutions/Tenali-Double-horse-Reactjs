@@ -34,8 +34,8 @@
 
 // export default Messenger;
 import React, { Component } from 'react';
-import plusicon from '../../../assets/img/team/trial-notable.png'
-import minusicon from '../../../assets/img/team/aha.png'
+// import plusicon from '../../../assets/img/team/trial-notable.png'
+// import minusicon from '../../../assets/img/team/aha.png'
 
 class Messenger extends Component {
   constructor(props) {
