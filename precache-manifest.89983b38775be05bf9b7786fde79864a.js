@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "./static/js/12.8fe06654.chunk.js"
   },
   {
-    "revision": "3a69ff76d8bb7785a2a1",
-    "url": "./static/css/main.e9dcdc87.chunk.css"
+    "revision": "3137d73ceb11dfd43126",
+    "url": "./static/css/main.41009926.chunk.css"
   },
   {
-    "revision": "3a69ff76d8bb7785a2a1",
-    "url": "./static/js/main.3a69ff76.chunk.js"
+    "revision": "3137d73ceb11dfd43126",
+    "url": "./static/js/main.3137d73c.chunk.js"
   },
   {
-    "revision": "12a69be822bbcf34d838",
-    "url": "./static/js/14.12a69be8.chunk.js"
+    "revision": "0b36ac9bdc82f76d7bea",
+    "url": "./static/js/14.0b36ac9b.chunk.js"
   },
   {
     "revision": "4822eac05088aa36dac7",
@@ -152,8 +152,8 @@ self.__precacheManifest = [
     "url": "./static/js/33.4859d9d0.chunk.js"
   },
   {
-    "revision": "bb7b49b6a9810cc9db58",
-    "url": "./static/js/34.bb7b49b6.chunk.js"
+    "revision": "bb0e06dbf7de50f0271a",
+    "url": "./static/js/34.bb0e06db.chunk.js"
   },
   {
     "revision": "9aed39bb567d3c3d114f",
@@ -180,12 +180,8 @@ self.__precacheManifest = [
     "url": "./static/js/39.a6e8d548.chunk.js"
   },
   {
-    "revision": "8453d98db2a1eaf0b41b",
-    "url": "./static/js/runtime~main.8453d98d.js"
-  },
-  {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "./static/media/slick.b7c9e1e4.woff"
+    "revision": "e3b97f49d74241d4dd84",
+    "url": "./static/js/runtime~main.e3b97f49.js"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
@@ -196,16 +192,20 @@ self.__precacheManifest = [
     "url": "./static/media/slick.d41f55a7.ttf"
   },
   {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "./static/media/slick.b7c9e1e4.woff"
+  },
+  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "./static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
-    "url": "./static/media/Flaticon.4bd579de.woff"
-  },
-  {
     "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
     "url": "./static/media/Flaticon.49c4db89.eot"
+  },
+  {
+    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
+    "url": "./static/media/Flaticon.4bd579de.woff"
   },
   {
     "revision": "b6c8e60e23068cf82686d1fecf0be576",
@@ -220,16 +220,16 @@ self.__precacheManifest = [
     "url": "./static/media/Flaticon.ce0f9471.svg"
   },
   {
-    "revision": "6814d0e8136d34e313623eb7129d538e",
-    "url": "./static/media/fa-brands-400.6814d0e8.woff2"
+    "revision": "da408238128b876cbda6424391f1566f",
+    "url": "./static/media/fa-brands-400.da408238.woff"
   },
   {
     "revision": "e8019d507e8cb51d169ab4f94a0cda12",
     "url": "./static/media/fa-brands-400.e8019d50.eot"
   },
   {
-    "revision": "da408238128b876cbda6424391f1566f",
-    "url": "./static/media/fa-brands-400.da408238.woff"
+    "revision": "6814d0e8136d34e313623eb7129d538e",
+    "url": "./static/media/fa-brands-400.6814d0e8.woff2"
   },
   {
     "revision": "fdf44bc43e8fa2358bbb7d9165d78455",
@@ -252,16 +252,16 @@ self.__precacheManifest = [
     "url": "./static/media/fa-regular-400.8d220c79.ttf"
   },
   {
-    "revision": "ea363ed422723673917901680be9b37c",
-    "url": "./static/media/fa-solid-900.ea363ed4.eot"
-  },
-  {
     "revision": "cd17140fa66c29c783c63f9b0d956a82",
     "url": "./static/media/fa-regular-400.cd17140f.svg"
   },
   {
     "revision": "b75b4bfe0d58faeced5006c785eaae23",
     "url": "./static/media/fa-solid-900.b75b4bfe.woff2"
+  },
+  {
+    "revision": "ea363ed422723673917901680be9b37c",
+    "url": "./static/media/fa-solid-900.ea363ed4.eot"
   },
   {
     "revision": "2d0415fa29ea596b7a02c78eddeede20",
@@ -272,12 +272,12 @@ self.__precacheManifest = [
     "url": "./static/media/fa-solid-900.132e9759.ttf"
   },
   {
-    "revision": "f79929bb75161e13a5e457dfdd50c75b",
-    "url": "./static/media/fa-brands-400.f79929bb.svg"
-  },
-  {
     "revision": "61f3dc557b73138d5721767af3a2386e",
     "url": "./static/media/fa-solid-900.61f3dc55.svg"
+  },
+  {
+    "revision": "f79929bb75161e13a5e457dfdd50c75b",
+    "url": "./static/media/fa-brands-400.f79929bb.svg"
   },
   {
     "revision": "ac86b6639ee361e5adf63824900a9676",
@@ -288,7 +288,7 @@ self.__precacheManifest = [
     "url": "./static/media/tenali-double-horse-phir-se-udan-campaingh.c17b1977.webp"
   },
   {
-    "revision": "259e27f0f1a2f4e7e1ce83e421e6c91d",
+    "revision": "37b91beaac93213a2ca23e786a6c2918",
     "url": "./index.html"
   }
 ];
