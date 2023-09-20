@@ -39,7 +39,7 @@ class Camapaing extends Component {
                                     </p>
                             </div>
                             <div>
-                                    <a href={urls} target='_blank' className="btn-custom">Know More</a>
+                                    {/* <a href={urls} target='_blank' className="btn-custom">Know More</a> */}
                             </div>
                         </div>
                 </div>
