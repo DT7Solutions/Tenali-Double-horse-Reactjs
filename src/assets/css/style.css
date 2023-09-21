@@ -8968,28 +8968,18 @@ padding-left: 30px;
   position: relative;
   overflow: hidden;
   max-height: 240px;
-  /* border-top-left-radius:35% ;
-  border-bottom-right-radius: 35%; */
-  border-radius: 10px;
- 
- 
- 
-  
- 
-  
- 
- 
+  border-top-right-radius:8px ;
+  border-bottom-left-radius: 8px;
+  /* border-radius: 10px; */
 }
 
 .overlay-image{
   border-top-left-radius:25% ;
 }
-.ltn__gallery-item-img {
+/* .ltn__gallery-item-img {
   position: relative;
   overflow: hidden!important;
-  
-  
-}
+} */
 
 .ltn__gallery-item-img::before {
   position: absolute;
@@ -9029,7 +9019,7 @@ a, a:hover, a:focus, a:active {
   top: 45%;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin:auto;
   text-align: center;
   font-size: 16px;
   -webkit-transform: translateY(-50%);
@@ -9082,7 +9072,7 @@ a, a:hover, a:focus, a:active {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  opacity: 0;
+  opacity: 1;
   visibility: hidden;
   
 }
@@ -9159,7 +9149,7 @@ a, a:hover, a:focus, a:active {
   
 }
 .ltn__gallery-item:hover .ltn__gallery-action-icon {
-  top: 50%;
+  top: 80%;
   bottom: 15%;
   opacity: 1;
   visibility: visible;
@@ -9179,10 +9169,10 @@ a, a:hover, a:focus, a:active {
   font-size: 14px;
 }
 
-.ltn__gallery-item-img {
+/* .ltn__gallery-item-img {
   position: relative;
   overflow: hidden;
-}
+} */
 .ltn__gallery-item-img::before {
   position: absolute;
   content: "";
@@ -9283,7 +9273,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .ltn__gallery-style-2 .ltn__gallery-item:hover .ltn__gallery-action-icon {
-  top: 45%;
+  top: 55%;
   bottom:10%;
 }
 
@@ -9450,3 +9440,35 @@ a, a:hover, a:focus, a:active {
   margin-top: 50px;
   text-align: justify;
 }
+
+.layer-1{
+  background-color: #ed4e53;
+  height: 8px;
+  width: 170px;
+  margin-left: start;
+  /* margin-top: -45px; */
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+ 
+}
+.layer-2{
+  background-color: #fccc4c;
+  height: 30px;
+  width: 170px;
+  margin-top: -21.5px;
+  margin-left: auto !important;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  /* transform: rotate(90deg); */
+  transition: all 1s ease 0s;
+}
+/* .ltn__gallery-item-inner:hover.layer-2{
+  background-color: yellow;
+} */
+
+ .seacrh-cls {
+  /* cursor: pointer; */
+  /* background: transparent !important; */
+  /* width: 10px;
+  height: 10px; */
+} 

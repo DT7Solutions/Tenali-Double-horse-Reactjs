@@ -22,7 +22,7 @@ class PortfolioV2 extends Component {
       <div className="ltn__gallery-area mt-5 mb-5">
          <div className="section-title-wrap section-header text-center">
                  <h5 className="custom-primary text-center">Get real-time updates on events </h5>
-                                <h2 className="title text-center">That impact our world.</h2>
+                                <h2 className="title text-center">That Impact Our World.</h2>
                                
                                 </div>
         <div className="container">
@@ -32,8 +32,9 @@ class PortfolioV2 extends Component {
                 key={item.id}
                 className="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12 "  
               >
-                <div className="ltn__gallery-item-inner shadow-lg p-2 "  style={{boxShadow:' 2.5px 20px 10px )'}}>
-                  <div className="ltn__gallery-item-img  "  >
+                <div className='layer-1'>.</div>
+                <div className="ltn__gallery-item-inner"  style={{boxShadow:' 2.5px 20px 10px )'}}>
+                  <div className="ltn__gallery-item-img "  >
                     <a  href={publicUrl + "/" + item.imageUrl} data-rel="magnific:myCollection" >
                       <img src={process.env.PUBLIC_URL + "/" + item.imageUrl} alt="img" className="img-overflow "  />
                       <span className="ltn__gallery-action-icon">
@@ -42,6 +43,7 @@ class PortfolioV2 extends Component {
                     </a>
                      
                   </div>
+                 
                   <div className="ltn__gallery-item-info">
                     {/* <h4 className="go-top">
                       <Link to="/portfolio-details">Portfolio Link </Link>
@@ -49,10 +51,11 @@ class PortfolioV2 extends Component {
                     {/* <p>{item.caption}</p> */}
                   </div>
                 </div>
+                <div className='layer-2'>.</div>
               </div>
             ))}
           </div>
-          <div id="ltn__inline_description_1" style={{ display: 'none' }}>
+          {/* <div id="ltn__inline_description_1" style={{ display: 'none' }}>
             <h4 className="first">This content comes from a hidden element on that page</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor
@@ -72,7 +75,7 @@ class PortfolioV2 extends Component {
             <Link to="#" className="btn-custom primary mb-5">
               VIEW  MORE
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     );
