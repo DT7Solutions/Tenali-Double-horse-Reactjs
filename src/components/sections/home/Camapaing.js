@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import img3 from '../../../assets/img/team/tenali-double-horse-phir-se-udan-campaingh.webp'
-let urls = ""
+let urls = "https://phirseudaan.com/"
 
 
 class Camapaing extends Component {
@@ -39,7 +39,7 @@ class Camapaing extends Component {
                                     </p>
                             </div>
                             <div>
-                                    {/* <a href={urls} target='_blank' className="btn-custom">Know More</a> */}
+                                    <a href={urls} target='_blank' className="btn-custom">Know More</a>
                             </div>
                         </div>
                 </div>
