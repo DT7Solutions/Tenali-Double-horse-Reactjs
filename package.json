@@ -63,6 +63,7 @@
       "react-app",
       "react-app/jest"
     ]
+    
   },
   "browserslist": {
     "production": [
@@ -81,6 +82,7 @@
     "@babel/preset-env": "^7.22.10",
     "@babel/preset-react": "^7.22.5",
     "@types/leaflet": "^1.5.21",
+    "eslint-plugin-disable": "^2.0.3",
     "gh-pages": "^5.0.0"
   }
 }
