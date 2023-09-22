@@ -200,12 +200,12 @@ self.__precacheManifest = [
     "url": "./static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
-    "url": "./static/media/Flaticon.4bd579de.woff"
-  },
-  {
     "revision": "49c4db89ca3ad30d6fdc5eb9819cc4d2",
     "url": "./static/media/Flaticon.49c4db89.eot"
+  },
+  {
+    "revision": "4bd579dec5ffb099ff5da13898e33e8e",
+    "url": "./static/media/Flaticon.4bd579de.woff"
   },
   {
     "revision": "b6c8e60e23068cf82686d1fecf0be576",
@@ -240,36 +240,36 @@ self.__precacheManifest = [
     "url": "./static/media/fa-regular-400.8d9ab84b.woff2"
   },
   {
-    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
-    "url": "./static/media/fa-regular-400.e6c93cb4.eot"
-  },
-  {
     "revision": "dad90637f797356bbc70d2664832e0b6",
     "url": "./static/media/fa-regular-400.dad90637.woff"
   },
   {
-    "revision": "cd17140fa66c29c783c63f9b0d956a82",
-    "url": "./static/media/fa-regular-400.cd17140f.svg"
+    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
+    "url": "./static/media/fa-regular-400.e6c93cb4.eot"
   },
   {
     "revision": "8d220c793e2612bd131ed8522c54669f",
     "url": "./static/media/fa-regular-400.8d220c79.ttf"
   },
   {
-    "revision": "ea363ed422723673917901680be9b37c",
-    "url": "./static/media/fa-solid-900.ea363ed4.eot"
+    "revision": "cd17140fa66c29c783c63f9b0d956a82",
+    "url": "./static/media/fa-regular-400.cd17140f.svg"
   },
   {
     "revision": "b75b4bfe0d58faeced5006c785eaae23",
     "url": "./static/media/fa-solid-900.b75b4bfe.woff2"
   },
   {
-    "revision": "132e9759d93e4eefd7cdde0d7a322991",
-    "url": "./static/media/fa-solid-900.132e9759.ttf"
+    "revision": "ea363ed422723673917901680be9b37c",
+    "url": "./static/media/fa-solid-900.ea363ed4.eot"
   },
   {
     "revision": "2d0415fa29ea596b7a02c78eddeede20",
     "url": "./static/media/fa-solid-900.2d0415fa.woff"
+  },
+  {
+    "revision": "132e9759d93e4eefd7cdde0d7a322991",
+    "url": "./static/media/fa-solid-900.132e9759.ttf"
   },
   {
     "revision": "f79929bb75161e13a5e457dfdd50c75b",
