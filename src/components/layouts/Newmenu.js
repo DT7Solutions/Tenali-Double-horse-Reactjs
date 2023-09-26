@@ -11,20 +11,25 @@ class Newmenu extends Component {
                         {item.child ? <Link onClick={e => e.preventDefault()} to="/"> {item.linkText} </Link> : <Link to={item.link}> {item.linkText} </Link>}
                         {item.child ?
                             <ul className="submenu" role="menu">
-                                {item.submenu.map((sub_item, i) => (
-                                    <li key={i} className={`menu-item ${sub_item.child ? 'menu-item-has-children' : ''} `}>
-                                        {sub_item.child ? <Link onClick={e => e.preventDefault()} to="/"> {sub_item.linkText} </Link> : <Link to={sub_item.link}> {sub_item.linkText} </Link>}
-                                        {sub_item.submenu ?
-                                            <ul className="submenu">
-                                                {sub_item.submenu.map((third_item, i) => (
-                                                    <li className="menu-item" key={i}><Link
-                                                        to={third_item.link}>{third_item.linkText}</Link>
-                                                    </li>
-                                                ))}
-                                            </ul> : null}
-                                    </li>
-                                ))}
-                            </ul>
+                            {item.submenu.map((sub_item, i) => (
+                              <li key={i} className={`menu-item ${sub_item.child ? 'menu-item-has-children' : ''}`}>
+                                {sub_item.type === 'a' ? (
+                                  <a href={sub_item.link} target='_blank'>{sub_item.linkText}</a>
+                                ) : (
+                                  <Link to={sub_item.link}>{sub_item.linkText}</Link>
+                                )}
+                                {sub_item.submenu ? (
+                                  <ul className="submenu">
+                                    {sub_item.submenu.map((third_item, j) => (
+                                      <li className="menu-item" key={j}>
+                                        <Link to={third_item.link}>{third_item.linkText}</Link>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                ) : null}
+                              </li>
+                            ))}
+                          </ul>
                             : null
                         }
                     </li>

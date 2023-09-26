@@ -14,9 +14,9 @@ class Locations extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Best Quality Dal & Pulses Company in India | {pagelocation}</title>
+                    <title>Tenali Double Horse Awards & Recognitions| {pagelocation}</title>
                     <meta
-                        name="Reach us today for thr best quality dals and pulses for the healthy life and boost your immunity"
+                        name="Our unwavering dedication to quality and authenticity has earned us prestigious honors, validating our commitment to delivering exceptional agricultural products"
                         content="#"
                     />
                 </MetaTags> 

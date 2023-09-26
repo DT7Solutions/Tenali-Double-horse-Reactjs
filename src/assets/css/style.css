@@ -9504,9 +9504,15 @@ a, a:hover, a:focus, a:active {
   border-radius: 3px;
 }
 
-/* awards */
+/*========================================== awards ===============================*/
 .awards .card{
   color: black;
+}
+.awards .card .card-text{
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .awards .card Button{
@@ -9516,7 +9522,7 @@ a, a:hover, a:focus, a:active {
   background-color: #ed4e53;
   color: white;
   transition: all 1s;
-  border-top-left-radius: 25px;
+  border-top-left-radius: 28px;
   border-bottom-right-radius: 25px;
   
 }
@@ -9530,4 +9536,22 @@ a, a:hover, a:focus, a:active {
 
 .awards .card img{
   border-top-left-radius: 25px;
+}
+
+.modal.show .modal-dialog{
+  position: relative;
+}
+.cross-btn{
+border-radius: 45px;
+background-color:#ED4E53;
+outline: none;
+position: absolute;
+right: -5px;
+top: -5px;
+}
+.c-title {
+  font-weight: 600;
+}
+.pop-text p{
+  text-align: justify;
 }

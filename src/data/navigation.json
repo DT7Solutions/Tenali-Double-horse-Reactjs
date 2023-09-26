@@ -20,14 +20,28 @@
         "submenu": [{
                 "id": 21,
                 "linkText": "Our Company",
-                "link": "/about"
+                "link": "/about",
+                "type":"p"
                
             },
            
             {
                 "id": 22,
                 "link": "/Where-we-are",
-                "linkText": "Where We Are"
+                "linkText": "Where We Are",
+                "type":"p"
+            },
+            {
+                "id": 44,
+                "link": "/awards-recognitions",
+                "linkText": "Awards & Recognitions",
+                "type":"p"
+            },
+            {
+                "id": 43,
+                "link": "https://phirseudaan.com/",
+                "linkText": "CSR Initiatives",
+                "type":"a"
             }
            
            

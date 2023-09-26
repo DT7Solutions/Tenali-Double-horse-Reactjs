@@ -35,6 +35,14 @@ class Mobilemenu extends HeaderComponent {
                                                     : null}
                                             </li>
                                         ))}
+                                             {item.linkText === 'About' && isMobile && (
+                                            <Fragment>
+                                               
+                                                <li className="menu-item">
+                                                    <a href="https://phirseudaan.com/" target="_blank" rel="noopener noreferrer">CSR Initiatives</a>
+                                                </li>
+                                            </Fragment>
+                                        )}
                                         {/* Add the "Tdh Products" and "Tdhf Products" links to the "Products" submenu */}
                                         {item.linkText === 'Products' && isMobile && (
                                             <Fragment>

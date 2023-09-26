@@ -37,11 +37,11 @@ class Footer extends Component {
                                 <ul>
                                     {/* <li> <Link to="/">Gallery</Link> </li> */}
                                     <li> <Link to="/about">Our Company</Link> </li>
-                                    <li> <a href="https://phirseudaan.com/"  target="_blank">CSR Activities</a></li>
+                                    <li> <a href="https://phirseudaan.com/"  target="_blank">CSR Initiatives</a></li>
                                     <li> <Link to="/tenali-double-horse-products">Tdh Products</Link> </li>
                                     <li> <a href="https://tdhfoodproducts.com/shop/"  target="_blank">Tdh Food Products</a> </li>
-                                    {/* <li> <Link to=" ">Recipes</Link> </li>
-                                    <li> <Link to=" ">Blog</Link> </li> */}
+                                    {/* <li> <Link to=" ">Recipes</Link> </li> */}
+                                    <li> <Link to="/awards-recognitions">Awards & Recognitions</Link> </li>
                                      <li> <Link to="/usa-shops">Usa</Link> </li>
                                     <li> <Link to="/Contactus">Contact</Link> </li>
                                    
