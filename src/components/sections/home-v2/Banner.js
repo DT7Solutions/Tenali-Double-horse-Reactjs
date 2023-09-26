@@ -28,13 +28,19 @@ class Banner extends Component {
                 }
             }]
         }
-     
+        function handleImageClick(itemId) {
+            if (itemId === 1) {
+              // Navigate to another website
+              window.open('https://docs.google.com/forms/d/e/1FAIpQLSegR1oeEhjYVd3PnRuxPaY8G4B594xxV_yLgMPnRPx-GLclEA/viewform', '_blank');
+        
+            }
+          }
         return (
             <div className="banner banner-2">
                 <Slider className="banner-slider-2" {...settings}>
                     {bannerpost.map((item, i) => (
                         
-                        <img src={process.env.PUBLIC_URL + "/" + item.bg} alt={item.title} />
+                        <img src={process.env.PUBLIC_URL + "/" + item.bg} alt={item.title} onClick={() => handleImageClick(item.id)}/>
                     ))}
                 </Slider>
                 <div className='header-marque' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>

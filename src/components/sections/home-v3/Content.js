@@ -14,7 +14,7 @@ class Content extends Component {
               
                <PortfolioV2/>
                <Feedback/>
- <Messenger/>
+               <Messenger/>
                {/* <AppleFactsSlider/> */}
             </Fragment>
         );

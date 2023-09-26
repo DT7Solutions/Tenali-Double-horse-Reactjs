@@ -9472,3 +9472,34 @@ a, a:hover, a:focus, a:active {
   /* width: 10px;
   height: 10px; */
 } 
+/* .pagination{
+  background-color: red;
+} */
+.pagination .previous{
+  color: white;
+  background-color:#ED4E53;
+  font-weight: 600;
+  font-size: 15px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border: 1px solid #ED4E53;
+  border-radius: 3px;
+}
+.pagination .active{
+  color: #F4C64C;
+  font-weight: 600;
+  font-size: 20px;
+ padding-left: 3px;
+  
+}
+
+.pagination .next{
+  color: white;
+  background-color:#ED4E53;
+  font-weight: 600;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: 3px;
+  border: 1px solid #ED4E53;
+  border-radius: 3px;
+}

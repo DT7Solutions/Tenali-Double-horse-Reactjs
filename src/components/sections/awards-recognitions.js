@@ -4,16 +4,13 @@ import $ from 'jquery';
 import 'magnific-popup';
 import instaData from '../../../data/insta.json';
 import ReactPaginate from 'react-paginate';
+import { Card, Button, Modal } from 'react-bootstrap';
 
-function PortfolioV2() {
-  useEffect(() => {
-    $('a[data-rel^=magnific]').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true,
-      },
-    });
-  }, []);
+function Awards() {
+
+  const [showModal, setShowModal] = useState(false);
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
 
   const publicUrl = process.env.PUBLIC_URL;
   const itemsPerPage = 6;
@@ -47,30 +44,36 @@ function PortfolioV2() {
         <h2 className="title text-center">That Impact Our World.</h2>
       </div>
       <div className="container">
-        <div className="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---">
-          {displayedItems.map((item) => (
-            <div key={item.id} className="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12">
-              <div className="layer-1">.</div>
-              <div className="ltn__gallery-item-inner" style={{ boxShadow: '1px 2px 4px' }}>
-                <div className="ltn__gallery-item-img">
-                  <a href={publicUrl + "/" + item.imageUrl} data-rel="magnific:myCollection">
-                    <img src={process.env.PUBLIC_URL + "/" + item.imageUrl} alt="img" className="img-overflow" />
-                    <span className="ltn__gallery-action-icon">
-                      <i className="fas fa-search" />
-                    </span>
-                  </a>
-                </div>
-                <div className="ltn__gallery-item-info">
-                  {/* <h4 className="go-top">
-                    <Link to="/portfolio-details">Portfolio Link </Link>
-                  </h4> */}
-                  {/* <p>{item.caption}</p> */}
-                </div>
-              </div>
-              <div className="layer-2">.</div>
-            </div>
-          ))}
-        </div>
+      <div>
+      <Card>
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            This is some card content. You can add any content you want here.
+          </Card.Text>
+          <Button variant="primary" onClick={handleShow}>
+            Open Modal
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Modal show={showModal} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal Title</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          This is the modal content. You can add any content you want in the modal.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </div>
         <ReactPaginate
           previousLabel={'Previous'}
           nextLabel={'Next'}
@@ -84,4 +87,4 @@ function PortfolioV2() {
   );
 }
 
-export default PortfolioV2;
+export default Awards;
