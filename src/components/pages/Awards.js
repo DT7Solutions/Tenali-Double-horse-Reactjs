@@ -4,7 +4,7 @@ import MetaTags from "react-meta-tags";
 import Header from '../layouts/Header';
 import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
-import Content from '../sections/awards-recognitions/awards';
+import Content from '../sections/awards/content';
 
 const pagelocation = 'awards'
 const bannerimg = "/assets/img/bg/tenali-double-horse-contact-page-banner.png"

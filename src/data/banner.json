@@ -34,18 +34,22 @@
         },
         {
             "id":2,
-            "bg":"assets/img/banner/tdh-award-banner.webp"
+            "bg":"assets/img/banner/vyapararatna.webp"
         },
         {
             "id":3,
-            "bg":"assets/img/banner/tdh-west-godavari-distributors.webp"
+            "bg":"assets/img/banner/tdh-award-banner.webp"
         },
         {
             "id":4,
-            "bg":"assets/img/banner/home-background-1200x525.webp"
+            "bg":"assets/img/banner/tdh-west-godavari-distributors.webp"
         },
         {
             "id":5,
+            "bg":"assets/img/banner/home-background-1200x525.webp"
+        },
+        {
+            "id":6,
             "bg":"assets/img/banner/tenali-double-horse-sunnundulu.webp"
         }
         

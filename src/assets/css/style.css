@@ -9503,3 +9503,31 @@ a, a:hover, a:focus, a:active {
   border: 1px solid #ED4E53;
   border-radius: 3px;
 }
+
+/* awards */
+.awards .card{
+  color: black;
+}
+
+.awards .card Button{
+  display: none;
+}
+.awards .card:hover {
+  background-color: #ed4e53;
+  color: white;
+  transition: all 1s;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  
+}
+.awards .card:hover Button {
+  display: block;
+  transition: all 1s;
+}
+.awards .card:hover .card-text{
+  color: white;
+}
+
+.awards .card img{
+  border-top-left-radius: 25px;
+}

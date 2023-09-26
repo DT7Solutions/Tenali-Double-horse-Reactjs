@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 // import { Link } from 'react-router-dom';
-import $ from 'jquery';
-import 'magnific-popup';
-import instaData from '../../../data/insta.json';
+// import $ from 'jquery';
+// import 'magnific-popup';
+import instaData from '../../../data/awards.json';
 import ReactPaginate from 'react-paginate';
 import { Card, Button, Modal } from 'react-bootstrap';
 
 function Awards() {
-
+    
+  const [selectedCardData, setSelectedCardData] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
@@ -21,17 +22,6 @@ function Awards() {
     setPageNumber(selected);
   };
   
-  // Use useEffect to reinitialize magnificPopup whenever pageNumber changes
-  useEffect(() => {
-    $('a[data-rel^=magnific]').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true,
-      },
-    });
-  }, [pageNumber]); // This will trigger the effect whenever pageNumber changes
-  
-
   const startIndex = pageNumber * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
@@ -44,35 +34,33 @@ function Awards() {
         <h2 className="title text-center">That Impact Our World.</h2>
       </div>
       <div className="container">
-      <div>
-      <Card>
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            This is some card content. You can add any content you want here.
-          </Card.Text>
-          <Button variant="primary" onClick={handleShow}>
-            Open Modal
-          </Button>
-        </Card.Body>
-      </Card>
+      <div className='awards d-flex'>
+       
+      {displayedItems.map(item => (
+            <Card key={item.id} className='shadow'>
+              <img src={process.env.PUBLIC_URL + item.imageUrl} alt="img" />
+              <Card.Body>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <Card.Title>{item.year}</Card.Title>
+                  <Button className='btn-sm' variant="warning" onClick={handleShow}>
+                    View
+                  </Button>
+                </div>
+                <Card.Text>
+                  {item.description}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          ))}
 
-      <Modal show={showModal} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal Title</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          This is the modal content. You can add any content you want in the modal.
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
-      </Modal>
+            <Modal show={showModal} onHide={handleClose}>
+                <Modal.Header closeButton>
+                <Modal.Title>{selectedCardData ? selectedCardData.year : ''}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                {selectedCardData ? selectedCardData.description : ''}
+                </Modal.Body>
+          </Modal>
     </div>
         <ReactPaginate
           previousLabel={'Previous'}

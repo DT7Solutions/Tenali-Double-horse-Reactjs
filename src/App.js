@@ -35,6 +35,7 @@ const shippingpolicy = React.lazy(() => import("./components/pages/ShippingPolic
 const refundpolicy = React.lazy(() => import("./components/pages/RefundPolicy"));
 const paymentploicy = React.lazy(() => import("./components/pages/paymentservices"));
 const Contactus = React.lazy(() => import("./components/pages/Contactus"));
+const Awards = React.lazy(() => import("./components/pages/Awards"));
 
 
 const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
@@ -80,6 +81,7 @@ function App() {
           <Route path="/refund-policy" component={refundpolicy} />
           <Route path="/payment-ploicy" component={paymentploicy} />
           <Route path="/Contactus" component={Contactus} />
+          <Route path="/awards-recognitions" component={Awards} />
           
         </ScrollToTop>
       </Suspense>

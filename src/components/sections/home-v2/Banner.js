@@ -31,7 +31,7 @@ class Banner extends Component {
         function handleImageClick(itemId) {
             if (itemId === 1) {
               // Navigate to another website
-              window.open('https://docs.google.com/forms/d/e/1FAIpQLSegR1oeEhjYVd3PnRuxPaY8G4B594xxV_yLgMPnRPx-GLclEA/viewform', '_blank');
+              window.open('https://phirseudaan.com/', '_blank');
         
             }
           }
