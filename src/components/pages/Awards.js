@@ -6,7 +6,7 @@ import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
 import Content from '../sections/awards/content';
 
-const pagelocation = 'awards'
+const pagelocation = 'Awards & Recognitions'
 const bannerimg = "/assets/img/bg/tenali-double-horse-contact-page-banner.png"
 
 class Locations extends Component {
