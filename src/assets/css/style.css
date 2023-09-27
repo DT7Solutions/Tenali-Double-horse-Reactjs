@@ -9555,3 +9555,15 @@ top: -5px;
 .pop-text p{
   text-align: justify;
 }
+.more-btn{
+  background-color: #F4C64C;
+  color: black;
+  outline: none !important;
+  border:none !important;
+}
+.more-btn:hover{
+  background-color: #F4C64C;
+  color: black;
+  outline: none !important;
+  border:none !important;
+}

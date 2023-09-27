@@ -44,11 +44,11 @@ function Awards() {
             {displayedItems.map(item => (
                 <div className='col-sm-12 col-md-4 col-lg-4 mb-5'>
                 <Card key={item.id} className='shadow'>
-                <img src={process.env.PUBLIC_URL + item.imageUrl} alt="img" />
+                <img src={process.env.PUBLIC_URL + "/" + item.imageUrl} alt="img" />
                 <Card.Body>
                     <div className='d-flex justify-content-between align-items-center'>
                     <Card.Title>{item.year}</Card.Title>
-                    <Button className='btn-sm' variant="warning" onClick={() => handleShow(item)}>
+                    <Button className='btn-sm more-btn'  onClick={() => handleShow(item)}>
                         View
                     </Button>
                     </div>
@@ -72,7 +72,7 @@ function Awards() {
                     
                        <div className='row d-flex'>
                           <div>
-                          <img src={process.env.PUBLIC_URL + (selectedCardData ? selectedCardData.imageUrl : "")} alt="img" />
+                          <img src={process.env.PUBLIC_URL + "/" +  (selectedCardData ? selectedCardData.imageUrl : "")} alt="img" />
                           </div>
                           <div className='pop-text'>
                           <p className='px-2'>{selectedCardData ? selectedCardData.year : ''}</p>

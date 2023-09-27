@@ -1,11 +1,15 @@
 [
-    
+      
+    {
+        "id": 10,
+        "imageUrl": "assets/img/newsevents/the-changemaker-of-india.png",
+        "caption": "Image 2"
+    }
+    ,
     {
         "id": 9,
         "imageUrl": "assets/img/newsevents/tenali-double-horse-news-event.jpeg",
-        "caption": "Image 2"
-      
-       
+        "caption": "Image 2" 
     }
     ,
     {
