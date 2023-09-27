@@ -9484,12 +9484,15 @@ a, a:hover, a:focus, a:active {
   padding-left: 6px;
   border: 1px solid #ED4E53;
   border-radius: 3px;
+  width: 78px;
+  margin-right: 8px;
 }
 .pagination .active{
   color: #F4C64C;
   font-weight: 600;
   font-size: 20px;
- padding-left: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
   
 }
 
@@ -9502,8 +9505,14 @@ a, a:hover, a:focus, a:active {
   margin-left: 3px;
   border: 1px solid #ED4E53;
   border-radius: 3px;
+  text-align: center;
+  width: 78px;
+  margin-left: 8px;
 }
 
+.pagination li{
+  margin-left: 5px;
+}
 /*========================================== awards ===============================*/
 .awards .card{
   color: black;
