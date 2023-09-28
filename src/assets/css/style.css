@@ -8953,9 +8953,9 @@ padding-left: 30px;
   padding-bottom: 5px;
 }
 
-.m-icon{
+/* .m-icon{
   min-width:65px!important;
-}
+} */
 
 
 /* portofilo */
@@ -9575,4 +9575,21 @@ top: -5px;
   color: black;
   outline: none !important;
   border:none !important;
+}
+.m-icon img{
+  width:100%!important;
+  
+
+}
+
+@media (max-width: 576px) {
+  .m-icon{
+    max-width:90px!important;
+  }
+  .order-align{
+    display:flex!important;
+ 
+    justify-content: center!important;
+    align-items: center!important;
+  }
 }

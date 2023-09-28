@@ -10,6 +10,7 @@ const FeedbackDrawer = () => {
   const [showDrawer, setShowDrawer] = useState(false);
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
 
   const handleShowDrawer = () => {
@@ -22,6 +23,7 @@ const FeedbackDrawer = () => {
     const formData = {
         fullName,
         email,
+        phoneNumber,
         message,
       };
       const serviceId = 'service_u0jehlt';
@@ -45,6 +47,7 @@ const FeedbackDrawer = () => {
       // Reset the form fields after submission
       setFullName('');
       setEmail('');
+      setPhoneNumber('');
       setMessage('');
     
       
@@ -80,6 +83,15 @@ const FeedbackDrawer = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Email"
+                required
+              />
+            </Form.Group>
+            <Form.Group controlId="phoneNumber" style={{ marginBottom: '5px' }}>
+              <Form.Control
+                type="tel" // Use type="tel" for phone number input
+                value={phoneNumber}
+                onChange={(e) => setPhoneNumber(e.target.value)}
+                placeholder="Phone Number"
                 required
               />
             </Form.Group>
