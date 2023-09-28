@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import img3 from '../../../assets/img/team/tenali-double-horse-phir-se-udan-campaingh.webp'
-let urls = "https://docs.google.com/forms/d/e/1FAIpQLSegR1oeEhjYVd3PnRuxPaY8G4B594xxV_yLgMPnRPx-GLclEA/viewform/"
+let urls = "https://docs.google.com/forms/d/e/1FAIpQLSegR1oeEhjYVd3PnRuxPaY8G4B594xxV_yLgMPnRPx-GLclEA/viewform"
 
 
 class Camapaing extends Component {
@@ -29,7 +29,16 @@ class Camapaing extends Component {
                     </div>
               <div className='row d-flex justify-content-center campaing'>
                 <div className='col-lg-6 col-md-12 col-sm-12'>
-                    <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/tenali-double-horse-phir-se-udan-campaingh.webp"} alt="Image" class="img-fluid1" style={{height:'100%', width:"100%"}} />
+                    {/* <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/tenali-double-horse-phir-se-udan-campaingh.webp"} alt="Image" class="img-fluid1" style={{height:'100%', width:"100%"}} /> */}
+                    <iframe
+                title="YouTube Video"
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/HNRT0BB78yk"
+                frameborder="0"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
                 </div>
                 <div className='col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center'>
                     <div className='mb-lg-5 camp-content'>
