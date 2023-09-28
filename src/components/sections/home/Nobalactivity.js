@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 // import WOW from 'wow.js';
 import 'animate.css';
-import pdffile from '../../layouts/tdh-brouchure.pdf'
+import pdffile from '../../layouts/M2-Brouchure.pdf'
 
 class Nobalactivity extends Component {
     
@@ -26,17 +26,17 @@ class Nobalactivity extends Component {
             <div class="why-choose-section ">
                     <div class="container">
                         <div class="row d-flex justify-content-between align-items-center pb-5">
-                            <div class="col-lg-7 ">
-                                <h4 class="section-title1 text-center">Step By Step Process</h4>
+                            <div class="col-lg-6 ">
+                                <h5 class=" custom-primary text-center">Key Benefits of M2</h5>
                                 <div class="row d-flex my-5">
                                   <div className='col-lg-6 border-right'>
                                     <div class="col-sm-12 col-md-6 col-lg-12 d-flex  wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                                        
-                                            <div class="m-icon col-lg-4 ">
+                                            <div class="m-icon col-lg-4">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} alt="Image"  />
                                             </div>
-                                            <div className=' col-lg-8 '>
-                                              <h6>Naturally Processed</h6>
+                                            <div className=' col-lg-8'>
+                                              <p className='m2-font'>Naturally Processed</p>
                                           
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/3.png"} alt="Image"  />
                                             </div>
                                             <div className=' col-lg-8'>
-                                              <h6>Packed Without Hand Touch</h6>
+                                              <p className='m2-font'>Packed Without Hand Touch</p>
                                            
                                         </div>
                                     </div>
@@ -58,30 +58,30 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/6.png"} alt="Image"  />
                                             </div>
                                             <div className=' col-lg-8'>
-                                              <h6>The Best In Quality, Taste</h6>
+                                              <p className='m2-font'>The Best In Quality, Taste</p>
                                             </div>
                                       
                                     </div>
 
                                     <div class="col-sm-12 col-md-6 col-lg-12 d-flex mt-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
                                    
-                                            <div class="m-icon col-lg-4 ">          
+                                            <div class="m-icon col-lg-4">          
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/7.png"} alt="Image"  />
                                             </div>
-                                            <div className='col-lg-8 '>
-                                              <h6>Processed In a Fully Automated Plant</h6>
+                                            <div className='col-lg-8'>
+                                              <p className='m2-font'>Processed In a Fully Automated Plant</p>
                                             </div>
                                        
                                     </div>
                                     </div> 
                                     <div className='col-lg-6'>
-                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex  mt-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                    <div class="col-sm-12 col-md-6 col-lg-12 d-flex  mt-sm-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
                                    
                                             <div class="m-icon col-lg-4">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/2.png"} alt="Image" />
                                             </div>
                                             <div className='col-lg-8'>
-                                              <h6>No Added Preservatives</h6>
+                                              <p className='m2-font'>No Added Preservatives</p>
                                             </div>
                                        
                                     </div>
@@ -91,17 +91,17 @@ class Nobalactivity extends Component {
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/5.png"} alt="Image"  />
                                             </div>
                                             <div className=' col-lg-8'>
-                                              <h6>Optimal Harvest Sourcing</h6>
+                                              <p className='m2-font'>Optimal Harvest Sourcing</p>
                                             </div>
                                        
                                     </div>
                                     <div class="col-sm-12 col-md-6 col-lg-12 d-flex  mt-2 wow animate__animated animate__fadeInUp " data-wow-delay="0.9s">
                                    
-                                            <div class="m-icon  col-lg-4 ">
+                                            <div class="m-icon  col-lg-4">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/9.png"} alt="Image"  />
                                             </div>
                                             <div className=' col-lg-8'>
-                                              <h6>Processed With Desi Black Gram</h6>
+                                              <p className='m2-font'>Processed With Desi Black Gram</p>
                                             </div>
                                        
                                     </div>
@@ -110,8 +110,8 @@ class Nobalactivity extends Component {
                                             <div class="m-icon col-lg-4">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/8.png"} alt="Image" />
                                             </div>
-                                            <div className='col-lg-8 '>
-                                              <h6>Superior Quality</h6>
+                                            <div className='col-lg-8'>
+                                              <p className='m2-font' >Superior Quality</p>
                                             </div>
                                        
                                     
@@ -181,16 +181,16 @@ class Nobalactivity extends Component {
                     
                             </div>
 
-                            <div class="col-lg-5">
+                            <div class="col-lg-6">
                               
                                 <div class="img-wrap3  ">
                                  
                                     <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/m2-urad-chakki.webp"} alt="Image" class="img-fluid"  />
                                 </div>
-                                <div className='m2-broacher'>
+                                <div className='m2-broacher text-center'>
                                 <a
                                     href={pdffile}
-                                    download="tdh-brouchure.pdf"
+                                    download="M2-Brouchure.pdf"
                                     className="btn-custom btn-sm shadow-none"
                                     target="_blank"
                                     type="application/pdf"

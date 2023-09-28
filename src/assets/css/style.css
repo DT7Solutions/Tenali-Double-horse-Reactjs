@@ -8934,7 +8934,7 @@ video{
   margin-left: 140px;
 } */
 .m2-broacher a{
-  margin-left: 140px;
+  /* margin-left: 140px; */
   margin-bottom: 10px;
 }
 
@@ -9592,4 +9592,13 @@ top: -5px;
     justify-content: center!important;
     align-items: center!important;
   }
+}
+.m2-font{
+  font-size:14px;
+  font-weight:700;
+  color:#474647;
+  
+ 
+  
+
 }
