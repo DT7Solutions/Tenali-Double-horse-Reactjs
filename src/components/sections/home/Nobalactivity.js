@@ -110,7 +110,7 @@ class Nobalactivity extends Component {
                                             <div class="m-icon col-lg-4">
                                                 <img src={process.env.PUBLIC_URL + "/assets/img/mtwo/8.png"} alt="Image" />
                                             </div>
-                                            <div className='col-lg-8'>
+                                            <div className='col-lg-8' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                                               <p className='m2-font' >Superior Quality</p>
                                             </div>
                                        

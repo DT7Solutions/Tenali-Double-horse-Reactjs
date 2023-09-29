@@ -2,29 +2,45 @@
     "pizzamenu":[
         {
             "id":1,
-            "title":"Freshness",
+            "title":"Naturally Processed",
             "price":14.99,
-            "icon":"fa fa-leaf"
+            "icon":"assets/img/mtwo/1.png"
         },{
             "id":2,
-            "title":"Purity",
+            "title":"No Added Preservatives",
             "price":13.99,
-            "icon":"fas fa-snowflake"
+            "icon":"assets/img/mtwo/2.png"
         },{
             "id":3,
-            "title":"Authentic flavor",
+            "title":"Packed Without Hand Touch",
             "price":9.99,
-            "icon":"fas fa-cookie-bite"
+            "icon":"assets/img/mtwo/3.png"
         },{
             "id":4,
-            "title":"Texture",
+            "title":"Optimal Harvest Sourcing",
             "price":13.99,
-            "icon":"fa fa-lemon"
+            "icon":"assets/img/mtwo/4.png"
         },{
             "id":5,
-            "title":"Hygiene",
+            "title":"The Best In Quality, Taste",
             "price":11.99,
-            "icon":"fas fa-shield-alt"
+            "icon":"assets/img/mtwo/6.png"
+        }
+        ,{
+            "id":6,
+            "title":"Processed With Desi Black Gram",
+            "price":9.99,
+            "icon":"assets/img/mtwo/9.png"
+        },{
+            "id":7,
+            "title":"Processed In a Fully Automated Plant",
+            "price":13.99,
+            "icon":"assets/img/mtwo/7.png"
+        },{
+            "id":8,
+            "title":"Superior Quality",
+            "price":11.99,
+            "icon":"assets/img/mtwo/8.png"
         }
     ],
     "pastamenu":[

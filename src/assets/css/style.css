@@ -9589,7 +9589,7 @@ top: -5px;
   .order-align{
     display:flex!important;
  
-    justify-content: center!important;
+    /* justify-content: center!important; */
     align-items: center!important;
   }
 }
@@ -9597,6 +9597,7 @@ top: -5px;
   font-size:14px;
   font-weight:700;
   color:#474647;
+  
   
  
   
