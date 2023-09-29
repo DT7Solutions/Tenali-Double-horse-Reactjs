@@ -80,7 +80,7 @@ class Quickview extends Component {
                           <span className="custom-primary">{item.symbol}{new Intl.NumberFormat().format((item.price).toFixed(2))}</span></h5> }
                           
                           {!shouldHideOrderButton && (
-                        <button type="button" className="btn-custom btn-sm">Order Now</button>
+                        <button type="button" className="btn-custom btn-sm"> <a href={item.urls} target='_blank'>Order Now</a></button>
                     )}
                           {/* <button type="button" className="btn-custom btn-sm ">Order Now</button>    */}
                           {/* <button type="button" className="btn-custom btn-sm ">Order Now</button> */}

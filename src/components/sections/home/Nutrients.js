@@ -33,10 +33,10 @@ class Nobalactivity extends Component {
                                     // <div key={i} className="col-lg-6">
                                     <div key={i} className={`col-lg-6 ${item.title === "Naturally Processed" || item.title === "Packed Without Hand Touch" || item.title === "The Best In Quality, Taste" || item.title === "Processed In a Fully Automated Plant" ? "border-right" : ""}`}>
                                         <div className="ct-mini-menu-item" style={{display:'flex'}}>
-                                            <div className="ct-mini-menu-bottom col-lg-4" style={{fontSize:'25px'}}>
+                                            <div className="ct-mini-menu-bottom col-lg-4 col-3" style={{fontSize:'25px'}}>
                                             <img src={process.env.PUBLIC_URL + "/" + item.icon} alt={item.title} />
                                             </div>
-                                            <div className="ct-mini-menu-top col-lg-8" style={{display:'flex',alignItems:'center'}}>
+                                            <div className="ct-mini-menu-top col-lg-8 col-9" style={{display:'flex',alignItems:'center'}}>
                                                 <p className='m2-font'>{item.title}</p>
                                                
                                             </div>
@@ -56,7 +56,7 @@ class Nobalactivity extends Component {
                                  
                                     <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/m2-urad-chakki.webp"} alt="M2" class="img-fluid"  />
                                 </div>
-                                <div className='m2-broacher text-center'>
+                                <div className=' text-center'>
                                 <a
                                     href={pdffile}
                                     download="M2-Brouchure.pdf"
