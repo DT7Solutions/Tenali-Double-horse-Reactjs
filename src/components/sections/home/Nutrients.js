@@ -31,7 +31,7 @@ class Nobalactivity extends Component {
                                 <div className="row">
                                 {pizzamenu.map((item, i) => (
                                     // <div key={i} className="col-lg-6">
-                                    <div key={i} className={`col-lg-6 ${item.title === "Naturally Processed" || item.title === "Packed Without Hand Touch" || item.title === "The Best In Quality, Taste" || item.title === "Processed In a Fully Automated Plant" ? "border-right" : ""}`}>
+                                    <div key={i} className={`col-lg-6 ${item.title === "Naturally Processed" || item.title === "Packed Without Hand Touch" || item.title === "The Best In Quality, Taste" || item.title === "Processed In a first Fully Atomized Plant" ? "border-right" : ""}`}>
                                         <div className="ct-mini-menu-item" style={{display:'flex'}}>
                                             <div className="ct-mini-menu-bottom col-lg-4 col-3" style={{fontSize:'25px'}}>
                                             <img src={process.env.PUBLIC_URL + "/" + item.icon} alt={item.title} />
