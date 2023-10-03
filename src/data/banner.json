@@ -28,10 +28,7 @@
         }
     ],
     "hometwo":[
-        {
-            "id":2,
-            "bg":"assets/img/banner/tdh-gandhi-jyanthi-banner.webp"
-        },
+        
         {
             "id":1,
             "bg":"assets/img/banner/tenali-double-horse-phir-se-udan-banner.webp"

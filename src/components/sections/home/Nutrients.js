@@ -28,7 +28,13 @@ class Nobalactivity extends Component {
                         <div class="row d-flex justify-content-between align-items-center pb-5">
                             <div class="col-lg-6 ">
                                 <h5 class=" custom-primary text-center">Key Benefits of M2</h5>
-                                <div className="row">
+                                {/* <p className="subtitle ">
+                       For Hotels In Bangalore Good News for You 
+                        </p> */}
+                       
+                                <div className="row" >
+                                {/* <div class="col-xl-12"><div class="ct-info-box"><i   class="fas fa-store"></i><h5>Available in Bangalore  <br />Siri Enterprises</h5><span>Give us a call:-</span><div className='mt-3' style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap'}}><span><a href="" className=" btn-sm btn-custom">+91 95901 95143</a></span><span><a href="" className=" btn-sm btn-custom"> +91 99802 06366</a></span><span><a href="" className=" btn-sm btn-custom">+91 88977 55007 </a></span></div></div></div> */}
+                                {/* <div class="col-xl-12"><div class="ct-info-box"><i   class="fas fa-store"></i><h5>Siri Enterprises</h5><div style={{display:'flex',flexWrap:'wrap'}}><div className='col-lg-3  pr-0 pl-0'><span className='m2-font'>Give us a call :- </span></div><div className='col-lg-9 pr-0 pl-0'><span>Lakshmi narayana :- +91 95901 95143, </span><br/><span> K Jayanth Pavan :- +91 9980206366,</span><br/><span>Ajay :- +91 8897755007 .</span></div></div></div></div> */}
                                 {pizzamenu.map((item, i) => (
                                     // <div key={i} className="col-lg-6">
                                     <div key={i} className={`col-lg-6 ${item.title === "Naturally Processed" || item.title === "Packed Without Hand Touch" || item.title === "The Best In Quality, Taste" || item.title === "Processed In a first Fully Atomized Plant" ? "border-right" : ""}`}>
@@ -67,6 +73,9 @@ class Nobalactivity extends Component {
                                     >
                                     Download Brochure
                                 </a>
+                               
+                               
+                               
                     
                                 </div>
                             </div>
