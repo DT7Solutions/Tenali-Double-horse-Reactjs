@@ -27,12 +27,27 @@ class Nobalactivity extends Component {
                     <div class="container">
                         <div class="row d-flex justify-content-between align-items-center pb-5">
                             <div class="col-lg-6 ">
-                                <h5 class=" custom-primary text-center">Key Benefits of M2</h5>
-                                {/* <p className="subtitle ">
-                       For Hotels In Bangalore Good News for You 
-                        </p> */}
+                                <h5 class=" custom-primary text-center mb-1">For Hotels in Bangalore </h5>
+                                <p className="subtitle text-center ">
+                        Good News for You 
+                        </p>
                        
                                 <div className="row" >
+                                    <div className='col-lg-12 d-flex mb-3'>
+                                <div class="col-lg-4">
+                    <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Lakshmi Narayana</p><span className='contact-para'> +91 95901 95143 </span></div>
+                        </div>
+                        <div class="col-lg-4">
+                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>K Jayanth Pavan</p><span className='contact-para'> +91 99802 06366 </span></div>
+                        </div>
+                        <div class="col-lg-4">
+                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Ajay</p><span className='contact-para'> +91 88977 55007 </span></div>
+                        </div>
+                        </div>
+                        </div>
+                        <h5 class=" custom-primary text-center">Key Benefits of M2 </h5>
+                        <div className="row" >
+                       
                                 {/* <div class="col-xl-12"><div class="ct-info-box"><i   class="fas fa-store"></i><h5>Available in Bangalore  <br />Siri Enterprises</h5><span>Give us a call:-</span><div className='mt-3' style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap'}}><span><a href="" className=" btn-sm btn-custom">+91 95901 95143</a></span><span><a href="" className=" btn-sm btn-custom"> +91 99802 06366</a></span><span><a href="" className=" btn-sm btn-custom">+91 88977 55007 </a></span></div></div></div> */}
                                 {/* <div class="col-xl-12"><div class="ct-info-box"><i   class="fas fa-store"></i><h5>Siri Enterprises</h5><div style={{display:'flex',flexWrap:'wrap'}}><div className='col-lg-3  pr-0 pl-0'><span className='m2-font'>Give us a call :- </span></div><div className='col-lg-9 pr-0 pl-0'><span>Lakshmi narayana :- +91 95901 95143, </span><br/><span> K Jayanth Pavan :- +91 9980206366,</span><br/><span>Ajay :- +91 8897755007 .</span></div></div></div></div> */}
                                 {pizzamenu.map((item, i) => (
@@ -85,10 +100,25 @@ class Nobalactivity extends Component {
 
 
   
-
+                        
 
 
                     </div>
+                    {/* <div class="container bg-tertiary"> */}
+                    {/* <h5 class=" custom-primary text-center mb-1">For Hotels in Bangalore </h5>
+                    <h2 className="title text-center ">Good News For You</h2>
+                    <div class="row  bg-tertiary d-flex justify-content-between align-items-center pt-4">
+                    <div class="col-lg-4">
+                    <div class="ct-info-box"><i class="fas fa-store"></i><h5>Lakshmi Narayana</h5><span> +91 95901 95143 </span></div>
+                        </div>
+                        <div class="col-lg-4">
+                        <div class="ct-info-box"><i class="fas fa-store"></i><h5>K Jayanth Pavan</h5><span> +91 99802 06366 </span></div>
+                        </div>
+                        <div class="col-lg-4">
+                        <div class="ct-info-box"><i class="fas fa-store"></i><h5>Ajay</h5><span> +91 88977 55007 </span></div>
+                        </div>
+                            </div> */}
+                            {/* </div> */}
                 </div>
           </div>
         );
