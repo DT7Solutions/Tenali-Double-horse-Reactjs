@@ -48,7 +48,7 @@ class Camapaing extends Component {
                                     </p>
                             </div>
                             <div>
-                                    <a href={urls} target='_blank' className="btn-custom">Register Now</a>
+                                    <a href={urls} target='_blank' className="btn-custom Register-campaining">Register Now</a>
                             </div>
                         </div>
                 </div>
