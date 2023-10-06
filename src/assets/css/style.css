@@ -9592,6 +9592,20 @@ top: -5px;
     /* justify-content: center!important; */
     align-items: center!important;
   }
+  .sub-header-breadcrumbs {
+    background-size: 100%!important;
+    background-repeat: no-repeat!important;
+   
+    padding: 0px!important;
+  }
+  .card-gap{
+    margin-bottom: 15px!important;
+  }
+  .breadcrumb-mobile{
+    font-size: medium!important;
+    
+   
+  }
 }
 .m2-font{
   font-size:14px;

@@ -33,15 +33,15 @@ class Nobalactivity extends Component {
                         </p>
                        
                                 <div className="row" >
-                                    <div className='col-lg-12 d-flex mb-3'>
-                                <div class="col-lg-4">
-                    <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Lakshmi Narayana</p><span className='contact-para'> +91 95901 95143 </span></div>
+                                    <div className='col-lg-12 mb-3' style={{display:'flex',flexWrap:'wrap'}}>
+                                <div class="col-lg-4 col-12 card-gap">
+                    <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Lakshmi Narayana</p><span className='contact-para'><a href='tel:+91 95901 95143' target='_blank'>+91 95901 95143</a>  </span></div>
                         </div>
-                        <div class="col-lg-4">
-                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>K Jayanth Pavan</p><span className='contact-para'> +91 99802 06366 </span></div>
+                        <div class="col-lg-4 col-12 card-gap">
+                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>K Jayanth Pavan</p><span className='contact-para'><a href='tel:+91 99802 06366' target='_blank'>+91 99802 06366</a> </span></div>
                         </div>
-                        <div class="col-lg-4">
-                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Ajay</p><span className='contact-para'> +91 88977 55007 </span></div>
+                        <div class="col-lg-4 col-12card-gap">
+                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Ajay</p><span className='contact-para'><a href='tel:+91 88977 55007' target='_blank'> +91 88977 55007</a> </span></div>
                         </div>
                         </div>
                         </div>
