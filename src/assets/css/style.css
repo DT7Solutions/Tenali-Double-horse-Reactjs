@@ -9596,7 +9596,7 @@ top: -5px;
     background-size: 100%!important;
     background-repeat: no-repeat!important;
    
-    padding: 0px!important;
+    padding: 20px!important;
   }
   .card-gap{
     margin-bottom: 15px!important;
@@ -9604,7 +9604,7 @@ top: -5px;
   .breadcrumb-mobile{
     font-size: medium!important;
     line-height: 24px!important;
-    
+    display: none!important;
    
   }
 }
