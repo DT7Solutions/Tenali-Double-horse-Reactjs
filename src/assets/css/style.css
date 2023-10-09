@@ -9610,6 +9610,9 @@ top: -5px;
   .subheader-inner {
     visibility: hidden;
  }
+  .display-desktop{
+    display:none!important;
+  }
 }
 
 .m2-font{
