@@ -9607,6 +9607,9 @@ top: -5px;
     display: none!important;
    
   }
+  .display-desktop{
+    display:none!important;
+  }
 }
 .m2-font{
   font-size:14px;
