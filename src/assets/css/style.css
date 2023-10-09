@@ -9607,7 +9607,11 @@ top: -5px;
     display: none!important;
    
   }
+  .subheader-inner {
+    visibility: hidden;
+ }
 }
+
 .m2-font{
   font-size:14px;
   font-weight:700;
