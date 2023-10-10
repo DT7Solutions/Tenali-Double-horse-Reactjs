@@ -9597,8 +9597,11 @@ top: -5px;
     background-repeat: no-repeat!important;
    
     padding: 20px!important;
+  } */
+  .sub-header-breadcrumbs {
+    padding: 0px!important;
   }
-  .card-gap{
+  /* .card-gap{
     margin-bottom: 15px!important;
   }
   .breadcrumb-mobile{
