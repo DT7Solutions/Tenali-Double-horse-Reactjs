@@ -2,13 +2,13 @@
     {
         "id": 1,
         "image": "assets/img/blog/1.jpg",
-        "masonryimage": "assets/img/blog/6.jpg",
+        "masonryimage": "assets/img/people/2025.png",
         "fullview": "col-lg-3",
         "title": "Our all new chicken pizza now available",
         "shortdesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-        "postdate": "January 22, 2021",
+        "postdate": "Octomber 2, 2023",
         "author": {
-            "name": "Fredrick Flow",
+            "name": "tenali double horse",
             "img": "assets/img/people/4.jpg",
             "aboutauthor": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
         },
@@ -42,7 +42,7 @@
     {
         "id": 2,
         "image": "assets/img/blog/2.jpg",
-        "masonryimage": "assets/img/blog/13.jpg",
+        "masonryimage": "assets/img/people/2025.png",
         "fullview": "col-lg-3",
         "title": "Changing the way thin crusts are made",
         "shortdesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
@@ -82,8 +82,8 @@
     },
     {
         "id": 3,
-        "image": "assets/img/blog/3.jpg",
-        "masonryimage": "assets/img/blog/3.jpg",
+        "image": "assets//img/people/2025.png",
+        "masonryimage": "assets//img/people/2025.png",
         "fullview": "col-lg-6",
         "title": "New cheese rolls are now available",
         "shortdesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
@@ -123,14 +123,14 @@
     },
     {
         "id": 4,
-        "image": "assets/img/blog/4.jpg",
-        "masonryimage": "assets/img/blog/4.jpg",
+        "image": "assets//img/people/2025.png",
+        "masonryimage": "assets//img/people/2025.png",
         "fullview": "col-lg-6",
         "title": "Rose flavored pizza is going crazy nowdays",
         "shortdesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
         "postdate": "February 1, 2021",
         "author": {
-            "name": "Fredrick Flow",
+            "name": "tenali double horse",
             "img": "assets/img/people/4.jpg",
             "aboutauthor": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
         },
@@ -165,8 +165,8 @@
     },
     {
         "id": 5,
-        "image": "assets/img/blog/5.jpg",
-        "masonryimage": "assets/img/blog/7.jpg",
+        "image": "assets//img/people/2025.png",
+        "masonryimage": "assets//img/people/2025.png",
         "fullview": "col-lg-3",
         "title": "Career offerings now open, sign up today",
         "shortdesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
@@ -207,8 +207,8 @@
     },
     {
         "id": 6,
-        "image": "assets/img/blog/6.jpg",
-        "masonryimage": "assets/img/blog/8.jpg",
+        "image": "assets/img/people/2025.png",
+        "masonryimage": "assets/img/people/2025.png",
         "fullview": "col-lg-3",
         "title": "Cheese wheels can be the next thing",
         "shortdesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",

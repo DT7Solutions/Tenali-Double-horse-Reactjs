@@ -6,10 +6,12 @@ import Slider from 'react-slick';
 class Relatedblog extends Component {
     render() {
         const settings = {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             arrows: false,
             dots: true,
+            autoplay: true, 
+            infinite: true,
             responsive: [{
                 breakpoint: 575,
                 settings: {

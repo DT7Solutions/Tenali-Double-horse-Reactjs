@@ -3688,7 +3688,7 @@ table img{
 }
 .post-single .post-content-wrapper{
   position: relative;
-  margin-top: -200px;
+  /* margin-top: -200px; */
   background-color: #fff;
   padding: 30px 30px 0;
   border-radius: 8px;

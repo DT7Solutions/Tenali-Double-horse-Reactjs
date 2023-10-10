@@ -24,7 +24,7 @@ class Content extends Component {
         const item = getBlog(blogId);
         return (
             <div className="post-single">
-                <div className="post-subheader dark-overlay dark-overlay-2" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.image + ")" }}>
+                {/* <div className="post-subheader dark-overlay dark-overlay-2" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.image + ")" }}>
                     <div className="container">
                         <h1>{item.title}</h1>
                         <div className="post-meta">
@@ -41,13 +41,13 @@ class Content extends Component {
                             </span>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* Content & Sidebar Start */}
                 <div className="section">
                     <div className="container">
                         <div className="row">
                             {/* Content Start */}
-                            <div className="col-lg-8">
+                            <div className="col-lg-12">
                                 <div className="post-content-wrapper">
                                     <div className="post-content" dangerouslySetInnerHTML={{ __html: item.longdescription }} />
                                     {/* About Author Start */}
@@ -64,7 +64,7 @@ class Content extends Component {
                                     </div>
                                     {/* About Author End */}
                                     {/* Comment List Start */}
-                                    <div className="section pt-0">
+                                    {/* <div className="section pt-0">
                                         <h4>{item.reviews.length} Comments</h4>
                                         <div className="comments-list">
                                             <ul>
@@ -81,10 +81,10 @@ class Content extends Component {
                                                 ))}
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* Comment List End */}
                                     {/* Comment Form Start */}
-                                    <div className="comment-form section pt-0">
+                                    {/* <div className="comment-form section pt-0">
                                         <h4>Leave a Comment</h4>
                                         <p>Your email address will not be published. Required fields are marked *</p>
                                         <form method="post">
@@ -101,7 +101,7 @@ class Content extends Component {
                                             </div>
                                             <button type="submit" className="btn-custom primary shadow-none" name="button">Post comment</button>
                                         </form>
-                                    </div>
+                                    </div> */}
                                     {/* Comment Form End */}
                                     {/* Related Posts Start */}
                                     <Relatedblog/>
@@ -110,9 +110,9 @@ class Content extends Component {
                             </div>
                             {/* Content End */}
                             {/* Sidebar Start */}
-                            <div className="col-lg-4">
+                            {/* <div className="col-lg-4">
                                 <Sidebar />
-                            </div>
+                            </div> */}
                             {/* Sidebar End */}
                         </div>
                     </div>

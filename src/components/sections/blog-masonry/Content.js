@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import blogpost from '../../../data/blog.json';
-import Sidebar from '../../layouts/Blogsidebar';
+// import Sidebar from '../../layouts/Blogsidebar';
 import Loader from '../../layouts/Loader';
 import classNames from 'classnames';
 import Masonry from 'react-masonry-component';
@@ -12,7 +12,7 @@ class Content extends Component {
         this.state = {
             items: blogpost,
             currentPage: 1,
-            itemsPerPage: 4,
+            itemsPerPage: 6,
             loading: false
         };
         this.handleClick = this.handleClick.bind(this);
@@ -45,7 +45,7 @@ class Content extends Component {
         const currentitems = items.slice(indexOfFirstitem, indexOfLastitem);
 
         const renderitems = currentitems.map((item, i) => {
-            return <div key={i} className="col-lg-6 masonry-item">
+            return <div key={i} className="col-lg-4 masonry-item">
                 <article className="post">
                     <h3 className="post-title">
                         <Link to={"/blog-single/" + item.id}>{item.title}</Link>
@@ -91,7 +91,7 @@ class Content extends Component {
             <div className="section section-padding pagination-content">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-12">
                             <Masonry className="row masonry" imagesLoadedOptions={imagesLoadedOptions}>
                                 {/* Post Start */}
                                 {this.state.loading === false ? renderitems : <div className="col-12"><Loader /></div>}
@@ -123,13 +123,7 @@ class Content extends Component {
                                         : ''}
                                     {/* Next */}
                                 </ul> : ''}
-                            {/* Pagination End */}
                         </div>
-                        {/* Sidebar Start */}
-                        <div className="col-lg-4">
-                            <Sidebar />
-                        </div>
-                        {/* Sidebar End */}
                     </div>
                 </div>
             </div>
