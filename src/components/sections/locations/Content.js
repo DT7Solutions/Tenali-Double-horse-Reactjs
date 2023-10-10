@@ -92,7 +92,7 @@ class Content extends Component {
                             <div className="col-lg-5  p-2">
                             
 
-                                <form className='mb-5'>
+                                <form className='mb-5 location-contact'>
                                     <div className="row">
                                         <div className="form-group col-lg-6">
                                             <input type="text" placeholder="First Name" required className="form-control" name="fname" />
@@ -125,7 +125,7 @@ class Content extends Component {
                                             <textarea name="message" className="form-control" required placeholder="Type your message" rows={9} />
                                         </div>
                                     </div>
-                                    <button type="submit" className="btn-custom primary" name="button">Send Message</button>
+                                    <button type="submit" className="btn-custom primary location-contact" name="button">Send Message</button>
                                 </form>
                             </div>
                         </div>

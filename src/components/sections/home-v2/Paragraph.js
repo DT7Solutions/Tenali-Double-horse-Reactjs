@@ -74,7 +74,7 @@ class Paragraph extends Component {
                 <a
                   href={pdffile}
                   download="tdh-brouchure.pdf"
-                  className="btn-custom btn-sm shadow-none"
+                  className="btn-custom btn-sm shadow-none suma"
                   target="_blank"
                   type="application/pdf"
                 >

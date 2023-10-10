@@ -9589,10 +9589,10 @@ top: -5px;
   .order-align{
     display:flex!important;
  
-    /* justify-content: center!important; */
+   
     align-items: center!important;
   }
-  .sub-header-breadcrumbs {
+  /* .sub-header-breadcrumbs {
     background-size: 100%!important;
     background-repeat: no-repeat!important;
    
@@ -9606,8 +9606,8 @@ top: -5px;
     line-height: 24px!important;
     display: none!important;
    
-  }
-  .subheader-inner {
+  } */
+  .sub-header-breadcrumbs .subheader-inner {
     visibility: hidden;
  }
   .display-desktop{
