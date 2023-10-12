@@ -9655,3 +9655,23 @@ top: -5px;
 .contact-para{
   font-size:13px!important;
 }
+
+
+.smbg {
+  background-color: #fef4f7;
+  background-image: -webkit-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+  /* background-color: #fef4f7;
+  background-image: linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+  background-image: -webkit-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+  background-image: -moz-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+  background-image: -ms-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+  background-image: -o-linear-gradient(rgba(10, 77, 123, 0.1), #fff); */
+}
+
+.smbg2 { 
+  background-color:#fff;
+  background-image: linear-gradient(rgba(1, 0, 0, 0.1), #fff);
+  background-image: -webkit-linear-gradient(rgba(1, 7, 1, 0.1), #fff);
+  box-shadow: rgba(0, 0, 0, 0.1) 3px 2px 5px
+}
+

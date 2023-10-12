@@ -1,5 +1,24 @@
 [
     {
+        "id": 15,
+        "imageUrl": "assets/img/newsevents/Leprosy.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+    {
+        "id": 14,
+        "imageUrl": "assets/img/newsevents/merite-scoller-two.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+    {
+        "id": 13,
+        "imageUrl": "assets/img/newsevents/merit-stdent-scolr.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+
+    {
         "id": 12,
         "imageUrl": "assets/img/newsevents/sakeshi-phireseudaan.jpeg",
         "caption": "phirese udaan"

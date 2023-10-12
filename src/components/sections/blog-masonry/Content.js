@@ -46,7 +46,7 @@ class Content extends Component {
 
         const renderitems = currentitems.map((item, i) => {
             return <div key={i} className="col-lg-4 masonry-item">
-                <article className="post">
+                <article className="post smbg2 px-4 py-3">
                     <h3 className="post-title">
                         <Link to={"/blog-single/" + item.id}>{item.title}</Link>
                     </h3>
