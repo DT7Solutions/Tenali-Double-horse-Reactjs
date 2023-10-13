@@ -9616,6 +9616,10 @@ top: -5px;
   .display-desktop{
     display:none!important;
   }
+
+  .card-gap {
+    margin-bottom: 15px;
+}
 }
 
 .m2-font{
