@@ -5852,6 +5852,10 @@ td.quantity{
   margin-top: 60px!important;
   margin-bottom: 60px!important;
 }
+.gap-section-top{
+  margin-top: 60px!important;
+  padding-top: 50px!important;
+}
 .card {
   border:none!important;
 }
@@ -9687,4 +9691,7 @@ top: -5px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+.gold-idly{
+  background-image: -webkit-linear-gradient(#fff7ef,#fff7ef);
 }

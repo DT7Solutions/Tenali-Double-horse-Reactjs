@@ -10,7 +10,7 @@ import 'animate.css';
     render() {
         return (
   
-        <section id="gallery" class="gap-section">
+        <section id="gallery" class="gap-section-top gold-idly " >
           <div className="section-title-wrap section-header text-center">
             <h5 className="custom-primary">Flavors of Excellence</h5>
             <h2 className="title">Discover Our Culinary Treasures</h2>
@@ -20,7 +20,7 @@ import 'animate.css';
           <div class="container">
             <div class="row">
             <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp "  data-wow-delay="0.2s">
-            <div class="card alignments smbg" style={{minHeight:'400px'}}>
+            <div class="card alignments " style={{minHeight:'400px',backgroundColor:'transparent'}}>
             <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-idly-rava.webp"} style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Idly Rava</h5>
@@ -31,7 +31,7 @@ import 'animate.css';
              </div>
             </div>
           <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.4s">
-          <div class="card black alignments smbg"  style={{minHeight:'400px'}}>
+          <div class="card black alignments "  style={{minHeight:'400px',backgroundColor:'transparent'}}>
           <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-urad-gota.webp"} style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Urad gota</h5>
@@ -42,7 +42,7 @@ import 'animate.css';
               </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.6s">
-          <div class="card white alignments smbg"  style={{minHeight:'400px'}}>
+          <div class="card white alignments "  style={{minHeight:'400px',backgroundColor:'transparent'}}>
           <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-toor-dall.webp"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Toor Dall</h5>
@@ -52,8 +52,8 @@ import 'animate.css';
               </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.8s">
-            <div class="card yellow alignments smbg"  style={{minHeight:'400px'}} >
+            <div class="col-lg-6 col-md-6 pb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.8s">
+            <div class="card yellow alignments "  style={{minHeight:'400px',backgroundColor:'transparent'}} >
             <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-moong-dall.webp"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Moong Dall</h5>
