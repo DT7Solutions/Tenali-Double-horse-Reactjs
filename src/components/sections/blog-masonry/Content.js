@@ -1,134 +1,151 @@
-import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import blogpost from '../../../data/blog.json';
-// import Sidebar from '../../layouts/Blogsidebar';
+import React, { useEffect, useState } from 'react';
+import axios from '../../../api/axios';
 import Loader from '../../layouts/Loader';
 import classNames from 'classnames';
 import Masonry from 'react-masonry-component';
 
-class Content extends Component {
-    constructor() {
-        super();
-        this.state = {
-            items: blogpost,
-            currentPage: 1,
-            itemsPerPage: 6,
-            loading: false
-        };
-        this.handleClick = this.handleClick.bind(this);
-    }
+function Content() {
+    const [items, setItems] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 6;
+    const [loading, setLoading] = useState(true);
 
-    handleClick(event) {
-        var paginationContent = event.target.closest('.pagination-content');
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+            debugger;
+                const response = await axios.get('api/blog/');
+                setItems(response.data);
+                setLoading(false);
+            } catch (error) {
+                debugger;
+                console.error('Error fetching blog post data:', error);
+                setLoading(false);
+            }
+        };
+
+        fetchData();
+    }, {});
+
+    const handleClick = (event) => {
+        const paginationContent = event.target.closest('.pagination-content');
 
         if (paginationContent) {
             paginationContent.scrollIntoView();
         }
 
-        this.setState({
-            loading: true
-        });
+        setLoading(true);
+
         setTimeout(() => {
-            this.setState({
-                currentPage: Number(event.target.getAttribute('data-page')),
-                loading: false
-            });
+            setCurrentPage(Number(event.target.getAttribute('data-page')));
+            setLoading(false);
         }, 2000);
+    };
 
-    }
-    render() {
-        const { items, currentPage, itemsPerPage } = this.state;
+    const indexOfLastitem = currentPage * itemsPerPage;
+    const indexOfFirstitem = indexOfLastitem - itemsPerPage;
+    const currentitems = items.slice(indexOfFirstitem, indexOfLastitem);
 
-        // Logic for displaying items
-        const indexOfLastitem = currentPage * itemsPerPage;
-        const indexOfFirstitem = indexOfLastitem - itemsPerPage;
-        const currentitems = items.slice(indexOfFirstitem, indexOfLastitem);
+    const renderitems = currentitems.map((item, i) => (
+        <div key={i} className="col-lg-4 masonry-item">
+            <article className="post smbg2 px-4 py-3 blog-post">
+                <h3 className="post-title">
+                    <Link to={`/blog-single/${item.id}`}>{item.title}</Link>
+                </h3>
+                <div className="post-meta">
+                    <span> <i className="far fa-calendar" /> <Link to={`/blog-single/${item.id}`}>{item.postdate}</Link> </span>
+                    <span> <i className="far fa-user" /> <Link to={`/blog-single/${item.id}`}>{item.name}</Link> </span>
+                </div>
+                <div className="post-thumbnail">
+                    <Link to={`/blog-single/${item.id}`}>
+                        <img src={process.env.PUBLIC_URL +'http://127.0.0.1:8000'+item.masonryimage} alt={item.title} />
+                    </Link>
+                </div>
+                <div className="post-desc">
+                    <p>{item.shortdesc}</p>
+                </div>
+                <Link to={`/blog-single/${item.id}`} className="read-more1 btn-custom shadow-none">Read More</Link>
+            </article>
+        </div>
+    ));
 
-        const renderitems = currentitems.map((item, i) => {
-            return <div key={i} className="col-lg-4 masonry-item">
-                <article className="post smbg2 px-4 py-3">
-                    <h3 className="post-title">
-                        <Link to={"/blog-single/" + item.id}>{item.title}</Link>
-                    </h3>
-                    <div className="post-meta">
-                        <span> <i className="far fa-calendar" /> <Link to={"/blog-single/" + item.id}>{item.postdate}</Link> </span>
-                        <span> <i className="far fa-user" /> <Link to={"/blog-single/" + item.id}>{item.author.name}</Link> </span>
-                    </div>
-                    <div className="post-thumbnail">
-                        <Link to={"/blog-single/" + item.id}>
-                            <img src={process.env.PUBLIC_URL + "/" + item.masonryimage} alt={item.title} />
-                        </Link>
-                    </div>
-                    <div className="post-desc">
-                        <p>{item.shortdesc}</p>
-                    </div>
-                    <Link to={"/blog-single/" + item.id} className="read-more">Read More</Link>
-                </article>
-            </div>
-        });
-        // Logic for displaying page numbers
-        const pageNumbers = [];
-        for (let i = 1; i <= Math.ceil(items.length / itemsPerPage); i++) {
-            pageNumbers.push(i);
-        }
-        const renderPagination = pageNumbers.map(number => {
-            const activeCondition = this.state.currentPage === number ? 'active' : ''
-            return (
-                <Fragment key={number}>
-                    {pageNumbers.length > 1 ? <li className={classNames("page-item", { "active": activeCondition })}>
-                        <Link className="page-link" to="#" data-page={number} onClick={this.handleClick}>{number}</Link>
-                    </li> : ''}
-                </Fragment>
-            );
-        });
-        const imagesLoadedOptions = {
-            itemSelector: '.masonry-item',
-            percentPosition: true,
-            resize: true,
-            fitWidth: true
-        };
+    const pageNumbers = Array.from({ length: Math.ceil(items.length / itemsPerPage) }, (_, i) => i + 1);
+
+    const renderPagination = pageNumbers.map((number) => {
+        const activeCondition = currentPage === number ? 'active' : '';
+
         return (
-            <div className="section section-padding pagination-content">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <Masonry className="row masonry" imagesLoadedOptions={imagesLoadedOptions}>
-                                {/* Post Start */}
-                                {this.state.loading === false ? renderitems : <div className="col-12"><Loader /></div>}
-                                {/* Post End */}
-                            </Masonry>
-                            {/* Pagination Start */}
-                            {pageNumbers.length > 1 ?
-                                <ul className="pagination mb-0">
-                                    {/* Prev */}
-                                    {/* to show previous, we need to be on the 2nd or more page */}
-                                    {pageNumbers.length > 1 && this.state.currentPage !== 1 ?
-                                        <li className="page-item">
-                                            <Link className="page-link" to="#" data-page={this.state.currentPage - 1} onClick={this.handleClick}>
-                                                <span aria-hidden="true">«</span>
-                                                <span className="sr-only">Previous</span>
-                                            </Link>
-                                        </li>
-                                        : ''}
-                                    {/* Prev */}
-                                    {renderPagination}
-                                    {/* Next */}
-                                    {/* to show next, we should not be on the last page */}
-                                    {pageNumbers.length > 1 && this.state.currentPage !== pageNumbers.length ? <li className="page-item">
-                                        <Link className="page-link" to="#" data-page={parseInt(this.state.currentPage + 1)} onClick={this.handleClick}>
+            <li key={number} className={classNames('page-item', { active: activeCondition })}>
+                <Link
+                    className="page-link"
+                    to="#"
+                    data-page={number}
+                    onClick={handleClick}
+                >
+                    {number}
+                </Link>
+            </li>
+        );
+    });
+
+    const imagesLoadedOptions = {
+        itemSelector: '.masonry-item',
+        percentPosition: true,
+        resize: true,
+        fitWidth: true,
+    };
+
+    return (
+        <div className="section section-padding pagination-content">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <Masonry className="row masonry" imagesLoadedOptions={imagesLoadedOptions}>
+                            {loading ? (
+                                <div className="col-12">
+                                    <Loader />
+                                </div>
+                            ) : (
+                                renderitems
+                            )}
+                        </Masonry>
+                        {pageNumbers.length > 1 && (
+                            <ul className="pagination mb-0">
+                                {currentPage > 1 && (
+                                    <li className="page-item">
+                                        <Link
+                                            className="page-link"
+                                            to="#"
+                                            data-page={currentPage - 1}
+                                            onClick={handleClick}
+                                        >
+                                            <span aria-hidden="true">«</span>
+                                            <span className="sr-only">Previous</span>
+                                        </Link>
+                                    </li>
+                                )}
+                                {renderPagination}
+                                {currentPage < pageNumbers.length && (
+                                    <li className="page-item">
+                                        <Link
+                                            className="page-link"
+                                            to="#"
+                                            data-page={currentPage + 1}
+                                            onClick={handleClick}
+                                        >
                                             <span aria-hidden="true">»</span>
                                             <span className="sr-only">Next</span>
                                         </Link>
                                     </li>
-                                        : ''}
-                                    {/* Next */}
-                                </ul> : ''}
-                        </div>
+                                )}
+                            </ul>
+                        )}
                     </div>
                 </div>
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default Content;

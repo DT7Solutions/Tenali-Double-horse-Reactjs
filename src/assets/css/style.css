@@ -9662,7 +9662,7 @@ top: -5px;
 
 
 .smbg {
-  background-color: #fef4f7;
+  background-color: #f2dadb;
   background-image: -webkit-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
   /* background-color: #fef4f7;
   background-image: linear-gradient(rgba(10, 77, 123, 0.1), #fff);
@@ -9674,8 +9674,17 @@ top: -5px;
 
 .smbg2 { 
   background-color:#fff;
-  background-image: linear-gradient(rgba(1, 0, 0, 0.1), #fff);
-  background-image: -webkit-linear-gradient(rgba(1, 7, 1, 0.1), #fff);
-  box-shadow: rgba(0, 0, 0, 0.1) 3px 2px 5px
+  /* background-image: linear-gradient(rgba(1, 0, 0, 0.1), #fff);
+  background-image: -webkit-linear-gradient(rgba(1, 7, 1, 0.1), #fff); */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 20px
 }
-
+.blog-post .btn-custom{
+  padding: 4px 20px;
+  font-size: small;
+}
+.post-desc p {
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
