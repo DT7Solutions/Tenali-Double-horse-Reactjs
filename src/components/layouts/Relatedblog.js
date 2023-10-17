@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import blogpost from '../../data/blog.json';
 import Slider from 'react-slick';
 
-class Relatedblog extends Component {
-    render() {
+function Relatedblog()  {
+  
         const settings = {
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -48,7 +48,7 @@ class Relatedblog extends Component {
                 </Slider>
             </div>
         );
-    }
+    
 }
 
 export default Relatedblog;
