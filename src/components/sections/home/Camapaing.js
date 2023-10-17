@@ -28,8 +28,8 @@ class Camapaing extends Component {
                         </div>
                     </div>
               <div className='row d-flex justify-content-center campaing'>
-                <div className='col-lg-6 col-md-12 col-sm-12'>
-                    {/* <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/tenali-double-horse-phir-se-udan-campaingh.webp"} alt="Image" class="img-fluid1" style={{height:'100%', width:"100%"}} /> */}
+                {/* <div className='col-lg-6 col-md-12 col-sm-12'>
+                  
                     <iframe
                 title="YouTube Video"
                 width="100%"
@@ -39,16 +39,24 @@ class Camapaing extends Component {
                 allowfullscreen
                 loading="lazy"
               ></iframe>
-                </div>
+              
+                </div> */}
+                <div className="col-lg-6 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}> 
+                        <video width="100%" height="95%" controls >
+                          <source src={process.env.PUBLIC_URL + "/assets/video/tdh-cricket-world-cup.mp4"} type="video/mp4" />
+                      </video>
+                          
+                        </div>
                 <div className='col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center'>
                     <div className='mb-lg-5 camp-content'>
                             <div>
                                     <p>
-                                    <b>Phir Se Udaan</b> is an initiative by your favourite <b>Tenali Double Horse</b> . With a vision to empower women inside and outside the house. Tenali Double Horse offers only the best quality and nutrition packed range of Dals and Instant foods like Idli and Dosa mixes.
+                                    {/* <b>Phir Se Udaan</b> is an initiative by your favourite <b>Tenali Double Horse</b> . With a vision to empower women inside and outside the house. Tenali Double Horse offers only the best quality and nutrition packed range of Dals and Instant foods like Idli and Dosa mixes. */}
+                                    Experience the magic of cricket with <b>Rishika Sunnnadlu</b> in this captivating video! Get ready to cheer and believe as we bring you the excitement of the 2023 World Cup. Don't forget to have your favorite <b>Tenali Double Horse</b> snack by your side as you immerse yourself in the thrilling action. Let's celebrate cricket together and show our united support for <b>Team India!</b>
                                     </p>
                             </div>
                             <div>
-                                    <a href={urls} target='_blank' className="btn-custom Register-campaining">Register Now</a>
+                                    <a href={urls} target='_blank' className="btn-custom Register-campaining">Order Now</a>
                             </div>
                         </div>
                 </div>
