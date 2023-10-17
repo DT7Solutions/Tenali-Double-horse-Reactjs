@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import img3 from '../../../assets/img/team/tenali-double-horse-phir-se-udan-campaingh.webp'
-let urls = "https://docs.google.com/forms/d/e/1FAIpQLSegR1oeEhjYVd3PnRuxPaY8G4B594xxV_yLgMPnRPx-GLclEA/viewform"
+let urls = "https://www.amazon.in/dp/B0CCJ825SX?ref=myi_title_dp"
 
 
 class Camapaing extends Component {
@@ -19,11 +19,18 @@ class Camapaing extends Component {
           <div>
             <div className='container mb-5'>
                     <div>
-                        <div className="section-title-wrap section-header mb-md-5 mt-lg-5 mt-xl-5  mt-xxl-5 text-center ">
+                        {/* <div className="section-title-wrap section-header mb-md-5 mt-lg-5 mt-xl-5  mt-xxl-5 text-center ">
                             <h5 className="custom-primary mt-3">Campaign Chronicles  </h5>
                             <h2 className="title">Explore Our Ongoing Campaigns</h2>
                             <p className="subtitle ">
                                 Discover the latest buzz in the digital realm. Dive into our ongoing digital or PR campaigns that bring you exciting updates, engaging content, and a taste of the future with Tenali Double Horse.
+                            </p>
+                        </div> */}
+                         <div className="section-title-wrap section-header mb-md-5 mt-lg-5 mt-xl-5  mt-xxl-5 text-center ">
+                            <h5 className="custom-primary mt-3">Unleashing Cricket Fever  </h5>
+                            <h2 className="title">2023 World Cup Excitement</h2>
+                            <p className="subtitle ">
+                            Don't forget to grab your favorite Tenali Double Horse Rishika Sunnundalu and settle in for a rollercoaster ride of thrilling action. Let's come together as Team India supporters and celebrate the magic of cricket. 
                             </p>
                         </div>
                     </div>
