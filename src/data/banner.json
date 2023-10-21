@@ -28,6 +28,10 @@
         }
     ],
     "hometwo":[
+        {
+            "id":2,
+            "bg":"assets/img/banner/tdh-dussehra banner.webp"
+        },
 
         {
             "id":3,

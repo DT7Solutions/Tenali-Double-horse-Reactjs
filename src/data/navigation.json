@@ -14,12 +14,12 @@
     },
     {
         "id": 2,
-        "linkText": "About",
+        "linkText": "Our Legacy",
         "link":"/about",
         "child": true,
         "submenu": [{
                 "id": 21,
-                "linkText": "Our Company",
+                "linkText": "The Journey",
                 "link": "/about",
                 "type":"p"
                
@@ -40,9 +40,9 @@
           
             {
                 "id": 43,
-                "link": "https://phirseudaan.com/",
+                "link": "",
                 "linkText": "CSR Initiatives",
-                "type":"a"
+                "type":"p"
             }
            
            
