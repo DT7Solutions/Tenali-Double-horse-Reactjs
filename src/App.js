@@ -37,6 +37,7 @@ const paymentploicy = React.lazy(() => import("./components/pages/paymentservice
 const Contactus = React.lazy(() => import("./components/pages/Contactus"));
 const Awards = React.lazy(() => import("./components/pages/Awards"));
 const CSRactivities = React.lazy(() => import("./components/pages/CSRactivities"));
+const Gallery = React.lazy(() => import("./components/pages/Gallery"));
 
 const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
   useLayoutEffect(() => {
@@ -83,6 +84,7 @@ function App() {
           <Route path="/Contactus" component={Contactus} />
           <Route path="/awards-recognitions" component={Awards} />
           <Route path="/csr-activities" component={CSRactivities} />
+          <Route path="/Csrgallery" component={Gallery} />
           
         </ScrollToTop>
       </Suspense>

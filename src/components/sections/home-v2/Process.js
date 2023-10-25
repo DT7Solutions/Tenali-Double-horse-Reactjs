@@ -28,7 +28,7 @@ class Process extends Component {
     }
     render() {
         return (
-            <div className="container-fluid mb-5">
+            <div className="container-fluid mb-5 ">
                 <div className="section-title-wrap section-header text-center ">
                     <h5 className="custom-primary">Where Quality Meets Commitment </h5>
                     <h2 className="title">Nourishing Lives with Trusted Nutrition</h2>

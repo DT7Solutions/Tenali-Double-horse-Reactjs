@@ -348,7 +348,9 @@ readers do not read off random characters that represent icons */
 
 .fa-arrow-right:before {
   content: "\f061"; }
-
+.fa-circle-arrow-right:before {
+  content: "\f0a9";
+}
 .fa-arrow-up:before {
   content: "\f062"; }
 

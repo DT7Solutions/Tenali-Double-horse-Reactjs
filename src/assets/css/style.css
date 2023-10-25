@@ -9733,6 +9733,28 @@ top: -5px;
     
    
 }
-.about-p-text{
-  font-size: 16px;
+
+.with-border-bottom{
+  border-bottom: 3px solid #ED4E53 !important;
+}
+
+.rounded-3 {
+  border-radius: 0.475rem!important;
+}
+.text-custom{
+  color:#ED4E53!important;
+  font-weight:600;
+}
+.gap-2{
+  gap: .5rem!important;
+
+}
+.bg-custom{
+  background-color: #ED4E53!important ;
+  color: white!important;
+  padding: 2px!important;
+  border-radius: 25px;
+}
+.csr .fa-arrow-right{
+  font-size:12px!important;
 }
