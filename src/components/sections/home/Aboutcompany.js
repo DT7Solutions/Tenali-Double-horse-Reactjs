@@ -46,7 +46,7 @@ class Aboutcompany extends Component {
                             <ol  className="breadcrumb breadcrumb-two ">
                                 <li className="breadcrumb-item "><h5 className="custom-primary" style={{marginBottom:'10px'}}>About</h5></li>
                                 <li className="breadcrumb-item "><h2 className="title" style={{marginBottom:'10px'}}>Tenali Double Horse</h2></li>
-                                <li className="breadcrumb-item active text-dark" aria-current="page" style={{textAlign:'justify'}}>At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India. Guided by our commitment to quality and customer satisfaction, we have since become a trusted name that resonates with millions.</li>
+                                <li className="breadcrumb-item active text-dark about-p-text" aria-current="page" style={{textAlign:'justify'}}>At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India. Guided by our commitment to quality and customer satisfaction, we have since become a trusted name that resonates with millions.</li>
                                 {/* <a href={"/about"} className="btn-custom  mt-4">Read more</a> */}
                                 <Link  to={"/about"} className="btn-custom primary about-home mt-4">Read More  </Link>
                             </ol>

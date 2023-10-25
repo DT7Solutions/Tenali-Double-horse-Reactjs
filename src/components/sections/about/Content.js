@@ -23,15 +23,17 @@ class Content extends Component {
         return (
             <Fragment>
                <Tdhabout/>
-               <Tdhgroup/>
+               <Tdhf/>
+               {/* <Tdhgroup/> */}
                <Overview/>
                 <Rules/>
               {/* <HorizontalTimeline/> */}
                 
                {/* <TimelineComponent/> */}
-                <Greatplacetowork/>
+                
                 <Stats/>
-                <Tdhf/>
+               
+                <Greatplacetowork/>
                 <Feedback/>
                 <Messenger/>
                 

@@ -18,15 +18,6 @@ class TimelineSection extends Component {
             backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/video-background-image.png)`,
             backgroundRepeat: 'no-repeat',
             backgroundSize:'cover',
-           
-           
-            
-           
-           
-            
-            
-           
-            
           };
 
 
@@ -104,7 +95,7 @@ class TimelineSection extends Component {
                 </div>
                     
             
-                <div className="fluid-container video-conatiner"   >
+                <div className="fluid-container video-conatiner mt-3">
                         <h2 className="text-center title mt-4 mb-3">Our Story</h2>
                    
                     
