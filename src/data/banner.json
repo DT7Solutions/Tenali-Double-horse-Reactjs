@@ -30,24 +30,32 @@
     "hometwo":[
 
         {
+            "id":1,
+            "bg":"assets/img/banner/tdh-ammammas-banner.webp"
+        },
+        {
             "id":3,
-            "bg":"assets/img/banner/vyapararatna.webp"
+            "bg":"assets/img/banner/fevestval-banner.png"
         },
         {
             "id":4,
+            "bg":"assets/img/banner/vyapararatna.webp"
+        },
+        {
+            "id":5,
             "bg":"assets/img/banner/economic times.webp"
         },
        
         {
-            "id":5,
+            "id":6,
             "bg":"assets/img/banner/tdh-west-godavari-distributors.webp"
         },
         {
-            "id":6,
+            "id":7,
             "bg":"assets/img/banner/home-background-1200x525.webp"
         },
         {
-            "id":7,
+            "id":8,
             "bg":"assets/img/banner/tenali-double-horse-sunnundulu.webp"
         }
         
