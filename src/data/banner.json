@@ -28,18 +28,13 @@
         }
     ],
     "hometwo":[
-
         {
             "id":3,
-            "bg":"assets/img/banner/tdh-ammammas-banner.webp"
-        },
-        {
-            "id":4,
-            "bg":"assets/img/banner/fevestval-banner.png"
+            "bg":"assets/img/banner/ek-bharat-shreshta-bharat.jpeg"
         },
         {
             "id":5,
-            "bg":"assets/img/banner/vyapararatna.webp"
+            "bg":"assets/img/banner/tdh-ammammas-banner.webp"
         },
         {
             "id":6,
@@ -58,6 +53,7 @@
             "id":9,
             "bg":"assets/img/banner/tenali-double-horse-sunnundulu.webp"
         }
+      
         
     ],
     "homethree": [
