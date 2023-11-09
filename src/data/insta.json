@@ -1,7 +1,7 @@
 [
     {
         "id": 18,
-        "imageUrl": "assets/img/newsevents/tmlinadu-awarads.jpeg",
+        "imageUrl": "assets/img/newsevents/ek-bharat-shreshta-barat.jpeg",
         "caption": "tm"
     },
     {
@@ -61,38 +61,36 @@
     ,
     {
         "id": 6,
-        "imageUrl": "assets/img/newsevents/five.jpeg"
+        "imageUrl": "assets/img/newsevents/milite-meals-lanuch.jpeg"
     },
     {
         "id": 7,
-        "imageUrl": "assets/img/newsevents/six.jpeg"
+        "imageUrl": "assets/img/newsevents/milite-meals-lanuch-in-bangalore.jpeg"
     },
     {
         "id": 1,
-        "imageUrl": "assets/img/newsevents/eight.jpeg"
+        "imageUrl": "assets/img/newsevents/tdh-donation-10-lakh-rupes -basavatarakam -cancer-hospital.jpeg"
     },
     {
         "id": 2,
-        "imageUrl": "assets/img/newsevents/vit-industrial.png"
+        "imageUrl": "assets/img/newsevents/industrial-visit-to-tenali-double-horse-09-jan-2023.png"
     },
     {
         "id": 3,
-        "imageUrl": "assets/img/newsevents/seven.jpeg"
+        "imageUrl": "assets/img/newsevents/shyam-parsed-support-international-hanball-player-madhubabu.jpeg"
     },
     {
         "id": 4,
-        "imageUrl": "assets/img/newsevents/three.jpeg"
+        "imageUrl": "assets/img/newsevents/from-tenali-with-love-broacher.jpeg"
     },
     {
         "id": 5,
-        "imageUrl": "assets/img/newsevents/four.jpeg"
+        "imageUrl": "assets/img/newsevents/tdh-supply-HIV-patients-nutrition-foods.jpeg"
     },
    
     {
         "id": 8,
-        "imageUrl": "assets/img/ig/one.jpeg",
-        "caption": "Image 1"
-       
-        
+        "imageUrl": "assets/img/newsevents/covide-test-in-tdh-dall-mill-workers.jpeg",
+        "caption": "Image 1" 
     }
 ]

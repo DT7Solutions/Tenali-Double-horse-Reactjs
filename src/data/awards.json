@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "imageUrl": "assets/img/newsevents/awards/ek-bharat-shreshta-bharat.jpeg",
+        "imageUrl": "assets/img/newsevents/awards/ek-bharat-shreshta-bharat.png",
         "year":"2023",
-        "title":"ek bharat shreshta bharat",
-        "description":""
+        "title":"Ek Bharat Shreshta Bharat",
+        "description":"Our MD, Mohan Shyam Prasad Garu, Felicated By The Honourable Governor of Tamil Nadu Thiru R.N.Ravi During EK Bharat Shreshta Bharat Programme."
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "id": 3,
         "imageUrl": "assets/img/newsevents/awards/the-best-food-product.png",
         "year":"2023",
-        "title":"Best Food Products Company of the Year",
+        "title":"Best Food Products Company of The Year",
         "description":"Tenali Double Horse, a name synonymous with quality and authenticity in the world of food products, has achieved a remarkable milestone by being honored with the prestigious Best Food Products Company of the Year award at the Hybiz TV Business Excellence Awards. This accolade underscores the brand's unwavering commitment to delivering top-notch food products that have won the hearts of consumers far and wide"
     }
    

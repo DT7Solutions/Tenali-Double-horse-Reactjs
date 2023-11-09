@@ -96,8 +96,8 @@
     },
     {
         "id": 5,
-        "linkText": "News Events",
-        "link": "/news-events"
+        "linkText": "News Room",
+        "link": "/news-room"
     },
     {
         "id": 6,

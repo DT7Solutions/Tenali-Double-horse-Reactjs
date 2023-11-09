@@ -55,7 +55,7 @@ function App() {
           <Preloader />
           <Route exact path="/"  component={Home}/>
           <Route path="/home-v2" component={Hometwo}/>
-          <Route path="/news-events" component={Homethree}/>
+          <Route path="/news-room" component={Homethree}/>
           <Route path="/home-v4" component={Homefour}/>
           <Route path="/blog-grid" exact component={Bloggrid} />
           <Route path="/blog/tag/:tagId" exact component={props => (<Bloggrid {...props} key={window.location.pathname} />)} />
