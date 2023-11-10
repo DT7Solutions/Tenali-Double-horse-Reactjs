@@ -181,7 +181,7 @@ class Content extends Component {
                         {/* Additional Information Start */}
                         <div className="product-additional-info">
                             <Tab.Container defaultActiveKey="tab1" onSelect={this.handleTabClick}>
-                                <Nav variant="tabs" className="nav mt-5" style={{display:'flex',justifyContent:'center'}}>
+                                <Nav variant="tabs" className="nav mt-5 mb-5" style={{display:'flex',justifyContent:'center'}}>
                                     <Nav.Item>
                                         <Nav.Link eventKey="tab1">Normal Packs</Nav.Link>
                                     </Nav.Item>

@@ -9758,3 +9758,26 @@ top: -5px;
 .csr .fa-arrow-right{
   font-size:12px!important;
 }
+
+
+.menu-category-thumb-export{
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  transition: .3s;
+  margin-bottom: 10px;
+  
+}
+/* new menu  */
+.menu-category-thumb-products-page{
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  margin-bottom: 10px;
+  border: 7px solid rgba(255,255,255,.2);
+  
+  border-color: #fff;
+}
