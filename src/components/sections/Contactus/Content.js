@@ -169,8 +169,114 @@ class Content extends Component {
                       </div>
 
 
-                      <div>
-                        <form className='mb-5' ref={this.form} onSubmit={this.sendEmail}>
+                      <div><form className='mb-5' ref={this.form} onSubmit={this.sendEmail}>
+                          <div className="row">
+                            <div className="form-group col-lg-6">
+                              <input
+                                type="text"
+                                placeholder="First Name"
+                                required
+                                className="form-control"
+                                name="fname"
+                                pattern="[A-Za-z]+"
+                                value={formData.fname}
+                                onChange={this.handleInputChange}
+                              />
+                              
+                            </div>
+                            <div className="form-group col-lg-6">
+                              <input
+                                type="text"
+                                placeholder="Last Name"
+                                required
+                                className="form-control"
+                                name="lname"
+                                pattern="[A-Za-z]+"
+                                value={formData.lname}
+                                onChange={this.handleInputChange}
+                              />
+                            </div>
+                            <div className="form-group col-lg-12">
+
+                              <input
+                                type="text"
+                                placeholder="Email Address"
+                                required
+                                className="form-control"
+                                name="email"
+                                value={formData.email}
+                                onChange={this.handleInputChange}
+                               
+                              />
+                            </div>
+                            <div className="form-group col-lg-6">
+                              <input
+                                type="text"
+                                placeholder="Phone no"
+                                required
+                                className="form-control"
+                                name="Phonenumber"
+                                value={formData.Phonenumber}
+                                onChange={this.handleInputChange}
+                                pattern="[0-9]*"
+                                maxLength="10"
+    
+                              />
+
+                            </div>
+                            <div className="form-group col-lg-6">
+                              <select
+                                className="form-control"
+                                name="purpose"
+                                required
+                                value={formData.purpose}
+                                onChange={this.handleInputChange}
+                              >
+                                <option value="" disabled>Purpose of Contact</option>
+                                <option value="export">Export</option>
+                                <option value="distribution">Distribution Enquiry</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Suggestions">Suggestions</option>
+                                <option value="Other">Job Enquiry</option>
+                              </select>
+                            </div>
+                            <div className="form-group col-lg-12">
+                              <input
+                                type="text"
+                                placeholder="Subject"
+                                required
+                                className="form-control"
+                                name="subject"
+                                value={formData.subject}
+                                onChange={this.handleInputChange}
+                                pattern="[A-Za-z]+"
+                                maxLength="50"
+                              />
+                            </div>
+                            <div className="form-group col-lg-12">
+                              <textarea
+                                name="message"
+                                className="form-control"
+                                required
+                                placeholder="Type your message"
+                                rows={3}
+                                value={formData.message}
+                                onChange={this.handleInputChange}
+                                pattern="[A-Za-z]+"
+                                maxLength="50"
+                              />
+                            </div>
+                          </div>
+                          {/* <div className="" >
+          <ReCAPTCHA
+              ref={this.recaptchaRef}
+              sitekey="6LcwDQcoAAAAAIkSarHAe3BinIu75WQ0Ay26ypbP"
+          />
+        </div> */}
+
+                          <button type="submit" value="Send" className="btn-custom primary mt-3" name="button">Send Message</button>
+                        </form>
+                        {/* <form className='mb-5' ref={this.form} onSubmit={this.sendEmail}>
                           <div className="row">
                             <div className="form-group col-lg-6">
                               <input
@@ -264,8 +370,8 @@ class Content extends Component {
           />
         </div> */}
 
-                          <button type="submit" value="Send" className="btn-custom primary mt-3" name="button">Send Message</button>
-                        </form>
+                          {/* <button type="submit" value="Send" className="btn-custom primary mt-3" name="button">Send Message</button> */}
+                        {/* </form> */}
 
                       </div>
                     </div>
