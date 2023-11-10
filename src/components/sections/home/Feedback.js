@@ -73,6 +73,7 @@ const FeedbackDrawer = () => {
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
                 placeholder="Full Name"
+                pattern="[A-Za-z]+"
                 required
               />
             </Form.Group>
@@ -83,6 +84,7 @@ const FeedbackDrawer = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Email"
+                pattern=".\.com."
                 required
               />
             </Form.Group>
@@ -92,6 +94,8 @@ const FeedbackDrawer = () => {
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
                 placeholder="Phone Number"
+                pattern="[0-9()+\\-\\s]*"
+                maxLength="14"
                 required
               />
             </Form.Group>
