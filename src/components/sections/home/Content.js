@@ -19,7 +19,7 @@ import Feedback from './Feedback';
 // import Instagram from './Instagram';
 import Messenger from './Messenger';
 import Nutrients from './Nutrients'
-// import Benefits from '../home-v2/Benefits';
+import Benefits from '../home-v2/Benefits';
 // import Benefits from '../home-v2/Whychoose'
 import Latestproducts from './Latestupdate';
 
@@ -41,7 +41,7 @@ class Content extends Component {
                
 
                
-                {/* <Benefits/> */}
+                <Benefits/>
                 {/* <CubeSlider/> */}
 
                 <Menuitems />

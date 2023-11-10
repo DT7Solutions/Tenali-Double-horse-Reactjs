@@ -106,6 +106,7 @@ const FeedbackDrawer = () => {
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder="Message"
                 rows="5"
+                pattern="[A-Za-z.,]+"
                 required
               />
             </Form.Group>

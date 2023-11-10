@@ -17,8 +17,7 @@ class Nobalactivity extends Component {
      
     render() {
         return (
-           
-          <div className="container-fluid  notabule-sec" style={{backgroundImage:`url(${process.env.PUBLIC_URL} + /assets/img/banner/icons/ganesh-bg.jpg)`}}>
+            <div className="container-fluid  notabule-sec" style={{backgroundImage:`url(${process.env.PUBLIC_URL} + /assets/img/banner/icons/ganesh-bg.jpg)`}}>
          
             <h2 className='title text-center pb-4'>Premium Desi Urad Chakki Dall </h2>
           
@@ -27,24 +26,9 @@ class Nobalactivity extends Component {
                     <div class="container">
                         <div class="row d-flex justify-content-between align-items-center pb-5">
                             <div class="col-lg-6 ">
-                                <h5 class=" custom-primary text-center mb-1">For Hotels in Bangalore </h5>
-                                <p className="subtitle text-center ">
-                        Good News for You 
-                        </p>
+                               
                        
-                                <div className="row" >
-                                    <div className='col-lg-12 mb-3' style={{display:'flex',flexWrap:'wrap'}}>
-                                <div class="col-lg-4 col-12 card-gap">
-                    <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Lakshmi Narayana</p><span className='contact-para'><a href='tel:+91 95901 95143' target='_blank'>+91 95901 95143</a>  </span></div>
-                        </div>
-                        <div class="col-lg-4 col-12 card-gap">
-                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>K Jayanth Pavan</p><span className='contact-para'><a href='tel:+91 99802 06366' target='_blank'>+91 99802 06366</a> </span></div>
-                        </div>
-                        <div class="col-lg-4 col-12card-gap">
-                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Ajay</p><span className='contact-para'><a href='tel:+91 88977 55007' target='_blank'> +91 88977 55007</a> </span></div>
-                        </div>
-                        </div>
-                        </div>
+                          
                         <h5 class=" custom-primary text-center">Key Benefits of M2 </h5>
                         <div className="row" >
                        
@@ -66,7 +50,23 @@ class Nobalactivity extends Component {
                                     </div>
                                 ))}
                             </div>
-                               
+                            <div className="row" style={{display:'flex',flexWrap:'wrap',flexDirection:'column'}} >
+                            <h5 class=" custom-primary text-center mb-1 mt-3">For Hotels in Bangalore </h5>
+                                <p className="subtitle text-center ">
+                        Good News for You 
+                        </p>
+                                    <div className='col-lg-12 mb-3' style={{display:'flex',flexWrap:'wrap'}}>
+                                <div class="col-lg-4 col-12 card-gap">
+                    <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Lakshmi Narayana</p><span className='contact-para'><a href='tel:+91 95901 95143' target='_blank'>+91 95901 95143</a>  </span></div>
+                        </div>
+                        <div class="col-lg-4 col-12 card-gap">
+                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>K Jayanth Pavan</p><span className='contact-para'><a href='tel:+91 99802 06366' target='_blank'>+91 99802 06366</a> </span></div>
+                        </div>
+                        <div class="col-lg-4 col-12card-gap">
+                        <div class="contact-box"><i class="fas fa-store"></i><p className='m2-font-contact'>Ajay</p><span className='contact-para'><a href='tel:+91 88977 55007' target='_blank'> +91 88977 55007</a> </span></div>
+                        </div>
+                        </div>
+                        </div>    
                                 
                     
                             </div>
@@ -104,21 +104,7 @@ class Nobalactivity extends Component {
 
 
                     </div>
-                    {/* <div class="container bg-tertiary"> */}
-                    {/* <h5 class=" custom-primary text-center mb-1">For Hotels in Bangalore </h5>
-                    <h2 className="title text-center ">Good News For You</h2>
-                    <div class="row  bg-tertiary d-flex justify-content-between align-items-center pt-4">
-                    <div class="col-lg-4">
-                    <div class="ct-info-box"><i class="fas fa-store"></i><h5>Lakshmi Narayana</h5><span> +91 95901 95143 </span></div>
-                        </div>
-                        <div class="col-lg-4">
-                        <div class="ct-info-box"><i class="fas fa-store"></i><h5>K Jayanth Pavan</h5><span> +91 99802 06366 </span></div>
-                        </div>
-                        <div class="col-lg-4">
-                        <div class="ct-info-box"><i class="fas fa-store"></i><h5>Ajay</h5><span> +91 88977 55007 </span></div>
-                        </div>
-                            </div> */}
-                            {/* </div> */}
+                    
                 </div>
           </div>
         );

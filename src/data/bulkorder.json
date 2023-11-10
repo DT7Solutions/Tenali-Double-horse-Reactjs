@@ -662,7 +662,7 @@
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
-        "name": "Toor Dall 1kg",
+        "name": "Toor Dall 1/2 kg",
         "shortdesc": "Toor Dall is the choicest, procured from the best farms and fields in the country and packed under hygienic conditions.",
         "price": 260.00,
         "symbol":"₹",
@@ -678,7 +678,7 @@
             {
                 "Speciality":"suitable for vegetarians",
                 "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"1/2 Kilograms"
                 }
             
         ],
@@ -791,7 +791,7 @@
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
-        "name": "Moong Dall 1/2kg",
+        "name": "Moong Dall 1/2 kg",
         "shortdesc": "Moong Dall is the choicest, procured from the best farms and fields in the country and packed under hygienic conditions.",
         "price":90.00,
         "symbol":"₹",
@@ -807,7 +807,7 @@
             {
                 "Speciality":"suitable for vegetarians",
                 "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"1/2  Kilograms"
                 }
             
         ],

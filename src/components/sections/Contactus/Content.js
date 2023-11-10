@@ -250,7 +250,7 @@ class Content extends Component {
                                 name="subject"
                                 value={formData.subject}
                                 onChange={this.handleInputChange}
-                                pattern="[A-Za-z]+"
+                                pattern="[A-Za-z.,]+"
                                 maxLength="50"
                               />
                             </div>
@@ -263,7 +263,7 @@ class Content extends Component {
                                 rows={3}
                                 value={formData.message}
                                 onChange={this.handleInputChange}
-                                pattern="[A-Za-z]+"
+                                pattern="[A-Za-z.,]+"
                                 maxLength="50"
                               />
                             </div>

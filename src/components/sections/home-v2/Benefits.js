@@ -1,53 +1,69 @@
 import React, { Component } from 'react';
-import { pizzamenu, pastamenu } from '../../../data/menu.json';
+// import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-class Benefits extends Component {
+import img3 from '../../../assets/img/team/tenali-double-horse-phir-se-udan-campaingh.webp'
+let urls = "#csr-activities"
+
+
+class Camapaing extends Component {
+  componentDidMount() {
+    AOS.init({
+        duration: 1500, 
+    });
+}
     render() {
         return (
-            
-            <div className="ct-categories container mt-5 pt-3 mb-5">
-                {/* Category Start */}
-                <div className="ct-category">
-                    {/* <div className="ct-category-bg img-responsive" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories-lg/tenali-double-horse-benefits.png)" }} /> */}
-                    <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/categories-lg/three.png"} alt="img" />
-                           
+        
+          <div>
+            <div className='container mb-5'>
+                    <div>
+                    <div className="section-title-wrap section-header mb-md-5 mt-lg-5 mt-xl-5  mt-xxl-5 text-center ">
+                            <h5 className="custom-primary mt-3">Campaign Chronicles  </h5>
+                            <h2 className="title">Explore Our Recent Campaigns</h2>
+                            <p className="subtitle ">
+                                Discover the latest buzz in the digital realm. Dive into our Recent digital or PR campaigns that bring you exciting updates, engaging content.
+                            </p>
                         </div>
-                    <div className="ct-category-content">
-                        <div className="ct-category-content-inner">
-                            <div className="section-title-wrap section-header">
-                                <h5 className="custom-primary">Tenali Double horse</h5>
-                                <h2 className="title">Experience the Finest Quality Pulses , Dalls from Tenali Double Horse</h2>
-                                <p className="subtitle" style={{textAlign:'justify'}}>
-                                To provide the best quality Products, the team is committed to providing the highest quality products and services to our customers to satisfy their needs and expectations of quality, reliability, and timely delivery. 
-          </p>
-                            </div>
-                            {/* Menu Start */}
-                            <div className="row">
-                                {pizzamenu.map((item, i) => (
-                                    <div key={i} className="col-lg-6">
-                                        <div className="ct-mini-menu-item" style={{display:'flex'}}>
-                                            <div className="ct-mini-menu-bottom mr-lg-3" style={{fontSize:'25px'}}>
-                                            <i className={item.icon}  style={{color:'#ED4E53'}}/>
-                                            </div>
-                                            <div className="ct-mini-menu-top">
-                                                <h5>{item.title}</h5>
-                                               
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                            {/* Menu End */}
-                        </div>
+                        
                     </div>
+              <div className='row d-flex justify-content-center campaing'>
+                
+                <div className="col-lg-6 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}> 
+                <iframe
+                title="YouTube Video"
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/S1zLiEfbZ1Y?si=SE061xGF2MwD-Mc5"
+                frameborder="0"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+                        </div>
+                <div className='col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center'>
+                    <div className='mb-lg-5 camp-content'>
+                            <div>
+                                    <p>
+                                    <b>Phir Se Udaan</b> is an initiative by your favourite <b>Tenali Double Horse</b> . With a vision to empower women inside and outside the house. Tenali Double Horse offers only the best quality and nutrition packed range of Dals and Instant foods like Idli and Dosa mixes.
+                                   
+                                    </p>
+                            </div>
+                            <div>
+                                    <a href={urls} target='_blank' className="btn-custom Register-campaining">View More</a>
+                            </div>
+                        </div>
                 </div>
-                {/* Category End */}
-               
+              </div>
             </div>
+            
+
+            
+               
+    
+          </div>
         );
     }
 }
 
-export default Benefits;
+export default Camapaing;
