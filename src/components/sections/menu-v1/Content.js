@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { Modal } from 'react-bootstrap';
 import Quickview from '../../layouts/Quickview';
-import products from "../../../data/product.json";
+import products from "../../../data/bulkorder.json";
 import productcategory from "../../../data/productcategory.json";
 import { Rating } from "../../../helper/helper";
 import Masonry from 'react-masonry-component';
 import Feedback from '../home/Feedback';
 import Messenger from '../home/Messenger';
+import { Tab, Nav } from "react-bootstrap";
+import { getProduct } from '../../../helper/Producthelper';
 
 class Content extends Component {
     constructor(props) {
@@ -46,7 +48,26 @@ class Content extends Component {
         
         this.setState({ filteredProducts, activeItem: id });
     };
+    handleTabClick = (eventKey) => {
+        let filteredProducts = [];
+        let activeItem = 1; // Default to India products
+
+        // Update filtered products based on the tab clicked
+        if (eventKey === 'tab1') {
+            // Show India products for Description tab
+            filteredProducts = products.filter((product) => product.category.includes(1));
+        } else if (eventKey === 'tab2') {
+            // Show Dubai products for Reviews tab
+            filteredProducts = products.filter((product) => product.category.includes(2)); // Assuming 2 represents Dubai
+            activeItem = 2;
+        }
+
+        // Set the state to update the filtered products and active tab
+        this.setState({ filteredProducts, activeItem });
+    };
     render() {
+        const productId = this.props.productId;
+        const item = getProduct(productId);
         const settings = {
             slidesToShow: 4,
             slidesToScroll: 3,
@@ -126,7 +147,9 @@ class Content extends Component {
         ));
         return (
             <Fragment>
+                 
                 {/* Menu Categories Start */} 
+
                 <div className="ct-menu-categories menu-filter">
                     <div className="container">
                         <Slider className="menu-category-slider" {...settings}>
@@ -140,8 +163,8 @@ class Content extends Component {
                             </Link> */}
                        
                             {productcategory.map((item, i) => (
-                                <Link key={item.id} to="#" className={this.state.activeItem === parseInt(item.id) ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, item.id)}>
-                                    <div className="menu-category-thumb">
+                                <Link key={item.id} to="#" className={this.state.activeItem === parseInt(item.id) ? 'ct-menu-category-item active' : 'ct-menu-category-item'} >
+                                    <div className="menu-category-thumb-products-page">
                                         <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
                                     </div>
                                     <div className="menu-category-desc">
@@ -153,16 +176,39 @@ class Content extends Component {
                     </div>
                 </div>
                 {/* Menu Categories End */}
-                {/* Menu Wrapper Start */}
-                <div className="section section-padding">
+                <div className="section pt-0">
                     <div className="container">
-                        <Masonry className="menu-container row menu-v2" imagesLoadedOptions={imagesLoadedOptions}>
-                            {/* Product Start */}
-                            {renderAll}
-                            {/* Product End */}
-                        </Masonry>
+                        {/* Additional Information Start */}
+                        <div className="product-additional-info">
+                            <Tab.Container defaultActiveKey="tab1" onSelect={this.handleTabClick}>
+                                <Nav variant="tabs" className="nav mt-5" style={{display:'flex',justifyContent:'center'}}>
+                                    <Nav.Item>
+                                        <Nav.Link eventKey="tab1">Normal Packs</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link eventKey="tab2">Bulk Packs </Nav.Link>
+                                    </Nav.Item>
+                                </Nav>
+                                <Tab.Content>
+                                    <Tab.Pane eventKey="tab1">
+                                    <Masonry className="menu-container row menu-v2" imagesLoadedOptions={imagesLoadedOptions}>
+                                    {renderAll}
+                                    </Masonry>
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="tab2">
+                                    <Masonry className="menu-container row menu-v2" imagesLoadedOptions={imagesLoadedOptions}>
+                                    {renderAll}
+                                    </Masonry>
+                                       
+                                    </Tab.Pane>
+                                </Tab.Content>
+                            </Tab.Container>
+                        </div>
+                        {/* Additional Information End */}
                     </div>
                 </div>
+                {/* Menu Wrapper Start */}
+                
                 <Modal show={this.state.modalshow} id="customizeModal" onHide={this.modalClose} aria-labelledby="contained-modal-title-vcenter" size="lg" centered>
                     <Quickview productId={this.state.lastActiveBox} />
                 </Modal>
