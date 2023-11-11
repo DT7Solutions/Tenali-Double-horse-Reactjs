@@ -1,8 +1,13 @@
 [
     {
         "id": 18,
+        "imageUrl": "assets/img/newsevents/divali-enadu-paper-adv.png",
+        "caption": "divali enadu paper adv"
+    },
+    {
+        "id": 18,
         "imageUrl": "assets/img/newsevents/ek-bharat-shreshta-barat.jpeg",
-        "caption": "tm"
+        "caption": "ek bharat shreshta barat"
     },
     {
         "id": 17,
