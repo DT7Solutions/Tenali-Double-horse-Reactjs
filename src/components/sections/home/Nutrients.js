@@ -51,7 +51,7 @@ class Nobalactivity extends Component {
                                 ))}
                             </div>
                             <div className="row" style={{display:'flex',flexWrap:'wrap',flexDirection:'column'}} >
-                            <h5 class=" custom-primary text-center mb-1 mt-3">For Hotels in Bangalore </h5>
+                            <h5 class=" custom-primary text-center mb-1 mt-3">For Restaurants in Bangalore </h5>
                                 <p className="subtitle text-center ">
                         Good News for You 
                         </p>
