@@ -10,6 +10,7 @@ import emailjs from 'emailjs-com';
 
 
 
+
 const customMarker = L.icon({
     iconUrl: process.env.PUBLIC_URL + "/assets/img/misc/marker.png",
     iconSize: [32, 32],
@@ -169,7 +170,7 @@ class Content extends Component {
                       </div>
 
 
-                      <div><form className='mb-5' ref={this.form} onSubmit={this.sendEmail}>
+                      <div><form className='mb-5 shadow p-2' style={{borderRadius:'8px'}} ref={this.form} onSubmit={this.sendEmail}>
                           <div className="row">
                             <div className="form-group col-lg-6">
                               <input
@@ -286,9 +287,11 @@ class Content extends Component {
                                 required
                                 className="form-control"
                                 name="fname"
+                                pattern="[A-Za-z]+"
                                 value={formData.fname}
                                 onChange={this.handleInputChange}
                               />
+                              
                             </div>
                             <div className="form-group col-lg-6">
                               <input
@@ -297,6 +300,7 @@ class Content extends Component {
                                 required
                                 className="form-control"
                                 name="lname"
+                                pattern="[A-Za-z]+"
                                 value={formData.lname}
                                 onChange={this.handleInputChange}
                               />
@@ -311,6 +315,10 @@ class Content extends Component {
                                 name="email"
                                 value={formData.email}
                                 onChange={this.handleInputChange}
+                                pattern=".*\.com.*"
+                               
+                                
+                               
                               />
                             </div>
                             <div className="form-group col-lg-6">
@@ -322,6 +330,9 @@ class Content extends Component {
                                 name="Phonenumber"
                                 value={formData.Phonenumber}
                                 onChange={this.handleInputChange}
+                                pattern="[0-9]*"
+                                maxLength="10"
+    
                               />
 
                             </div>
@@ -350,6 +361,8 @@ class Content extends Component {
                                 name="subject"
                                 value={formData.subject}
                                 onChange={this.handleInputChange}
+                                pattern="[A-Za-z.,]+"
+                                maxLength="50"
                               />
                             </div>
                             <div className="form-group col-lg-12">
@@ -361,6 +374,8 @@ class Content extends Component {
                                 rows={3}
                                 value={formData.message}
                                 onChange={this.handleInputChange}
+                                pattern="[A-Za-z.,]+"
+                                maxLength="50"
                               />
                             </div>
                           </div>
