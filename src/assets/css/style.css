@@ -9599,6 +9599,10 @@ top: -5px;
    
     align-items: center!important;
   }
+  .same-width{
+    width:80px!important;
+    text-align: center!important;
+  }
   /* .sub-header-breadcrumbs {
     background-size: 100%!important;
     background-repeat: no-repeat!important;
@@ -9780,4 +9784,8 @@ top: -5px;
   border: 7px solid rgba(255,255,255,.2);
   
   border-color: #fff;
+}
+.same-width{
+  width:180px!important;
+  text-align: center!important;
 }

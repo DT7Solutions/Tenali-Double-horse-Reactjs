@@ -183,10 +183,10 @@ class Content extends Component {
                             <Tab.Container defaultActiveKey="tab1" onSelect={this.handleTabClick}>
                                 <Nav variant="tabs" className="nav mt-5 mb-5" style={{display:'flex',justifyContent:'center'}}>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="tab1">Consumer Packs</Nav.Link>
+                                        <Nav.Link eventKey="tab1" className='same-width'>Consumer Packing</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="tab2">Bulk Packs </Nav.Link>
+                                        <Nav.Link eventKey="tab2" className='same-width'>Bulk Packing </Nav.Link>
                                     </Nav.Item>
                                 </Nav>
                                 <Tab.Content>
