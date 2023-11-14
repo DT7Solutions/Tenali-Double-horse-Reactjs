@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import emailjs from 'emailjs-com';
+import {  FormControl ,Button} from 'react-bootstrap';
 
 
 
@@ -66,52 +67,70 @@ const FeedbackDrawer = () => {
         {/* Feedback Form */}
         <div id="feedbackForm">
         <Form onSubmit={handleSubmitFeedback}>
-            <h2>Submit Feedback</h2>
-            <Form.Group controlId="fullName" style={{marginBottom:'5px'}}>
-              <Form.Control
-                type="text"
-                value={fullName}
-                onChange={(e) => setFullName(e.target.value)}
-                placeholder="Full Name"
-                pattern="[A-Za-z]+"
-                required
-              />
-            </Form.Group>
-           
-            <Form.Group controlId="email" style={{marginBottom:'5px'}}>
-              <Form.Control
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Email"
-                pattern=".\.com."
-                required
-              />
-            </Form.Group>
-            <Form.Group controlId="phoneNumber" style={{ marginBottom: '5px' }}>
-              <Form.Control
-                type="tel" // Use type="tel" for phone number input
-                value={phoneNumber}
-                onChange={(e) => setPhoneNumber(e.target.value)}
-                placeholder="Phone Number"
-                pattern="[0-9()+\\-\\s]*"
-                maxLength="14"
-                required
-              />
-            </Form.Group>
-            <Form.Group controlId="message"style={{marginBottom:'5px'}}>
-              <Form.Control
-                as="textarea"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                placeholder="Message"
-                rows="5"
-                pattern="[A-Za-z.,]+"
-                required
-              />
-            </Form.Group>
-            <button type="submit" className="btn-custom btn-sm primary" name="button">Send Message</button>
-          </Form>
+  <h2>Submit Feedback</h2>
+  
+  <Form.Group controlId="fullName" style={{ marginBottom: '15px' }}>
+    <Form.Control
+      type="text"
+      value={fullName}
+      onChange={(e) => setFullName(e.target.value)}
+      placeholder="Full Name"
+      isInvalid={!/^[A-Za-z ]+$/.test(fullName) && fullName.length > 0} // Validation using regular expression
+      required
+    />
+    <FormControl.Feedback type="invalid">
+      Please enter a valid full name.
+    </FormControl.Feedback>
+  </Form.Group>
+
+  <Form.Group controlId="email" style={{ marginBottom: '15px' }}>
+    <Form.Control
+      type="email"
+      value={email}
+      onChange={(e) => setEmail(e.target.value)}
+      placeholder="Email"
+      isInvalid={!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email) && email.length > 0}
+      required
+    />
+    <FormControl.Feedback type="invalid">
+      Please enter a valid email address.
+    </FormControl.Feedback>
+  </Form.Group>
+
+  <Form.Group controlId="phoneNumber" style={{ marginBottom: '15px' }}>
+    <Form.Control
+      type="tel"
+      value={phoneNumber}
+      onChange={(e) => setPhoneNumber(e.target.value)}
+      placeholder="Phone Number"
+      isInvalid={!/^[0-9()+\-\s]*$/.test(phoneNumber) && phoneNumber.length > 0}
+      maxLength="14"
+      required
+    />
+    <FormControl.Feedback type="invalid">
+      Please enter a valid phone number.
+    </FormControl.Feedback>
+  </Form.Group>
+
+  <Form.Group controlId="message" style={{ marginBottom: '15px' }}>
+    <Form.Control
+      as="textarea"
+      value={message}
+      onChange={(e) => setMessage(e.target.value)}
+      placeholder="Message"
+      rows="5"
+      isInvalid={!/^[A-Za-z ]+$/.test(message) && message.length > 0}
+      required
+    />
+    <FormControl.Feedback type="invalid">
+      Please enter a valid message (only letters, commas, and periods are allowed).
+    </FormControl.Feedback>
+  </Form.Group>
+
+  <Button type="submit" className="btn-custom btn-sm primary">
+    Send Message
+  </Button>
+</Form>
         </div>
         {/* Success Message */}
         <div id="feedbackSuccess">
