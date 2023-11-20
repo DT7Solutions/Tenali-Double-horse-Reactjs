@@ -20,12 +20,10 @@ class Nobalactivity extends Component {
             <div className="container-fluid  notabule-sec" style={{ backgroundImage: `url(${process.env.PUBLIC_URL} + /assets/img/banner/icons/ganesh-bg.jpg)` }}>
 
                 <h2 className='title text-center pb-4'>Premium Desi Urad Chakki Dall </h2>
-
-
                 <div class="why-choose-section ">
                     <div class="container">
                         <div class="row d-flex justify-content-between align-items-center pb-5">
-                            <div class="col-lg-6 ">
+                            <div class="col-lg-6 order-lg-1 order-2">
 
                                 <h5 class=" custom-primary text-center">Key Benefits of M2 </h5>
                                 <div className="row" >
@@ -68,8 +66,7 @@ class Nobalactivity extends Component {
 
 
                             </div>
-
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 order-lg-2 order-1">
                                 <div class="img-wrap3  ">
                                     <img src={process.env.PUBLIC_URL + "/assets/img/banner/icons/m2-urad-chakki.webp"} alt="M2" class="img-fluid" />
                                 </div>
@@ -90,17 +87,8 @@ class Nobalactivity extends Component {
 
                                 </div>
                             </div>
-
                         </div>
-
-
-
-
-
-
-
                     </div>
-
                 </div>
             </div>
         );
