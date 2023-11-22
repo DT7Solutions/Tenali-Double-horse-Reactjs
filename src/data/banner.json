@@ -28,10 +28,7 @@
         }
     ],
     "hometwo":[
-        {
-            "id":4,
-            "bg":"assets/img/banner/tdh-world-television-day-banner.webp"
-        },
+       
         {
             "id":5,
             "bg":"assets/img/banner/ek-bharat-shreshta-bharat.jpeg"
