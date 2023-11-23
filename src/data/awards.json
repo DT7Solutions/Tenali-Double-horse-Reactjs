@@ -1,20 +1,27 @@
 [
     {
         "id": 1,
+        "imageUrl": "assets/img/newsevents/awards/msmecc-11-2023.png",
+        "year":"2023",
+        "title":"MSMECC2 Make in India Initiative Award",
+        "description":"The MSME Chamber of Commerce and Industry of India proudly introduces the MSMECC2 Make in India Initiative Award-2023, a testament to the relentless efforts and innovation within the Micro, Small, and Medium Enterprises (MSMEs) sector. One of the standout recognitions under this prestigious initiative is the Sustainable Packaging Champion 2023 award, bestowed upon Mr. Munagala Mohan Shyam Prasad, the esteemed Managing Director of Tenali Double Horse."
+    },
+    {
+        "id": 2,
         "imageUrl": "assets/img/newsevents/awards/ek-bharat-shreshta-bharat.png",
         "year":"2023",
         "title":"Ek Bharat Shreshta Bharat",
         "description":"Our MD, Mohan Shyam Prasad Garu, Felicated By The Honourable Governor of Tamil Nadu Thiru R.N.Ravi During EK Bharat Shreshta Bharat Programme."
     },
     {
-        "id": 2,
+        "id": 3,
         "imageUrl": "assets/img/newsevents/awards/yapararatna.png",
         "year":"2023",
         "title":"Vyapararatna",
         "description":"The awarding of the Vyapararatna title to Mr. Shyam Prasad Garu by the  Akkineni Foundation of America is a momentous occasion of great significance. This prestigious recognition highlights Mr. Shyam Prasad Garu's remarkable accomplishments and contributions in the field of business and philanthropy."
     },
     {
-        "id": 3,
+        "id": 4,
         "imageUrl": "assets/img/newsevents/awards/the-best-food-product.png",
         "year":"2023",
         "title":"Best Food Products Company of The Year",
