@@ -28,13 +28,10 @@
         }
     ],
     "hometwo":[
-        {
-            "id":4,
-            "bg":"assets/img/banner/tdh-thanks-giving-banner.png"
-        },
+        
         {
             "id":5,
-            "bg":"assets/img/banner/ek-bharat-shreshta-bharat.jpeg"
+            "bg":"assets/img/banner/tdh-msme-award banner.png"
         },
         {
             "id":6,
