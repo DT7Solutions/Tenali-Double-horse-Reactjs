@@ -28,10 +28,7 @@
         }
     ],
     "hometwo":[
-        {
-            "id":4,
-            "bg":"assets/img/banner/tdh-guru-nanak-jayanthi.webp"
-        },
+       
         {
             "id":5,
             "bg":"assets/img/banner/tdh-msme-award banner.png"
