@@ -28,7 +28,10 @@
         }
     ],
     "hometwo":[
-       
+        {
+            "id":4,
+            "bg":"assets/img/banner/navy-day.png"
+        },
         {
             "id":5,
             "bg":"assets/img/banner/tdh-msme-award banner.png"
