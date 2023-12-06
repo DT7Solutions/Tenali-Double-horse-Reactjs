@@ -2168,7 +2168,7 @@ table img{
 }
 .banner{
   position: relative;
-  padding: 120px 0;
+  padding: 90px 0;
   background-size: cover;
   background-position: center;
   min-height: 800px;
@@ -2877,7 +2877,9 @@ table img{
   background-size: cover!important;
   background-position: center!important;
 }
+
 }
+
 .ct-category{
   position: relative;
   display: -webkit-box;
@@ -8754,6 +8756,12 @@ g .rsm-marker{
   .mobile-reorder {
       flex-direction: column-reverse; /* Reorder elements for mobile */
   }
+  .banner{
+    padding: 50px 0px;
+  }
+.subheader .container .subheader-inner {
+    margin-top: -250px;
+}
  
 }
 .footer-buttons{
