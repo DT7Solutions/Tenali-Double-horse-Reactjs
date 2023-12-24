@@ -29,6 +29,10 @@
     ],
     "hometwo":[
         {
+            "id":4,
+            "bg":"assets/img/banner/consumerday.jpeg"
+        },
+        {
             "id":5,
             "bg":"assets/img/banner/tdh-msme-award banner.png"
         },
