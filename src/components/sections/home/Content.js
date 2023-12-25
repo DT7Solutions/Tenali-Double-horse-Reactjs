@@ -34,7 +34,7 @@ class Content extends Component {
                 <Aboutcompany />
                 <Process />
                 <Nutrients/>
-                <Popupbanner/>
+                {/* <Popupbanner/> */}
                 {/* <Nobalactivity /> */}
                 {/* <Instagram/> */}
                 {/* <Camapaing/> */}
