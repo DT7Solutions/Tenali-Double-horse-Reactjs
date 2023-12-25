@@ -22,7 +22,7 @@ import Nutrients from './Nutrients'
 import Benefits from '../home-v2/Benefits';
 // import Benefits from '../home-v2/Whychoose'
 import Latestproducts from './Latestupdate';
-
+import Popupbanner from "./Popupbanner"
 
 
 
@@ -34,6 +34,7 @@ class Content extends Component {
                 <Aboutcompany />
                 <Process />
                 <Nutrients/>
+                <Popupbanner/>
                 {/* <Nobalactivity /> */}
                 {/* <Instagram/> */}
                 {/* <Camapaing/> */}
